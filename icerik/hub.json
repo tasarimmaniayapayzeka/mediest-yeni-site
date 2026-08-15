@@ -1,0 +1,194 @@
+{
+  "cihazlar": {
+    "slug": "cihazlar",
+    "metaBaslik": "Klinikler İçin Cihazlar: Gold Pen ve Baby Skin Pen",
+    "metaAciklama": "Gold Pen mikroiğneleme ve EMS ile, Baby Skin Pen kapsül ve 7 renk LED ile çalışır. İki klinik cihazın uygulama alanlarını ve seans kurgusunu karşılaştırın.",
+    "ustEtiket": "Klinik cihaz kataloğu",
+    "baslik": "İki cihaz, iki farklı uygulama yaklaşımı",
+    "giris": "MediEst Group kataloğunda iki cihaz bulunur: iğne uçlarıyla çalışan Gold Pen ve kapsül serileriyle çalışan Baby Skin Pen. İkisi de Mezoeffect serumlarıyla birlikte uygulanır ve aynı klinikte birbirini tamamlayacak şekilde konumlanabilir. Seçim; kliniğinizin uygulayıcı yapısına ve hedeflediği uygulama alanlarına göre yapılır.",
+    "konumlandirma": [
+      "Tek cihazla birden fazla uygulama alanı. Gold Pen; akne skarları, gözenek sıkılaştırma, anti-aging, cilt tonu eşitleme ve saç uygulaması başlıklarında kullanılır ve hassas cilt, yüz ile saç için ayrı iğne uçlarına sahiptir. Baby Skin Pen; leke ve ton eşitsizliği, akne ve akne izi, geniş gözenek, anti-aging, kuruluk ve zayıf cilt bariyeri başlıklarını 7 kapsül serisiyle karşılar.",
+      "Sarf tarafı baştan tanımlı. Gold Pen, UTS kayıtlı Mezoeffect serumlarıyla uygulanır; steril uçlar ve tek kullanımlık sarf malzemesi gerektirir. Baby Skin Pen protokolü iki aşamalıdır: kapsül uygulaması, ardından Mezoeffect ampul masajı. Bir kapsül kutusunda 6 kapsül ve 6 primer gel bulunur, 6 seanslık kullanıma karşılık gelir.",
+      "Cihazla birlikte eğitim ve protokol desteği gelir. Uygulama eğitimi online veya Bakırköy showroom'da birebir verilir; kliniğe özel kombine seans planlaması yapılır ve cihaz setini alan bayilere grafik ile Reels video biçiminde sosyal medya desteği sağlanır."
+    ],
+    "gruplama": [
+      {
+        "ad": "Gold Pen — iğneli uygulama",
+        "aciklama": "Mikroiğneleme, EMS ve LED fototerapi tek cihazda; kırmızı LED 620-650 nm, mavi LED saç derisine yöneliktir. Protokol: 4-6 seans, 20-25 gün aralıkla.",
+        "sluglar": [
+          "goldpen"
+        ]
+      },
+      {
+        "ad": "Baby Skin Pen — kapsül tabanlı uygulama",
+        "aciklama": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık, 7 renk LED ve 7 kapsül serisi (Illuminate, Detox, Revive, Balance, Glam, Retouch, Hydrate). Protokol: 4-6 seans, dört mevsim uygulanabilir.",
+        "sluglar": [
+          "baby-skin-pen"
+        ]
+      },
+      {
+        "ad": "Karar desteği — cihaz karşılaştırma",
+        "aciklama": "İki cihazın yan yana karşılaştırması; kaynakta yer almayan başlıklar doldurulmadan, açıkça işaretlenerek gösterilir.",
+        "sluglar": [],
+        "url": "/cihazlar/karsilastirma/"
+      }
+    ],
+    "kapanisNotu": "Satış yalnızca güzellik merkezi ve kliniklere yapılır; cihazları Bakırköy showroom'da randevuyla çalışırken görebilir, kliniğinize özel koşulları teklif olarak talep edebilirsiniz.",
+    "kirintiAd": "Cihazlar"
+  },
+  "urunler": {
+    "slug": "urunler",
+    "metaBaslik": "Mezoeffect Ampulleri ve Mezocomplex Solüsyonları",
+    "metaAciklama": "MediEst Group ürün kataloğu: 7 Mezoeffect ampulü ve 5 Mezocomplex solüsyonu. Leke, nem, yaşlanma karşıtı bakım, göz çevresi ve saç başlıklarında klinik sarf.",
+    "ustEtiket": "Sarf ve solüsyon grupları",
+    "baslik": "Mezoeffect ampulleri ve Mezocomplex solüsyonları",
+    "giris": "Cihaz kararından sonraki soru sarf tarafıdır. Katalogda iki ürün grubu bulunur: ampul düzenindeki Mezoeffect serisi ve flakon düzenindeki Mezocomplex solüsyon serisi. İki grup birbirinin yerine değil, protokol içinde birlikte konumlanır.",
+    "konumlandirma": [
+      "On iki üründe tanımlı kapsam. Yedi Mezoeffect ampulü ve beş Mezocomplex solüsyonu; leke ve aydınlatma, nem, yaşlanma karşıtı bakım, sıkılık, onarım, göz çevresi ve saç başlıklarını karşılar. Her ürün tek bir uygulama hedefine göre konumlandırılmıştır.",
+      "Üretim ve kayıt durumu ayrı ayrı belirtilir. Mezoeffect serumları UTS kayıtlıdır ve steril koşullarda üretilir. Mezocomplex solüsyonları steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir; bu grup için UTS kaydı kaynak içeriklerde belirtilmemiştir.",
+      "Kullanım ayrımı nettir. Mezoeffect ampullerinin tamamında klinik uygulamanın yanı sıra ev bakım rutini tarif edilmiştir; seans arası devamlılık aynı seri üzerinden kurulabilir. Mezocomplex solüsyonları profesyonel klinik uygulamalar için tanımlanmıştır, kaynak içeriklerde ev kullanımı tarifi yer almaz."
+    ],
+    "gruplama": [
+      {
+        "ad": "Mezoeffect Serum Grubu",
+        "aciklama": "Ampul serisi, 7 ürün; ambalaj düzeni 2 ml x 7 ampuldür. Klinik uygulamanın yanı sıra ev bakım rutini de tanımlıdır.",
+        "sluglar": [
+          "mezoeffect-anti-age-serum",
+          "mezoeffect-anti-hair-loss-serum",
+          "mezoeffect-anti-spot-ampoule",
+          "mezoeffect-eye-contour-ampoule",
+          "mezoeffect-hyaluronic-acid-serum",
+          "mezoeffect-somon-dna-serum",
+          "mezoeffect-vitamin-c-amino-acid-serum"
+        ],
+        "url": "/urunler/mezoeffect/"
+      },
+      {
+        "ad": "Mezocomplex Solüsyonlar",
+        "aciklama": "Flakon düzeninde solüsyon serisi, 5 ürün; kutuda 5 flakon bulunur. Profesyonel klinik uygulamalar için tanımlanmıştır.",
+        "sluglar": [
+          "mezocomplex-antiaging",
+          "mezocomplex-brightening",
+          "mezocomplex-firming",
+          "mezocomplex-hair-revit",
+          "mezocomplex-hyaluronic-acid"
+        ],
+        "url": "/urunler/mezocomplex/"
+      }
+    ],
+    "kapanisNotu": "Ürünler yalnızca güzellik merkezi ve kliniklere tedarik edilir; hangi başlıkta hangi ürünün protokolünüze gireceğini teklif görüşmesinde birlikte planlıyoruz.",
+    "kirintiAd": "Ürünler"
+  },
+  "mezoeffect": {
+    "slug": "urunler/mezoeffect",
+    "metaBaslik": "Mezoeffect Ampul Serisi: 7 Ürün, UTS Kayıtlı",
+    "metaAciklama": "UTS kayıtlı Mezoeffect ampul serisi: 7 ürün. Leke, nem, yaşlanma karşıtı bakım, onarım, göz çevresi ve saç hedefleri için klinik ve ev bakım kullanımı.",
+    "ustEtiket": "Mezoeffect ampul serisi",
+    "baslik": "Yedi ampul, yedi ayrı uygulama hedefi",
+    "giris": "Mezoeffect, her ürünü tek bir uygulama hedefine göre formüle edilmiş UTS kayıtlı ampul serisidir. Ampuller, iğneli veya iğnesiz cihaz işlemlerinin ardından hedef bölgeye nazik masajla uygulanır. Serinin tamamında klinik uygulamanın yanı sıra ev bakım rutini de tanımlıdır.",
+    "konumlandirma": [
+      "Protokolde hangi adımın hangi ürünle karşılandığı nettir. Nem, onarım, yaşlanma karşıtı bakım, leke, aydınlatma, göz çevresi ve saç için ayrı ampuller bulunur; kombine bakımda ürün seçimi tahmine bırakılmaz.",
+      "Her iki cihazla da çalışır. Gold Pen protokolleri UTS kayıtlı Mezoeffect serumlarıyla yürütülür; Baby Skin Pen protokolünün ikinci aşaması Mezoeffect ampul masajıdır. Ampuller iğneli ve iğnesiz uygulamaların ardından kullanılabilecek şekilde tarif edilmiştir.",
+      "Kabin ile ev bakımı arasında süreklilik. Yedi ürünün tamamında ev kullanımı rutini tanımlıdır; danışan seans arasında aynı seriyle devam edebilir. Ambalaj düzeni 2 ml x 7 ampuldür; Eye Contour Ampoule için hacim ve adet bilgisi kaynak içerikte belirtilmemiştir."
+    ],
+    "gruplama": [
+      {
+        "ad": "Nem ve onarım",
+        "aciklama": "Nem tutma kapasitesi ve onarım hedefli ampuller; kuru, hassas ve olgun ciltlerde kullanılır.",
+        "sluglar": [
+          "mezoeffect-hyaluronic-acid-serum",
+          "mezoeffect-somon-dna-serum"
+        ]
+      },
+      {
+        "ad": "Yaşlanma karşıtı bakım",
+        "aciklama": "Elastikiyet ve dermal hacim kaybı odaklı kürlerde ana serum adımı olarak konumlanır.",
+        "sluglar": [
+          "mezoeffect-anti-age-serum"
+        ]
+      },
+      {
+        "ad": "Leke ve aydınlatma",
+        "aciklama": "Sonradan oluşan leke görünümü, düzensiz ton ve donukluk hedefli ampuller.",
+        "sluglar": [
+          "mezoeffect-anti-spot-ampoule",
+          "mezoeffect-vitamin-c-amino-acid-serum"
+        ]
+      },
+      {
+        "ad": "Göz çevresi",
+        "aciklama": "Koyu halka, torbalanma ve çizgi görünümü için hassas bölge bakımına yönelik ampul.",
+        "sluglar": [
+          "mezoeffect-eye-contour-ampoule"
+        ]
+      },
+      {
+        "ad": "Saç",
+        "aciklama": "Dökülmeye meyilli ve güçsüz saç köklerini hedefleyen ampul; saç bölgesine uygulanan işlemlerden sonra masajla kullanılır.",
+        "sluglar": [
+          "mezoeffect-anti-hair-loss-serum"
+        ]
+      }
+    ],
+    "kapanisNotu": "Seri yalnızca güzellik merkezi ve kliniklere tedarik edilir; kliniğinizin danışan profiline göre hangi ampullerin stokta bulunması gerektiğini teklif aşamasında birlikte belirliyoruz.",
+    "kirintiAd": "Mezoeffect Serum Grubu"
+  },
+  "mezocomplex": {
+    "slug": "urunler/mezocomplex",
+    "metaBaslik": "Mezocomplex Solüsyonlar: Klinik Kullanım İçin 5 Ürün",
+    "metaAciklama": "Mezocomplex solüsyon serisi: 5 flakon. Yenilenme, leke ve aydınlatma, sıkılık, nem ve saç canlandırma başlıklarında kombine protokollere booster desteği.",
+    "ustEtiket": "Mezocomplex solüsyon serisi",
+    "baslik": "Beş solüsyon, kür planına göre kullanım",
+    "giris": "Mezocomplex, steril üretim protokolüyle geliştirilen ve flakon düzeninde sunulan profesyonel solüsyon serisidir; kutuda beş flakon bulunur. Seri; hücresel yenilenme, leke ve aydınlatma, sıkılık, nem ve saç canlandırma başlıklarında kombine protokollere booster olarak eklenir.",
+    "konumlandirma": [
+      "Booster mantığıyla kurgulanmıştır. Firming ve Hyaluronic Acid kombine uygulamalarda booster olarak kullanılabilir; Brightening kombine protokollere uygun booster desteği sunar; Antiaging kombine uygulamalara entegre edilebilir yapıdadır. Solüsyonlar tek başına değil, mevcut protokolün içine yerleşir.",
+      "Profesyonel kullanım için tanımlıdır. Formüller steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir; Antiaging için profesyonel klinik uygulamalara yönelik yüksek saflık oranı belirtilir. Kaynak içeriklerde ev kullanımı tarifi yer almaz.",
+      "Kür planına oturur. Hyaluronic Acid dört mevsim nem desteği için uygundur; Antiaging yıl boyu anti-aging hedefli kürlerde değerlendirilir; Hair Revit saç canlandırma protokolünün aktif aşamasında kür şeklinde uygulanır; Firming sıkılık hedefli düzenli seanslarda tercih edilir."
+    ],
+    "gruplama": [
+      {
+        "ad": "Nem ve temel destek",
+        "aciklama": "Mat, yorgun ve elastikiyetini kaybetmiş ciltlerde nem ve dolgunluk ayağını karşılar; dört mevsim kullanılabilir.",
+        "sluglar": [
+          "mezocomplex-hyaluronic-acid"
+        ]
+      },
+      {
+        "ad": "Yaşlanma karşıtı ve sıkılık",
+        "aciklama": "Hücresel yenilenme ve sıkılık hedefli solüsyonlar; düzenli kürlerde kombine protokole eklenir.",
+        "sluglar": [
+          "mezocomplex-antiaging",
+          "mezocomplex-firming"
+        ]
+      },
+      {
+        "ad": "Leke ve aydınlatma",
+        "aciklama": "Melanin kaynaklı ton eşitsizliği, matlık ve leke görünümünü hedefleyen aydınlatıcı solüsyon.",
+        "sluglar": [
+          "mezocomplex-brightening"
+        ]
+      },
+      {
+        "ad": "Saç",
+        "aciklama": "Saç köklerini besleyerek yoğunluk hedefleyen solüsyon; saç canlandırma protokolünün aktif aşamasında kür şeklinde uygulanır.",
+        "sluglar": [
+          "mezocomplex-hair-revit"
+        ]
+      }
+    ],
+    "kapanisNotu": "Solüsyonlar yalnızca güzellik merkezi ve kliniklere tedarik edilir; kür yoğunluğunuza göre flakon planlamasını ve Gold Pen protokolleriyle kombinasyonu teklif görüşmesinde netleştiriyoruz.",
+    "kirintiAd": "Mezocomplex Solüsyonlar"
+  },
+  "uygulamaNotlari": [
+    "Mezocomplex flakon hacmi hiçbir metne yazılmadı; yalnızca \"flakon\" ve \"kutuda 5 flakon\" kullanıldı (kaynakta 5 ml / 8 ml çelişkisi var).",
+    "Mezocomplex için \"UTS kayıtlı\" ibaresi bilinçli olarak kullanılmadı; UTS kaydı kaynakta yalnızca Mezoeffect serumları (ve Baby Skin Pen kapsülleri) için doğrulanıyor.",
+    "Baby Skin Pen için gün aralığı hiçbir yerde yazılmadı (kaynakta 15-20 gün / 10-15 gün çelişkisi); yalnızca \"4-6 seans, dört mevsim\" kullanıldı.",
+    "Baby Skin Pen için \"iğnesiz\" nitelemesi /cihazlar/ hub metninden çıkarıldı; kaynak içinde çelişki var (gövde \"cilt yüzeyine\", SSS \"cilt altına\") ve \"iğnesiz\" ifadesi hiçbir kaynak metinde geçmiyor. Cihaz, doğrulanabilir mekanizmasıyla (kapsül serileri, döner başlık) tanımlandı. Karşılaştırma sayfasıyla tutarlıdır.",
+    "Mezoeffect hub'ındaki \"iğneli veya iğnesiz cihaz işlemlerinin ardından\" ifadesi korundu; bu jenerik niteleme ürün kaynaklarında birebir geçiyor ve belirli bir cihaza atıf yapmıyor.",
+    "\"Dermapen sistemlerinden üstün\", \"dünyada birçok kliniğin geçiş yaptığı\", \"ilk seanstan itibaren fark edilir canlılık\", \"tek seansta bile memnuniyet\" ve lansman kampanyası (7 kutu kapsül / 42 seans) ifadelerinin hiçbiri alınmadı.",
+    "Eye Contour Ampoule ambalaj bilgisi kaynakta yok; Mezoeffect hub'ında bu durum açıkça \"belirtilmemiştir\" olarak yazıldı, 2 ml x 7 ampul düzeni ona teşmil edilmedi.",
+    "Tüm sluglar icerik/urun/ altındaki 14 dosyaya karşı doğrulandı; uydurma slug yok.",
+    "/cihazlar/karsilastirma/ bir ürün slug'ı değil, site.json menüsündeki sayfa adresidir; gruplama listesinde sluglar boş bırakılıp url alanı kullanıldı.",
+    "Fiyat, tanı veya tedavi vaadi hiçbir hub metninde yer almıyor; tüm hub sayfaları B2B kapanış notuyla bitiyor."
+  ]
+}

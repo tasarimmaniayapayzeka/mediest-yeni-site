@@ -70,9 +70,29 @@ for (const p of htmlDosyalari) {
   }
 }
 
+// Veri boşlukları — gizlenmiyor, sayılıyor
+const bosluklar = {};
+for (const p of htmlDosyalari) {
+  const metin = fs.readFileSync(p, 'utf8').replace(/<[^>]+>/g, ' ');
+  const yol = '/' + path.relative(DIST, p).replace(/\\/g, '/').replace(/index\.html$/, '');
+  for (const k of ['Belirtilmemiş', 'Müşteri teyidi bekliyor', 'Görsel hazırlanıyor']) {
+    const n = (metin.match(new RegExp(k, 'g')) || []).length;
+    if (n) (bosluklar[k] = bosluklar[k] || []).push(`${yol} ×${n}`);
+  }
+}
+
 console.log(`\n  Denetim — ${htmlDosyalari.length} sayfa, ${toplamLink} link\n  ` + '-'.repeat(64));
 if (sorunlar.length) sorunlar.forEach(s => console.log('  ✗ ' + s));
 else console.log('  Kural ihlali yok.');
+
+const bosAnahtarlar = Object.entries(bosluklar);
+if (bosAnahtarlar.length) {
+  console.log('\n  Veri boşlukları (bilerek işaretlendi, uydurulmadı):');
+  bosAnahtarlar.forEach(([k, yerler]) => {
+    const toplam = yerler.reduce((n, y) => n + Number(y.split('×')[1]), 0);
+    console.log(`    ${k.padEnd(26)} ${String(toplam).padStart(3)} yerde  (${yerler.length} sayfa)`);
+  });
+}
 
 const eksik = Object.entries(eksikHedefler).sort();
 if (eksik.length) {

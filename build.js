@@ -110,6 +110,31 @@ if (urunler.length) {
   uretilen.push({ yol: '/404.html', ad: '404 sayfası', bayt: 0 });
 }
 
+// ---------- Hub sayfaları ----------
+const hubYolu = path.join(ICERIK, 'hub.json');
+if (fs.existsSync(hubYolu) && urunler.length) {
+  const { hubSayfasi } = require('./sablon/hub');
+  const hublar = oku(hubYolu);
+  // uygulamaNotlari gibi kayıt amaçlı bloklar sayfaya basılmaz — slug'ı olan girdiler hub'dır
+  for (const anahtar of Object.keys(hublar)) {
+    const hub = hublar[anahtar];
+    if (!hub || typeof hub.slug !== 'string') continue;
+    const { html, yol, toplamUrun, bulunmayan } = hubSayfasi({ site, hub, urunler });
+    if (bulunmayan.length) console.warn(`  ! ${yol} — bulunamayan slug: ${bulunmayan.join(', ')}`);
+    yaz(path.join(hub.slug, 'index.html'), tabanUygula(html));
+    uretilen.push({ yol, ad: `Hub: ${hub.baslik} (${toplamUrun} ürün)`, bayt: Buffer.byteLength(html) });
+  }
+}
+
+// ---------- Cihaz karşılaştırma ----------
+const kiyasYolu = path.join(ICERIK, 'karsilastirma.json');
+if (fs.existsSync(kiyasYolu) && urunler.length) {
+  const { karsilastirmaSayfasi } = require('./sablon/karsilastirma');
+  const { html, bosSayisi } = karsilastirmaSayfasi({ site, veri: oku(kiyasYolu), urunler });
+  yaz(path.join('cihazlar', 'karsilastirma', 'index.html'), tabanUygula(html));
+  uretilen.push({ yol: '/cihazlar/karsilastirma/', ad: `Karşılaştırma (${bosSayisi} hücre veri bekliyor)`, bayt: Buffer.byteLength(html) });
+}
+
 // GitHub Pages: alt çizgiyle başlayan dosyaları Jekyll'in yutmaması için
 yaz('.nojekyll', '');
 

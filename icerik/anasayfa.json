@@ -82,7 +82,7 @@
       "tip": "ikiliSecim",
       "ustEtiket": "Cihazlar",
       "baslik": "İki cihaz, iki farklı klinik senaryosu",
-      "giris": "Gold Pen iğneli, Baby Skin Pen iğnesiz çalışır. Seçim; kliniğinizin uygulayıcı yapısına, hedeflediği uygulama alanlarına ve seans kurgusuna göre yapılır. İkisi aynı klinikte birbirini tamamlayacak şekilde de konumlanabilir.",
+      "giris": "Gold Pen altın yalıtımlı iğne uçlarıyla, Baby Skin Pen mikro titreşimli döner başlıkla çalışır. Seçim; kliniğinizin uygulayıcı yapısına, hedeflediği uygulama alanlarına ve seans kurgusuna göre yapılır. İkisi aynı klinikte birbirini tamamlayacak şekilde de konumlanabilir.",
       "kartlar": [
         {
           "slug": "goldpen",
@@ -103,9 +103,9 @@
           "slug": "baby-skin-pen",
           "ad": "Baby Skin Pen",
           "vurgu": "Kapsül & 7 Renk LED",
-          "aciklama": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık ve çok renkli LED fototerapiyi 7 kapsül serisiyle birleştiren iğnesiz bir cilt bakım sistemidir.",
+          "aciklama": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık ve çok renkli LED fototerapiyi 7 kapsül serisiyle birleştiren kapsül temelli bir cilt bakım sistemidir.",
           "maddeler": [
-            "Yüksek frekanslı mikro titreşim ve 360 derece dönen başlıkla iğnesiz çalışır",
+            "Yüksek frekanslı mikro titreşim ve 360 derece dönen başlıkla çalışır",
             "7 kapsül serisi: Illuminate, Detox, Revive, Balance, Glam, Retouch, Hydrate",
             "7 renk LED fototerapi; her renk farklı bir cilt ihtiyacına yönelik destek sunar",
             "İki aşamalı protokol: kapsül uygulaması, ardından Mezoeffect ampul masajı",

@@ -1,0 +1,229 @@
+{
+  "metaBaslik": "Gold Pen mi Baby Skin Pen mi? Cihaz Karşılaştırma",
+  "metaAciklama": "Gold Pen ve Baby Skin Pen'i klinikler için yan yana karşılaştırın: teknoloji, LED, uygulama alanları, kür planı, sarf yapısı ve bayi eğitim desteği farkları.",
+  "ustEtiket": "Cihaz karşılaştırma",
+  "baslik": "Gold Pen ve Baby Skin Pen yan yana",
+  "giris": "Kliniğiniz için hangi cihazın uygun olduğu; uygulayıcı yapınıza, hedeflediğiniz uygulama alanlarına ve yürütmek istediğiniz sarf akışına göre değişir. Aşağıdaki tablo iki cihazı yalnızca MediEst Group ürün içeriklerinde doğrulanabilen başlıklar üzerinden karşılaştırır. Kaynakta yer almayan bilgiler doldurulmamış, açıkça işaretlenmiştir.",
+
+  "cihazlar": [
+    {
+      "slug": "goldpen",
+      "ad": "Gold Pen",
+      "ozet": "Mikroiğneleme, EMS ve LED fototerapiyi tek cihazda birleştiren, gerçek altın yalıtımlı iğne uçlarıyla çalışan iğneli sistem."
+    },
+    {
+      "slug": "baby-skin-pen",
+      "ad": "Baby Skin Pen",
+      "ozet": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık ve 7 renk LED fototerapiyi 7 kapsül serisiyle birleştiren kapsül tabanlı sistem."
+    }
+  ],
+
+  "gruplar": [
+    {
+      "ad": "Teknoloji ve donanım",
+      "satirlar": [
+        {
+          "ozellik": "Çalışma prensibi",
+          "goldpen": "Mikroiğneleme, EMS ve LED fototerapiyi tek cihazda birleştirir; gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarının doku altına indirilmesini sağlar.",
+          "babySkinPen": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık ve çok renkli LED fototerapi kombinasyonuyla çalışır; seçilen kapsülün içeriği döner başlıkla cilde iletilir.",
+          "not": null
+        },
+        {
+          "ozellik": "İğne kullanımı",
+          "goldpen": "İğneli — gerçek altın yalıtımlı iğne uçları",
+          "babySkinPen": "Müşteri teyidi bekliyor",
+          "not": "Kaynak içinde çelişki var: ürün sayfasının gövde metni kapsül içeriğinin döner başlıkla \"cilt yüzeyine\", SSS bölümü ise \"cilt altına\" iletildiğini belirtiyor. \"İğnesiz\" ifadesi hiçbir kaynak metinde geçmiyor; teyit gelene kadar bu satırda değer yayınlanmıyor."
+        },
+        {
+          "ozellik": "Uç, başlık ve başlık hareketi",
+          "goldpen": "Hassas cilt, yüz ve saç için ayrı iğne uçları; başlık hareketi Belirtilmemiş",
+          "babySkinPen": "İki başlık: kapsül başlığı ve masaj başlığı; başlık 360 derece döner",
+          "not": null
+        },
+        {
+          "ozellik": "EMS — elektriksel kas uyarımı",
+          "goldpen": "Var — düşük seviyeli elektrik akımıyla kontrollü kas uyarımı",
+          "babySkinPen": "Belirtilmemiş",
+          "not": "Baby Skin Pen kaynaklarında EMS veya eşdeğeri bir ek enerji modu geçmiyor; bu, özelliğin cihazda bulunmadığı anlamına gelmez."
+        },
+        {
+          "ozellik": "LED renkleri",
+          "goldpen": "Kaynakta iki renk tanımlı: mavi (saç derisi) ve kırmızı (cilt); cihazdaki toplam renk sayısı verilmemiş",
+          "babySkinPen": "Yedi renk: kırmızı, mor, mavi, beyaz, yeşil-mavi, yeşil, sarı",
+          "not": null
+        },
+        {
+          "ozellik": "LED dalga boyu",
+          "goldpen": "Kırmızı LED: 620-650 nm · Mavi LED: Belirtilmemiş",
+          "babySkinPen": "Belirtilmemiş",
+          "not": "Baby Skin Pen'de yedi rengin hiçbiri için nm değeri verilmemiştir."
+        },
+        {
+          "ozellik": "Dijital ekran ve ayar arayüzü",
+          "goldpen": "Dijital ekran var; kademe sayısı ve EMS yoğunluk seviyeleri Belirtilmemiş",
+          "babySkinPen": "Belirtilmemiş",
+          "not": null
+        }
+      ]
+    },
+
+    {
+      "ad": "Uygulama ve endikasyon",
+      "satirlar": [
+        {
+          "ozellik": "Kaynakta tanımlı uygulama alanları",
+          "goldpen": "Beş alan: akne skarları, gözenek sıkılaştırma, anti-aging, cilt tonu eşitleme, saç uygulaması",
+          "babySkinPen": "Altı alan: leke ve ton eşitsizliği, akne ve akne izi, geniş gözenek, anti-aging, kuruluk, zayıf cilt bariyeri",
+          "not": null
+        },
+        {
+          "ozellik": "Saç ve saç derisi uygulaması",
+          "goldpen": "Var — saç için iğne ucu, mavi LED desteği ve tanımlı \"Saç Uygulaması\" alanı",
+          "babySkinPen": "Belirtilmemiş",
+          "not": "Baby Skin Pen kaynaklarında saç veya saç derisi başlığı hiç geçmiyor."
+        },
+        {
+          "ozellik": "Yağlı ve sebum dengesizliği olan cilt",
+          "goldpen": "Belirtilmemiş",
+          "babySkinPen": "Var — Balance kapsülü sebum kontrolü sağlar; mavi LED akne eğilimli cilde destek olur",
+          "not": null
+        },
+        {
+          "ozellik": "Hassas cilt yaklaşımı",
+          "goldpen": "Hassas cilt için ayrı iğne ucu bulunur",
+          "babySkinPen": "Detox kapsülü, özellikle çevresel faktörlere maruz kalan hassas ciltler için uygun olarak tanımlanır",
+          "not": null
+        },
+        {
+          "ozellik": "Kişiselleştirme mekanizması",
+          "goldpen": "İğne derinliği, geçiş sayısı, hassasiyet seviyesi ve Mezoeffect serum seçimi; derinliğin mm aralığı Belirtilmemiş",
+          "babySkinPen": "Yedi kapsül serisi, yedi LED rengi ve Mezoeffect ampul seçimi",
+          "not": null
+        }
+      ]
+    },
+
+    {
+      "ad": "Seans ve protokol",
+      "satirlar": [
+        {
+          "ozellik": "Seans akışı",
+          "goldpen": "Endikasyonun türüne ve hedef bölgenin genişliğine göre mikroiğneleme, EMS ve LED kombinasyonu seçilerek planlanır; aşama sayısı Belirtilmemiş",
+          "babySkinPen": "İki aşama: kapsül uygulaması, ardından Mezoeffect ampul masajı",
+          "not": null
+        },
+        {
+          "ozellik": "Kür planı — seans sayısı ve aralığı",
+          "goldpen": "4-6 seans, 20-25 gün aralıkla",
+          "babySkinPen": "4-6 seans; seans aralığı için Müşteri teyidi bekliyor",
+          "not": "Kaynak içinde çelişki var: ürün sayfasının gövde metni 15-20 gün, SSS bölümü 10-15 gün diyor. Teyit gelene kadar Baby Skin Pen gün aralığı sitenin hiçbir yerinde yayınlanmıyor."
+        },
+        {
+          "ozellik": "Mevsimsel kullanım",
+          "goldpen": "Belirtilmemiş",
+          "babySkinPen": "Tüm yıl boyunca (4 mevsim) uygulanabilir",
+          "not": null
+        }
+      ]
+    },
+
+    {
+      "ad": "Sarf ve maliyet yapısı",
+      "satirlar": [
+        {
+          "ozellik": "Seans başına tüketilen sarf",
+          "goldpen": "Steril uçlar, tek kullanımlık sarf malzemeleri ve Mezoeffect serumu; seans başına adet ve hacim Belirtilmemiş",
+          "babySkinPen": "Kapsül, primer gel ve Mezoeffect ampulü; seans başına adet kaynakta doğrudan verilmemiş, yalnızca kutu karşılığı tanımlı",
+          "not": null
+        },
+        {
+          "ozellik": "Sarf kutusu seans karşılığı",
+          "goldpen": "SSS'te Gold Pen bölümünde verilen kutu: 5 flakon, 20 seans. Flakon hacmi ve kutunun hangi ürün serisine ait olduğu için Müşteri teyidi bekliyor",
+          "babySkinPen": "Kapsül kutusu: 6 kapsül ve 6 primer gel, 6 seans",
+          "not": "SSS bu kutuyu Mezoeffect serumları için anlatıyor; ancak 5 flakonluk format ürün dosyalarında Mezocomplex serisine ait ve orada hacim 5 ml (gövde) / 8 ml (SSS) olarak çelişkili. Mezoeffect ampulleri ise 2 ml x 7 ampul düzenindedir."
+        },
+        {
+          "ozellik": "Kaynakta eşleşen Mezoeffect / Mezocomplex ürünü",
+          "goldpen": "Cihaz dosyasında ve SSS'te adlarıyla sayılan 5 Mezocomplex solüsyonu; ürün dosyalarından 4 Mezoeffect ampulü",
+          "babySkinPen": "Ürün dosyalarından 6 Mezoeffect ampulü; Mezocomplex eşleşmesi Belirtilmemiş",
+          "not": "Gold Pen dosyası beş Mezocomplex ürününü listeliyor; ürün dosyalarından yalnızca üçü (Antiaging, Brightening, Hair Revit) Gold Pen'i geri işaret ediyor. Baby Skin Pen dosyasının kombinasyon alanı boş; altı ampullü eşleşme yalnızca ürün dosyalarından çıkarılmıştır."
+        }
+      ]
+    },
+
+    {
+      "ad": "Destek ve satın alma",
+      "satirlar": [
+        {
+          "ozellik": "Eğitim ve bayi içerik desteği",
+          "goldpen": "Online veya Bakırköy showroom'da birebir eğitim; cihaz setini alan bayilere grafik ve Reels video biçiminde sosyal medya desteği",
+          "babySkinPen": "Online veya Bakırköy showroom'da birebir eğitim; cihaz alan bayilere grafik ve Reels desteği, uygulama protokolü ve müşteri iletişimi önerileri",
+          "not": null
+        },
+        {
+          "ozellik": "Cihaz seti içeriği ve ambalaj",
+          "goldpen": "Belirtilmemiş",
+          "babySkinPen": "Belirtilmemiş",
+          "not": "Her iki cihazın da set içeriği ve ambalaj bilgisi kaynak metinlerde yer almıyor; müşteri teyidi bekliyor."
+        }
+      ]
+    }
+  ],
+
+  "hangisi": [
+    {
+      "slug": "goldpen",
+      "baslik": "Gold Pen şu durumda uygun",
+      "maddeler": [
+        "İğneli uygulama yapabilen, steril uç ve tek kullanımlık sarf akışını işletebilen klinikler.",
+        "Saç ve saç derisi uygulaması hedefleyen merkezler: iki cihaz içinde saç uygulaması kaynakta yalnızca Gold Pen için tanımlıdır.",
+        "Mikroiğneleme, EMS ve LED fototerapiyi tek cihazda toplamak isteyen klinikler; EMS cilt bakımını kas ve bağ dokusu düzeyinde de destekler, kırmızı LED (620-650 nm) fibroblastları uyarır.",
+        "Hassas cilt, yüz ve saç çalışmasını ayrı iğne ucu seçimiyle yürütmek isteyen uygulayıcılar.",
+        "4-6 seans, 20-25 gün aralıkla planlanan bir kür takvimi kurgulayan merkezler.",
+        "Sarf tarafında beş Mezocomplex solüsyonu ve dört Mezoeffect ampulüyle eşleşme kaynakta tanımlıdır."
+      ]
+    },
+    {
+      "slug": "baby-skin-pen",
+      "baslik": "Baby Skin Pen şu durumda uygun",
+      "maddeler": [
+        "Seans içeriğini danışan bazında değiştirmeyi tercih eden merkezler: yedi kapsül serisi ve yedi LED rengi, cilt analizi sonrası seçime dayalı bir protokol kurar.",
+        "Yağlı ve akneye yatkın cilt (Balance kapsülü, mavi LED), yoğun nem kaybı (Hydrate) ve zayıf cilt bariyeri (Detox, Glam) başlıkları kaynakta yalnızca bu cihaz için tanımlıdır.",
+        "İki aşamalı ve tekrarlanabilir bir seans akışı isteyen klinikler: kapsül uygulaması, ardından Mezoeffect ampul masajı.",
+        "Sarfı kutu bazında planlamak isteyen merkezler: bir kapsül kutusu 6 kapsül ve 6 primer gel ile 6 seansa karşılık gelir.",
+        "Uygulamanın tüm yıl boyunca (4 mevsim) yapılabildiği kaynakta belirtilmiştir.",
+        "Sarf tarafında altı Mezoeffect ampulüyle eşleşme kaynakta tanımlıdır.",
+        "Cihazın iğne kullanıp kullanmadığı kaynakta çelişkilidir; \"iğnesiz\" tanımı teyit alınmadan bu sayfada kullanılmamıştır."
+      ]
+    }
+  ],
+
+  "not": "Bu tablodaki bilgiler üreticinin tanıtım metinlerine ve MediEst Group ürün içeriklerine dayanır; yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır, tanı veya tedavi önerisi niteliği taşımaz. Kaynakta yer almayan özellikler \"Belirtilmemiş\" olarak bırakılmıştır — bu, özelliğin cihazda bulunmadığı anlamına gelmez. Kaynak içinde birbiriyle çelişen veriler \"Müşteri teyidi bekliyor\" olarak işaretlenmiş, teyit gelene kadar değer yayınlanmamıştır. Satış yalnızca güzellik merkezi ve kliniklere yapılır; fiyat ve set koşulları teklif görüşmesinde iletilir.",
+
+  "dogrulama": {
+    "satirSayisi": 20,
+    "belirtilmemisHucreSayisi": 8,
+    "belirtilmemisGecenHucreSayisi": 15,
+    "musteriTeyidiHucreSayisi": 3,
+    "musteriTeyidiGereken": [
+      "Baby Skin Pen iğne kullanımı: gövde metni kapsülün \"cilt yüzeyine\", SSS \"cilt altına\" iletildiğini söylüyor; \"iğnesiz\" ifadesi hiçbir kaynakta geçmiyor.",
+      "Baby Skin Pen seans aralığı: gövde metni 15-20 gün, SSS 10-15 gün.",
+      "Gold Pen bölümünde verilen 5 flakonluk kutunun hacmi ve hangi ürün serisine ait olduğu (Mezoeffect mi Mezocomplex mi); Mezocomplex flakon hacmi kaynakta 5 ml / 8 ml olarak çelişkili.",
+      "İki cihazın seans süresi (dakika) hiçbir kaynakta verilmemiş; yalnızca \"seans süresi\" bir faktör olarak sayılıyor.",
+      "Cihaz seti içeriği ve ambalaj bilgisi; garanti süresi, yedek parça ve teknik servis koşulları (SSS sayfasında başlık var, altında soru-cevap yok).",
+      "Cihazların kendi mevzuat kaydı (UTS/CE, medikal cihaz sınıfı), üretici ve menşei bilgisi; kaynakta UTS ifadesi yalnızca Mezoeffect serumları ve Baby Skin Pen kapsülleri için kullanılıyor.",
+      "Kontrendikasyonlar, güvenlik uyarıları, uygulama sonrası bakım talimatı ve uygulayıcı yetkinliği (cihazı kimin uygulayabileceği).",
+      "Gold Pen iğne ucu teknik detayı: kartuş başına iğne sayısı, derinlik aralığı (mm), vuruş hızı, uç kutusu adedi ve seans karşılığı.",
+      "Baby Skin Pen mikro titreşim frekans değeri, güç kademesi, ekran/arayüz bilgisi ve LED renginin nasıl seçildiği.",
+      "İki cihazın aynı klinikte birlikte kullanıldığı kombine bir protokol kaynakta tanımlı değil.",
+      "B2B satın alma koşulları: minimum sipariş, teslim süresi, ödeme ve sarf tedarik sürekliliği."
+    ],
+    "yayinaAlinmayanKaynakIfadeleri": [
+      "Seans ücreti (2.000-2.500 TL) — fiyat yayınlanmaz.",
+      "\"Dermapen sistemlerinden üstün\" — karşılaştırmalı reklam iddiası.",
+      "\"Dünyada birçok kliniğin geçiş yaptığı\" — ispatlanamaz istatistik iması.",
+      "\"İlk seanstan itibaren fark edilir canlılık\" ve \"tek seansta bile memnuniyet\" — ölçüsüz sonuç beyanı.",
+      "\"Lansmana özel 7 kutu kapsül hediye / 42 seans\" — zaman bağımlı kampanya, güncelliği teyitsiz."
+    ]
+  }
+}
