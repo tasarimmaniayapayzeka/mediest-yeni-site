@@ -66,6 +66,7 @@ urunler.sort((a, b) => (a.grup || '').localeCompare(b.grup || '') || (a.sira || 
 // ---------- Şablonlar ----------
 const { urunSayfasi } = require('./sablon/urun');
 const { demoIndex } = require('./sablon/demo-index');
+const { hata404 } = require('./sablon/hata404');
 
 // ---------- Üretim ----------
 if (fs.existsSync(CIKTI)) fs.rmSync(CIKTI, { recursive: true, force: true });
@@ -88,6 +89,10 @@ if (urunler.length) {
   const html = tabanUygula(demoIndex({ site, urunler }));
   yaz('index.html', html);
   uretilen.unshift({ yol: '/', ad: 'Önizleme girişi (geçici)', bayt: Buffer.byteLength(html) });
+
+  // Kendi tasarımımızda 404 (GitHub Pages ve cPanel ikisi de 404.html'i kullanır)
+  yaz('404.html', tabanUygula(hata404({ site, urunler })));
+  uretilen.push({ yol: '/404.html', ad: '404 sayfası', bayt: 0 });
 }
 
 // GitHub Pages: alt çizgiyle başlayan dosyaları Jekyll'in yutmaması için
