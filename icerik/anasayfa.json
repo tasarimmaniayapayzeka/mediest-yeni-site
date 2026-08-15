@@ -1,0 +1,308 @@
+{
+  "metaBaslik": "Kliniklere Gold Pen, Baby Skin Pen ve Mezoeffect Tedariki",
+  "metaAciklama": "MediEst Group; kliniklere Gold Pen, Baby Skin Pen cihazları ile Mezoeffect ampul ve Mezocomplex solüsyonlarını eğitim ve protokol desteğiyle tedarik eder.",
+
+  "bolumler": [
+    {
+      "tip": "hero",
+      "ustEtiket": "B2B tedarik — yalnızca güzellik merkezi ve kliniklere satış",
+      "baslik": "Kliniğiniz için cihaz, ampul ve protokolü birlikte kuruyoruz",
+      "giris": "MediEst Group; güzellik merkezleri ve kliniklere Gold Pen ile Baby Skin Pen cihazlarını, Mezoeffect ampullerini ve Mezocomplex solüsyonlarını tedarik eder. Kurulum birebir eğitimle başlar, kliniğinize özel protokol planlamasıyla sürer.",
+      "birincilCta": { "ad": "Protokol tablosunu görün", "url": "/protokoller/" },
+      "ikincilCta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" },
+      "rozetler": [
+        { "etiket": "Katalog", "deger": "2 cihaz · 7 ampul · 5 solüsyon" },
+        { "etiket": "Showroom", "deger": "Bakırköy'de birebir cihaz demosu" },
+        { "etiket": "Bayi desteği", "deger": "Cihaz seti alan bayilere içerik desteği" }
+      ]
+    },
+
+    {
+      "tip": "guvenSerit",
+      "maddeler": [
+        { "baslik": "UTS Kayıtlı", "aciklama": "Ürün Takip Sistemi'ne kayıtlı Mezoeffect serumları" },
+        { "baslik": "Steril Üretim", "aciklama": "Steril koşullarda üretim ve kalite kontrol" },
+        { "baslik": "Birebir Eğitim", "aciklama": "Online veya Bakırköy showroom'da uygulama eğitimi" },
+        { "baslik": "Protokol Desteği", "aciklama": "Kliniğe özel kombine seans planlaması" }
+      ]
+    },
+
+    {
+      "tip": "protokolSecici",
+      "ustEtiket": "Protokol seçici",
+      "baslik": "Hangi sorun için hangi kombinasyon?",
+      "giris": "Kliniğinizde en sık karşılaştığınız uygulama alanlarına göre cihaz ve ürün eşleşmesi. Bu eşleştirmeler MediEst Group protokol danışmanlığı kapsamında hazırlanmış başlangıç noktalarıdır; nihai protokol, endikasyonun türü, hedef bölgenin genişliği ve uygulayıcının planlamasına göre belirlenir.",
+      "satirlar": [
+        {
+          "sorun": "Leke görünümü ve ton eşitsizliği",
+          "cihaz": "Gold Pen — cilt tonu eşitleme protokolü; 4-6 seans, 20-25 gün aralıkla · Baby Skin Pen — yeşil LED ve Illuminate kapsülü; 4-6 seans, dört mevsim",
+          "urun": "Mezoeffect Anti Spot Ampoule",
+          "urunSlug": "mezoeffect-anti-spot-ampoule"
+        },
+        {
+          "sorun": "Akne izi görünümü",
+          "cihaz": "Gold Pen — akne skarları protokolü; 4-6 seans, 20-25 gün aralıkla · Baby Skin Pen — mor ve mavi LED, Balance kapsülü; 4-6 seans, dört mevsim",
+          "urun": "Ampul eşleşmesi uygulayıcı planlamasına göre belirlenir"
+        },
+        {
+          "sorun": "Geniş gözenek görünümü",
+          "cihaz": "Gold Pen — gözenek sıkılaştırma protokolü; 4-6 seans, 20-25 gün aralıkla · Baby Skin Pen — Retouch kapsülü; 4-6 seans, dört mevsim",
+          "urun": "Niacinamide içeren Mezoeffect ampulleri; seçim uygulayıcı planlamasına göre yapılır"
+        },
+        {
+          "sorun": "İnce çizgi, kırışıklık ve elastikiyet kaybı",
+          "cihaz": "Gold Pen — mikroiğneleme, EMS ve kırmızı LED (620-650 nm); 4-6 seans, 20-25 gün aralıkla · Baby Skin Pen — kırmızı LED ve Revive kapsülü; 4-6 seans, dört mevsim",
+          "urun": "Mezoeffect Anti-Age Serum",
+          "urunSlug": "mezoeffect-anti-age-serum"
+        },
+        {
+          "sorun": "Göz çevresinde koyu halka ve torbalanma görünümü",
+          "cihaz": "Cihaz eşleşmesi uygulayıcı planlamasına göre belirlenir; hassas bölge uygulaması olarak kurgulanır",
+          "urun": "Mezoeffect Eye Contour Ampoule",
+          "urunSlug": "mezoeffect-eye-contour-ampoule"
+        },
+        {
+          "sorun": "Nem kaybı, mat ve yorgun cilt görünümü",
+          "cihaz": "Baby Skin Pen — Hydrate kapsülü ve ampul masajı; 4-6 seans, dört mevsim · Gold Pen — 4-6 seans, 20-25 gün aralıkla",
+          "urun": "Mezoeffect Hyaluronic Acid Serum",
+          "urunSlug": "mezoeffect-hyaluronic-acid-serum"
+        },
+        {
+          "sorun": "Saç uygulaması — dökülme ve incelme",
+          "cihaz": "Gold Pen — saç iğne ucu ve mavi LED; 4-6 seans, 20-25 gün aralıkla",
+          "urun": "Mezoeffect Anti Hair Loss Serum",
+          "urunSlug": "mezoeffect-anti-hair-loss-serum"
+        }
+      ],
+      "cta": { "ad": "Tüm protokolleri görün", "url": "/protokoller/" },
+      "not": "Bu sitedeki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz. Tablodaki eşleştirmeler protokol kurgusuna başlangıç noktasıdır, kliniğinize özel kombine seans planlaması için protokol danışmanlığı verilir. Sarf karşılığı örnekleri: Mezoeffect Anti Spot Ampoule kutusu 2 ml × 7 ampul; Baby Skin Pen kapsül kutusu 6 kapsül ve 6 primer gel, 6 seans karşılığı. Diğer ürünlerin ambalaj bilgileri ilgili ürün sayfalarında yer alır."
+    },
+
+    {
+      "tip": "ikiliSecim",
+      "ustEtiket": "Cihazlar",
+      "baslik": "İki cihaz, iki farklı klinik senaryosu",
+      "giris": "Gold Pen iğneli, Baby Skin Pen iğnesiz çalışır. Seçim; kliniğinizin uygulayıcı yapısına, hedeflediği uygulama alanlarına ve seans kurgusuna göre yapılır. İkisi aynı klinikte birbirini tamamlayacak şekilde de konumlanabilir.",
+      "kartlar": [
+        {
+          "slug": "goldpen",
+          "ad": "Gold Pen",
+          "vurgu": "Mikroiğneleme & EMS",
+          "aciklama": "Gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarının doku altına indirilmesini sağlayan; EMS ve LED fototerapiyle kombine çalışan bir cilt bakım teknolojisidir.",
+          "maddeler": [
+            "Gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarını doku altına iletir",
+            "Mikroiğneleme, EMS ve LED fototerapiyi tek cihazda birleştirir; dijital ekranlıdır",
+            "Hassas cilt, yüz ve saç için ayrı iğne uçları bulunur",
+            "Kırmızı LED (620-650 nm) fibroblastları uyarır; mavi LED saç derisi uygulamalarına yöneliktir",
+            "Akne skarları, gözenek sıkılaştırma, anti-aging, cilt tonu eşitleme ve saç uygulaması",
+            "Steril uçlar ve tek kullanımlık sarf malzemeleriyle uygulanır",
+            "Protokol: 4-6 seans, 20-25 gün aralıkla"
+          ]
+        },
+        {
+          "slug": "baby-skin-pen",
+          "ad": "Baby Skin Pen",
+          "vurgu": "Kapsül & 7 Renk LED",
+          "aciklama": "Yüksek frekanslı mikro titreşim, 360 derece döner başlık ve çok renkli LED fototerapiyi 7 kapsül serisiyle birleştiren iğnesiz bir cilt bakım sistemidir.",
+          "maddeler": [
+            "Yüksek frekanslı mikro titreşim ve 360 derece dönen başlıkla iğnesiz çalışır",
+            "7 kapsül serisi: Illuminate, Detox, Revive, Balance, Glam, Retouch, Hydrate",
+            "7 renk LED fototerapi; her renk farklı bir cilt ihtiyacına yönelik destek sunar",
+            "İki aşamalı protokol: kapsül uygulaması, ardından Mezoeffect ampul masajı",
+            "Bir kapsül kutusunda 6 kapsül ve 6 primer gel bulunur; 6 seanslık kullanıma karşılık gelir",
+            "Protokol: 4-6 seans; tüm yıl boyunca (4 mevsim) uygulanabilir"
+          ]
+        }
+      ],
+      "karsilastirmaCta": { "ad": "Gold Pen ve Baby Skin Pen'i yan yana karşılaştırın", "url": "/cihazlar/karsilastirma/" }
+    },
+
+    {
+      "tip": "urunGrubu",
+      "ustEtiket": "Sarf ve solüsyon",
+      "baslik": "Mezoeffect ampulleri ve Mezocomplex solüsyonları",
+      "giris": "Cihaz kararından sonraki soru sarf tarafıdır. Mezoeffect ampul serisi ve Mezocomplex solüsyon serisi birbirinin yerine değil, protokol içinde birlikte konumlanır. On iki ürünün tamamına buradan tek tıkla ulaşabilirsiniz.",
+      "gruplar": [
+        {
+          "grup": "mezoeffect",
+          "ad": "Mezoeffect Serum Grubu",
+          "aciklama": "UTS kayıtlı ampul serisi; her ürün tek bir uygulama hedefine göre formüle edilmiştir. Leke, nem, yaşlanma karşıtı bakım, göz çevresi ve saç başlıklarını kapsar; cihaz destekli uygulamalarda ve bakım protokollerinde kullanılır. Ambalaj bilgileri ürün sayfalarında belirtilmiştir.",
+          "url": "/urunler/mezoeffect/"
+        },
+        {
+          "grup": "mezocomplex",
+          "ad": "Mezocomplex Solüsyonlar",
+          "aciklama": "Steril üretim protokolüyle geliştirilen, kür planlamasına göre kullanılan flakon düzenindeki solüsyon serisi; kutuda 5 flakon bulunur. Hücresel yenilenme, leke ve aydınlatma, sıkılık, nem ve saç canlandırma başlıklarında Gold Pen protokollerine eşlik eder.",
+          "url": "/urunler/mezocomplex/"
+        }
+      ]
+    },
+
+    {
+      "tip": "nedenBiz",
+      "ustEtiket": "Neden MediEst Group",
+      "baslik": "Tedarikçi değil, iş ortağı",
+      "giris": "Cihazı satın almak sürecin kolay kısmıdır; zor kısmı o cihazın kliniğinizde düzenli çalışan bir hizmete dönüşmesidir. MediEst Group'un iş modeli tam olarak bu noktada kurulur: ürünle birlikte eğitim, protokol ve içerik desteği de gelir.",
+      "kartlar": [
+        {
+          "baslik": "Birebir Eğitim",
+          "aciklama": "Uygulama eğitimi online ya da Bakırköy showroom'da birebir verilir. Ekibiniz cihazı ve seans akışını uygulayarak öğrenir; hassas cilt, yüz ve saç için ayrı iğne uçlarının kullanımı gösterilir.",
+          "url": "/egitim-destek/"
+        },
+        {
+          "baslik": "Protokol Danışmanlığı",
+          "aciklama": "Hangi uygulama alanında hangi cihazın hangi ampulle çalıştığı, kliniğinizin danışan profiline göre birlikte planlanır. Protokol güncellemeleri bayilere aktarılır; her seansı sıfırdan kurgulamak zorunda kalmazsınız.",
+          "url": "/protokoller/"
+        },
+        {
+          "baslik": "Sosyal Medya Desteği",
+          "aciklama": "Cihaz setini alan bayilere grafik ve Reels video desteği sağlanır. Yeni hizmetinizi duyururken içerik üretimiyle ayrıca uğraşmazsınız; anlatım dili uygulamanın kendisiyle tutarlı olur.",
+          "url": "/bayilik/"
+        }
+      ]
+    },
+
+    {
+      "tip": "showroom",
+      "ustEtiket": "Bakırköy showroom",
+      "baslik": "Karar vermeden önce cihazı elinize alın",
+      "giris": "Showroom'umuzda Gold Pen ve Baby Skin Pen'i çalışırken görebilir, başlık ve iğne ucu seçeneklerini inceleyebilir, uygulama akışını birebir takip edebilirsiniz. Görüşmeler randevuyla planlanır; aynı ziyarette eğitim içeriğini ve protokol planlamasını da konuşuruz. Eğitim, tercihinize göre showroom'da ya da online yapılabilir.",
+      "cta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" }
+    },
+
+    {
+      "tip": "bayilik",
+      "ustEtiket": "Bayilik & iş ortaklığı",
+      "baslik": "Cihazı teslim aldıktan sonrası",
+      "giris": "MediEst Group yalnızca ürün tedarik eden bir yapı değil; profesyonel uygulayıcılara eğitim, protokol danışmanlığı ve içerik geliştirme desteği sunan bir iş ortağıdır. Satış yalnızca güzellik merkezi ve kliniklere yapılır. Görüşme fiyat listesiyle değil, kliniğinizin danışan profili ve mevcut hizmet menüsüyle başlar; set içeriği ve koşullar kliniğinizin ihtiyacına göre teklif olarak iletilir.",
+      "maddeler": [
+        "Online veya Bakırköy showroom'da birebir uygulama eğitimi",
+        "Cihaz setini alan bayilere sosyal medya desteği: grafik ve Reels video",
+        "Kliniğe özel kombine seans planlaması ve protokol danışmanlığı",
+        "Uygulama protokolü ve müşteri iletişimi önerileri",
+        "UTS kayıtlı Mezoeffect serum ve Mezocomplex solüsyon grubuna erişim",
+        "Protokol güncellemelerinin bayilere aktarılması",
+        "Uzun vadeli iş birliği yaklaşımı: satış sonrası iletişim kesilmez"
+      ],
+      "cta": { "ad": "Bayilik başvurusu ve teklif talebi", "url": "/bayilik/#teklif" }
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Sık sorulanlar",
+      "baslik": "Bayilik ve çalışma koşulları",
+      "sorular": [
+        {
+          "s": "Kimlere satış yapıyorsunuz?",
+          "c": "Satış yalnızca güzellik merkezlerine ve kliniklere yapılır; son kullanıcıya ürün satışı yapılmamaktadır."
+        },
+        {
+          "s": "Fiyat listesi neden sitede yok?",
+          "c": "MediEst Group B2B çalışır. Set içeriği ve koşullar kliniğin ihtiyacına göre değiştiği için fiyat yayınlanmaz; teklif talebi bıraktığınızda kliniğinize özel koşullar iletilir."
+        },
+        {
+          "s": "Eğitim veriliyor mu, nasıl?",
+          "c": "Evet. Uygulama eğitimi online veya Bakırköy showroom'da birebir verilir."
+        },
+        {
+          "s": "Bayi olduğumuzda hangi destekleri alıyoruz?",
+          "c": "Birebir uygulama eğitimi, kliniğe özel kombine protokol planlaması ile uygulama protokolü ve müşteri iletişimi önerileri sağlanır. Cihaz setini alan bayilere ayrıca grafik ve Reels video biçiminde sosyal medya desteği verilir."
+        },
+        {
+          "s": "Cihazı satın almadan önce görebilir miyiz?",
+          "c": "Evet. Bakırköy showroom'da randevuyla birebir cihaz demosu ve eğitim yapılır; aynı görüşmede protokol planlaması da konuşulur."
+        },
+        {
+          "s": "Ürünler UTS kayıtlı mı?",
+          "c": "Mezoeffect serumları Ürün Takip Sistemi'ne (UTS) kayıtlıdır ve steril üretim koşullarında geliştirilmiştir."
+        },
+        {
+          "s": "Bayilik başvurusu nasıl yapılır?",
+          "c": "Bayilik sayfasındaki başvuru formunu doldurabilir ya da 0533 637 49 09 numarasından bize ulaşabilirsiniz. Görüşme, kliniğinizin danışan profili ve hizmet menüsü üzerinden ilerler."
+        }
+      ]
+    },
+
+    {
+      "tip": "kapanisCta",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Protokolünüzü birlikte kuralım",
+      "giris": "Kliniğinizin danışan profilini paylaşın; hangi cihazın hangi ampul ve solüsyon grubuyla anlamlı olduğunu birlikte planlayalım.",
+      "birincilCta": { "ad": "Teklif alın", "url": "/bayilik/#teklif" },
+      "ikincilCta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" }
+    },
+
+    {
+      "tip": "blogTeaser",
+      "ustEtiket": "Blog",
+      "baslik": "Uygulayıcı için teknik arka plan",
+      "yazilar": [
+        { "slug": "cilt-elastikiyeti-ve-kolajen-dinamikleri", "baslik": "Cilt Elastikiyeti ve Kolajen Dinamikleri" },
+        { "slug": "cilt-leke-cozumleri-ve-baby-skin-pen-destekli-profesyonel-yaklasimlar", "baslik": "Cilt Leke Çözümleri ve Baby Skin Pen Destekli Profesyonel Yaklaşımlar" },
+        { "slug": "mezoterapi-ile-sac-dokulmesi-arasindaki-iliski", "baslik": "Mezoterapi ile Saç Dökülmesi Arasındaki İlişki" }
+      ]
+    }
+  ],
+
+  "dogrulama": {
+    "kazananKurgu": "A",
+    "juriGerekcesi": "Üç jüriden ikisi (b2b-donusum ve kaynak-sadakati) Kurgu A'yı kazanan ilan etti. Gerekçe: protokol tablosunu 3. sıraya koyup ürün kataloğunu hizmet menüsüne çeviren tek kurgu A; ayrıca en riskli bölümü (sorun-cihaz-ürün eşleştirmesi) kaynağa sadık biçimde kuran, çelişkili verileri (Baby Skin Pen gün aralığı, Mezocomplex flakon hacmi) tabloya sokmayan tek kurgu. seo-yapisi lensi B'yi seçti; B'nin tek gerçek üstünlüğü olan '12 ürünün tamamı ana sayfadan linklenmeli' şartı A'nın urunGrubu bölümüne taşındı (şablon grup kartlarında her ürünü tek tek linkliyor), böylece SEO kaybı kapatıldı.",
+
+    "eklenenFikirler": [
+      "C'den — nedenBiz bölümünün tamamı: A'nın jenerik 'Bilim ve teknoloji / Standardize protokoller / Klinik iş ortaklığı' üçlüsü atıldı, yerine gerçek farklılaştırıcılar geldi (01 Birebir Eğitim · 02 Protokol Danışmanlığı · 03 Sosyal Medya Desteği).",
+      "C'den — showroom bölümünün tam metni ve 'Karar vermeden önce cihazı elinize alın' başlığı; adres/telefon/saat bloğu şablon tarafından site.json'dan basıldığı için metinde tekrarlanmadı (0554'lü numara hiçbir yerde geçmiyor).",
+      "C'den — hero'nun ikincil butonu düşük taahhütlü showroom eylemine çevrildi; 'Teklif Al' site.json'daki global CTA olarak yapışkan başlıkta kalıyor.",
+      "C'den — 'cihaz setini alan bayilere' koşulu sosyal medya desteğinin geçtiği her yerde (hero rozeti, nedenBiz 03, bayilik listesi, SSS) korundu.",
+      "C'den — 'lansmana özel 7 kutu kapsül hediye / 42 seans' kampanyası hiçbir bölüme alınmadı (zaman bağımlı + teyitsiz + promosyon iddiası).",
+      "B'den — protokol tablosunun başlık ve giriş dili: 'Hangi sorun için hangi kombinasyon?' + 'Kliniğinizde en sık karşılaştığınız...' (hasta şikâyeti değil, uygulayıcıya hitap; 12.11.2025/33075 sonrası daha güvenli).",
+      "B'den — akne izi ve geniş gözenek satırları ayrıldı; ancak B'nin doldurduğu hücreler (Vitamin C, Brightening, Firming) kaynakta doğrulanmadığı için ALINMADI.",
+      "B'den — sarf karşılığı fikri (fiyatın yerine geçen tek sayısal argüman): yalnızca kaynakta çelişkisiz olan iki rakam kullanıldı — Mezoeffect Anti Spot 2 ml × 7 ampul ve Baby Skin Pen kapsül kutusu 6 kapsül + 6 primer gel = 6 seans. Mezocomplex hacmi (5 ml / 8 ml çelişkisi) yazılmadı, yalnızca '5 flakon' kullanıldı.",
+      "B'den — hero rozeti katalog genişliğine çevrildi; seo jürisinin düzeltmesiyle '2 cihaz · 7 ampul · 5 solüsyon' (B'nin '12 solüsyon' toplulaştırması Mezoeffect/Mezocomplex karmaşasını geri getireceği için kullanılmadı).",
+      "B'den — 12 ürünün tamamının ana sayfadan tek tek linklenmesi; urunGrubu bölümü iki grup kartıyla kurgulandı, şablon her grubun altındaki ürünleri /slug/ adresine tek tek linkliyor.",
+      "A + B — protokol tablosu altındaki koruyucu çekince cümlesi ve site.json footer.telifNotu bölümün içine, dipnota değil not kutusuna taşındı."
+    ],
+
+    "uygulananDuzeltmeler": [
+      "bayilik listesinden 'Teknik servis ve garanti süreçleri tek muhataptan' maddesi ÇIKARILDI (hiçbir kaynak metinde garanti/servis taahhüdü yok).",
+      "'Sürekli sarf tedariki' ifadesi 'UTS kayıtlı Mezoeffect serum ve Mezocomplex solüsyon grubuna erişim' ile değiştirildi (süreklilik taahhüdü kaynakta yok).",
+      "Kür bilgisi açıkça cihaza etiketlendi: '4-6 seans, 20-25 gün aralıkla' yalnızca Gold Pen'e yazıldı. Baby Skin Pen için gün aralığı sitenin hiçbir yerinde yayınlanmadı (baby-skin-pen.json seansPlani.not çelişkisi: 15-20 gün / 10-15 gün); Baby Skin Pen için yalnızca çelişkisiz olan '4-6 seans, dört mevsim' kullanıldı.",
+      "Akne izi satırının ampul hücresi 'uygulayıcı planlamasına göre belirlenir' olarak bırakıldı, uydurma ürün eşleşmesi yapılmadı.",
+      "Geniş gözenek satırında ürün değil aktif içerik düzeyinde atıf yapıldı ('Niacinamide içeren Mezoeffect ampulleri'), link verilmedi.",
+      "Mezoeffect Eye Contour Ampoule için ayrı satır açıldı; 12 ürün içinde link almayan tek sayfa kalmadı. Kaynakta cihaz eşleşmesi olmadığı için cihaz hücresi uygulayıcı planlamasına bırakıldı.",
+      "Satır başlıkları 'şikâyet' değil kaynak JSON'un kendi alan adı olan uygulamaAlanlari diline çevrildi ('Saç uygulaması — dökülme ve incelme', 'Akne izi görünümü', 'Geniş gözenek görünümü').",
+      "Buton etiketi teslim edilen şeyle uyumlandı: hero birincil CTA 'Protokol Seçici'yi Açın' değil 'Protokol tablosunu görün'; hedef, bilgi mimarisindeki gerçek /protokoller/ sayfası.",
+      "Yamyamlık riski kapatıldı: ana sayfadaki tablo 7 satırla bilinçli olarak eksik tutuldu ve birincil çıkışı /protokoller/ sayfasına verildi.",
+      "'Bu tabloyu kim hazırladı' sorusu bölümün girişinde cevaplandı; 'profesyonel uygulayıcıların bilgilendirilmesi amacıyla' ibaresi not kutusunda GÖRÜNÜR halde, footer'a bırakılmadı.",
+      "bayilik'te iki benzer CTA tek birincil forma indirildi ('Bayilik başvurusu ve teklif talebi' → /bayilik/#teklif).",
+      "blogTeaser, sss ile kapanisCta arasından çıkarıldı ve kapanisCta'nın altına alındı; sss ile kapanış arasına hiçbir bölüm girmiyor.",
+      "Hero rozetlerindeki güvenSerit tekrarı giderildi: UTS / steril / eğitim / protokol yalnızca güvenSerit'te; rozetler katalog genişliği, showroom ve bayi içerik desteğini taşıyor.",
+      "Hero rozetinde 'birebir cihaz denemesi' ifadesi site.json'daki 'birebir cihaz demosu' ile değiştirildi (ücretsiz/koşulsuz deneme beklentisi yaratmasın).",
+      "goldpen.json klinikAvantajlar içindeki 'Dermapen sistemlerinden üstün' ve 'dünyada birçok kliniğin geçiş yaptığı' iddiaları ana sayfaya ALINMADI (karşılaştırmalı reklam + ispatlanamaz istatistik iması).",
+      "'İlk seanstan itibaren fark edilir canlılık', 'tek seansta bile memnuniyet', 'yüksek hasta memnuniyeti' türü ölçüsüz sonuç beyanlarının hiçbiri kullanılmadı.",
+      "Ana sayfa SSS'i yalnızca B2B/ticari sorulardan kuruldu (satış politikası, fiyat, eğitim, bayi desteği, showroom, UTS, başvuru); ürün ve seans soruları ürün sayfalarında ve /sik-sorulan-sorular/ sayfasında kaldı — iki URL'de FAQPage tekrarı önlendi.",
+      "Ürün grubu adlandırması site.json menüsü ve sablon/urun.js GRUP_AD ile birebir aynı: 'Mezoeffect Serum Grubu' ve 'Mezocomplex Solüsyonlar'. 'Solüsyon' kelimesi Mezoeffect ampulleri için hiçbir yerde kullanılmadı.",
+      "'uygulayıcı hekimlere' ibaresi hero üst etiketine ALINMADI; kaynak net biçimde 'sadece güzellik merkezi ve kliniklere satış' diyor.",
+      "Tüm URL'ler site.json menüsü ve build.js'in ürettiği /slug/ düzeniyle uyumlu; protokolSecici satırlarındaki 5 urunSlug değeri icerik/urun/ altında gerçek dosya olarak doğrulandı."
+    ],
+
+    "sablonaGerekenKucukEklemeler": [
+      "sablon/anasayfa.js protokolSecici başlık satırı 'Cilt / saç sorunu' olarak sabit; kaynak diline uyması için 'Uygulama alanı' yapılmalı.",
+      "nedenBiz kartlarına eklenen 'url' alanları şu an render edilmiyor; kartlar sırasıyla /egitim-destek/, /protokoller/ ve /bayilik/ adreslerine linklenmeli (seo jürisi şartı).",
+      "protokolSecici mobilde satır-kartına dönüşürken en son kaybolacak alan cihaz/kür bilgisi olmalı.",
+      "Kabul kriteri: dist/index.html içinde 14 ürün sayfası bağlantısı (2 cihaz + 7 Mezoeffect + 5 Mezocomplex) statik HTML'de sayılabilmeli; katalog listeleri JS ile sonradan yüklenmemeli."
+    ],
+
+    "musteriTeyidiGereken": [
+      "Baby Skin Pen seans aralığı çelişkisi: gövde metni 15-20 gün, SSS 10-15 gün (baby-skin-pen.json > seansPlani.not). Teyit gelene kadar sitenin hiçbir yerinde Baby Skin Pen gün aralığı yayınlanmayacak.",
+      "Mezocomplex flakon hacmi çelişkisi: 5 ml × 5 flakon mı, 8 ml × 5 flakon (40 ml) mi (mezocomplex-firming, mezocomplex-antiaging, mezocomplex-brightening, mezocomplex-hair-revit, mezocomplex-hyaluronic-acid). Teyide kadar yalnızca '5 flakon' yazılıyor.",
+      "Akne izi ve geniş gözenek uygulama alanları için hangi Mezoeffect/Mezocomplex ürününün önerileceği: kaynakta net eşleşme yok, tablo hücreleri uygulayıcı planlamasına bırakıldı.",
+      "Mezoeffect Eye Contour Ampoule ambalaj bilgisi (hacim ve adet kaynakta yok) ve hangi cihazla eşleştiği.",
+      "UTS kayıt numarası veya belge görseli: 'UTS kayıtlı' sitenin en çok tekrarlanan güven iddiası; ispatı Kalite & UTS sayfasında yayınlanmalı.",
+      "Kanıt katmanı envanteri: bayi sayısı, referans klinik, eğitim fotoğrafı, garanti süresi ve teknik servis koşulları elimizde yok. Teyit gelmeden garanti/servis vaadi hiçbir sayfaya yazılmayacak.",
+      "Bayilik başvuru formunun nereye düşeceği (e-posta mı, WhatsApp mı, ikisi de mi) — 02-yeni-site-plani.md satır 116. Bu bölüm kodlanmadan cevaplanmalı.",
+      "Baby Skin Pen 'lansmana özel 7 kutu kapsül hediye / 42 seans' kampanyasının güncelliği; teyit gelse bile ana sayfaya alınmayacak, yalnızca kampanya alanında değerlendirilecek.",
+      "Gold Pen cihaz seti içeriği ve ambalaj bilgisi kaynak metinlerde yok.",
+      "Eski URL sürekliliği: build.js eskiUrl alanlarından 301 üretiyor; yazım hatalı /mezoeffec-eye-contur-ampoule/ adresinin de kurala girdiği yayın öncesi doğrulanmalı."
+    ]
+  }
+}

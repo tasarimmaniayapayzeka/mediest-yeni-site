@@ -84,11 +84,26 @@ for (const u of urunler) {
   uretilen.push({ yol: `/${u.slug}/`, ad: u.ad, bayt: Buffer.byteLength(html) });
 }
 
-// Geçici giriş sayfası — Ana Sayfa (Faz 2) gelene kadar
+// Ana sayfa — anasayfa.json varsa gerçek ana sayfa, yoksa geçici önizleme girişi
 if (urunler.length) {
-  const html = tabanUygula(demoIndex({ site, urunler }));
+  const anaVeriYolu = path.join(ICERIK, 'anasayfa.json');
+  let html, ad;
+  if (fs.existsSync(anaVeriYolu)) {
+    const { anaSayfa } = require('./sablon/anasayfa');
+    const blogYolu = path.join(ICERIK, 'blog.json');
+    const blog = fs.existsSync(blogYolu) ? oku(blogYolu) : null;
+    html = tabanUygula(anaSayfa({ site, veri: oku(anaVeriYolu), urunler, blog, gorselVarMi }));
+    ad = 'Ana Sayfa';
+    // Önizleme girişi ayrı bir adreste kalsın
+    const dHtml = tabanUygula(demoIndex({ site, urunler }));
+    yaz(path.join('onizleme', 'index.html'), dHtml);
+    uretilen.push({ yol: '/onizleme/', ad: 'Sayfa dizini (önizleme)', bayt: Buffer.byteLength(dHtml) });
+  } else {
+    html = tabanUygula(demoIndex({ site, urunler }));
+    ad = 'Önizleme girişi (geçici)';
+  }
   yaz('index.html', html);
-  uretilen.unshift({ yol: '/', ad: 'Önizleme girişi (geçici)', bayt: Buffer.byteLength(html) });
+  uretilen.unshift({ yol: '/', ad, bayt: Buffer.byteLength(html) });
 
   // Kendi tasarımımızda 404 (GitHub Pages ve cPanel ikisi de 404.html'i kullanır)
   yaz('404.html', tabanUygula(hata404({ site, urunler })));
