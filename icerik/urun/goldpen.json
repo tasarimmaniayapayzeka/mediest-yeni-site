@@ -1,0 +1,229 @@
+{
+  "slug": "goldpen",
+  "eskiUrl": "/goldpen/",
+  "tip": "cihaz",
+  "grup": "cihaz",
+  "sira": 1,
+  "ad": "Gold Pen",
+  "adKisa": "Gold Pen",
+  "etiket": "Mikroiğneleme & EMS",
+  "ozet": "Gold Pen; gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarının doku altına indirilmesini sağlayan, EMS (Elektriksel Kas Uyarımı) ile kombinasyonlu şekilde uygulanan bir cilt bakım teknolojisidir. Dijital ekran ve LED sistemiyle çalışan cihaz, altın iğne sistemine eş değer bir protokol olarak konumlanır.",
+  "metaBaslik": "Gold Pen | Mikroiğneleme, EMS ve LED Destekli Cilt Yenileme",
+  "metaAciklama": "Gold Pen; mikroiğneleme, EMS ve LED fototerapiyi birleştirir; UTS kayıtlı Mezoeffect serumlarıyla klinik protokollerde yenilenme ve sıkılığa destek olur.",
+  "kimlerIcin": [
+    "Geçmiş akne problemlerinin bıraktığı çukur ve iz görünümü olan ciltler",
+    "Genişlemiş ve belirginleşmiş gözenek görünümüne sahip ciltler",
+    "İnce çizgi, kırışıklık ve elastikiyet kaybı gözlenen ciltler",
+    "Güneş hasarı, leke ve renk dalgalanmalarına bağlı ton eşitsizliği olan ciltler",
+    "Zayıflamış saç kökleri ve dökülme eğilimli saç yapısı"
+  ],
+  "aktifIcerikler": [],
+  "klinikAvantajlar": [
+    "Gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarının doku altına indirilmesini sağlar",
+    "Mikroiğneleme, EMS ve LED fototerapiyi tek cihazda birleştirir",
+    "Dijital ekran ve LED sistemiyle donatılmıştır",
+    "Dermapen sistemlerinden üstün bir teknoloji olarak sunulur",
+    "Dünyada birçok kliniğin geçiş yaptığı bir uygulama yöntemi olarak belirtilir",
+    "Hassas cilt, yüz ve saç için ayrı iğne uçları bulunur",
+    "UTS kayıtlı Mezoeffect serumları ile uygulanır"
+  ],
+  "ambalaj": {
+    "hacim": null,
+    "adet": null,
+    "birim": null,
+    "not": "Cihaz setinin içeriği ve ambalaj bilgisi kaynak metinlerde belirtilmemiştir; müşteri teyidi bekliyor."
+  },
+  "protokol": {
+    "kullanim": "Gold Pen, UTS kayıtlı Mezoeffect serumlarıyla uygulanır. Protokol; endikasyonun türüne ve hedef bölgenin genişliğine göre mikroiğneleme, EMS ve LED kombinasyonu seçilerek planlanır. İğne derinliği, geçiş sayısı ve hassasiyet seviyesi gibi teknik parametreler uygulamaya göre ayarlanır; hassas cilt, yüz ve saç için ayrı iğne uçları bulunur. Uygulama steril uçlar ve tek kullanımlık sarf malzemeleriyle yürütülür.",
+    "evKullanimi": null,
+    "kombinasyon": [
+      "mezocomplex-firming",
+      "mezocomplex-antiaging",
+      "mezocomplex-hyaluronic-acid",
+      "mezocomplex-brightening",
+      "mezocomplex-hair-revit"
+    ]
+  },
+  "teknolojiler": [
+    {
+      "ad": "Altın Yalıtımlı Mikroiğneleme",
+      "baslik": "Serumun doku altına iletimi",
+      "aciklama": "Gerçek altın yalıtımlı iğne uçları, Mezoeffect serumlarının doku altına indirilmesini sağlar. Gold Pen, altın iğne sistemine eş değer bir protokol olarak konumlanır ve Dermapen sistemlerinden üstün bir teknoloji olarak sunulur.",
+      "maddeler": [
+        "Gerçek altın yalıtımlı iğne uçları",
+        "Hassas cilt, yüz ve saç için ayrı iğne uçları",
+        "İğne derinliği, geçiş sayısı ve hassasiyet seviyesi protokole göre ayarlanır",
+        "Steril uçlar ve tek kullanımlık sarf malzemeleriyle uygulanır"
+      ]
+    },
+    {
+      "ad": "EMS - Elektriksel Kas Uyarımı",
+      "baslik": "Kas aktivasyonuyla cilt altında yenileyici etki",
+      "aciklama": "Elektriksel Kas Uyarımı (EMS), düşük seviyeli elektrik akımlarının cilt altına iletilmesiyle kasların kontrollü şekilde uyarılmasını sağlayan bir cilt yenileme ve sıkılaştırma teknolojisidir. Sistem, kas liflerinin doğal kasılma mekanizmasını taklit ederek işlem yapılan bölgede aktif bir uyarım oluşturur; cilt bakımını yalnızca yüzeysel değil, kas ve bağ dokusu düzeyinde de destekler.",
+      "maddeler": [
+        "Kas tonusunu artırır",
+        "Cilt altındaki dokuların daha sıkı görünmesine yardımcı olur",
+        "Lifting etkisine katkıda bulunur",
+        "Yüz kontürlerinin daha belirgin hale gelmesini destekler",
+        "Fibroblast hücrelerini uyararak kolajen ve elastin üretim döngüsünü harekete geçirir",
+        "İnce çizgi ve kırışıklıkların görünümünü azaltır, cildin esnekliğini artırır",
+        "Kan ve lenf dolaşımını hızlandırarak hücrelerin daha fazla oksijen ve besin almasına yardımcı olur",
+        "Ödem ve toksinlerin daha hızlı atılmasına katkıda bulunur",
+        "Çene hattı, yanak ve alın gibi mimik kaslarının yoğun olduğu alanlarda toparlanmış bir yüz hattı hedefler"
+      ]
+    },
+    {
+      "ad": "LED Fototerapi",
+      "baslik": "Mavi ve kırmızı ışık desteği",
+      "aciklama": "Cihaz, LED fototerapi özelliğiyle uygulamayı destekler. Mavi ışık saç derisine, kırmızı ışık (620-650 nm) cilt yenilenmesine yönelik etkiler hedefler.",
+      "maddeler": [
+        "Mavi LED: saç derisini arındırır ve zayıflayan saç köklerini canlandırır",
+        "Kırmızı LED (620-650 nm): fibroblastları uyarır, ince çizgi görünümünü hedefler",
+        "Tüm cilt tipleri için uygundur"
+      ]
+    },
+    {
+      "ad": "Dijital Ekran",
+      "baslik": "Cihazın dijital ekran özelliği",
+      "aciklama": "Gold Pen, dijital ekran özelliğine ve LED sistemine sahiptir; dünyada birçok kliniğin geçiş yaptığı bir uygulama yöntemi olarak tanımlanır.",
+      "maddeler": []
+    }
+  ],
+  "uygulamaAlanlari": [
+    {
+      "ad": "Akne Skarları",
+      "aciklama": "Geçmiş akne problemlerinin bıraktığı çukur ve izlerin görünümünü azaltarak cilt dokusunda gözle görülür bir iyileşme ve daha pürüzsüz bir yüzey oluşumuna destek olur. Düzenli uygulamalarda cilt yenilenmesini hızlandırarak daha homojen bir görünüm sağlar."
+    },
+    {
+      "ad": "Gözenek Sıkılaştırma",
+      "aciklama": "Genişlemiş ve belirgin hale gelen gözeneklerin küçülmesini destekleyerek cildin daha sıkı, toplu ve sağlıklı görünmesine katkı sağlar. Cilde daha rafine ve dengeli bir yapı kazandırır."
+    },
+    {
+      "ad": "Anti-Aging Etki",
+      "aciklama": "İnce çizgi ve kırışıklıkların görünümünü azaltmaya yardımcı olurken cildin elastikiyetini yeniden canlandırır. Yaş alma belirtilerine karşı kolajen ve elastin üretimini destekleyerek gençleşme sürecini aktive eder."
+    },
+    {
+      "ad": "Cilt Tonu Eşitleme",
+      "aciklama": "Güneş hasarı, lekeler veya renk dalgalanmalarına bağlı ortaya çıkan ton eşitsizliklerinin giderilmesini destekler. Cilde daha aydınlık, canlı ve tek tonlu bir görünüm kazandırarak sağlıklı bir ışıltı sunar."
+    },
+    {
+      "ad": "Saç Uygulaması",
+      "aciklama": "Saç derisindeki kan dolaşımını artırarak zayıflamış saç köklerini güçlendirir ve dökülme eğilimli saç yapısında canlanmayı destekler. Düzenli kullanımda daha sağlıklı, güçlü ve dolgun saç görünümüne katkı sağlar."
+    }
+  ],
+  "led": [
+    {
+      "renk": "Mavi",
+      "dalgaBoyu": null,
+      "etki": "Saç derisindeki bakterilerin temizlenmesine yardımcı olur ve saç derisini arındırır; saç dökülmesini önlemeye, saç telinin gelişmesine ve zayıflayan saç köklerinin canlanmasına destek olur."
+    },
+    {
+      "renk": "Kırmızı",
+      "dalgaBoyu": "620-650 nm",
+      "etki": "Fibroblastları uyarır, kırışıklıkları giderir ve ince çizgileri önlemeye yardımcı olur; cildi pürüzsüzleştirir, morluk ve leke görünümü üzerinde etki hedefler. Tüm cilt tipleri için uygundur."
+    }
+  ],
+  "kapsuller": null,
+  "seansPlani": {
+    "seansSayisi": "4-6",
+    "aralik": "20-25 gün",
+    "not": "Seans sayısı ve aralığı; endikasyonun türü, hedef bölgenin genişliği, cihaz kombinasyonu ve kişiye özel planlama gereksinimine göre değişir. Takip randevuları ve kontrol vizitleriyle sonuçlar objektif olarak izlenir."
+  },
+  "bayiDestegi": [
+    "Online veya Bakırköy showroom'da birebir eğitim",
+    "Cihaz setini alan bayilere sosyal medya desteği: grafik ve Reels video",
+    "Satış yalnızca güzellik merkezi ve kliniklere yapılır"
+  ],
+  "uygulamaFaktorleri": [
+    "Endikasyonun türü (leke, ince çizgi, gözenek, saç derisi vb.) ve hedef bölgenin genişliği",
+    "Protokolde kullanılan cihaz kombinasyonları (mikroiğneleme, EMS, LED) ve Mezoeffect serum seçimi",
+    "İğne derinliği, geçiş sayısı ve hassasiyet seviyesi gibi teknik parametreler",
+    "Hijyen ve sarf malzemesi gereksinimleri (steril uçlar, tek kullanımlık ürünler)",
+    "Seans süresi; hazırlık ve dinlendirme dâhil toplam uygulama zamanı",
+    "Seans sayısı ve aralığı (kür yoğunluğu), takip randevuları ve kontrol vizitleri",
+    "Uygulayıcının deneyimi ve kişiye özel planlama gereksinimi",
+    "Kayıt/raporlama süreçleri ve sonuçların objektif izlenmesi"
+  ],
+  "sss": [
+    {
+      "s": "Gold Pen nedir?",
+      "c": "Gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarını doku altına indiren; EMS (Elektriksel Kas Uyarımı), dijital ekran ve LED özellikleri bulunan bir cilt bakım teknolojisidir. Dermapen sistemlerine göre daha gelişmiş olarak sunulur."
+    },
+    {
+      "s": "Hangi amaçlarla uygulanır?",
+      "c": "Akne skarları, anti-aging etki, gözenek sıkılaştırma, cilt tonu eşitleme ve saç uygulamaları için kullanılır."
+    },
+    {
+      "s": "Seans sayısı ve aralığı nedir?",
+      "c": "Genellikle 4-6 seanslık bir protokoldür; 20-25 gün aralıklarla uygulanır."
+    },
+    {
+      "s": "Gold Pen'in EMS özelliği ne işe yarar?",
+      "c": "Yüze düşük seviyeli elektrik akımları göndererek kasları uyarır; kolajen üretimini destekler, kan dolaşımını artırır ve yüz hatlarını daha sıkı bir görünüme taşımayı hedefler."
+    },
+    {
+      "s": "LED fototerapi var mı, ne yapar?",
+      "c": "Evet. Kırmızı LED (620-650 nm) fibroblastları uyararak ince çizgiler üzerinde etki hedefler; mavi LED ise özellikle saç derisinde arındırmaya yardımcı olur."
+    },
+    {
+      "s": "Hangi bölgeler için iğne uçları var?",
+      "c": "Hassas cilt, yüz ve saç için iğne uçları bulunur."
+    },
+    {
+      "s": "Hangi serumlarla kullanılır?",
+      "c": "UTS kayıtlı Mezoeffect serumlarıyla uygulanır: Firming (Sıkılaştırıcı & Yenileyici), Anti-Aging & Antioxidant, Revitalizing (Canlandırıcı), Brightening (Leke açıcı & Aydınlatıcı) ve Hair-Revitalizing (Saç canlandırıcı)."
+    },
+    {
+      "s": "Serumların öne çıkan içerikleri neler?",
+      "c": "Sodium Hyaluronate (HA), Hydrolyzed Collagen ve Salmo Ovum Extract (Somon DNA) gibi içerikler listelenmiştir."
+    },
+    {
+      "s": "Bir kutu serumun hacmi ve kullanım süresi nedir?",
+      "c": "Bir kutuda 5 flakon x 8 ml = 40 ml bulunur; 20 seanslık uygulamaya karşılık geldiği belirtilir."
+    },
+    {
+      "s": "Kimlere satış yapılıyor?",
+      "c": "Sadece güzellik merkezi ve kliniklere satış yapıldığı belirtilir."
+    },
+    {
+      "s": "Eğitim ve içerik desteği var mı?",
+      "c": "Eğitim online veya Bakırköy showroom'da birebir verilir; cihaz setini alan bayilere sosyal medya desteği (grafik ve Reels video) sağlanır."
+    }
+  ],
+  "ilgiliUrunler": [
+    "baby-skin-pen",
+    "mezocomplex-firming",
+    "mezocomplex-antiaging",
+    "mezocomplex-hyaluronic-acid",
+    "mezocomplex-brightening",
+    "mezocomplex-hair-revit"
+  ],
+  "ilgiliBlog": [
+    "goldpen-sistemi-ile-profesyonel-cilt-bakim-yaklasimi",
+    "cilt-elastikiyeti-ve-kolajen-dinamikleri"
+  ],
+  "gorsel": {
+    "ana": "urun/goldpen.webp",
+    "kaynakFoto": "Gold-pen.jpg",
+    "altMetin": "Gold Pen mikroiğneleme cihazı; altın yalıtımlı iğne başlığı, dijital ekranı ve LED sistemiyle profesyonel cilt bakım seti"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--goldpen.md",
+    "tespitEdilenHatalar": [
+      "Başlıktaki yazım hatası düzeltildi: 'Uygulamala Alanları' -> 'Uygulama Alanları'.",
+      "Marka adı kaynakta hem 'Goldpen' hem 'Gold Pen' olarak geçiyor; içerik metinlerinde 'Gold Pen' olarak birleştirildi, URL slug'ı 'goldpen' olarak korundu.",
+      "Kaynak metindeki tüm emoji ve işaret karakterleri (madde işaretleri, onay işaretleri, renkli daire simgeleri) kaldırıldı; maddeler liste yapısına dönüştürüldü.",
+      "Cihazın kendi ambalaj/set içeriği hiçbir kaynak metinde yok. SSS'te Gold Pen bölümünde verilen '5 flakon x 8 ml = 40 ml, 20 seans' bilgisi cihaza değil Mezoeffect serum kutusuna ait; ambalaj alanı boş bırakıldı ve müşteri teyidine işaretlendi.",
+      "'Yüz Hatlarında Gözle Görülür Toparlanma' başlığının altında boş madde işareti ve içeriksiz bir '##' başlığı var; ilgili paragraf doğru başlık altında toplandı.",
+      "SSS'teki 'Hassas cilt\", \"yüz\" ve \"saç\"' ifadesindeki bozuk/eksik tırnak işaretleri temizlendi ve soru 'Hangi bölgeler için iğne uçları var?' olarak netleştirildi.",
+      "Mavi LED için dalga boyu verilmemiş (yalnızca kırmızı LED için 620-650 nm belirtilmiş); led.dalgaBoyu alanı null bırakıldı.",
+      "Cihaz olduğu için aktifIcerikler boş bırakıldı; SSS'te geçen serum içerikleri (Sodium Hyaluronate, Hydrolyzed Collagen, Salmo Ovum Extract) cihazın değil birlikte kullanılan Mezoeffect serumlarının içeriğidir, bu nedenle SSS içinde bırakıldı."
+    ],
+    "eklenenIcerik": [
+      "etiket",
+      "metaAciklama (kaynaktaki SEO açıklaması temel alınarak 150-160 karakter aralığına yeniden yazıldı)",
+      "gorsel.altMetin",
+      "uygulamaFaktorleri (şemada bulunmayan ek alan; kaynaktaki 'Uygulama Sürecini Etkileyen Faktörler' bölümü kaybolmasın diye eklendi)"
+    ]
+  }
+}

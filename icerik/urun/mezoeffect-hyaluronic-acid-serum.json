@@ -1,0 +1,96 @@
+{
+  "slug": "mezoeffect-hyaluronic-acid-serum",
+  "eskiUrl": "/mezoeffect-hyaluronic-acid-serum/",
+  "tip": "serum",
+  "grup": "mezoeffect",
+  "sira": 5,
+  "ad": "Mezoeffect Hyaluronic Acid Serum",
+  "adKisa": "Hyaluronic Acid",
+  "etiket": "Nem & Elastikiyet",
+  "ozet": "Mezoeffect Hyaluronic Acid Serum, elastikiyetini ve nem dengesini kaybetmiş, sarkmaya eğilimli ciltler için geliştirilmiş yüksek nem tutucu etkili bir serumdur. Yoğun hyaluronik asit ve bitkisel nemlendiricilerle formüle edilmiştir; ciltte dolgunluk, esneklik ve uzun süreli nem hissi sağlar.",
+  "metaBaslik": "Mezoeffect Hyaluronic Acid Serum | Yoğun Nem",
+  "metaAciklama": "Mezoeffect Hyaluronic Acid Serum; Sodium Hyaluronate, Lubrajel ve Pentavitin® ile kuru, nemsiz ve elastikiyetini kaybetmiş ciltlere yoğun nem desteği sunar.",
+  "kimlerIcin": [
+    "Kuru, nemsiz ve hassas ciltler",
+    "Elastikiyet kaybı yaşayan ciltler",
+    "Kuruluk kaynaklı ince çizgiler",
+    "Dolgunluk ve parlaklık kaybı",
+    "Nem bariyeri zayıflamış ciltler"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Sodium Hyaluronate",
+      "aciklama": "Ciltte doğal olarak bulunan hyaluronik asidin stabilize formudur. Nem moleküllerini bağlayarak ciltte yoğun nemlenme sağlar. Kuruluk kaynaklı ince çizgilerin görünümünü azaltır ve cilde dolgunluk kazandırır."
+    },
+    {
+      "ad": "Lubrajel",
+      "aciklama": "Cildin yüzeyinde nem tabakası oluşturarak yumuşak, kadifemsi bir doku sağlar. Nem kaybını önler, bakım sonrası konfor hissini artırır."
+    },
+    {
+      "ad": "Pentavitin® (Saccharide Isomerate)",
+      "aciklama": "Bitki kaynaklı güçlü bir nem bağlayıcı ajandır. Cildin doğal nem bariyerine entegre olarak 72 saate kadar nem tutulumunu destekler. Kuruluk ve gerginlik hissini azaltır."
+    }
+  ],
+  "klinikAvantajlar": [],
+  "ambalaj": {
+    "hacim": "2 ml",
+    "adet": 7,
+    "birim": "ampul",
+    "not": "Steril koşullarda üretilmiş olup profesyonel bakım protokolleri ve ev kullanımı için uygundur."
+  },
+  "protokol": {
+    "kullanim": "Profesyonel bakım protokollerinde kullanılır; iğneli veya iğnesiz cihazlı işlemlerden sonra bölgeye nazik masajla uygulanabilir.",
+    "evKullanimi": "Temizlenmiş cilde sabah ve akşam, masaj eşliğinde düzenli olarak uygulanması önerilir.",
+    "kombinasyon": [
+      "baby-skin-pen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Sodium Hyaluronate'in katkısı nedir?",
+      "c": "Ciltte suyu tutarak nem kaybını azaltır; ekstra nemlendirip esnek ve konforlu bir his sağlar."
+    },
+    {
+      "s": "Lubrajel ne sağlar?",
+      "c": "Güçlü nem desteğiyle cilt yüzeyinin daha pürüzsüz ve düzgün görünmesine yardımcı olur."
+    },
+    {
+      "s": "Profesyonel kullanım nasıl yapılır?",
+      "c": "İğneli veya iğnesiz cihazlı işlemlerden sonra, bölgeye nazik masajla uygulanabilir."
+    },
+    {
+      "s": "Ev kullanımında uygulama rutini nasıldır?",
+      "c": "Temizlenmiş cilde sabah ve akşam, masaj eşliğinde düzenli olarak uygulanması önerilir."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-hyaluronic-acid",
+    "mezoeffect-anti-age-serum"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-hyaluronic-acid-ile-cilt-nemi-ve-elastikiyet-destegi",
+    "cilt-elastikiyeti-ve-kolajen-dinamikleri"
+  ],
+  "gorsel": {
+    "ana": "urun/mezoeffect-hyaluronic-acid-serum.webp",
+    "kaynakFoto": "Mezoeffect-Hyaluronic-Acid-Serum.jpg",
+    "altMetin": "Mezoeffect Hyaluronic Acid Serum ampul kutusu ve 2 ml'lik ampulü"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezoeffect-hyaluronic-acid-serum.md",
+    "tespitEdilenHatalar": [
+      "Kaynak sayfanın 'Sık Sorulan Sorular' bölümü tamamen Somon DNA Serum'u anlatıyor: ilk soru 'Somon DNA Serum hangi ciltler için uygundur?' şeklinde ve cevaplarda bu üründe bulunmayan DNA ile Et-VC aktifleri geçiyor. Somon DNA'ya özgü sorular çıkarıldı; yalnızca bu ürünün formülüyle (Sodium Hyaluronate, Lubrajel) ve kullanımıyla uyumlu 4 soru korundu.",
+      "Kaynak sayfanın 'Klinik Avantajları' bölümü melanin baskılama, lekelerde azalma ve cilt tonu eşitliği anlatıyor; bu metin Brightening ürününden kopyalanmış. Nem odaklı bu ürüne uymadığı için taşınmadı, klinikAvantajlar boş bırakıldı - müşteri teyidi bekliyor.",
+      "Sık Sorulan Sorular sayfasındaki 'Hyaluronic Acid Ampoule' bölümü de aynı Somon DNA metninin birebir kopyası; bu nedenle SSS havuzundan bu ürüne soru eklenmedi - müşteri teyidi bekliyor.",
+      "Kaynak sayfada 'Mezoeffect Hyaluronic Acid SerumTanıtım' başlığında boşluk eksik; 'Öne Çıkan Etkiler' ve 'Klinik Avantajları' listelerinde emoji (onay işareti) kullanılmış, bunlar temizlenip liste yapısına çevrildi.",
+      "Kaynak sayfanın kapanış başlığında ürün adı 'HYALURONİC ACİD SERUM' olarak noktalı İ ile yanlış yazılmış; bu başlık veriye taşınmadı, veri alanlarında 'Hyaluronic Acid' doğru yazımı kullanıldı.",
+      "Kaynak sayfada ürün adı Mezoeffect™ olarak ticari marka simgesiyle yazılmış; veri alanlarında sade 'Mezoeffect' kullanıldı."
+    ],
+    "eklenenIcerik": [
+      "metaBaslik",
+      "metaAciklama",
+      "etiket",
+      "gorsel.altMetin"
+    ]
+  }
+}

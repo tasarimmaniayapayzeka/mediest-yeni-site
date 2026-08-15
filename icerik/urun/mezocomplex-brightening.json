@@ -1,0 +1,133 @@
+{
+  "slug": "mezocomplex-brightening",
+  "eskiUrl": "/mezocomplex-brightening/",
+  "tip": "solusyon",
+  "grup": "mezocomplex",
+  "sira": 2,
+  "ad": "Mezocomplex Brightening",
+  "adKisa": "Brightening",
+  "etiket": "Leke & Aydınlatma",
+  "ozet": "Mezocomplex Brightening; melanin üretim fazlalığından kaynaklanan ton eşitsizliklerini, matlık ve leke görünümünü hedef alan aydınlatıcı ve antioksidan etkili bir solüsyondur. Cilt bariyerine zarar vermeden aydınlık, taze ve canlı bir görünüm sunmak için klinik destek sağlar.",
+  "metaBaslik": "Mezocomplex Brightening Aydınlatıcı Solüsyon",
+  "metaAciklama": "Mezocomplex Brightening; Niacinamide, Alpha-Arbutin ve Sodium Ascorbyl Phosphate ile leke görünümü ve ton eşitsizliğine yönelik aydınlatıcı klinik solüsyon.",
+  "kimlerIcin": [
+    "Cilt tonu eşitsizlikleri",
+    "Güneş lekeleri ve hiperpigmentasyon",
+    "Mat ve donuk cilt görünümü",
+    "Renk dengesizliği yaşayan cilt yapısı",
+    "Aydınlatıcı protokol ihtiyacı olan ciltler"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Niacinamide",
+      "aciklama": "Melanin baskılayıcı etkisiyle koyu tonların açılmasına yardımcı olur."
+    },
+    {
+      "ad": "Sodium Ascorbyl Phosphate",
+      "aciklama": "Melanin sentezini inhibe ederek leke oluşumunu engeller ve serbest radikal hasarına karşı cildi korur."
+    },
+    {
+      "ad": "Alpha-Arbutin",
+      "aciklama": "Tirozinaz enzimini baskılayarak melanin üretimini azaltır."
+    },
+    {
+      "ad": "Sodium Hyaluronate",
+      "aciklama": "Cildin kaybettiği nemi geri kazandırarak parlaklık ve esneklik sağlar."
+    },
+    {
+      "ad": "Palmitoyl Sh-Tripeptide-5, Norisoleucyl Sh Nonapeptide-1 ve Palmitoyl Sh-Octapeptide-24 Amide",
+      "aciklama": "Melanin bastırma basamaklarında etki göstererek cilt tonu açılmasına yardımcı olur."
+    },
+    {
+      "ad": "Lactic Acid, Glycolic Acid ve Citric Acid",
+      "aciklama": "Epidermal yenilenmeyi hızlandırarak ölü hücrelerin uzaklaştırılmasını sağlar ve ciltte aydınlatıcı etki sunar."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Leke açıcı etkinlik ile hasta memnuniyetinde artış",
+    "Melanin baskılayıcı formülüyle pigment yönetiminde etkili çözüm",
+    "Kombine protokollere uygun booster kullanım desteği",
+    "Yenileyici ve antioksidan etkili yapı ile cilt sağlığını destekler",
+    "Parlak ve homojen cilt görünümü ile gözle görülür sonuç sağlar"
+  ],
+  "ambalaj": {
+    "hacim": "5 ml",
+    "adet": 5,
+    "birim": "flakon",
+    "not": "Formül steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir. Hacim bilgisi için müşteri teyidi bekliyor: kaynak sayfanın gövdesinde 5 ml x 5 flakon, SSS bölümünde 8 ml x 5 flakon (toplam 40 ml) yazıyor."
+  },
+  "protokol": {
+    "kullanim": "Ton eşitleyici ve leke karşıtı klinik uygulamalarda, kombine protokollere uygun booster olarak kullanılır.",
+    "evKullanimi": null,
+    "kombinasyon": [
+      "goldpen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Brightening'in ana amacı nedir?",
+      "c": "Melanin üretim fazlalığından kaynaklanan ton eşitsizliklerini, matlık ve leke görünümünü hedef alır; cilt bariyerine zarar vermeden aydınlık, taze ve canlı bir görünüm sunmayı amaçlar."
+    },
+    {
+      "s": "Öne çıkan içerikler neler?",
+      "c": "Niacinamide, Sodium Ascorbyl Phosphate, Alpha-Arbutin, Sodium Hyaluronate, peptitler ve AHA'lar (Laktik/Glikolik/Sitrik)."
+    },
+    {
+      "s": "Niacinamide neye yarar?",
+      "c": "Melanin baskılayıcı etkisiyle koyu ton görünümünü açmaya yardımcı olur."
+    },
+    {
+      "s": "Sodium Ascorbyl Phosphate'in rolü nedir?",
+      "c": "Melanin sentezini inhibe eder; serbest radikal hasarına karşı koruma sağlar."
+    },
+    {
+      "s": "Alpha-Arbutin neden eklenmiş?",
+      "c": "Tirozinaz enzimini baskılayarak melanin üretimini azaltmaya yardımcı olur."
+    },
+    {
+      "s": "Peptit komplekslerinin katkısı nedir?",
+      "c": "Melanin basamaklarını baskılayıcı ve tirozinaz üretimini inhibe edici etki sunar."
+    },
+    {
+      "s": "Kimler için uygun?",
+      "c": "Düzensiz ton, leke ve matlık şikâyeti olan ciltler için aydınlatma hedefinde uygundur."
+    },
+    {
+      "s": "Kombinasyon önerisi nedir?",
+      "c": "Nem ve bariyer desteği için Hyaluronic Acid ile eşleştirilebilir."
+    },
+    {
+      "s": "Ambalaj bilgisi nedir?",
+      "c": "Ürün içeriği 5 ml'lik flakonlar halinde sunulur; her kutuda toplam 5 adet flakon bulunur."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-hyaluronic-acid",
+    "mezoeffect-anti-spot-ampoule"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-brightening-ile-leke-yonetiminde-aydinlatici-destek",
+    "cilt-leke-cozumleri-ve-baby-skin-pen-destekli-profesyonel-yaklasimlar"
+  ],
+  "gorsel": {
+    "ana": "urun/mezocomplex-brightening.webp",
+    "kaynakFoto": "Mezoeffect-Brightening.jpg",
+    "altMetin": "Mezocomplex Brightening aydınlatıcı ve leke karşıtı solüsyon flakonu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezocomplex-brightening.md",
+    "tespitEdilenHatalar": [
+      "Kopya-yapıştır hatası: SSS'teki 'Brightening'in ana amacı nedir?' sorusunun cevabı Hair Revit ürününü anlatıyor ('Saç köklerini güçlendirir, incelen saç tellerini kalınlaştırmaya...'). Aynı hata sik-sorulan-sorular.md içindeki Brightening bölümünde de var. Cevap, sayfanın kendi giriş paragrafından doğru içerikle yeniden yazıldı.",
+      "Ambalaj çelişkisi: gövdedeki 'İçerik Bilgisi' bölümü 5 ml x 5 flakon derken, aynı sayfanın SSS bölümü 'Kutu: 5 flakon x 8 ml (toplam 40 ml)' diyor. Gövdedeki 5 ml esas alındı, ambalaj.not alanına müşteri teyidi notu düşüldü.",
+      "Marka adı tutarsızlığı: sayfa başlığı ve gövde 'Mezocomplex Brightening' derken, sayfa sonundaki tanıtım başlığı, sik-sorulan-sorular.md bölüm başlığı, ilgili blog yazısı ve kaynak görsel dosya adı 'Mezoeffect Brightening' diyor. Sayfa başlığı esas alındı; markalama müşteri teyidine açıktır.",
+      "Biçim hatası: 'Etkin İçerikler ve Faydaları' bölümünde Niacinamide ve Sodium Ascorbyl Phosphate maddeleri satır sonu düşmediği için tek satırda birleşmiş; iki ayrı aktif içerik olarak ayrıştırıldı.",
+      "Giriş paragrafında 'Sodium Ascorbyl Phosphate' ifadesi satır ortasından bölünmüş (kopyalama kırığı); birleştirildi.",
+      "Kaynak metinde madde ayracı olarak emoji (yer imi ve onay işareti) kullanılmış; kural gereği temizlenip liste yapısına dönüştürüldü (biçim düzeltmesi).",
+      "SEO uzunluğu: orijinal SEO başlığı 'Mezocomplex Brightening - Mediest Group' 39 karakterdi (hedef 55-60). Başlık, sayfanın kendi konumlandırma ifadeleriyle ('aydınlatıcı', 'solüsyon') genişletildi; yeni bilgi eklenmedi."
+    ],
+    "eklenenIcerik": [
+      "metaAciklama",
+      "etiket"
+    ]
+  }
+}

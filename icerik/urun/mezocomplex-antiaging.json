@@ -1,0 +1,118 @@
+{
+  "slug": "mezocomplex-antiaging",
+  "eskiUrl": "/mezocomplex-antiaging/",
+  "tip": "solusyon",
+  "grup": "mezocomplex",
+  "sira": 1,
+  "ad": "Mezocomplex Antiaging",
+  "adKisa": "Antiaging",
+  "etiket": "Hücresel Yenilenme",
+  "ozet": "Mezocomplex Antiaging, hücresel yenilenme sürecini hedefleyen, somon DNA ve Sodium Hyaluronate ile zenginleştirilmiş profesyonel anti-aging solüsyonudur. Cilt bariyerini yeniden yapılandırarak yaşlanma belirtilerine karşı koruyucu ve onarıcı etki sağlar.",
+  "metaBaslik": "Mezocomplex Antiaging Solüsyonu | Somon DNA",
+  "metaAciklama": "Mezocomplex Antiaging; somon DNA ve Sodium Hyaluronate ile hücresel yenilenmeyi destekleyen, kırışıklık görünümünü azaltmayı hedefleyen klinik solüsyon.",
+  "kimlerIcin": [
+    "Hücre yenilenmesini destekler",
+    "Somon DNA içeriğiyle kırışıklık görünümünü azaltmaya yardımcıdır",
+    "Cilt elastikiyetini artırır",
+    "Antioksidan etkisiyle serbest radikallere karşı koruma sunar",
+    "Nem dengesini güçlendirerek daha parlak ve canlı bir cilt sağlar"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Sodium Hyaluronate",
+      "aciklama": "Cildin derinlerine nüfuz ederek nem kaybını önler. Cilt hacmini ve parlaklığını artırır, mat ve donuk görünümü azaltır. Dolgun ve canlı bir cilt yapısı oluşturur."
+    },
+    {
+      "ad": "Salmo Ovum Extract (Somon DNA)",
+      "aciklama": "Hücresel düzeyde koruyucu ve yenileyici etki sağlar. Hasar görmüş hücreleri onarmaya destek olur. Kırışıklık görünümünde belirgin bir azalma oluşmasına yardımcı olurken cildi daha elastik ve sağlıklı bir yapıya dönüştürür."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Somon DNA ile hücresel yenileme desteği",
+    "Kolajen sentezini aktive eden güçlendirilmiş yapı",
+    "Hızlı emilim sağlayan stabil formül",
+    "Kombine uygulamalara entegre edilebilir yapı",
+    "Profesyonel klinik uygulamalar için geliştirilmiş yüksek saflık oranı"
+  ],
+  "ambalaj": {
+    "hacim": null,
+    "adet": 5,
+    "birim": "flakon",
+    "not": "Gövde metninde '5 ml'lik flakonlar, kutuda toplam 5 adet flakon', SSS bölümünde ise 'kutu: 5 flakon × 8 ml (toplam 40 ml)' yazıyor. Hacim bilgisi çelişkili olduğundan boş bırakıldı; müşteri teyidi bekliyor. Formül steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir."
+  },
+  "protokol": {
+    "kullanim": "Profesyonel klinik uygulamalar için geliştirilmiştir; anti-aging, antioksidan ve bariyer destek protokollerinde kullanılır. Yıl boyu anti-aging hedefli kürlerde değerlendirilebilir ve kombine uygulamalara entegre edilebilir.",
+    "evKullanimi": null,
+    "kombinasyon": [
+      "goldpen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Antiaging çözümünün ana hedefi nedir?",
+      "c": "Genç hücre üretimini uyarır; cildi nemlendirip dış hasara karşı korumayı amaçlar."
+    },
+    {
+      "s": "Başlıca içerikler neler?",
+      "c": "Sodium Hyaluronate ve Salmo Ovum Extract (Somon DNA)."
+    },
+    {
+      "s": "Somon DNA (Salmo Ovum Extract) ne yapar?",
+      "c": "Hasarlı hücreleri onarmaya yardımcı olarak elastik ve nemli bir cilt görünümü hedefler."
+    },
+    {
+      "s": "Sodium Hyaluronate'in katkısı nedir?",
+      "c": "Derin nem, parlaklık artışı ve elastikiyette destek; kırışıklık görünümünü azaltmaya yardım."
+    },
+    {
+      "s": "Hangi ciltler için uygundur?",
+      "c": "Canlılık/ışıltı kaybı ve yaşlanma belirtileri olan ciltler için uygundur."
+    },
+    {
+      "s": "Hangi protokollerde öne çıkar?",
+      "c": "Anti-aging, antioksidan ve bariyer destek protokollerinde."
+    },
+    {
+      "s": "Mevsimsel kullanımı var mı?",
+      "c": "Yıl boyu anti-aging hedefli kürlerde değerlendirilebilir."
+    },
+    {
+      "s": "Diğer ürünlerle sinerjisi nedir?",
+      "c": "Nem ve parlaklık hedefleri için Hyaluronic Acid ile sık eşleşir."
+    },
+    {
+      "s": "Gözlemlenen faydalar nelerdir?",
+      "c": "Daha canlı/ışıltılı görünüm, nemlenme ve çevresel stres faktörlerine karşı koruyucu etki."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-hyaluronic-acid"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
+  ],
+  "gorsel": {
+    "ana": "urun/mezocomplex-antiaging.webp",
+    "kaynakFoto": "mezoeffect-antiaging.jpg",
+    "altMetin": "Mezocomplex Antiaging profesyonel anti-aging solüsyonu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezocomplex-antiaging.md",
+    "tespitEdilenHatalar": [
+      "Gövde başlığında yazım hatası: 'Mezocomple Antiaging' → 'Mezocomplex Antiaging'.",
+      "Ambalaj çelişkisi: gövdede '5 ml'lik flakon × 5 adet', SSS'te 'kutu: 5 flakon × 8 ml (toplam 40 ml)'. Karar verilmedi; ambalaj.hacim null bırakıldı, ambalaj.not alanına 'müşteri teyidi bekliyor' yazıldı.",
+      "Çelişkili 'Ambalaj bilgisi?' SSS maddesi (5 flakon × 8 ml) yayına alınmadı; doğru bilgi teyit edilene kadar dışarıda bırakıldı.",
+      "SSS'teki 'Seans planına nasıl oturur?' cevabı ('düzenli kürlerde, sıkılık hedefi olan seanslarda kullanılır') Mezocomplex Firming sayfasından kopyalanmış; sıkılaştırma hedefi Antiaging ürününe ait olmadığı için çıkarıldı.",
+      "Sayfa sonundaki tanıtım başlığı 'Mezoeffect Antiaging Tanıtım' diyor; ürün adı Mezocomplex Antiaging. Marka adı tutarsızlığı (aynı tutarsızlık mezoeffect-serum-grubu sayfasında da var: 'Mezoeffect Anti Aging' başlığı /mezocomplex-antiaging/ adresine bağlanıyor).",
+      "'İçerik Bilgisi' paragrafı sayfada iki kez tekrarlanmış (Klinik Avantajları bölümünün altında ve İçerik Bilgisi başlığı altında); tek kez alındı.",
+      "'Etkin İçerikler', 'Öne Çıkan Etkiler' ve 'Klinik Avantajları' bölümlerindeki konum ve onay işareti emojileri kaldırıldı; içerik liste maddelerine ayrıldı.",
+      "Klinik avantaj maddelerinin sonundaki gereksiz virgüller temizlendi.",
+      "Denetim (ilgiliBlog): 'cilt-elastikiyeti-ve-kolajen-dinamikleri' yazısı içerik olarak Mezoeffect Firming ürününü anlatıyor (SEO açıklaması ve kapanış başlığı Firming'e ait); Antiaging ile ilişkilendirilmesi yanlıştı, bağlantı kaldırıldı."
+    ],
+    "eklenenIcerik": [
+      "metaAciklama",
+      "etiket",
+      "metaBaslik uzunluğu (orijinal SEO başlığı 37 karakterdi; şemadaki 55-60 aralığına, sayfada geçen 'solüsyon' ve 'Somon DNA' ifadeleri ile resmi marka adı MediEst Group kullanılarak genişletildi)"
+    ]
+  }
+}

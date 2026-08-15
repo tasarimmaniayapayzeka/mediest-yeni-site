@@ -1,0 +1,123 @@
+{
+  "slug": "mezocomplex-hair-revit",
+  "eskiUrl": "/mezocomplex-hair-revit/",
+  "tip": "solusyon",
+  "grup": "mezocomplex",
+  "sira": 4,
+  "ad": "Mezocomplex Hair Revit",
+  "adKisa": "Hair Revit",
+  "etiket": "Saç Canlandırma",
+  "ozet": "Mezocomplex Hair Revit; saç köklerini besleyerek saç dökülmesine karşı direnç kazandırmak ve saç tellerinin yoğunluğunu artırmak amacıyla geliştirilmiş profesyonel bir revitalizasyon solüsyonudur. Zayıflamış, incelmiş ve dökülme eğiliminde olan saçlar için ideal destek sunar.",
+  "metaBaslik": "Mezocomplex Hair Revit Saç Canlandırıcı",
+  "metaAciklama": "Mezocomplex Hair Revit; Niacinamide, Caffeine ve Biotin içeriğiyle saç köklerini besleyen, dökülme eğilimli ve incelmiş saçlar için revitalizasyon solüsyonu.",
+  "kimlerIcin": [
+    "İncelmiş ve zayıflamış saç telleri",
+    "Dökülme eğilimli saç yapısı",
+    "Saç köklerinde güç kaybı",
+    "Saç uzamasında yavaşlama",
+    "Saç derisi dolaşım desteği gereken durumlar"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Niacinamide",
+      "aciklama": "Saç köklerini besleyerek ve nemlendirerek daha güçlü ve sağlıklı saç oluşumunu destekler. Saç köklerinin direnç kazanmasına yardımcı olur."
+    },
+    {
+      "ad": "Allium Sativum Bulb Extract, Ginkgo Biloba Leaf Extract ve Salvia Sclarea Extract",
+      "aciklama": "Saç büyümesini uyarır, saç derisinde mikrosirkülasyonu destekler ve oksijen ile vitamin-mineral taşınmasını teşvik eder. Böylece saçların onarımı ve köklerin güçlenmesi sağlanır."
+    },
+    {
+      "ad": "Caffeine ve Biotin",
+      "aciklama": "Saç köklerinin güçlenmesiyle birlikte uzamasına destek olurken saç dökülmesinin azalmasına katkıda bulunur. Saç kuruluğunun giderilmesine yardımcı olarak daha sağlıklı bir görünüm oluşturur."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Saç dökülmesine karşı aktif destek",
+    "Saç köklerinin direncini artıran güçlendirici yapı",
+    "Vitamin-mineral dengesiyle saç sağlığını optimize eden etki",
+    "Saç revitalizasyon protokolleri için ideal kombinasyon ürünü",
+    "Gözle görülür canlılık artışı ile seans bağlılığını destekler"
+  ],
+  "ambalaj": {
+    "hacim": "5 ml",
+    "adet": 5,
+    "birim": "flakon",
+    "not": "Formül steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir. Hacim bilgisi için müşteri teyidi bekliyor: kaynak sayfanın gövdesinde 5 ml x 5 flakon, SSS bölümünde 8 ml x 5 flakon (toplam 40 ml) yazıyor."
+  },
+  "protokol": {
+    "kullanim": "Saç canlandırma protokollerinin aktif aşamasında, saç derisi bakımıyla birlikte kür şeklinde uygulanır.",
+    "evKullanimi": null,
+    "kombinasyon": [
+      "goldpen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Hair Revit ne yapar?",
+      "c": "Saç köklerini güçlendirir, incelen saç tellerini kalınlaştırmaya ve daha yoğun/parlak görünüme yardımcı olur."
+    },
+    {
+      "s": "Başlıca aktifler neler?",
+      "c": "Niacinamide, Sarımsak (Allium Sativum) ekstresi, Kafein, Ginkgo Biloba, Adaçayı (Salvia Sclarea) ve Biotin."
+    },
+    {
+      "s": "Dolaşım üzerine etkisi var mı?",
+      "c": "Ekstreler kan akımını artırmaya yardımcı olur; besin ve oksijen taşınmasına destek verir."
+    },
+    {
+      "s": "Kafein ve Biotin'in faydası nedir?",
+      "c": "Köklerin güçlenmesi, uzama desteği ve dökülme görünümünde azalma hedeflenir."
+    },
+    {
+      "s": "Niacinamide saçta ne sağlar?",
+      "c": "Kökleri besleyip nemlendirerek daha güçlü ve sağlıklı görünümü destekler."
+    },
+    {
+      "s": "Kimlere uygundur?",
+      "c": "İncelme, yoğunluk kaybı ve kırılganlık yaşayan saç tipleri için uygundur."
+    },
+    {
+      "s": "Uygulama beklentisi nedir?",
+      "c": "Düzenli protokolde yoğunluk, parlaklık ve güç görünümünde artış hedeflenir."
+    },
+    {
+      "s": "Bakım rutiniyle nasıl kombine edilir?",
+      "c": "Saç derisi bakımıyla birlikte kür şeklinde uygulanması önerilir."
+    },
+    {
+      "s": "Seans planına nasıl entegre edilir?",
+      "c": "Saç canlandırma protokollerinin aktif aşamasında kullanılır."
+    },
+    {
+      "s": "Ambalaj bilgisi nedir?",
+      "c": "Ürün içeriği 5 ml'lik flakonlar halinde sunulur; her kutuda toplam 5 adet flakon bulunur."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezoeffect-anti-hair-loss-serum"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-hair-revit-ile-mezoterapi-bazli-sac-canlandirma",
+    "mezoterapi-ile-sac-dokulmesi-arasindaki-iliski"
+  ],
+  "gorsel": {
+    "ana": "urun/mezocomplex-hair-revit.webp",
+    "kaynakFoto": "Mezoeffect-Hair-Revit.jpg",
+    "altMetin": "Mezocomplex Hair Revit saç canlandırıcı revitalizasyon solüsyonu flakonu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezocomplex-hair-revit.md",
+    "tespitEdilenHatalar": [
+      "Ambalaj çelişkisi: gövdedeki 'İçerik Bilgisi' bölümü 5 ml x 5 flakon derken, aynı sayfanın SSS bölümü 'Kutu: 5 flakon x 8 ml (toplam 40 ml)' diyor. Gövdedeki 5 ml esas alındı, ambalaj.not alanına müşteri teyidi notu düşüldü.",
+      "'Öne Çıkan Etkiler' listesindeki 'İncelmiş ve zayıflamış saç teller' ifadesi yarım kalmış; 'saç telleri' olarak düzeltildi.",
+      "Marka adı tutarsızlığı: sayfa başlığı ve gövde 'Mezocomplex Hair Revit' derken, sayfa sonundaki tanıtım başlığı, sik-sorulan-sorular.md içindeki bölüm başlığı, ilgili blog yazısı ve kaynak görsel dosya adı 'Mezoeffect Hair Revit' diyor. Sayfa başlığı esas alındı; markalama müşteri teyidine açıktır.",
+      "SSS eksikliği: sayfanın kendi SSS bölümünde 'Niacinamide saçta ne sağlar?' sorusu yok, sik-sorulan-sorular.md içindeki Hair Revit bölümünde var. Birleştirilerek eklendi.",
+      "Kaynak metinde madde ayracı olarak emoji (yer imi ve onay işareti) kullanılmış; kural gereği temizlenip liste yapısına dönüştürüldü (biçim düzeltmesi).",
+      "SEO uzunluğu: orijinal SEO başlığı 'Mezocomplex Hair Revit - Mediest Group' 38 karakterdi (hedef 55-60). Başlık, sayfanın kendi konumlandırma ifadeleriyle ('saç canlandırıcı', 'revitalizasyon solüsyonu') genişletildi; yeni bilgi eklenmedi."
+    ],
+    "eklenenIcerik": [
+      "metaAciklama",
+      "etiket"
+    ]
+  }
+}

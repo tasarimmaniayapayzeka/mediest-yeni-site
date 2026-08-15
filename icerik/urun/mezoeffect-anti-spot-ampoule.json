@@ -1,0 +1,132 @@
+{
+  "slug": "mezoeffect-anti-spot-ampoule",
+  "eskiUrl": "/mezoeffect-anti-spot-ampoule/",
+  "tip": "serum",
+  "grup": "mezoeffect",
+  "sira": 3,
+  "ad": "Mezoeffect Anti Spot Ampoule",
+  "adKisa": "Anti Spot",
+  "etiket": "Leke Karşıtı & Aydınlatıcı",
+  "ozet": "Mezoeffect Anti Spot Ampoule; güneş, yaş alma veya çevresel faktörlere bağlı olarak ciltte oluşan lekeleri hedefleyen ileri düzey bir leke karşıtı serumdur. Düzenli kullanımda koyu lekelerin görünümü azalır, cilt daha aydınlık ve pürüzsüz bir yapıya kavuşur.",
+  "metaBaslik": "Mezoeffect Anti Spot Ampoule | Leke Karşıtı Klinik Serum",
+  "metaAciklama": "Mezoeffect Anti Spot Ampoule; Et-VC, Niacinamide, Alpha-Arbutin ve Lubrajel içeriğiyle leke görünümünü azaltır, cilt tonunu dengeler. 2 ml'lik 7 ampul.",
+  "kimlerIcin": [
+    "Güneş lekeleri olan ciltler",
+    "Cilt tonu eşitsizliği görülen ciltler",
+    "Hiperpigmentasyon şikâyeti olanlar",
+    "Yaş lekeleri ve donuk görünüm",
+    "Renk dengesizliği yaşayan ciltler"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Et-VC (Etil Askorbil Eter)",
+      "aciklama": "Cilt tonunu aydınlatan, melanin sentezini azaltan ve kolajen üretimini destekleyen stabilize edilmiş bir C vitamini türevidir. Klasik C vitamininden daha etkili antioksidan etki sunar."
+    },
+    {
+      "ad": "Niacinamide (B3 Vitamini)",
+      "aciklama": "Cilt onarımını destekler, renk eşitsizliğini azaltır ve donuk görünümü giderir. Geniş gözenekleri sıkılaştırarak cildin daha pürüzsüz görünmesine yardımcı olur."
+    },
+    {
+      "ad": "Alpha-Arbutin",
+      "aciklama": "Melanin üretiminde rol alan tirozinaz enzimini baskılayarak yeni leke oluşumunu önler. Ciltte ton dengesi sağlar ve parlaklık kazandırır."
+    },
+    {
+      "ad": "Lubrajel",
+      "aciklama": "Nemlendirici ve yatıştırıcı etkisiyle cildi yumuşatır, bakım sonrasında pürüzsüz bir doku oluşturur."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Et-VC içeriğiyle stabil C vitamini aydınlatma etkisi",
+    "Niacinamide ve Arbutin sinerjisiyle güçlü leke giderici sonuç",
+    "Hızlı emilimli, yağsız ve hafif formülasyon",
+    "Kombine protokollerde (peeling, mezoterapi) booster olarak kullanım avantajı",
+    "Leke karşıtı uygulamalarda yüksek hasta memnuniyeti"
+  ],
+  "ambalaj": {
+    "hacim": "2 ml",
+    "adet": 7,
+    "birim": "ampul",
+    "not": "Steril üretim protokolüne uygun olarak geliştirilmiştir; hem profesyonel klinik uygulamalarda hem de ev bakım protokollerinde güvenle kullanılabilir."
+  },
+  "protokol": {
+    "kullanim": "İğneli veya iğnesiz cihazlı işlemlerden sonra, hedef bölgeye nazik masaj eşliğinde uygulanır.",
+    "evKullanimi": "Temizlenmiş cilde sabah ve akşam, düzenli olarak masajla uygulanır; leke karşıtı bakımın ana serum adımı olarak konumlanır.",
+    "kombinasyon": [
+      "goldpen",
+      "baby-skin-pen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Anti Spot Serum hangi sorun hedefiyle geliştirilmiştir?",
+      "c": "Güneş ve çevresel faktörlerle sonradan oluşan lekeleri baskılamaya ve açmaya yardımcı olur; cilt tonunu daha homojen göstermeyi hedefler."
+    },
+    {
+      "s": "Serumun öne çıkan faydaları nelerdir?",
+      "c": "Leke görünümünü azaltmaya destek olur, cilt tonunu aydınlatır ve daha pürüzsüz bir görünüm kazandırmaya yardımcı olur."
+    },
+    {
+      "s": "Formülde hangi aktifler yer alır?",
+      "c": "Et-VC (C vitamini türevi), Niasinamid (Niacinamide), Alpha-Arbutin ve Lubrajel bulunur."
+    },
+    {
+      "s": "Et-VC neden tercih edilmiştir?",
+      "c": "Çok işlevli C vitamini türevidir; cilt tonunu aydınlatmaya, antioksidan korumaya ve kolajen artışına destek verir. Standart C vitaminine göre daha efektif kabul edilir."
+    },
+    {
+      "s": "Niasinamid (Niacinamide) ne işe yarar?",
+      "c": "Cilt onarımını destekler; düzensiz cilt tonu, ince çizgi, donukluk ve geniş gözenek görünümünde tercih edilir. Güneş kaynaklı lekelenmeye karşı korumaya yardımcıdır."
+    },
+    {
+      "s": "Alpha-Arbutin'in rolü nedir?",
+      "c": "Melanin üretiminde görevli tirozinaz enzimini baskılayarak leke oluşumunu önlemeye yardımcı olur; ton eşitleme hedefini destekler."
+    },
+    {
+      "s": "Lubrajel ne sağlar?",
+      "c": "Nem desteğiyle cildin daha pürüzsüz ve konforlu hissetmesine katkı verir; formülün aydınlatma hedefini destekler."
+    },
+    {
+      "s": "Kimler Anti Spot Serum'u kullanabilir?",
+      "c": "Sonradan oluşan leke problemi yaşayan ve daha aydınlık, eşit tonda bir cilt görünümü isteyen tüm ciltler için uygundur."
+    },
+    {
+      "s": "Profesyonel kullanım nasıl uygulanır?",
+      "c": "İğneli veya iğnesiz cihazlı işlemlerden sonra, hedef bölgeye nazik masaj eşliğinde uygulanır."
+    },
+    {
+      "s": "Ev kullanımında uygulama rutini nedir?",
+      "c": "Temizlenmiş cilde sabah ve akşam, düzenli olarak masajla uygulanır; leke karşıtı bakımın ana serum adımı olarak konumlanır."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-brightening"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-brightening-ile-leke-yonetiminde-aydinlatici-destek",
+    "cilt-leke-cozumleri-ve-baby-skin-pen-destekli-profesyonel-yaklasimlar"
+  ],
+  "gorsel": {
+    "ana": "urun/mezoeffect-anti-spot-ampoule.webp",
+    "kaynakFoto": "Mezoeffect-Anti-Spot-Ampoule.jpg",
+    "altMetin": "Mezoeffect Anti Spot Ampoule 2 ml ampul ambalajı"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezoeffect-anti-spot-ampoule.md",
+    "tespitEdilenHatalar": [
+      "Sayfa başlığı ve URL 'Anti Spot Ampoule' iken gövde metni ürünü sürekli 'Anti Spot Serum' olarak adlandırıyor. Ürün adı 'Mezoeffect Anti Spot Ampoule' olarak birleştirildi, SSS metinlerindeki özgün 'Serum' ifadeleri korundu; ad tercihi müşteri teyidi bekliyor.",
+      "Klinik avantajlar bölümünde aktif 'Arbutin' olarak kısaltılmış, formül listesinde ise 'Alpha-Arbutin' olarak geçiyor. Kaynak ifadeler olduğu gibi korundu.",
+      "Görsel envanterinde bu sayfaya iki görsel bağlı: 'Mezoeffect-Ampul-Serisi.jpg' (seri/grup görseli) ve 'Mezoeffect-Anti-Spot-Ampoule.jpg'. Ürün görseli olarak ikincisi seçildi; arşivde ayrıca 'Anti-spot-serum.jpg' adlı üçüncü bir dosya var.",
+      "Ürün sayfasındaki SSS ile sik-sorulan-sorular.md içindeki 'Anti Spot Serum' bölümü birebir aynı; tekrar eden sorular tek listede birleştirildi.",
+      "Kaynaktaki 'Öne Çıkan Etkiler' maddeleri emoji ile listelenmiş ve tek satırda birleşmişti; emojiler kaldırılıp liste yapısına dönüştürüldü."
+    ],
+    "eklenenIcerik": [
+      "metaAciklama",
+      "metaBaslik (kaynaktaki SEO başlığı 44 karakterdi; şema 55-60 karakter istediği için ürünün kendi sayfasındaki sözcüklerle uzatıldı)",
+      "etiket",
+      "protokol.kombinasyon (kaynak sayfada cihaz adı geçmiyor; Goldpen'in Mezoeffect serumlarını doku altına indirmesi ve Baby Skin Pen protokolünde 'uygun Mezoeffect ampul' kullanılması bilgisine dayanarak eşleştirildi)",
+      "ilgiliUrunler",
+      "ilgiliBlog",
+      "gorsel.altMetin"
+    ]
+  }
+}

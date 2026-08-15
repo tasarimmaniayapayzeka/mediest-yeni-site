@@ -1,0 +1,113 @@
+{
+  "marka": {
+    "ad": "MediEst Group",
+    "adKisa": "MediEst",
+    "slogan": "Medikal & Technology",
+    "tanim": "Klinikler ve profesyonel bakım merkezleri için medikal estetik cihaz ve solüsyon tedarikçisi.",
+    "kurulusTipi": "B2B — yalnızca güzellik merkezi ve kliniklere satış"
+  },
+
+  "iletisim": {
+    "telefon": "0533 637 49 09",
+    "telefonHam": "+905336374909",
+    "eposta": "info@mediestgroup.com.tr",
+    "adres": {
+      "sokak": "Zuhuratbaba Mah. İncirli Cd. No: 21/4",
+      "ilce": "Bakırköy",
+      "il": "İstanbul",
+      "postaKodu": "34147",
+      "tam": "Zuhuratbaba Mah. İncirli Cd. No: 21/4, 34147 Bakırköy / İstanbul"
+    },
+    "showroom": "Bakırköy Showroom — birebir cihaz demosu ve eğitim",
+    "calismaSaatleri": "Pazartesi – Cumartesi · 09:00 – 18:00"
+  },
+
+  "sosyal": [
+    { "ad": "Baby Skin Pen", "kullanici": "@babyskinpen", "url": "https://www.instagram.com/babyskinpen/", "platform": "instagram" },
+    { "ad": "Gold Pen", "kullanici": "@goldpentr", "url": "https://www.instagram.com/goldpentr/", "platform": "instagram" },
+    { "ad": "Mezoeffect", "kullanici": "@mezoeffect", "url": "https://www.instagram.com/mezoeffect/", "platform": "instagram" }
+  ],
+
+  "menu": [
+    { "ad": "Cihazlar", "url": "/cihazlar/", "alt": [
+      { "ad": "Gold Pen", "url": "/goldpen/", "not": "Mikroiğneleme · EMS · LED" },
+      { "ad": "Baby Skin Pen", "url": "/baby-skin-pen/", "not": "Mikro titreşim · 7 renk LED" },
+      { "ad": "Karşılaştırma", "url": "/cihazlar/karsilastirma/", "not": "Hangi cihaz size uygun?" }
+    ]},
+    { "ad": "Ürünler", "url": "/urunler/", "alt": [
+      { "ad": "Mezoeffect Serum Grubu", "url": "/urunler/mezoeffect/", "not": "7 ampul serisi" },
+      { "ad": "Mezocomplex Solüsyonlar", "url": "/urunler/mezocomplex/", "not": "5 solüsyon serisi" }
+    ]},
+    { "ad": "Protokoller", "url": "/protokoller/" },
+    { "ad": "Bayilik", "url": "/bayilik/" },
+    { "ad": "Kurumsal", "url": "/hakkimizda/", "alt": [
+      { "ad": "Hakkımızda", "url": "/hakkimizda/" },
+      { "ad": "Eğitim & Destek", "url": "/egitim-destek/" },
+      { "ad": "Kalite & UTS", "url": "/kalite-uts/" },
+      { "ad": "Blog", "url": "/blog/" },
+      { "ad": "Sık Sorulan Sorular", "url": "/sik-sorulan-sorular/" }
+    ]},
+    { "ad": "İletişim", "url": "/iletisim/" }
+  ],
+
+  "cta": { "ad": "Teklif Al", "url": "/bayilik/#teklif" },
+
+  "footer": {
+    "tanim": "MediEst Group, medikal estetik ve profesyonel bakım sektöründe klinik odaklı çözümler sunan, yenilikçi teknolojiler ve bilim destekli içeriklerle çalışan bir markadır.",
+    "sutunlar": [
+      { "baslik": "Cihazlar", "linkler": [
+        { "ad": "Gold Pen", "url": "/goldpen/" },
+        { "ad": "Baby Skin Pen", "url": "/baby-skin-pen/" },
+        { "ad": "Cihaz Karşılaştırma", "url": "/cihazlar/karsilastirma/" }
+      ]},
+      { "baslik": "Ürün Grupları", "linkler": [
+        { "ad": "Mezoeffect Serum Grubu", "url": "/urunler/mezoeffect/" },
+        { "ad": "Mezocomplex Solüsyonlar", "url": "/urunler/mezocomplex/" },
+        { "ad": "Protokoller", "url": "/protokoller/" }
+      ]},
+      { "baslik": "Kurumsal", "linkler": [
+        { "ad": "Hakkımızda", "url": "/hakkimizda/" },
+        { "ad": "Bayilik & İş Ortaklığı", "url": "/bayilik/" },
+        { "ad": "Eğitim & Destek", "url": "/egitim-destek/" },
+        { "ad": "Kalite & UTS", "url": "/kalite-uts/" }
+      ]},
+      { "baslik": "Bilgi", "linkler": [
+        { "ad": "Blog", "url": "/blog/" },
+        { "ad": "Sık Sorulan Sorular", "url": "/sik-sorulan-sorular/" },
+        { "ad": "İletişim", "url": "/iletisim/" },
+        { "ad": "KVKK Aydınlatma Metni", "url": "/kvkk/" }
+      ]}
+    ],
+    "yasal": [
+      { "ad": "KVKK", "url": "/kvkk/" },
+      { "ad": "Gizlilik Politikası", "url": "/gizlilik/" },
+      { "ad": "Çerez Politikası", "url": "/cerez/" }
+    ],
+    "telifNotu": "Bu sitedeki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz.",
+    "tasarim": "Tasarım: TasarımMania"
+  },
+
+  "guvenSeridi": [
+    { "baslik": "UTS Kayıtlı", "aciklama": "Ürün Takip Sistemi'ne kayıtlı Mezoeffect serumları" },
+    { "baslik": "Steril Üretim", "aciklama": "Steril koşullarda üretim ve kalite kontrol" },
+    { "baslik": "Birebir Eğitim", "aciklama": "Online veya Bakırköy showroom'da uygulama eğitimi" },
+    { "baslik": "Protokol Desteği", "aciklama": "Kliniğe özel kombine seans planlaması" }
+  ],
+
+  "seo": {
+    "siteAdi": "MediEst Group",
+    "baseUrl": "https://mediestgroup.com.tr",
+    "varsayilanBaslikSonEki": " | MediEst Group",
+    "varsayilanAciklama": "MediEst Group — klinikler için medikal estetik cihaz ve solüsyon tedarikçisi. Gold Pen, Baby Skin Pen, Mezoeffect ve Mezocomplex ürün grupları.",
+    "dil": "tr-TR",
+    "ogGorsel": "/varlik/gorsel/og-mediest.jpg"
+  },
+
+  "diller": {
+    "aktif": "tr",
+    "mevcut": [
+      { "kod": "tr", "ad": "Türkçe", "url": "/", "yayinda": true },
+      { "kod": "en", "ad": "English", "url": "/en/", "yayinda": false }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "mezoeffect-eye-contour-ampoule",
+  "eskiUrl": "/mezoeffec-eye-contur-ampoule/",
+  "tip": "serum",
+  "grup": "mezoeffect",
+  "sira": 4,
+  "ad": "Mezoeffect Eye Contour Ampoule",
+  "adKisa": "Eye Contour",
+  "etiket": "Göz Çevresi Bakımı",
+  "ozet": "Mezoeffect Eye Contour Serum, göz çevresindeki koyu halkalar, torbalanma, çizgiler ve elastikiyet kaybını hedefleyen gelişmiş bir klinik bakım solüsyonudur. Düzenli kullanımda göz altı morlukları azalır, cilt daha pürüzsüz ve dinlenmiş bir görünüme kavuşur.",
+  "metaBaslik": "Mezoeffect Eye Contour Ampoule Göz Serumu",
+  "metaAciklama": "Mezoeffect Eye Contour Ampoule; Caffeine, Regu®-age ve Eye-Seryl® içeriğiyle göz altı morluğu, torbalanma ve ince çizgi görünümünü hedefleyen klinik serum.",
+  "kimlerIcin": [
+    "Göz altı morlukları",
+    "Torbalanma ve ödem",
+    "İnce çizgi ve kırışıklık görünümü",
+    "Göz çevresi kuruluğu",
+    "Cilt tonu eşitsizliği"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Caffeine",
+      "aciklama": "Mikrosirkülasyonu artırarak göz altı torbalanma ve koyu halka görünümünü azaltır."
+    },
+    {
+      "ad": "Niacinamide (B3 Vitamini)",
+      "aciklama": "Cilt tonunu düzenler, hassas göz çevresinde kolajen üretimini destekleyerek sıkılaştırıcı etki sağlar."
+    },
+    {
+      "ad": "Regu®-age",
+      "aciklama": "Soya proteini, pirinç peptidi ve biyoteknolojik antioksidanlardan oluşur. Koyu halkaları açar, morluk görünümünü azaltır ve cilt tonunu dengeler."
+    },
+    {
+      "ad": "Eye-Seryl®",
+      "aciklama": "Anti-ödem özellikli özel bir peptittir. Göz altı torbalanmayı azaltır, göz çevresini daha pürüzsüz hale getirir."
+    },
+    {
+      "ad": "Et-VC",
+      "aciklama": "C Vitamininin stabilize edilmiş formudur. Klasik askorbik aside göre daha uzun süreli antioksidan etki sunar, cilt aydınlığını artırır."
+    },
+    {
+      "ad": "Lubrajel",
+      "aciklama": "Cildi nemlendirir, yumuşatır ve göz çevresinde pürüzsüz bir dokusal hissiyat sağlar."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Göz çevresinde aydınlık ve canlı görünüm",
+    "Morluk ve torbalanmalarda gözle görülür azalma",
+    "Stabil C vitamini ile uzun süreli antioksidan etki",
+    "İnce çizgilerin görünümünü azaltan kolajen desteği",
+    "Göz çevresi bakım protokollerine yüksek uyum"
+  ],
+  "ambalaj": {
+    "hacim": null,
+    "adet": null,
+    "birim": "ampul",
+    "not": "Steril protokole uygun olarak üretilmiştir. Hem profesyonel klinik uygulamalarda hem de ev bakım protokollerinde güvenle kullanılabilir. Hacim ve adet bilgisi kaynak içerikte belirtilmemiş; müşteri teyidi bekliyor."
+  },
+  "protokol": {
+    "kullanim": "İğneli veya iğnesiz cihaz işlemlerinden sonra nazik masajla uygulanabilir; kabin bakımında göz serumu olarak kullanılır.",
+    "evKullanimi": "Temizlenmiş göz çevresine sabah ve akşam, hafif masajla düzenli olarak uygulanır.",
+    "kombinasyon": [
+      "baby-skin-pen"
+    ]
+  },
+  "sss": [
+    {
+      "s": "Eye Contour Serum hangi sorunlar için geliştirilmiştir?",
+      "c": "Göz çevresinde görülen kaz ayakları, koyu halkalar ve nem yetersizliği hedeflenmiştir."
+    },
+    {
+      "s": "Serumun öne çıkan faydaları nelerdir?",
+      "c": "Çizgi görünümünü azaltmaya, koyu halka ve ödem görünümünü hafifletmeye, göz çevresini nemlendirip daha pürüzsüz göstermeye yardımcı olur."
+    },
+    {
+      "s": "Formülde hangi aktifler yer alır?",
+      "c": "Kafein (Caffeine), Niasinamid, Regu®-age®, Eye-Seryl®, Et-VC (C vitamini türevi) ve Lubrajel bulunur."
+    },
+    {
+      "s": "Kafein (Caffeine) göz çevresinde ne sağlar?",
+      "c": "Koyu halka ve ödem görünümünün azaltılmasına destek olur; daha canlı bir görünümü hedefler."
+    },
+    {
+      "s": "Niasinamid'in katkısı nedir?",
+      "c": "Cilt onarımını destekler; düzensiz ton, ince çizgi ve koyu halka görünümünde tercih edilen çok yönlü bir bileşendir."
+    },
+    {
+      "s": "Regu®-age® nasıl çalışır?",
+      "c": "Soya ve pirinç peptidleri ile biyoteknolojik süperoksit dismutaz kombinasyonudur; hassas göz çevresini korumaya ve koyu halka/ödem görünümünü azaltmaya yardımcı olur."
+    },
+    {
+      "s": "Eye-Seryl® ne işe yarar?",
+      "c": "Göz torbalarında etkindir; anti-ödem etkisiyle şişkinlik görünümünü hafifletmeye yardımcı olur."
+    },
+    {
+      "s": "Et-VC neden tercih edilmiştir?",
+      "c": "Standart C vitaminine kıyasla daha etkili kabul edilen bir türevdir; aydınlatma, antioksidan koruma ve kolajen artışına destek sunar."
+    },
+    {
+      "s": "Lubrajel'in rolü nedir?",
+      "c": "Yoğun nem desteği sağlayarak göz çevresinin daha pürüzsüz ve konforlu hissetmesine yardımcı olur."
+    },
+    {
+      "s": "Nasıl ve ne sıklıkta uygulanır?",
+      "c": "Profesyonel kullanım: İğneli/iğnesiz cihaz işlemlerinden sonra nazik masajla uygulanabilir; kabin bakımında göz serumu olarak kullanılır. Ev kullanımı: Temizlenmiş göz çevresine sabah ve akşam, hafif masajla düzenli uygulanır."
+    }
+  ],
+  "ilgiliUrunler": [],
+  "ilgiliBlog": [
+    "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
+  ],
+  "gorsel": {
+    "ana": "urun/mezoeffect-eye-contour-ampoule.webp",
+    "kaynakFoto": "Mezoeffec-Eye-Contur-Ampoule.jpg",
+    "altMetin": "Mezoeffect Eye Contour Ampoule göz çevresi bakım serumu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezoeffec-eye-contur-ampoule.md",
+    "tespitEdilenHatalar": [
+      "Sayfa başlığında ve slug'da yazım hatası: 'Mezoeffec' → 'Mezoeffect', 'Contur' → 'Contour'. Yeni slug mezoeffect-eye-contour-ampoule; eski URL /mezoeffec-eye-contur-ampoule/ 301 ile yönlendirilmeli.",
+      "sik-sorulan-sorular.md dosyasında bu ürünün SSS bölümü yanlış başlıkla ('### Anti Age Ampoule') yer alıyor; içerik Eye Contour'u anlatıyor. Dosyada arka arkaya iki ayrı 'Anti Age Ampoule' başlığı bulunuyor.",
+      "Ürün sayfasında ambalaj hacmi ve adedi belirtilmemiş; yalnızca steril üretim notu var. ambalaj.hacim ve ambalaj.adet null bırakıldı, müşteri teyidi bekliyor.",
+      "'Öne Çıkan Etkiler' ve 'Klinik Avantajları' bölümleri onay işareti emojileriyle tek satıra sıkıştırılmıştı; emojiler kaldırılıp liste maddelerine ayrıldı.",
+      "SSS'teki 'Nasıl ve ne sıklıkta uygulanır?' cevabı kaynakta boş '-' madde imleriyle bölünmüştü; profesyonel ve ev kullanımı tek cevapta birleştirildi.",
+      "sik-sorulan-sorular.md içindeki soru havuzu ürün sayfasındaki SSS ile birebir aynı; tekrar eden sorular birleştirildi, yeni soru eklenmedi.",
+      "Denetim (sira): Mezoeffect grubunda sira değeri 5 idi ve mezoeffect-hyaluronic-acid-serum ile çakışıyordu; grupta boş olan 4 numaraya alındı."
+    ],
+    "eklenenIcerik": [
+      "metaAciklama",
+      "etiket",
+      "protokol.kombinasyon (Baby Skin Pen SSS'indeki 'uygun Mezoeffect ampul cilde yedirilir' ifadesinden türetildi)",
+      "metaBaslik uzunluğu (orijinal SEO başlığı 46 karakterdi; şemadaki 55-60 aralığına, sayfada geçen 'göz serumu' ifadesi ve resmi marka adı MediEst Group ile genişletildi)"
+    ]
+  }
+}

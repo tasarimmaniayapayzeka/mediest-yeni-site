@@ -1,0 +1,117 @@
+{
+  "slug": "mezocomplex-hyaluronic-acid",
+  "eskiUrl": "/mezocomplex-hyaluronic-acid/",
+  "tip": "solusyon",
+  "grup": "mezocomplex",
+  "sira": 5,
+  "ad": "Mezocomplex Hyaluronic Acid",
+  "adKisa": "Hyaluronic Acid",
+  "etiket": "Nem & Canlılık",
+  "ozet": "Mezocomplex™ Hyaluronic Acid, mat, yorgun ve elastikiyetini kaybetmiş ciltler için geliştirilmiş yoğun nem destekli bir revitalizasyon solüsyonudur. Sodium Hyaluronate içeriği sayesinde cilde derinlemesine nem kazandırır, hacim ve canlılık sağlar, anti-aging protokollerine destek olur.",
+  "metaBaslik": "Mezocomplex Hyaluronic Acid Nem Solüsyonu",
+  "metaAciklama": "Mezocomplex Hyaluronic Acid, mat ve elastikiyetini kaybetmiş ciltler için Sodium Hyaluronate içeren yoğun nem destekli profesyonel revitalizasyon solüsyonudur.",
+  "kimlerIcin": [
+    "Nem kaybına bağlı gerginlik ve kuruluk",
+    "Cilt parlaklığının azalması",
+    "Yorgun ve canlılığını kaybetmiş cilt görünümü",
+    "İnce çizgi ve ilk yaşlanma izleri",
+    "Hyaluronik asit destekli kombine tedaviler"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Sodium Hyaluronate (Hyaluronik Asit)",
+      "aciklama": "Cildin derin katmanlarına ulaşarak nem kaybını önler; cilt hacmini artırır ve parlaklığı geri kazandırır. Mat ve donuk yapıyı canlandırırken nem bazlı dolgunluk desteğiyle daha taze bir görünüm oluşturur."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Nem dengesi üzerine güçlü ve hızlı etki",
+    "Kombine uygulamalarda booster olarak kullanılabilir",
+    "Anti-aging protokolleri için hazırlık ya da tamamlayıcı aşama desteği",
+    "Seans sonrası nem kaybını kontrol altına alan yapı",
+    "Tedavi bağlılığını artıran canlı görünüm etkisi"
+  ],
+  "ambalaj": {
+    "hacim": "5 ml",
+    "adet": 5,
+    "birim": "flakon",
+    "not": "Formül steril üretim protokolüne sahiptir; medikal ve estetik uygulamalara uygun şekilde geliştirilmiştir. Hacim çelişkisi var: gövde metni 5 ml × 5 flakon, sayfa SSS'i 8 ml × 5 flakon (40 ml) diyor — müşteri teyidi bekliyor."
+  },
+  "protokol": {
+    "kullanim": "Birçok protokolün nem ve dolgunluk ayağı olarak, temel destek ürünü gibi çalışır. Kombine uygulamalarda booster olarak; anti-aging protokollerinde ise hazırlık ya da tamamlayıcı aşama olarak kullanılır. Dört mevsim nem desteği için uygundur.",
+    "evKullanimi": null,
+    "kombinasyon": []
+  },
+  "sss": [
+    {
+      "s": "Bu solüsyonun ana işlevi nedir?",
+      "c": "Mat, yorgun ve elastikiyetini kaybetmiş ciltleri canlandırıp derin nem sağlar."
+    },
+    {
+      "s": "İçeriğinde ne var?",
+      "c": "Sodium Hyaluronate."
+    },
+    {
+      "s": "Neden hyaluronik asit?",
+      "c": "Yoğun nem, parlaklık artışı ve anti-aging desteği sunar."
+    },
+    {
+      "s": "Hangi cilt durumlarında kullanılır?",
+      "c": "Kuru, mat ve esneklik kaybı olan ciltlerde temel nem ve canlılık için kullanılır."
+    },
+    {
+      "s": "Kürlerdeki rolü nedir?",
+      "c": "Birçok protokolün nem ve dolgunluk ayağıdır; temel destek ürünü gibi çalışır."
+    },
+    {
+      "s": "Diğer ürünlerle birlikte kullanılabilir mi?",
+      "c": "Firming veya Antiaging ile kombine edildiğinde elastikiyet ve nem etkisi güçlenir."
+    },
+    {
+      "s": "Antioksidan katkısı var mı?",
+      "c": "Cilt içi aktiviteyi artırır ve antioksidan etki sunar."
+    },
+    {
+      "s": "Hızlı parlaklık için uygun mu?",
+      "c": "Parlaklık ve hacim artışına katkısıyla ışıltı hedeflerinde kullanılır."
+    },
+    {
+      "s": "Mevsimsel bir kullanım kısıtı var mı?",
+      "c": "Dört mevsim nem desteği için uygundur."
+    },
+    {
+      "s": "Ambalaj bilgisi nedir?",
+      "c": "Ürün içeriği 5 ml'lik flakonlar halinde sunulmaktadır; her kutuda toplam 5 adet flakon bulunur."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-firming",
+    "mezocomplex-antiaging"
+  ],
+  "ilgiliBlog": [
+    "mezoeffect-hyaluronic-acid-ile-cilt-nemi-ve-elastikiyet-destegi",
+    "cilt-elastikiyeti-ve-kolajen-dinamikleri"
+  ],
+  "gorsel": {
+    "ana": "urun/mezocomplex-hyaluronic-acid.webp",
+    "kaynakFoto": "Mezoeffect-Hyaluronic-Acid-1.jpg",
+    "altMetin": "Mezocomplex Hyaluronic Acid nem destekli revitalizasyon solüsyonu flakonu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezocomplex-hyaluronic-acid.md",
+    "tespitEdilenHatalar": [
+      "Sayfa başlığı 'Mezocomple Hyaluronic Acid,' olarak yazılmış (eksik harf ve fazladan virgül); 'Mezocomplex Hyaluronic Acid' olarak düzeltildi.",
+      "Ambalaj çelişkisi: gövde metni 5 ml'lik flakon × 5 adet derken sayfanın SSS bölümü 'Kutu: 5 flakon × 8 ml (toplam 40 ml)' diyor. 40 ml'lik kutu bilgisi Mezoeffect serum kutusuna ait görünüyor; ambalaj.not alanına müşteri teyidi notu düşüldü ve SSS yanıtı gövde metnine göre verildi.",
+      "'Öne Çıkan Etkiler' ve 'Klinik Avantajları' listeleri Mezocomplex Firming sayfasıyla birebir aynı. İçerik bu ürünün nem odağıyla uyumlu olduğu için burada korundu; Firming tarafında düzeltildi.",
+      "Sayfa sonundaki 'Mezoeffect Hyaluronic Acid Tanıtım' başlığı, Mezocomplex ürün sayfasında Mezoeffect marka adını kullanıyor; ürün adı Mezocomplex olarak korundu.",
+      "Kaynak metinde konum ve onay işareti emojileri madde ayracı olarak kullanılmış; kural gereği temizlenip liste yapısına dönüştürüldü.",
+      "SSS'te 'Ambalaj bilgisi?' dışındaki sorular sık-sorulan-sorular.md içindeki 'Mezoeffect Hyaluronic Acid' bölümüyle birebir aynı; tekrar eklenmedi. Aynı dosyadaki 'Hyaluronic Acid Ampoule' bölümü ise tamamen Somon DNA Serum içeriğidir ve bu ürüne ait değildir; alınmadı.",
+      "Kaynakta profesyonel uygulama, ev kullanımı ve cihaz kombinasyonu bilgisi yok; protokol.evKullanimi null, protokol.kombinasyon boş bırakıldı.",
+      "Görsel envanterinde bu sayfaya (mezocomplex-hyaluronic-acid) ait kayıt Mezoeffect-Hyaluronic-Acid-1.jpg olarak bulundu ve atandı. Benzer adlı Mezoeffect-Hyaluronic-Acid.jpg sık-sorulan-sorular sayfasına, Mezoeffect-Hyaluronic-Acid-Serum.jpg ise ayrı serum ürününe aittir."
+    ],
+    "eklenenIcerik": [
+      "etiket",
+      "metaAciklama",
+      "gorsel.altMetin"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "mezocomplex-firming",
+  "eskiUrl": "/mezocomplex-firming/",
+  "tip": "solusyon",
+  "grup": "mezocomplex",
+  "sira": 3,
+  "ad": "Mezocomplex Firming",
+  "adKisa": "Firming",
+  "etiket": "Sıkılık & Kolajen",
+  "ozet": "Mezocomplex™ Firming, cilt elastikiyetini kaybetmiş, sıkılık desteğine ihtiyaç duyan ciltler için geliştirilmiş sıkılaştırıcı ve yenileyici bir solüsyondur. Hydrolyzed Collagen cilde kolajen desteği sağlayarak yapı bütünlüğünü güçlendirirken Sodium Hyaluronate ile nem dengesi desteklenir; cilt daha dolgun, sıkı ve toparlanmış bir görünüm kazanır.",
+  "metaBaslik": "Mezocomplex Firming Sıkılaştırıcı Solüsyon",
+  "metaAciklama": "Mezocomplex Firming, elastikiyetini kaybetmiş ciltler için Hydrolyzed Collagen ve Sodium Hyaluronate içeren sıkılaştırıcı ve yenileyici profesyonel solüsyondur.",
+  "kimlerIcin": [
+    "Cilt elastikiyetini kaybetmiş, sıkılık desteğine ihtiyaç duyan ciltler",
+    "Sıkılık kaybı ve ince çizgi şikâyeti olan mat, tonunu yitirmiş ciltler",
+    "Kontur kaybı yaşayan bölgeler",
+    "Sıkılaştırma ve doku yenileme hedefli bakımlar",
+    "Yaşlanma belirtilerini azaltmaya yönelik protokoller"
+  ],
+  "aktifIcerikler": [
+    {
+      "ad": "Hydrolyzed Collagen",
+      "aciklama": "Kolajenin aktif formu olup doğrudan kolajen katkısı sağlar. Cilt yapısını elastikiyet kaybına karşı destekler, kontur hattının güçlenmesine yardımcı olur; sıkılık hissini artırarak daha gergin ve toparlanmış bir görünüm oluşturur."
+    },
+    {
+      "ad": "Sodium Hyaluronate",
+      "aciklama": "Ciltte derin nem dengesi sağlar. Elastikiyet artışına eşlik ederek hacim desteği sunar, mat ve cansız görünümü azaltır; yenileyici lifting etkisini destekleyerek cildin daha diri bir yapı kazanmasına katkıda bulunur."
+    }
+  ],
+  "klinikAvantajlar": [
+    "Kombine uygulamalarda booster olarak kullanılabilir",
+    "Anti-aging protokolleri için hazırlık ya da tamamlayıcı aşama desteği",
+    "Tedavi bağlılığını artıran canlı görünüm etkisi"
+  ],
+  "ambalaj": {
+    "hacim": "5 ml",
+    "adet": 5,
+    "birim": "flakon",
+    "not": "Formül steril üretim protokolüne sahiptir; medikal ve estetik uygulamalara uygun şekilde geliştirilmiştir. Hacim çelişkisi var: gövde metni 5 ml × 5 flakon, sayfa SSS'i 8 ml × 5 flakon (40 ml) diyor — müşteri teyidi bekliyor."
+  },
+  "protokol": {
+    "kullanim": "Sıkılaştırma, doku yenileme ve yaşlanma belirtilerini azaltmaya yönelik protokollerde tercih edilir; düzenli kürlerde, sıkılık hedefi olan seanslarda kullanılır. Kontur kaybı yaşayan bölgelerde yenileyici bir etki sunar.",
+    "evKullanimi": null,
+    "kombinasyon": []
+  },
+  "sss": [
+    {
+      "s": "Firming ne işe yarar?",
+      "c": "Cildin sıkılığını ve dolgunluğunu destekler; ince çizgi ile kırışıklıkların giderilmesine yardımcı olur."
+    },
+    {
+      "s": "Başlıca içerikleri neler?",
+      "c": "Hydrolyzed Collagen ve Sodium Hyaluronate içerir."
+    },
+    {
+      "s": "Hydrolyzed Collagen'in katkısı nedir?",
+      "c": "Cilde kolajen desteği vererek dolgunluk ve sıkılık hissini artırmaya yardım eder."
+    },
+    {
+      "s": "Sodium Hyaluronate ne sağlar?",
+      "c": "Derin nemlendirme, parlaklık artışı ve elastikiyet desteğiyle yeniden yapılanmaya katkı sağlar."
+    },
+    {
+      "s": "Hangi cilt tipleri için uygundur?",
+      "c": "Sıkılık kaybı ve ince çizgi şikâyeti olan, mat ve tonunu yitirmiş ciltler için hedeflenir."
+    },
+    {
+      "s": "Hangi bakımlarda tercih edilir?",
+      "c": "Sıkılaştırma, doku yenileme ve yaşlanma belirtilerini azaltmaya yönelik protokollerde tercih edilir."
+    },
+    {
+      "s": "Diğer ürünlerle kombine edilebilir mi?",
+      "c": "Nem ve elastikiyet hedeflerinde Hyaluronic Acid ile kombine sık kullanılır."
+    },
+    {
+      "s": "Gözle görülür etki alanları neler?",
+      "c": "Dolgunluk artışı, ince çizgi görünümünde azalma ve doku bütünlüğü."
+    },
+    {
+      "s": "Seans planına nasıl oturur?",
+      "c": "Genel protokollerle düzenli kürlerde, sıkılık hedefi olan seanslarda kullanılır."
+    },
+    {
+      "s": "Ambalaj bilgisi nedir?",
+      "c": "Ürün içeriği 5 ml'lik flakonlar halinde sunulmaktadır; her kutuda toplam 5 adet flakon bulunur."
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezocomplex-hyaluronic-acid"
+  ],
+  "ilgiliBlog": [
+    "cilt-elastikiyeti-ve-kolajen-dinamikleri",
+    "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
+  ],
+  "gorsel": {
+    "ana": "urun/mezocomplex-firming.webp",
+    "kaynakFoto": "mezoeffect-firming-1.jpg",
+    "altMetin": "Mezocomplex Firming sıkılaştırıcı ve yenileyici solüsyon flakonu"
+  },
+  "dogrulama": {
+    "kaynakDosya": "page--mezocomplex-firming.md",
+    "tespitEdilenHatalar": [
+      "'Öne Çıkan Etkiler' listesi Mezocomplex Hyaluronic Acid sayfasından birebir kopyalanmış; beş maddenin tamamı nem ve parlaklık odaklı, sıkılaştırma ürünüyle ilgisiz. kimlerIcin alanı ürünün kendi gövde metni ve SSS bölümündeki sıkılık/kontur ifadelerinden yeniden kuruldu.",
+      "'Klinik Avantajları' listesi de aynı kopyadan geliyor; nem odaklı iki madde ('Nem dengesi üzerine güçlü ve hızlı etki', 'Seans sonrası nem kaybını kontrol altına alan yapısı') Hyaluronic Acid sayfasına ait olduğu için çıkarıldı, ürüne uyan üç madde korundu.",
+      "SSS'teki 'Gözlemlenen faydalar? — Daha canlı/ışıltılı görünüm, nemlenme ve çevresel stres faktörlerine karşı koruyucu etki.' yanıtı sık-sorulan-sorular.md içindeki Mezoeffect Antiaging bölümünden kopyalanmış (antioksidan/çevresel koruma iddiası bu üründe yok); kaldırıldı.",
+      "Ambalaj çelişkisi: gövde metni 5 ml'lik flakon × 5 adet derken sayfanın SSS bölümü 'Kutu: 5 flakon × 8 ml (toplam 40 ml)' diyor. ambalaj.not alanına müşteri teyidi notu düşüldü ve SSS yanıtı gövde metnine göre verildi.",
+      "Sayfa sonundaki 'Mezoeffect Firming Tanıtım' başlığı, Mezocomplex ürün sayfasında Mezoeffect marka adını kullanıyor; ürün adı Mezocomplex olarak korundu.",
+      "Kaynak metinde konum ve onay işareti emojileri madde ayracı olarak kullanılmış; kural gereği temizlenip liste yapısına dönüştürüldü.",
+      "sık-sorulan-sorular.md içindeki 'Mezoeffect Firming (Sıkılaştırıcı & Yenileyici)' bölümü, ürün sayfasının kendi SSS'iyle birebir aynı; eklenecek yeni soru çıkmadı.",
+      "Kaynakta profesyonel uygulama detayı, ev kullanımı ve cihaz kombinasyonu bilgisi yok; protokol.evKullanimi null, protokol.kombinasyon boş bırakıldı.",
+      "Görsel envanterinde bu sayfaya (mezocomplex-firming) ait kayıt mezoeffect-firming-1.jpg olarak bulundu ve atandı. Benzer adlı mezoeffect-firming.jpg sık-sorulan-sorular sayfasına aittir."
+    ],
+    "eklenenIcerik": [
+      "etiket",
+      "metaAciklama",
+      "gorsel.altMetin"
+    ]
+  }
+}
