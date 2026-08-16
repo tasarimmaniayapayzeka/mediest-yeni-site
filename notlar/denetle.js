@@ -31,6 +31,16 @@ for (const p of htmlDosyalari) {
   // metin gövdesi
   const metin = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' ');
 
+  // 0) srcset içindeki yollar da denetlenmeli — atlanırsa tarayıcı görseli hiç yüklemez
+  for (const m of html.matchAll(/\bsrcset="([^"]*)"/g)) {
+    for (const parca of m[1].split(',')) {
+      const u = parca.trim().split(/\s+/)[0];
+      if (!u.startsWith('/')) continue;
+      if (!fs.existsSync(path.join(DIST, u))) sorunlar.push(`${ad}  srcset kaynağı yok: ${u}`);
+      toplamLink++;
+    }
+  }
+
   // 1) iç linkler
   const linkler = [...html.matchAll(/href="(\/[^"#?]*)"/g)].map(m => m[1]);
   for (const l of linkler) {

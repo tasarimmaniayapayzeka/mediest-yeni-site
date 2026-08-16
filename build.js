@@ -15,11 +15,15 @@ const VARLIK = path.join(KOK, 'varlik');
 const TABAN = (process.argv.find(a => a.startsWith('--taban=')) || '').split('=')[1] || '';
 const CIKTI = path.join(KOK, (process.argv.find(a => a.startsWith('--cikti=')) || '').split('=')[1] || 'dist');
 
-// href="/x" ve src="/x" yollarını taban ile öne ekle. Protokol-göreli (//) ve
-// zaten tabanla başlayanlar atlanır; mutlak URL'ler (canonical, og:url) dokunulmaz.
+// href="/x", src="/x" ve srcset="/a 1x, /b 2x" yollarını taban ile öne ekle.
+// Protokol-göreli (//) ve mutlak URL'ler (canonical, og:url) dokunulmaz.
+// DİKKAT: srcset atlanırsa tarayıcı onu src'ye tercih eder ve görsel hiç yüklenmez.
 function tabanUygula(html) {
   if (!TABAN) return html;
-  return html.replace(/(\b(?:href|src)=")\/(?!\/)/g, (tam, on) => `${on}${TABAN}/`);
+  return html
+    .replace(/\bsrcset="([^"]*)"/g, (tam, liste) =>
+      `srcset="${liste.split(',').map(p => p.trim().replace(/^\/(?!\/)/, TABAN + '/')).join(', ')}"`)
+    .replace(/(\b(?:href|src)=")\/(?!\/)/g, (tam, on) => `${on}${TABAN}/`);
 }
 
 const oku = p => JSON.parse(fs.readFileSync(p, 'utf8').replace(/^﻿/, ''));
