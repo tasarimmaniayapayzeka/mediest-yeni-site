@@ -1,0 +1,107 @@
+/* ==========================================================================
+   TEMA B — Editoryal / Katalog
+   Asimetrik ızgara, çok büyük serif tipografi, numaralı bölümler,
+   tam genişlik görseller, metin görselin üzerine taşar.
+   ========================================================================== */
+
+:root {
+  --b-kagit: #f4f1ec;
+  --b-murekkep: #16161a;
+  --b-ikincil: #6b6862;
+  --b-cizgi: #d8d3ca;
+  --b-aksan: #1b4a72;
+  --b-vurgu: #b8894a;
+}
+
+.tema-b { background: var(--b-kagit); color: var(--b-murekkep); font-family: var(--f-govde); }
+.tema-b h1, .tema-b h2, .tema-b h3 { font-family: var(--f-baslik); font-weight: 600; letter-spacing: -0.03em; color: var(--b-murekkep); }
+.tema-b .b-kap { width: 100%; max-width: 1320px; margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 4.5rem); }
+.tema-b .b-bolum { padding-block: clamp(4rem, 8vw, 7.5rem); }
+
+/* Numaralı bölüm başlığı */
+.tema-b .b-basi { display: grid; gap: 1.25rem 3rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+@media (min-width: 900px) { .tema-b .b-basi { grid-template-columns: 5rem 1fr; align-items: start; } }
+.tema-b .b-no {
+  font-family: var(--f-baslik); font-size: 0.9375rem; font-weight: 600;
+  color: var(--b-vurgu); letter-spacing: 0.08em;
+  padding-top: 0.6rem; border-top: 2px solid var(--b-vurgu);
+}
+.tema-b .b-basi h2 { font-size: clamp(2rem, 4.4vw, 3.4rem); line-height: 1.06; margin: 0 0 0.9rem; max-width: 20ch; }
+.tema-b .b-basi p { font-size: 1.0625rem; line-height: 1.72; color: var(--b-ikincil); margin: 0; max-width: 56ch; }
+
+/* Hero: dev tipografi, sağda ürün */
+.tema-b .b-hero { padding-block: clamp(3rem, 6vw, 5.5rem) clamp(3rem, 6vw, 5rem); }
+.tema-b .b-hero__ust {
+  font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--b-vurgu); padding-bottom: 1.25rem; margin-bottom: clamp(1.75rem,3vw,2.5rem);
+  border-bottom: 1px solid var(--b-cizgi);
+}
+.tema-b .b-hero h1 { font-size: clamp(2.6rem, 7vw, 5.5rem); line-height: 0.98; margin: 0 0 1.75rem; max-width: 17ch; }
+.tema-b .b-hero__alt { display: grid; gap: 2rem 3.5rem; align-items: end; }
+@media (min-width: 900px) { .tema-b .b-hero__alt { grid-template-columns: 1.15fr 0.85fr; } }
+.tema-b .b-hero p { font-size: 1.125rem; line-height: 1.72; color: var(--b-ikincil); margin: 0; }
+.tema-b .b-hero__gorsel { aspect-ratio: 3 / 2; overflow: hidden; background: #fff; border: 1px solid var(--b-cizgi); }
+.tema-b .b-hero__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 4%; }
+
+.tema-b .b-dugmeler { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 2rem; align-items: center; }
+.tema-b .b-dugme {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  padding: 0.95rem 2rem; background: var(--b-murekkep); color: var(--b-kagit);
+  font-size: 0.9375rem; font-weight: 600; border-radius: 0;
+  transition: background .2s;
+}
+.tema-b .b-dugme:hover { background: var(--b-aksan); }
+.tema-b .b-link { font-size: 0.9375rem; font-weight: 600; border-bottom: 1px solid var(--b-vurgu); padding-bottom: 2px; }
+.tema-b .b-link:hover { color: var(--b-vurgu); }
+
+/* Tam genişlik görsel + üzerine taşan metin */
+.tema-b .b-genis { position: relative; margin-block: clamp(3rem, 6vw, 5rem); }
+.tema-b .b-genis__gorsel { aspect-ratio: 21 / 9; overflow: hidden; }
+.tema-b .b-genis__gorsel img { width: 100%; height: 100%; object-fit: cover; }
+.tema-b .b-genis__kutu {
+  background: var(--b-kagit); padding: clamp(1.75rem, 3.5vw, 3rem);
+  max-width: 560px; margin-top: -6rem; margin-left: clamp(1.25rem, 5vw, 4.5rem);
+  position: relative; z-index: 1;
+}
+.tema-b .b-genis__kutu h3 { font-size: clamp(1.4rem, 2.6vw, 2rem); margin: 0 0 0.75rem; }
+.tema-b .b-genis__kutu p { font-size: 1rem; line-height: 1.7; color: var(--b-ikincil); margin: 0; }
+
+/* Katalog ızgarası — asimetrik */
+.tema-b .b-katalog { display: grid; gap: clamp(2rem, 4vw, 3.5rem) clamp(1.5rem, 3vw, 2.5rem); }
+@media (min-width: 760px) { .tema-b .b-katalog { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1080px) { .tema-b .b-katalog { grid-template-columns: repeat(3, 1fr); } }
+.tema-b .b-oge { display: flex; flex-direction: column; }
+.tema-b .b-oge__gorsel { aspect-ratio: 5 / 4; background: #fff; overflow: hidden; margin-bottom: 1.15rem; }
+.tema-b .b-oge__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 6%; transition: transform .4s; }
+.tema-b a.b-oge:hover .b-oge__gorsel img { transform: scale(1.04); }
+.tema-b .b-oge__no { font-size: 0.75rem; letter-spacing: 0.12em; color: var(--b-vurgu); margin-bottom: 0.45rem; }
+.tema-b .b-oge h3 { font-size: 1.25rem; margin: 0 0 0.4rem; }
+.tema-b .b-oge p { font-size: 0.9375rem; line-height: 1.62; color: var(--b-ikincil); margin: 0; }
+
+/* Büyük cihaz bloğu */
+.tema-b .b-cihaz { display: grid; gap: clamp(2rem, 4vw, 4rem); align-items: center; padding-block: clamp(2.5rem, 5vw, 4rem); border-top: 1px solid var(--b-cizgi); }
+@media (min-width: 900px) { .tema-b .b-cihaz { grid-template-columns: 1fr 1fr; } .tema-b .b-cihaz--ters > *:first-child { order: 2; } }
+.tema-b .b-cihaz__gorsel { aspect-ratio: 1 / 1; background: #fff; overflow: hidden; }
+.tema-b .b-cihaz__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 8%; }
+.tema-b .b-cihaz h3 { font-size: clamp(1.75rem, 3.4vw, 2.6rem); line-height: 1.08; margin: 0 0 1rem; }
+.tema-b .b-cihaz p { font-size: 1.0625rem; line-height: 1.72; color: var(--b-ikincil); margin: 0 0 1.5rem; }
+
+.tema-b .b-liste { display: grid; gap: 0; margin: 0 0 1.75rem; padding: 0; list-style: none; }
+.tema-b .b-liste li { padding: 0.7rem 0; border-bottom: 1px solid var(--b-cizgi); font-size: 0.9688rem; color: var(--b-ikincil); }
+.tema-b .b-liste li:first-child { border-top: 1px solid var(--b-cizgi); }
+
+/* Protokol: iki sütunlu editoryal liste */
+.tema-b .b-protokol { display: grid; gap: 0; }
+.tema-b .b-satir { display: grid; gap: 0.35rem 2rem; padding: 1.35rem 0; border-bottom: 1px solid var(--b-cizgi); }
+@media (min-width: 800px) { .tema-b .b-satir { grid-template-columns: 1fr 0.8fr 1fr; align-items: baseline; } }
+.tema-b .b-satir:first-child { border-top: 1px solid var(--b-murekkep); }
+.tema-b .b-satir__sorun { font-family: var(--f-baslik); font-size: 1.125rem; font-weight: 600; }
+.tema-b .b-satir__cihaz, .tema-b .b-satir__urun { font-size: 0.9375rem; color: var(--b-ikincil); }
+.tema-b .b-satir__urun a { color: var(--b-aksan); border-bottom: 1px solid currentColor; }
+
+/* Kapanış: koyu tek blok */
+.tema-b .b-kapanis { background: var(--b-murekkep); color: var(--b-kagit); padding-block: clamp(3.5rem, 7vw, 6rem); }
+.tema-b .b-kapanis h2 { color: var(--b-kagit); font-size: clamp(1.9rem, 4vw, 3rem); margin: 0 0 1rem; max-width: 18ch; }
+.tema-b .b-kapanis p { color: rgba(244,241,236,.72); font-size: 1.0625rem; margin: 0 0 2rem; max-width: 52ch; }
+.tema-b .b-kapanis .b-dugme { background: var(--b-vurgu); color: var(--b-murekkep); }
+.tema-b .b-kapanis .b-dugme:hover { background: var(--b-kagit); }

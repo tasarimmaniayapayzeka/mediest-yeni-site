@@ -160,6 +160,21 @@ if (fs.existsSync(protokolYolu) && urunler.length) {
   uretilen.push({ yol: '/protokoller/', ad: `Protokol Seçici (${kategoriSayisi} başlık)`, bayt: Buffer.byteLength(html) });
 }
 
+// ---------- Tasarım alternatifleri (karar verilene kadar, noindex) ----------
+const anaVeri = path.join(ICERIK, 'anasayfa.json');
+if (fs.existsSync(anaVeri) && urunler.length) {
+  const { alternatifSayfasi, alternatifDizini, TEMALAR } = require('./sablon/alternatif');
+  const veri = oku(anaVeri);
+  for (const tema of Object.keys(TEMALAR)) {
+    const html = alternatifSayfasi({ tema, site, veri, urunler, gorselVarMi });
+    yaz(path.join('tasarim', tema, 'index.html'), tabanUygula(html));
+    uretilen.push({ yol: `/tasarim/${tema}/`, ad: `Alternatif ${TEMALAR[tema].ad}`, bayt: Buffer.byteLength(html) });
+  }
+  const dizin = alternatifDizini({ site });
+  yaz(path.join('tasarim', 'index.html'), tabanUygula(dizin));
+  uretilen.push({ yol: '/tasarim/', ad: 'Tasarım alternatifleri dizini', bayt: Buffer.byteLength(dizin) });
+}
+
 // ---------- Blog: yazılar, liste ve kategoriler ----------
 const blogDizin = path.join(ICERIK, 'blog');
 const kategoriYolu = path.join(ICERIK, 'kategoriler.json');
