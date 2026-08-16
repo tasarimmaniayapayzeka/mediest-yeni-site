@@ -13,6 +13,17 @@ const VARLIK = path.join(KOK, 'varlik');
 // GitHub Pages alt klasörde sunulduğu için kök-mutlak yolların önüne ek gerekiyor:
 //   node build.js --taban=/mediest-yeni-site --cikti=docs
 const TABAN = (process.argv.find(a => a.startsWith('--taban=')) || '').split('=')[1] || '';
+
+// Git Bash (MSYS) "/mediest-yeni-site" gibi bir argümanı Windows yoluna çevirir
+// ("C:/Program Files/Git/mediest-yeni-site"). Bu sessizce tüm çıktıyı bozar,
+// o yüzden burada durduruyoruz. Bash'ten çalıştıracaksanız: MSYS_NO_PATHCONV=1
+if (TABAN && !/^\/[a-z0-9\-/]*$/i.test(TABAN)) {
+  console.error(`\n  HATA: --taban değeri bozuk: "${TABAN}"`);
+  console.error('  Beklenen biçim: /alt-klasor');
+  console.error('  Git Bash kullanıyorsanız başına MSYS_NO_PATHCONV=1 ekleyin,');
+  console.error('  ya da build\'i PowerShell\'den çalıştırın.\n');
+  process.exit(1);
+}
 const CIKTI = path.join(KOK, (process.argv.find(a => a.startsWith('--cikti=')) || '').split('=')[1] || 'dist');
 
 // href="/x", src="/x" ve srcset="/a 1x, /b 2x" yollarını taban ile öne ekle.
