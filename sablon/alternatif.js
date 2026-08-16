@@ -51,16 +51,23 @@ function kabuk({ tema, ad, aciklama, govde, site }) {
   .alt-serit a:hover { border-color: #6fa3d6; color: #fff; }
   .alt-serit a[aria-current] { background: #6fa3d6; border-color: #6fa3d6; color: #0b1724; font-weight: 600; }
   .alt-serit__grup { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .alt-serit__ayrac { width: 1px; height: 1.25rem; background: rgba(207,216,227,.3); }
 </style>
 </head>
 <body class="tema-${tema}">
 <div class="alt-serit">
   <strong style="color:#fff">Tasarım alternatifi: ${kacis(ad)}</strong>
   <div class="alt-serit__grup">
-    <a href="/tasarim/a/"${tema === 'a' ? ' aria-current="page"' : ''}>A · Klinik Minimal</a>
-    <a href="/tasarim/b/"${tema === 'b' ? ' aria-current="page"' : ''}>B · Editoryal</a>
-    <a href="/tasarim/c/"${tema === 'c' ? ' aria-current="page"' : ''}>C · Koyu Premium</a>
-    <a href="/">Mevcut tasarım</a>
+    <a href="/tasarim/a/"${tema === 'a' ? ' aria-current="page"' : ''}>A</a>
+    <a href="/tasarim/b/"${tema === 'b' ? ' aria-current="page"' : ''}>B</a>
+    <a href="/tasarim/c/"${tema === 'c' ? ' aria-current="page"' : ''}>C</a>
+    <span class="alt-serit__ayrac"></span>
+    <a href="/tasarim/d/"${tema === 'd' ? ' aria-current="page"' : ''}>D · Grafit</a>
+    <a href="/tasarim/e/"${tema === 'e' ? ' aria-current="page"' : ''}>E · Çift Ton</a>
+    <a href="/tasarim/f/"${tema === 'f' ? ' aria-current="page"' : ''}>F · Vitrin</a>
+    <span class="alt-serit__ayrac"></span>
+    <a href="/tasarim/">Tümü</a>
+    <a href="/">Mevcut</a>
   </div>
 </div>
 ${govde}
@@ -351,10 +358,303 @@ function temaC({ d, site, varMi }) {
 </main>`;
 }
 
+/* ------------------------------------------------------- TEMA D — Grafit */
+function temaD({ d, site, varMi }) {
+  const oge = u => `<a class="d-oge" href="/${u.slug}/">
+        <div class="d-oge__gorsel">${urunGorsel(u, varMi)}</div>
+        <div class="d-oge__govde">
+          <div class="d-oge__ust">${kacis(u.etiket || '')}</div>
+          <h3>${kacis(u.adKisa || u.ad)}</h3>
+          <p>${kacis((u.ozet || '').slice(0, 72))}…</p>
+        </div>
+      </a>`;
+
+  const cihaz = (u, n) => `<div class="d-cihaz${n % 2 ? ' d-cihaz--ters' : ''}">
+      <div class="d-isik d-isik--kare">${urunGorsel(u, varMi)}</div>
+      <div>
+        <div class="d-etiket">${kacis(u.etiket || 'Cihaz')}</div>
+        <h3>${kacis(u.ad)}</h3>
+        <p>${kacis(u.ozet)}</p>
+        ${u.uygulamaAlanlari?.length ? `<div class="d-etiketler">${u.uygulamaAlanlari.slice(0, 5).map(a => `<span class="d-cip">${kacis(a.ad)}</span>`).join('')}</div>` : ''}
+        <a class="d-dugme d-dugme--bos" href="/${u.slug}/">Cihaz sayfası</a>
+      </div>
+    </div>`;
+
+  return `<main>
+<section class="d-hero">
+  <div class="d-kap d-hero__izgara">
+    <div>
+      <div class="d-etiket">${kacis(d.hero.ustEtiket || '')}</div>
+      <h1>${kacis(d.hero.baslik)}</h1>
+      <p>${kacis(d.hero.giris)}</p>
+    </div>
+    <div class="d-dugmeler">
+      <a class="d-dugme" href="${site.teklifUrl}">Teklif Al</a>
+      <a class="d-dugme d-dugme--bos" href="/cihazlar/karsilastirma/">Karşılaştır</a>
+    </div>
+  </div>
+</section>
+
+<section class="d-bolum d-bolum--yuzey">
+  <div class="d-kap">
+    <div class="d-basi">
+      <div class="d-etiket">Katalog</div>
+      <h2>${kacis(d.grup.baslik)}</h2>
+      <p>${kacis(d.grup.giris || '')}</p>
+    </div>
+    <div class="d-katalog">${[...d.mezoeffect, ...d.mezocomplex].map(oge).join('')}</div>
+  </div>
+</section>
+
+<section class="d-bolum">
+  <div class="d-kap">
+    <div class="d-basi">
+      <div class="d-etiket">${kacis(d.secim.ustEtiket || 'Cihazlar')}</div>
+      <h2>${kacis(d.secim.baslik)}</h2>
+      <p>${kacis(d.secim.giris || '')}</p>
+    </div>
+    ${d.cihazlar.map(cihaz).join('\n    ')}
+  </div>
+</section>
+
+<section class="d-bolum d-bolum--yuzey">
+  <div class="d-kap">
+    <div class="d-basi">
+      <div class="d-etiket">${kacis(d.protokol.ustEtiket || 'Protokol')}</div>
+      <h2>${kacis(d.protokol.baslik)}</h2>
+    </div>
+    <div class="d-protokol">
+      ${(d.protokol.satirlar || []).map(s => `<article class="d-pkart">
+        <h3>${kacis(s.sorun)}</h3>
+        <dl>
+          <dt>Cihaz</dt><dd>${kacis(s.cihaz)}</dd>
+          <dt>Önerilen ürün</dt><dd>${s.urunSlug ? `<a href="/${s.urunSlug}/">${kacis(s.urun)}</a>` : kacis(s.urun)}</dd>
+        </dl>
+      </article>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="d-bolum">
+  <div class="d-kap d-showroom">
+    <div class="d-showroom__gorsel">${gr('showroom', 'Bakırköy showroom', varMi)}</div>
+    <div>
+      <div class="d-etiket">Showroom</div>
+      <h2 style="font-size:clamp(1.5rem,2.8vw,2.1rem);margin:0 0 1.25rem">Cihazı elinize alın</h2>
+      <dl class="d-kunye">
+        <div><dt>Adres</dt><dd>${kacis(site.iletisim.adres.tam)}</dd></div>
+        <div><dt>Telefon</dt><dd><a href="tel:${site.iletisim.telefonHam}" style="color:inherit">${kacis(site.iletisim.telefon)}</a></dd></div>
+        <div><dt>Çalışma saatleri</dt><dd>${kacis(site.iletisim.calismaSaatleri)}</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="d-kapanis">
+  <div class="d-kap">
+    <h2>${kacis(d.kapanis.baslik)}</h2>
+    <p>${kacis(d.kapanis.giris || '')}</p>
+    <div class="d-dugmeler">
+      <a class="d-dugme" href="${site.teklifUrl}">Teklif Al</a>
+      <a class="d-dugme d-dugme--bos" href="tel:${site.iletisim.telefonHam}">${kacis(site.iletisim.telefon)}</a>
+    </div>
+  </div>
+</section>
+</main>`;
+}
+
+/* ---------------------------------------------------- TEMA E — Çift Ton */
+function temaE({ d, site, varMi }) {
+  const split = (u, n) => `<section class="e-split${n % 2 ? ' e-split--ters' : ''} ${n % 2 ? 'e-acik-2' : 'e-koyu'}">
+    <div class="e-split__gorsel">${urunGorsel(u, varMi)}</div>
+    <div class="e-split__metin">
+      <div class="e-etiket">${kacis(u.etiket || 'Cihaz')}</div>
+      <h2>${kacis(u.ad)}</h2>
+      <p>${kacis(u.ozet)}</p>
+      ${u.uygulamaAlanlari?.length ? `<ul class="e-liste">${u.uygulamaAlanlari.slice(0, 4).map(a => `<li>${kacis(a.ad)}</li>`).join('')}</ul>` : ''}
+      <div><a class="e-dugme e-dugme--bos" href="/${u.slug}/">Cihaz sayfası</a></div>
+    </div>
+  </section>`;
+
+  const oge = u => `<a class="e-oge" href="/${u.slug}/">
+        <div class="e-oge__gorsel">${urunGorsel(u, varMi)}</div>
+        <div class="e-oge__ust">${kacis(u.etiket || '')}</div>
+        <h3>${kacis(u.adKisa || u.ad)}</h3>
+        <p>${kacis((u.ozet || '').slice(0, 70))}…</p>
+      </a>`;
+
+  return `<main>
+<section class="e-hero e-koyu">
+  <div class="e-kap">
+    <div class="e-etiket">${kacis(d.hero.ustEtiket || '')}</div>
+    <h1>${kacis(d.hero.baslik)}</h1>
+    <p>${kacis(d.hero.giris)}</p>
+    <div class="e-dugmeler">
+      <a class="e-dugme" href="${site.teklifUrl}">Teklif Al</a>
+      <a class="e-dugme e-dugme--bos" href="/protokoller/">Protokol Seçici</a>
+    </div>
+  </div>
+</section>
+
+${d.cihazlar.map(split).join('\n')}
+
+<section class="e-bolum e-acik">
+  <div class="e-kap">
+    <div class="e-basi">
+      <div class="e-etiket">Katalog</div>
+      <h2>${kacis(d.grup.baslik)}</h2>
+      <p>${kacis(d.grup.giris || '')}</p>
+    </div>
+    <div class="e-katalog">${[...d.mezoeffect, ...d.mezocomplex].map(oge).join('')}</div>
+  </div>
+</section>
+
+<section class="e-bolum e-koyu">
+  <div class="e-kap">
+    <div class="e-basi">
+      <div class="e-etiket">${kacis(d.protokol.ustEtiket || 'Protokol')}</div>
+      <h2>${kacis(d.protokol.baslik)}</h2>
+    </div>
+    <div class="e-protokol">
+      ${(d.protokol.satirlar || []).map(s => `<div class="e-psatir">
+        <h3>${kacis(s.sorun)}</h3>
+        <p>${kacis(s.cihaz)} · ${s.urunSlug ? `<a href="/${s.urunSlug}/">${kacis(s.urun)}</a>` : kacis(s.urun)}</p>
+      </div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="e-split e-acik-2">
+  <div class="e-split__gorsel" style="padding:0"><img src="/varlik/gorsel/showroom.webp" alt="Bakırköy showroom" style="width:100%;height:100%;object-fit:cover;max-width:none" loading="lazy" decoding="async"></div>
+  <div class="e-split__metin">
+    <div class="e-etiket">Showroom</div>
+    <h2>Karar vermeden önce deneyin</h2>
+    <p>${kacis(site.iletisim.showroom)}.</p>
+    <ul class="e-liste">
+      <li>${kacis(site.iletisim.adres.tam)}</li>
+      <li>${kacis(site.iletisim.telefon)}</li>
+      <li>${kacis(site.iletisim.calismaSaatleri)}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="e-kapanis e-koyu">
+  <div class="e-kap">
+    <h2>${kacis(d.kapanis.baslik)}</h2>
+    <p>${kacis(d.kapanis.giris || '')}</p>
+    <div class="e-dugmeler"><a class="e-dugme" href="${site.teklifUrl}">Teklif Al</a></div>
+  </div>
+</section>
+</main>`;
+}
+
+/* ------------------------------------------------------- TEMA F — Vitrin */
+function temaF({ d, site, varMi }) {
+  const vitrin = u => `<a class="f-vitrin-kart" href="/${u.slug}/">
+        <div class="f-vitrin-kart__gorsel">${urunGorsel(u, varMi)}</div>
+        <div class="f-vitrin-kart__govde">
+          <div class="f-vitrin-kart__ust">${kacis(u.etiket || '')}</div>
+          <h3>${kacis(u.adKisa || u.ad)}</h3>
+          <p>${kacis((u.ozet || '').slice(0, 58))}…</p>
+        </div>
+      </a>`;
+
+  const sahne = u => `<article class="f-sahne">
+      <div class="f-sahne__ust">
+        <div class="f-sahne__gorsel">${urunGorsel(u, varMi)}</div>
+        <div class="f-sahne__metin">
+          <div class="f-etiket">${kacis(u.etiket || 'Cihaz')}</div>
+          <h3>${kacis(u.ad)}</h3>
+          <p>${kacis(u.ozet)}</p>
+          <a class="f-dugme f-dugme--bos" href="/${u.slug}/">Cihaz sayfası</a>
+        </div>
+      </div>
+      ${u.uygulamaAlanlari?.length ? `<dl class="f-ozet">
+        ${u.uygulamaAlanlari.slice(0, 4).map(a => `<div><dt>Uygulama</dt><dd>${kacis(a.ad)}</dd></div>`).join('')}
+      </dl>` : ''}
+    </article>`;
+
+  return `<main>
+<section class="f-hero">
+  <div class="f-kap">
+    <div class="f-etiket">${kacis(d.hero.ustEtiket || '')}</div>
+    <h1>${kacis(d.hero.baslik)}</h1>
+    <p>${kacis(d.hero.giris)}</p>
+    <div class="f-dugmeler">
+      <a class="f-dugme" href="${site.teklifUrl}">Teklif Al</a>
+      <a class="f-dugme f-dugme--bos" href="/cihazlar/karsilastirma/">Cihazları karşılaştır</a>
+    </div>
+
+    <div class="f-vitrin">
+      <div class="f-vitrin__ust">
+        <h2>Katalog · ${d.mezoeffect.length + d.mezocomplex.length} ürün</h2>
+        <span class="f-vitrin__not">Yana kaydırın →</span>
+      </div>
+      <div class="f-ray">${[...d.mezoeffect, ...d.mezocomplex].map(vitrin).join('')}</div>
+    </div>
+  </div>
+</section>
+
+<section class="f-bolum">
+  <div class="f-kap">
+    <div style="max-width:660px;margin-bottom:clamp(2rem,4vw,3rem)">
+      <div class="f-etiket">${kacis(d.secim.ustEtiket || 'Cihazlar')}</div>
+      <h2 style="font-size:clamp(1.7rem,3.2vw,2.5rem);margin:0 0 .8rem">${kacis(d.secim.baslik)}</h2>
+      <p style="color:var(--f-ikincil);margin:0;line-height:1.7">${kacis(d.secim.giris || '')}</p>
+    </div>
+    ${d.cihazlar.map(sahne).join('\n    ')}
+  </div>
+</section>
+
+<section class="f-bolum">
+  <div class="f-kap f-protokol">
+    <div class="f-protokol__basi">
+      <div class="f-etiket">${kacis(d.protokol.ustEtiket || 'Protokol')}</div>
+      <h2>${kacis(d.protokol.baslik)}</h2>
+      <p>${kacis(d.protokol.giris || '')}</p>
+      <a class="f-dugme f-dugme--bos" href="/protokoller/">Protokol Seçici</a>
+    </div>
+    <div class="f-akis">
+      ${(d.protokol.satirlar || []).map(s => `<div class="f-akis__oge">
+        <div class="f-akis__sorun">${kacis(s.sorun)}</div>
+        <div class="f-akis__cihaz">${kacis(s.cihaz)}</div>
+        <div class="f-akis__urun">${s.urunSlug ? `<a href="/${s.urunSlug}/">${kacis(s.urun)}</a>` : kacis(s.urun)}</div>
+      </div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="f-bolum">
+  <div class="f-kap">
+    <dl class="f-sayilar">
+      ${(d.guven.maddeler || []).map(m => `<div><dt>${kacis(m.baslik)}</dt><dd>${kacis(m.aciklama)}</dd></div>`).join('')}
+    </dl>
+  </div>
+</section>
+
+<section class="f-kapanis">
+  <div class="f-kap f-kapanis__ic">
+    <div>
+      <div class="f-etiket">${kacis(d.kapanis.ustEtiket || 'Teklif')}</div>
+      <h2>${kacis(d.kapanis.baslik)}</h2>
+      <p>${kacis(d.kapanis.giris || '')}</p>
+    </div>
+    <div class="f-dugmeler">
+      <a class="f-dugme" href="${site.teklifUrl}">Teklif Al</a>
+      <a class="f-dugme f-dugme--bos" href="tel:${site.iletisim.telefonHam}">${kacis(site.iletisim.telefon)}</a>
+    </div>
+  </div>
+</section>
+</main>`;
+}
+
 const TEMALAR = {
   a: { ad: 'A · Klinik Minimal', aciklama: 'Beyaz zemin, ince ayraçlar, ürün odaklı sakin düzen.', ciz: temaA },
   b: { ad: 'B · Editoryal', aciklama: 'Katalog düzeni, büyük serif tipografi, numaralı bölümler.', ciz: temaB },
-  c: { ad: 'C · Koyu Premium', aciklama: 'Baştan sona koyu zemin, altın aksan, ışık kutusunda ürünler.', ciz: temaC }
+  c: { ad: 'C · Koyu Premium', aciklama: 'Baştan sona koyu zemin, altın aksan, ışık kutusunda ürünler.', ciz: temaC },
+  d: { ad: 'D · Grafit', aciklama: 'C\'nin açılmış hâli: arduvaz zemin, yumuşak kontrast. Akış katalogla başlar.', ciz: temaD },
+  e: { ad: 'E · Çift Ton', aciklama: 'Koyu ve fildişi bölümler dönüşümlü, tam genişlik 50/50 bölünmüş ekranlar.', ciz: temaE },
+  f: { ad: 'F · Vitrin', aciklama: 'Mavi-gri açık zemin, yana kaydırmalı ürün şeridi, yapışkan protokol paneli.', ciz: temaF }
 };
 
 function alternatifSayfasi({ tema, site, veri, urunler, gorselVarMi = () => false }) {
@@ -381,8 +681,8 @@ function alternatifDizini({ site }) {
 </head><body>
 <section class="hub-hero koyu"><div class="kapsayici"><div class="hub-hero__ic">
   <span class="ust-etiket">Karar</span>
-  <h1>Üç tasarım yönü</h1>
-  <p class="giris">Üçü de aynı içerikle, aynı gerçek ürün fotoğraflarıyla kuruldu. Sadece sanat yönü farklı. Beğendiğinizi söyleyin, tüm siteyi o yöne taşıyayım.</p>
+  <h1>Altı tasarım yönü</h1>
+  <p class="giris">Hepsi aynı içerikle, aynı gerçek ürün fotoğraflarıyla kuruldu. Sadece sanat yönü ve bölüm akışı farklı. D, E ve F koyu yönün (C) daha açık varyasyonlarıdır; üçünün de bölüm sırası birbirinden farklıdır.</p>
 </div></div></section>
 <section class="bolum"><div class="kapsayici">
   <div class="izgara izgara--3">${kartlar}</div>

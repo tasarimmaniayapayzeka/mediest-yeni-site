@@ -1,0 +1,102 @@
+/* ==========================================================================
+   TEMA D — Grafit (C'nin açılmış hâli)
+   Siyah değil grafit/arduvaz zemin, daha çok nefes, daha yumuşak kontrast.
+   AKIŞ: katalog önce → cihazlar → protokol → showroom → kapanış
+   ========================================================================== */
+
+:root {
+  --d-zemin: #1c2430;
+  --d-yuzey: #232d3b;
+  --d-yuzey-2: #2a3547;
+  --d-cizgi: rgba(198, 213, 230, 0.16);
+  --d-metin: #eef3f8;
+  --d-ikincil: #a3b3c6;
+  --d-aksan: #7fb2e0;
+  --d-sicak: #d9b98a;
+}
+
+.tema-d { background: var(--d-zemin); color: var(--d-metin); font-family: var(--f-govde); }
+.tema-d h1, .tema-d h2, .tema-d h3 { font-family: var(--f-govde); font-weight: 600; letter-spacing: -0.02em; color: #fff; }
+.tema-d .d-kap { width: 100%; max-width: 1300px; margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 3rem); }
+.tema-d .d-bolum { padding-block: clamp(3.5rem, 7vw, 6.5rem); }
+.tema-d .d-bolum--yuzey { background: var(--d-yuzey); }
+
+.tema-d .d-etiket {
+  display: inline-block; padding: 0.35rem 0.85rem;
+  background: rgba(127, 178, 224, 0.14); border-radius: 40px;
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em;
+  color: var(--d-aksan); margin-bottom: 1.15rem;
+}
+
+/* Kompakt hero — sayfa hemen katalogla başlasın */
+.tema-d .d-hero { padding-block: clamp(2.75rem, 5vw, 4.5rem) clamp(2.25rem, 4vw, 3.5rem); }
+.tema-d .d-hero__izgara { display: grid; gap: 2rem 3.5rem; align-items: end; }
+@media (min-width: 900px) { .tema-d .d-hero__izgara { grid-template-columns: 1.25fr 0.75fr; } }
+.tema-d .d-hero h1 { font-size: clamp(2.1rem, 4.2vw, 3.4rem); line-height: 1.1; margin: 0 0 1.15rem; max-width: 22ch; }
+.tema-d .d-hero p { font-size: 1.0625rem; line-height: 1.72; color: var(--d-ikincil); margin: 0; max-width: 52ch; }
+.tema-d .d-dugmeler { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.tema-d .d-dugme {
+  display: inline-flex; align-items: center; padding: 0.85rem 1.7rem; border-radius: 40px;
+  font-size: 0.9375rem; font-weight: 600; background: var(--d-aksan); color: #10161f;
+  border: 1px solid var(--d-aksan); transition: background .2s, border-color .2s;
+}
+.tema-d .d-dugme:hover { background: #9cc5eb; border-color: #9cc5eb; }
+.tema-d .d-dugme--bos { background: transparent; color: var(--d-metin); border-color: var(--d-cizgi); }
+.tema-d .d-dugme--bos:hover { border-color: var(--d-aksan); color: var(--d-aksan); background: transparent; }
+
+/* Işık kutusu — daha açık zeminde daha yumuşak */
+.tema-d .d-isik {
+  background: #f6f8fa; border-radius: 10px; overflow: hidden;
+  box-shadow: 0 18px 50px -26px rgba(0,0,0,.65);
+}
+.tema-d .d-isik img { width: 100%; height: 100%; object-fit: contain; padding: 7%; display: block; }
+.tema-d .d-isik--yatay { aspect-ratio: 4 / 3; }
+.tema-d .d-isik--kare { aspect-ratio: 1 / 1; }
+
+.tema-d .d-basi { max-width: 700px; margin-bottom: clamp(2rem, 4vw, 3rem); }
+.tema-d .d-basi h2 { font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height: 1.14; margin: 0 0 0.8rem; }
+.tema-d .d-basi p { font-size: 1.0313rem; line-height: 1.7; color: var(--d-ikincil); margin: 0; }
+
+/* Katalog: yoğun ızgara, önce gelir */
+.tema-d .d-katalog { display: grid; gap: 1.15rem; grid-template-columns: repeat(auto-fit, minmax(min(100%,215px),1fr)); }
+.tema-d .d-oge { display: flex; flex-direction: column; background: var(--d-yuzey-2); border-radius: 10px; overflow: hidden; transition: transform .22s, box-shadow .22s; }
+.tema-d a.d-oge:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -24px rgba(0,0,0,.8); }
+.tema-d .d-oge__gorsel { aspect-ratio: 4 / 3; background: #f6f8fa; }
+.tema-d .d-oge__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 8%; }
+.tema-d .d-oge__govde { padding: 1rem 1.15rem 1.25rem; display: flex; flex-direction: column; flex: 1; }
+.tema-d .d-oge__ust { font-size: 0.6875rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--d-sicak); margin-bottom: 0.35rem; }
+.tema-d .d-oge h3 { font-size: 1rem; margin: 0 0 0.3rem; }
+.tema-d .d-oge p { font-size: 0.8438rem; line-height: 1.55; color: var(--d-ikincil); margin: 0; }
+
+/* Cihaz: geniş yatay şerit */
+.tema-d .d-cihaz { display: grid; gap: clamp(1.75rem, 3.5vw, 3rem); align-items: center; background: var(--d-yuzey-2); border-radius: 14px; padding: clamp(1.5rem, 3vw, 2.5rem); }
+@media (min-width: 880px) { .tema-d .d-cihaz { grid-template-columns: 0.85fr 1.15fr; } .tema-d .d-cihaz--ters > *:first-child { order: 2; } }
+.tema-d .d-cihaz + .d-cihaz { margin-top: 1.35rem; }
+.tema-d .d-cihaz h3 { font-size: clamp(1.5rem, 2.8vw, 2.1rem); margin: 0 0 0.75rem; }
+.tema-d .d-cihaz p { font-size: 1rem; line-height: 1.7; color: var(--d-ikincil); margin: 0 0 1.25rem; }
+
+.tema-d .d-etiketler { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+.tema-d .d-cip { padding: 0.35rem 0.8rem; border: 1px solid var(--d-cizgi); border-radius: 40px; font-size: 0.8125rem; color: var(--d-ikincil); }
+
+/* Protokol: kart ızgarası (tablo değil) */
+.tema-d .d-protokol { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%,280px),1fr)); }
+.tema-d .d-pkart { background: var(--d-yuzey-2); border-radius: 10px; padding: 1.35rem 1.5rem; border-left: 3px solid var(--d-sicak); }
+.tema-d .d-pkart h3 { font-size: 1.0313rem; margin: 0 0 0.65rem; }
+.tema-d .d-pkart dl { margin: 0; display: grid; gap: 0.45rem; }
+.tema-d .d-pkart dt { font-size: 0.6875rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--d-ikincil); }
+.tema-d .d-pkart dd { margin: 0 0 0.35rem; font-size: 0.9063rem; color: var(--d-metin); }
+.tema-d .d-pkart a { color: var(--d-aksan); font-weight: 600; }
+
+/* Showroom: geniş görsel + yan bilgi */
+.tema-d .d-showroom { display: grid; gap: clamp(2rem, 4vw, 3.5rem); align-items: center; }
+@media (min-width: 900px) { .tema-d .d-showroom { grid-template-columns: 1.25fr 0.75fr; } }
+.tema-d .d-showroom__gorsel { border-radius: 14px; overflow: hidden; aspect-ratio: 16/10; }
+.tema-d .d-showroom__gorsel img { width: 100%; height: 100%; object-fit: cover; }
+.tema-d .d-kunye { display: grid; gap: 1rem; }
+.tema-d .d-kunye > div { padding-bottom: 1rem; border-bottom: 1px solid var(--d-cizgi); }
+.tema-d .d-kunye dt { font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--d-sicak); margin-bottom: 0.25rem; }
+.tema-d .d-kunye dd { margin: 0; font-size: 1.0313rem; }
+
+.tema-d .d-kapanis { background: linear-gradient(120deg, var(--d-yuzey), var(--d-zemin)); padding-block: clamp(3rem, 6vw, 5rem); }
+.tema-d .d-kapanis h2 { font-size: clamp(1.7rem, 3.4vw, 2.6rem); margin: 0 0 0.85rem; max-width: 20ch; }
+.tema-d .d-kapanis p { color: var(--d-ikincil); margin: 0 0 1.85rem; max-width: 54ch; font-size: 1.0313rem; }

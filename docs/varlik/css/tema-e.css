@@ -1,0 +1,98 @@
+/* ==========================================================================
+   TEMA E — Çift Ton / Split
+   Arduvaz koyu ile fildişi açık bölümler dönüşümlü. Tam genişlik 50/50
+   bölünmüş ekranlar. Zemin C'den belirgin açık, kontrast bölümlerden geliyor.
+   AKIŞ: hero → split cihaz 1 → split cihaz 2 → açık katalog → koyu protokol
+          → açık showroom → kapanış
+   ========================================================================== */
+
+:root {
+  --e-koyu: #253040;
+  --e-koyu-2: #2e3b4e;
+  --e-acik: #f3efe9;
+  --e-acik-2: #e9e3d9;
+  --e-metin-koyu: #1d232c;
+  --e-metin-acik: #f0f4f8;
+  --e-ikincil-koyu: #5f6a78;
+  --e-ikincil-acik: #adbccd;
+  --e-aksan: #c98f4e;
+  --e-cizgi: rgba(200, 214, 230, 0.18);
+}
+
+.tema-e { background: var(--e-acik); color: var(--e-metin-koyu); font-family: var(--f-govde); }
+.tema-e h1, .tema-e h2, .tema-e h3 { font-family: var(--f-baslik); font-weight: 600; letter-spacing: -0.02em; }
+.tema-e .e-kap { width: 100%; max-width: 1280px; margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 3rem); }
+.tema-e .e-bolum { padding-block: clamp(3.5rem, 7vw, 6rem); }
+.tema-e .e-koyu { background: var(--e-koyu); color: var(--e-metin-acik); }
+.tema-e .e-koyu h1, .tema-e .e-koyu h2, .tema-e .e-koyu h3 { color: #fff; }
+.tema-e .e-koyu p { color: var(--e-ikincil-acik); }
+.tema-e .e-acik { background: var(--e-acik); color: var(--e-metin-koyu); }
+.tema-e .e-acik p { color: var(--e-ikincil-koyu); }
+.tema-e .e-acik-2 { background: var(--e-acik-2); }
+
+.tema-e .e-etiket {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--e-aksan); margin-bottom: 1.15rem;
+}
+.tema-e .e-etiket::after { content: ""; flex: 1; height: 1px; background: currentColor; opacity: .35; max-width: 4rem; }
+
+/* Hero: koyu, ortalanmış, dar */
+.tema-e .e-hero { padding-block: clamp(4rem, 8vw, 7rem); text-align: center; }
+.tema-e .e-hero .e-etiket { justify-content: center; }
+.tema-e .e-hero .e-etiket::after { display: none; }
+.tema-e .e-hero h1 { font-size: clamp(2.2rem, 5vw, 3.9rem); line-height: 1.08; margin: 0 auto 1.35rem; max-width: 20ch; }
+.tema-e .e-hero p { font-size: 1.0938rem; line-height: 1.74; margin: 0 auto; max-width: 60ch; }
+.tema-e .e-dugmeler { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-top: 2.25rem; }
+.tema-e .e-dugme {
+  display: inline-flex; align-items: center; padding: 0.9rem 1.9rem;
+  font-size: 0.9375rem; font-weight: 600; border-radius: 2px;
+  background: var(--e-aksan); color: #17202b; border: 1px solid var(--e-aksan);
+  transition: background .2s, border-color .2s, color .2s;
+}
+.tema-e .e-dugme:hover { background: #dfa967; border-color: #dfa967; }
+.tema-e .e-dugme--bos { background: transparent; color: currentColor; border-color: var(--e-cizgi); }
+.tema-e .e-koyu .e-dugme--bos { color: var(--e-metin-acik); }
+.tema-e .e-acik .e-dugme--bos { color: var(--e-metin-koyu); border-color: rgba(29,35,44,.22); }
+.tema-e .e-dugme--bos:hover { border-color: var(--e-aksan); color: var(--e-aksan); background: transparent; }
+
+/* Tam genişlik split: yarısı görsel, yarısı metin */
+.tema-e .e-split { display: grid; min-height: 30rem; }
+@media (min-width: 900px) { .tema-e .e-split { grid-template-columns: 1fr 1fr; } .tema-e .e-split--ters .e-split__gorsel { order: 2; } }
+.tema-e .e-split__gorsel { background: #fff; display: grid; place-items: center; padding: clamp(2rem, 4vw, 3.5rem); }
+.tema-e .e-split__gorsel img { width: 100%; max-width: 460px; height: auto; object-fit: contain; }
+.tema-e .e-split__metin { display: flex; flex-direction: column; justify-content: center; padding: clamp(2.25rem, 5vw, 4.5rem); }
+.tema-e .e-split__metin h2 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin: 0 0 0.9rem; }
+.tema-e .e-split__metin p { font-size: 1.0313rem; line-height: 1.72; margin: 0 0 1.35rem; }
+
+.tema-e .e-liste { display: grid; gap: 0.65rem; margin: 0 0 1.75rem; padding: 0; list-style: none; }
+.tema-e .e-liste li { position: relative; padding-left: 1.4rem; font-size: 0.9688rem; }
+.tema-e .e-liste li::before { content: "—"; position: absolute; left: 0; color: var(--e-aksan); }
+.tema-e .e-koyu .e-liste li { color: var(--e-ikincil-acik); }
+.tema-e .e-acik .e-liste li, .tema-e .e-acik-2 .e-liste li { color: var(--e-ikincil-koyu); }
+
+.tema-e .e-basi { max-width: 640px; margin-bottom: clamp(2.25rem, 4vw, 3.25rem); }
+.tema-e .e-basi h2 { font-size: clamp(1.7rem, 3.2vw, 2.5rem); margin: 0 0 0.8rem; }
+.tema-e .e-basi p { font-size: 1.0313rem; line-height: 1.7; margin: 0; }
+
+/* Katalog: açık zeminde ince çerçeveli */
+.tema-e .e-katalog { display: grid; gap: 1px; background: rgba(29,35,44,.12); border: 1px solid rgba(29,35,44,.12); grid-template-columns: repeat(auto-fit, minmax(min(100%,220px),1fr)); }
+.tema-e .e-oge { display: flex; flex-direction: column; background: var(--e-acik); padding: 1.25rem; transition: background .2s; }
+.tema-e a.e-oge:hover { background: #fff; }
+.tema-e .e-oge__gorsel { aspect-ratio: 4/3; background: #fff; margin-bottom: 0.9rem; }
+.tema-e .e-oge__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 6%; }
+.tema-e .e-oge__ust { font-size: 0.6875rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--e-aksan); margin-bottom: 0.3rem; }
+.tema-e .e-oge h3 { font-size: 1rem; margin: 0 0 0.25rem; }
+.tema-e .e-oge p { font-size: 0.8438rem; line-height: 1.55; color: var(--e-ikincil-koyu); margin: 0; }
+
+/* Protokol: koyu zeminde iki sütun akış */
+.tema-e .e-protokol { display: grid; gap: 0; }
+@media (min-width: 820px) { .tema-e .e-protokol { grid-template-columns: 1fr 1fr; column-gap: clamp(2rem,4vw,4rem); } }
+.tema-e .e-psatir { padding: 1.15rem 0; border-bottom: 1px solid var(--e-cizgi); }
+.tema-e .e-psatir h3 { font-size: 1.0313rem; margin: 0 0 0.35rem; }
+.tema-e .e-psatir p { font-size: 0.9063rem; margin: 0; }
+.tema-e .e-psatir a { color: var(--e-aksan); font-weight: 600; }
+
+.tema-e .e-kapanis { padding-block: clamp(3.5rem, 7vw, 6rem); text-align: center; }
+.tema-e .e-kapanis h2 { font-size: clamp(1.8rem, 3.6vw, 2.8rem); margin: 0 auto 0.9rem; max-width: 20ch; }
+.tema-e .e-kapanis p { margin: 0 auto 2rem; max-width: 54ch; font-size: 1.0313rem; }
