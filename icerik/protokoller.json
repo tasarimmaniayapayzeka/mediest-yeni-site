@@ -1,0 +1,239 @@
+{
+  "metaBaslik": "Protokol Seçici: Hangi Sorun, Hangi Cihaz ve Ampul",
+  "metaAciklama": "Klinikler için protokol seçici: leke, akne izi, ince çizgi, nem, gözenek, saç, göz çevresi ve cilt bariyeri başlıklarında hangi cihaz hangi ampulle çalışır.",
+  "ustEtiket": "Protokol seçici",
+  "baslik": "Hangi uygulama alanında hangi cihaz ve hangi ampul?",
+  "giris": "Kliniğinizde en sık karşılaştığınız uygulama alanlarına göre cihaz ve ürün eşleşmesi. Tablo, MediEst Group kataloğundaki cihaz ve ürünlerin tanımlı uygulama alanlarından kurulmuştur; net bir eşleşmenin bulunmadığı başlıklarda alan boş bırakılmış, seçim uygulayıcı planlamasına bırakılmıştır. Kliniğinize özel kombine seans planlaması protokol danışmanlığı kapsamında birlikte yapılır.",
+  "kategoriler": [
+    {
+      "id": "leke",
+      "ad": "Leke görünümü ve ton eşitsizliği",
+      "aciklama": "Güneş, yaş alma ve çevresel faktörlere bağlı koyu leke görünümü ile düzensiz cilt tonu hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "goldpen",
+          "not": "Cilt tonu eşitleme, Gold Pen'in beş uygulama alanından biridir; uygulama UTS kayıtlı Mezoeffect serumlarıyla yürütülür."
+        },
+        {
+          "slug": "baby-skin-pen",
+          "not": "Leke görünümü ve ton eşitsizliği cihazın uygulama alanları arasındadır: yeşil LED melanin baskılayarak ton eşitliğine destek olur, Illuminate kapsülü cilt tonunu eşitler."
+        }
+      ],
+      "urunler": [
+        {
+          "slug": "mezoeffect-anti-spot-ampoule",
+          "not": "Leke karşıtı ve aydınlatıcı ampul; Et-VC, Niacinamide ve Alpha-Arbutin içerir. Gold Pen ve Baby Skin Pen uygulamalarıyla birlikte kullanılır. Kutu düzeni 2 ml x 7 ampuldür."
+        },
+        {
+          "slug": "mezoeffect-vitamin-c-amino-acid-serum",
+          "not": "Aydınlatma ve antioksidan hedefli ampul; leke ve aydınlatma grubunda yer alır, iki cihazla da birlikte kullanılabilir."
+        },
+        {
+          "slug": "mezocomplex-brightening",
+          "not": "Melanin kaynaklı ton eşitsizliğini hedefleyen aydınlatıcı solüsyon; kombine protokollere booster olarak eklenir, Gold Pen protokolleriyle birlikte kullanılır."
+        }
+      ],
+      "seansNotu": "Gold Pen: 4-6 seans, 20-25 gün aralıkla. Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir."
+    },
+    {
+      "id": "akne-izi",
+      "ad": "Akne izi görünümü",
+      "aciklama": "Geçmiş akne problemlerinin bıraktığı çukur ve iz görünümü ile akneye yatkın ciltte sebum dengesi hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "goldpen",
+          "not": "Akne skarları, Gold Pen'in uygulama alanlarından biridir; iğne derinliği, geçiş sayısı ve hassasiyet seviyesi protokole göre ayarlanır."
+        },
+        {
+          "slug": "baby-skin-pen",
+          "not": "Akne ve akne izi cihazın uygulama alanları arasındadır: mavi LED bakteri oluşumunu azaltır, mor LED iz görünümünde onarıcı destek sunar, Balance kapsülü sebum kontrolü sağlar."
+        }
+      ],
+      "urunler": [],
+      "seansNotu": "Gold Pen: 4-6 seans, 20-25 gün aralıkla. Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir. Ampul seçimi uygulayıcı planlamasına göre belirlenir."
+    },
+    {
+      "id": "ince-cizgi",
+      "ad": "İnce çizgi, kırışıklık ve elastikiyet kaybı",
+      "aciklama": "Yaş alma belirtileri, elastikiyet ve dermal hacim kaybı ile sıkılık ihtiyacı olan ciltler hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "goldpen",
+          "not": "Anti-aging etki, Gold Pen'in uygulama alanlarından biridir; EMS fibroblast hücrelerini uyarır, kırmızı LED (620-650 nm) ince çizgi görünümünü hedefler."
+        },
+        {
+          "slug": "baby-skin-pen",
+          "not": "Anti-aging ve elastikiyet kaybı cihazın uygulama alanları arasındadır: kırmızı LED kolajen üretimini destekler, Revive kapsülü ince çizgi ve elastikiyet kaybı görünümüne yöneliktir."
+        }
+      ],
+      "urunler": [
+        {
+          "slug": "mezoeffect-anti-age-serum",
+          "not": "Elastikiyet ve dermal hacim kaybı odaklı kürlerde ana serum adımı olarak konumlanır; Nio Oligo 3D, Argireline ve Sodium Hyaluronate içerir. Baby Skin Pen uygulamalarıyla birlikte kullanılır."
+        },
+        {
+          "slug": "mezocomplex-antiaging",
+          "not": "Somon DNA (Salmo Ovum Extract) ve Sodium Hyaluronate ile hücresel yenilenme hedefli solüsyon; kombine uygulamalara entegre edilebilir, Gold Pen protokolleriyle birlikte kullanılır."
+        },
+        {
+          "slug": "mezocomplex-firming",
+          "not": "Hydrolyzed Collagen ile sıkılık ve kontur desteği; sıkılık hedefi olan düzenli seanslarda booster olarak kullanılır ve Gold Pen protokollerinde yer alır."
+        }
+      ],
+      "seansNotu": "Gold Pen: 4-6 seans, 20-25 gün aralıkla. Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir."
+    },
+    {
+      "id": "nem",
+      "ad": "Nem kaybı, mat ve yorgun cilt görünümü",
+      "aciklama": "Kuruluk, gerginlik hissi, matlık ve nem kaybına bağlı dolgunluk kaybı görülen ciltler hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "baby-skin-pen",
+          "not": "Kuruluk ve nem kaybı cihazın uygulama alanları arasındadır: Hydrate kapsülü yoğun nem kaybı yaşayan ciltler için geliştirilmiştir, ikinci aşamada Mezoeffect ampul masajı uygulanır."
+        },
+        {
+          "slug": "goldpen",
+          "not": "Gold Pen protokollerinde Mezocomplex Hyaluronic Acid solüsyonu kullanılır; uygulama UTS kayıtlı Mezoeffect serumlarıyla yürütülür."
+        }
+      ],
+      "urunler": [
+        {
+          "slug": "mezoeffect-hyaluronic-acid-serum",
+          "not": "Sodium Hyaluronate, Lubrajel ve Pentavitin ile yoğun nem hedefli ampul; Baby Skin Pen uygulamalarıyla birlikte kullanılır."
+        },
+        {
+          "slug": "mezoeffect-somon-dna-serum",
+          "not": "Onarım ve yoğun nem hedefli ampul; kuru, hassas ve olgun ciltler için konumlandırılmıştır, iki cihazla da birlikte kullanılabilir."
+        },
+        {
+          "slug": "mezocomplex-hyaluronic-acid",
+          "not": "Birçok protokolün nem ve dolgunluk ayağı olarak çalışan solüsyon; dört mevsim kullanılabilir ve Gold Pen protokollerinde yer alır."
+        }
+      ],
+      "seansNotu": "Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir. Gold Pen: 4-6 seans, 20-25 gün aralıkla."
+    },
+    {
+      "id": "gozenek",
+      "ad": "Geniş gözenek görünümü",
+      "aciklama": "Genişlemiş ve belirginleşmiş gözenek görünümü ile yüzey pürüzlülüğü hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "goldpen",
+          "not": "Gözenek sıkılaştırma, Gold Pen'in uygulama alanlarından biridir."
+        },
+        {
+          "slug": "baby-skin-pen",
+          "not": "Geniş gözenek cihazın uygulama alanları arasındadır; Retouch kapsülü gözenek görünümünü hedef alır ve pürüzlülüğü azaltmaya yöneliktir."
+        }
+      ],
+      "urunler": [],
+      "seansNotu": "Gold Pen: 4-6 seans, 20-25 gün aralıkla. Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir. Ampul seçimi uygulayıcı planlamasına göre belirlenir."
+    },
+    {
+      "id": "sac",
+      "ad": "Saç uygulaması: dökülme ve incelme",
+      "aciklama": "Zayıflamış saç kökleri, dökülme eğilimi ve saç yoğunluğunda azalma görülen saç derisi uygulamaları hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "goldpen",
+          "not": "Saç uygulaması, Gold Pen'in uygulama alanlarından biridir; saç için ayrı iğne ucu bulunur ve mavi LED saç derisi uygulamalarına yöneliktir."
+        }
+      ],
+      "urunler": [
+        {
+          "slug": "mezoeffect-anti-hair-loss-serum",
+          "not": "Procapil, BioVitant, Pentavitin ve Biotin içeren saç ampulü; saç bölgesine uygulanan işlemlerin ardından masaj eşliğinde kullanılır, Gold Pen protokolleriyle birlikte kullanılır."
+        },
+        {
+          "slug": "mezocomplex-hair-revit",
+          "not": "Niacinamide, Caffeine ve Biotin ile saç canlandırma solüsyonu; protokolün aktif aşamasında kür şeklinde uygulanır ve Gold Pen protokolleriyle birlikte kullanılır."
+        }
+      ],
+      "seansNotu": "Gold Pen: 4-6 seans, 20-25 gün aralıkla. Seans arası ev bakımında Mezoeffect Anti Hair Loss Serum'un saç derisinde en az 8 saat kalması önerilir."
+    },
+    {
+      "id": "goz-cevresi",
+      "ad": "Göz çevresi: koyu halka, torbalanma ve çizgi görünümü",
+      "aciklama": "Göz altı koyu halka, ödem ve torbalanma ile hassas bölgedeki ince çizgi görünümü hedeflenir.",
+      "cihazlar": [],
+      "urunler": [
+        {
+          "slug": "mezoeffect-eye-contour-ampoule",
+          "not": "Caffeine, Regu-age ve Eye-Seryl içeren göz çevresi ampulü; kabin bakımında göz serumu olarak, cihaz işlemlerinin ardından nazik masajla kullanılır."
+        }
+      ],
+      "seansNotu": "Bu başlık için cihaz eşleşmesi ve kür planı verilmemiştir; hassas bölge uygulaması olarak uygulayıcı planlamasına bırakılmıştır."
+    },
+    {
+      "id": "cilt-bariyeri",
+      "ad": "Zayıf cilt bariyeri ve hassasiyet",
+      "aciklama": "Çevresel faktörlere maruz kalan, bariyeri zayıflamış ve nem tutma kapasitesi düşen ciltler hedeflenir.",
+      "cihazlar": [
+        {
+          "slug": "baby-skin-pen",
+          "not": "Zayıf cilt bariyeri cihazın uygulama alanları arasındadır: Detox kapsülü bariyeri güçlendirerek yenilenme süreçlerini destekler, Glam kapsülü bakım sonrası sürekliliğe yöneliktir."
+        }
+      ],
+      "urunler": [
+        {
+          "slug": "mezoeffect-somon-dna-serum",
+          "not": "Cilt bariyeri zayıflamış yapılar için konumlandırılmıştır; DNA ve Sodium Hyaluronate ile onarım ve nem desteği sunar."
+        },
+        {
+          "slug": "mezoeffect-hyaluronic-acid-serum",
+          "not": "Nem bariyeri zayıflamış ciltler için konumlandırılmıştır; Pentavitin cildin doğal nem bariyerine entegre olan bir nem bağlayıcıdır."
+        }
+      ],
+      "seansNotu": "Baby Skin Pen: 4-6 seans, tüm yıl boyunca (dört mevsim) uygulanabilir."
+    }
+  ],
+  "cta": {
+    "ad": "Kliniğinize özel protokol için teklif alın",
+    "url": "TEKLIF_URL"
+  },
+  "not": "Bu tablodaki eşleşmeler MediEst Group cihaz ve ürün bilgilerine dayanır; yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır ve tanı veya tedavi önerisi niteliği taşımaz. Nihai protokol; endikasyonun türü, hedef bölgenin genişliği, danışanın cilt yapısı ve uygulayıcının planlamasına göre belirlenir. Net ürün eşleşmesi verilmeyen başlıklarda ürün alanı boş bırakılmış, seçim uygulayıcıya bırakılmıştır. Satış yalnızca güzellik merkezi ve kliniklere yapılır.",
+  "dogrulama": {
+    "kaynakDayanagi": {
+      "leke": "goldpen.json > uygulamaAlanlari 'Cilt Tonu Eşitleme'; baby-skin-pen.json > uygulamaAlanlari 'Leke Görünümü ve Ton Eşitsizliği' ve led 'Yeşil' + kapsuller 'Illuminate'; mezoeffect-anti-spot-ampoule.json (etiket, aktifIcerikler, protokol.kombinasyon, ambalaj); mezoeffect-vitamin-c-amino-acid-serum.json (etiket, protokol.kombinasyon) ve hub.json > mezoeffect.gruplama 'Leke ve aydınlatma'; mezocomplex-brightening.json (ozet, protokol.kullanim, protokol.kombinasyon).",
+      "akne-izi": "goldpen.json > uygulamaAlanlari 'Akne Skarları' ve protokol.kullanim; baby-skin-pen.json > uygulamaAlanlari 'Akne ve Akne İzi', led 'Mavi'/'Mor', kapsuller 'Balance'. Ürün hücresi boş: hiçbir Mezoeffect veya Mezocomplex dosyasında akne izi hedefi tanımlı değil (anasayfa.json ile aynı karar).",
+      "ince-cizgi": "goldpen.json > uygulamaAlanlari 'Anti-Aging Etki', teknolojiler 'EMS' ve led 'Kırmızı 620-650 nm'; baby-skin-pen.json > uygulamaAlanlari 'Anti-Aging ve Elastikiyet Kaybı', led 'Kırmızı', kapsuller 'Revive'; mezoeffect-anti-age-serum.json (ozet, aktifIcerikler, protokol.kombinasyon); mezocomplex-antiaging.json (aktifIcerikler, klinikAvantajlar, protokol.kombinasyon); mezocomplex-firming.json (ozet, protokol.kullanim) ile goldpen.json > protokol.kombinasyon.",
+      "nem": "baby-skin-pen.json > uygulamaAlanlari 'Kuruluk ve Nem Kaybı', kapsuller 'Hydrate', protokol.kullanim (iki aşamalı akış); goldpen.json > protokol.kombinasyon (mezocomplex-hyaluronic-acid) ve protokol.kullanim; mezoeffect-hyaluronic-acid-serum.json (aktifIcerikler, protokol.kombinasyon); mezoeffect-somon-dna-serum.json (ozet, protokol.kombinasyon); mezocomplex-hyaluronic-acid.json (protokol.kullanim, sss 'Mevsimsel bir kullanım kısıtı var mı?').",
+      "gozenek": "goldpen.json > uygulamaAlanlari 'Gözenek Sıkılaştırma'; baby-skin-pen.json > uygulamaAlanlari 'Geniş Gözenek' ve kapsuller 'Retouch'. Ürün hücresi boş: kaynakta gözenek başlığı yalnızca aktif içerik düzeyinde (Niacinamide) geçiyor, ürün eşleşmesi tanımlı değil (anasayfa.json ile aynı karar).",
+      "sac": "goldpen.json > uygulamaAlanlari 'Saç Uygulaması', teknolojiler 'Altın Yalıtımlı Mikroiğneleme' (saç iğne ucu) ve led 'Mavi'; mezoeffect-anti-hair-loss-serum.json (aktifIcerikler, protokol.kullanim, protokol.evKullanimi, protokol.kombinasyon); mezocomplex-hair-revit.json (aktifIcerikler, protokol.kullanim, protokol.kombinasyon). Baby Skin Pen bilinçli olarak yok: karsilastirma.json 'Baby Skin Pen kaynaklarında saç veya saç derisi başlığı hiç geçmiyor'.",
+      "goz-cevresi": "mezoeffect-eye-contour-ampoule.json (ozet, aktifIcerikler, protokol.kullanim) ve hub.json > mezoeffect.gruplama 'Göz çevresi'. Cihaz hücresi boş: kaynakta göz çevresi için cihaz eşleşmesi tanımlı değil; ürün dosyasındaki protokol.kombinasyon değeri türetilmiş bir alandır, yayına alınmadı (anasayfa.json ile aynı karar).",
+      "cilt-bariyeri": "baby-skin-pen.json > uygulamaAlanlari 'Zayıf Cilt Bariyeri' ve kapsuller 'Detox' / 'Glam'; mezoeffect-somon-dna-serum.json > kimlerIcin 'Cilt bariyeri zayıflamış yapılar'; mezoeffect-hyaluronic-acid-serum.json > kimlerIcin 'Nem bariyeri zayıflamış ciltler' ve aktifIcerikler 'Pentavitin'."
+    },
+    "bosBirakilanAlanlar": [
+      "akne-izi > urunler: boş. Kaynakta hiçbir ampul veya solüsyon akne izi hedefiyle tanımlanmamış.",
+      "gozenek > urunler: boş. Kaynakta yalnızca aktif içerik (Niacinamide) düzeyinde atıf var, ürün eşleşmesi yok.",
+      "goz-cevresi > cihazlar: boş. Kaynakta göz çevresi için cihaz eşleşmesi tanımlı değil.",
+      "Baby Skin Pen seans gün aralığı hiçbir kategoride yazılmadı (kaynakta 15-20 gün / 10-15 gün çelişkisi); yalnızca çelişkisiz olan '4-6 seans, dört mevsim' kullanıldı.",
+      "Baby Skin Pen için 'iğnesiz' nitelemesi hiçbir yerde kullanılmadı; cihaz yalnızca doğrulanabilir mekanizmasıyla (kapsül serileri, döner başlık, LED) tanımlandı.",
+      "Mezocomplex flakon hacmi hiçbir kategoride yazılmadı (kaynakta 5 ml / 8 ml çelişkisi).",
+      "Seans süresi (dakika), fiyat, garanti, teknik servis, teslimat ve minimum sipariş bilgisi hiçbir alanda yer almıyor; bu verilerin hiçbiri kaynakta yok.",
+      "'Dermapen sistemlerinden üstün', 'dünyada birçok kliniğin geçiş yaptığı', 'ilk seanstan itibaren fark edilir canlılık', 'tek seansta bile memnuniyet', 'yüksek hasta memnuniyeti' ve 'bilimsel olarak kanıtlanmış' ifadelerinin hiçbiri alınmadı.",
+      "Mezoeffect Eye Contour Ampoule ambalaj bilgisi yazılmadı; hacim ve adet kaynakta belirtilmemiş.",
+      "Kontrendikasyon, güvenlik uyarısı ve uygulama sonrası bakım talimatı kaynakta bulunmadığı için hiçbir kategoriye eklenmedi."
+    ],
+    "musteriTeyidiGereken": [
+      "Akne izi başlığında hangi Mezoeffect ampulünün veya Mezocomplex solüsyonunun protokole gireceği: kaynakta eşleşme yok, ürün alanı boş bırakıldı.",
+      "Geniş gözenek başlığında hangi ürünün önerileceği: kaynakta yalnızca Niacinamide içeren ampullere aktif düzeyinde atıf var, ürün alanı boş bırakıldı.",
+      "Göz çevresi uygulamasının hangi cihazla yapılacağı ve Mezoeffect Eye Contour Ampoule'un ambalaj bilgisi (hacim ve adet kaynakta yok).",
+      "Baby Skin Pen seans aralığı çelişkisi: gövde metni 15-20 gün, SSS 10-15 gün (baby-skin-pen.json > seansPlani.not). Teyit gelene kadar gün aralığı yayınlanmıyor.",
+      "Baby Skin Pen iğne kullanımı: gövde metni kapsülün 'cilt yüzeyine', SSS 'cilt altına' iletildiğini söylüyor; 'iğnesiz' ifadesi hiçbir kaynakta geçmiyor. Medikal cihaz tanıtımı açısından netleştirilmeli.",
+      "Mezocomplex flakon hacmi: gövde metinleri 5 ml, SSS bölümleri 8 ml (5 flakon, toplam 40 ml). Ambalaj fotoğrafı 8 ml'yi işaret ediyor; üretici teyidi gerekiyor (5 üründe birden geçerli).",
+      "Gold Pen ile Mezocomplex eşleşmelerinin yönü: goldpen.json beş Mezocomplex solüsyonunu da protokol kombinasyonunda sayıyor, ancak ürün dosyalarından yalnızca üçü (Antiaging, Brightening, Hair Revit) Gold Pen'i geri işaret ediyor. Firming ve Hyaluronic Acid dosyalarında kombinasyon alanı boş.",
+      "Baby Skin Pen ürün dosyasının kombinasyon alanı boştur; ampul eşleşmeleri yalnızca Mezoeffect ürün dosyalarından çıkarılmıştır. Cihaz tarafında da onaylanmalı.",
+      "Gold Pen ile Baby Skin Pen'in aynı danışanda birlikte kullanıldığı kombine bir protokol kaynakta tanımlı değil; klinik böyle bir kurgu isterse protokol yazılmalı.",
+      "Kontrendikasyonlar, güvenlik uyarıları, uygulama sonrası bakım talimatı ve cihazı kimin uygulayabileceği (uygulayıcı yetkinliği) hiçbir kaynak metinde yok.",
+      "Seans süresi (dakika) ve seans başına sarf tüketimi (kaç ampul, kaç kapsül, kaç uç) kaynakta verilmemiş; protokol seçicinin maliyet tarafını kurabilmek için gerekli.",
+      "UTS kayıt numarası veya belge görseli: 'UTS kayıtlı' ibaresi Mezoeffect serumları ve Baby Skin Pen kapsülleri için kullanılıyor, ispatı Kalite ve UTS sayfasında yayınlanmalı."
+    ],
+    "denetimDuzeltmeleri": [
+      "Yayına çıkan tüm metinlerden iç denetim dili temizlendi: 'kaynakta tanımlı', 'ürün dosyasında ... kombinasyon tanımlıdır', 'cihaz dosyasında ... sayılır', 'katalogda ... yer alır' ifadeleri ziyaretçiye görünen kart metinleriydi; aynı olgular müşteriye dönük dille yeniden yazıldı, hiçbir yeni iddia eklenmedi.",
+      "Mezoeffect Eye Contour Ampoule notundaki 'tek göz çevresi ampulü' ifadesindeki 'tek' kaldırıldı (üstünlük/benzersizlik okuması yaratıyordu).",
+      "Kategori adı 'Saç dökülmesi ve incelme' -> 'Saç uygulaması: dökülme ve incelme' (anasayfa.json ile aynı karar: şikâyet değil uygulama alanı dili).",
+      "Denetim sonucu: fiyat, garanti, teknik servis, teslimat, minimum sipariş, bayi/klinik sayısı, yıl, sertifika veya UTS kayıt numarası hiçbir yayına çıkan alanda bulunmadı. 'iğnesiz' ifadesi yayına çıkan hiçbir metinde geçmiyor. Emoji yok. metaBaslik 50, metaAciklama 156 karakter. Tüm cihaz ve ürün slug'ları icerik/urun/ altında mevcut. cta.url = TEKLIF_URL."
+    ]
+  }
+}

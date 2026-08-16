@@ -132,6 +132,30 @@ if (fs.existsSync(hubYolu) && urunler.length) {
   }
 }
 
+// ---------- İçerik sayfaları (sayfa-*.json) ----------
+const sayfaDosyalari = fs.readdirSync(ICERIK).filter(f => /^sayfa-.*\.json$/.test(f));
+if (sayfaDosyalari.length) {
+  const { sayfaUret } = require('./sablon/sayfa');
+  for (const f of sayfaDosyalari) {
+    const sayfa = oku(path.join(ICERIK, f));
+    if (!sayfa.slug) { console.warn(`  ! ${f} — slug yok, atlandı`); continue; }
+    const { html, yol, bilinmeyen, blokSayisi } = sayfaUret({ site, sayfa, gorselVarMi });
+    if (bilinmeyen.length) console.warn(`  ! ${yol} — bilinmeyen blok tipi: ${[...new Set(bilinmeyen)].join(', ')}`);
+    yaz(path.join(sayfa.slug, 'index.html'), tabanUygula(html));
+    uretilen.push({ yol, ad: `${sayfa.kirintiAd || sayfa.slug} (${blokSayisi} blok)`, bayt: Buffer.byteLength(html) });
+  }
+}
+
+// ---------- Protokol Seçici ----------
+const protokolYolu = path.join(ICERIK, 'protokoller.json');
+if (fs.existsSync(protokolYolu) && urunler.length) {
+  const { protokolSayfasi } = require('./sablon/protokoller');
+  const { html, kategoriSayisi, bulunmayan } = protokolSayfasi({ site, veri: oku(protokolYolu), urunler, gorselVarMi });
+  if (bulunmayan.length) console.warn(`  ! /protokoller/ — bulunamayan slug: ${[...new Set(bulunmayan)].join(', ')}`);
+  yaz(path.join('protokoller', 'index.html'), tabanUygula(html));
+  uretilen.push({ yol: '/protokoller/', ad: `Protokol Seçici (${kategoriSayisi} başlık)`, bayt: Buffer.byteLength(html) });
+}
+
 // ---------- Cihaz karşılaştırma ----------
 const kiyasYolu = path.join(ICERIK, 'karsilastirma.json');
 if (fs.existsSync(kiyasYolu) && urunler.length) {

@@ -1,0 +1,191 @@
+{
+  "slug": "kalite-uts",
+  "metaBaslik": "Kalite ve UTS: Kayıt, Steril Üretim, İzlenebilirlik",
+  "metaAciklama": "MediEst Group kalite yaklaşımı: UTS kayıtlı Mezoeffect serumları, steril üretim protokolü, standardize formüller ve izlenebilir klinik uygulama süreçleri.",
+  "kirintiAd": "Kalite & UTS",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Kalite ve UTS",
+      "baslik": "Kayıt, üretim koşulları ve izlenebilirlik",
+      "giris": "Kataloğumuzdaki ürünlerin kayıt durumu, üretim koşulları ve klinik uygulamadaki izlenebilirlik yaklaşımı bu sayfada toplanmıştır. Sayfa, ürün içeriklerinde doğrulanabilen başlıklarla sınırlı tutulmuştur.",
+      "cta": { "ad": "Belge ve bilgi talebi", "url": "/iletisim/" },
+      "ikincilCta": { "ad": "Ürün kataloğunu inceleyin", "url": "/urunler/" }
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "UTS",
+      "baslik": "Ürün Takip Sistemi kaydı",
+      "paragraflar": [
+        "UTS, Ürün Takip Sistemi'nin kısaltmasıdır. MediEst Group kataloğunda Mezoeffect serumları bu sisteme kayıtlıdır ve steril üretim koşullarında geliştirilmiştir.",
+        "Kayıt durumu her ürün grubu için ayrı ayrı belirtilir. Bir grubun altında UTS ibaresinin yer almaması, o grubun kayıt durumunun bu sayfada iddia edilmediği anlamına gelir; kayıt ve üretim bilgisi talebiniz için iletişim kanallarımızı kullanabilirsiniz."
+      ]
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Gruplara göre durum",
+      "baslik": "Hangi grupta ne tanımlı",
+      "giris": "Aşağıdaki üç başlık, ürün içeriklerinde doğrulanan kayıt ve üretim bilgilerini özetler.",
+      "kartlar": [
+        {
+          "baslik": "Mezoeffect ampul serisi",
+          "aciklama": "Mezoeffect serumları Ürün Takip Sistemi'ne (UTS) kayıtlıdır ve steril üretim koşullarında geliştirilmiştir. Serideki ürünler hem profesyonel klinik uygulamalarda hem de ev bakım rutininde kullanılacak şekilde tarif edilmiştir; ambalaj bilgileri ürün sayfalarında belirtilmiştir.",
+          "url": "/urunler/mezoeffect/"
+        },
+        {
+          "baslik": "Mezocomplex solüsyon serisi",
+          "aciklama": "Mezocomplex formülleri steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir. Kutuda beş flakon bulunur; seri profesyonel klinik uygulamalar için tanımlanmıştır.",
+          "url": "/urunler/mezocomplex/"
+        },
+        {
+          "baslik": "Cihaz uygulamasında hijyen",
+          "aciklama": "Gold Pen uygulaması steril uçlar ve tek kullanımlık sarf malzemeleriyle yürütülür. Hijyen ve sarf malzemesi gereksinimleri, uygulama sürecini etkileyen faktörler arasında ayrıca tanımlanmıştır.",
+          "url": "/goldpen/"
+        }
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Kalite yaklaşımı",
+      "baslik": "Ürün ve sistemler klinik kullanım gereklilikleri doğrultusunda yapılandırılır",
+      "giris": "Ürün geliştirme ve tedarik sürecinde gözetilen başlıklar:",
+      "maddeler": [
+        "Bilimsel içerik: cihaz ve ampul sistemleri kanıta dayalı içeriklerle sunulur",
+        "Standardize formüller: formüller bilimsel prensiplerle hazırlanır ve test edilir",
+        "Kalite kontrolleri: üretim steril koşullarda yapılır ve kalite kontrolüyle desteklenir",
+        "Etkinlik analizi: formüller uzman görüşleri doğrultusunda sürekli geliştirilir",
+        "İzlenebilir protokoller: uygulamalar standardize edilebilir ve izlenebilir bakım süreçleri kurulacak şekilde tarif edilir",
+        "Uygulayıcı eğitim desteği: eğitim online veya Bakırköy showroom'da birebir verilir"
+      ],
+      "sutun": 2
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Uygulamada izlenebilirlik",
+      "baslik": "Standardizasyon seans planlamasında başlar",
+      "paragraflar": [
+        "İzlenebilirlik yalnızca ürünün kaydıyla kurulmaz; uygulamanın da tekrar edilebilir biçimde planlanması ve kayıt altına alınması gerekir. Gold Pen içeriklerinde uygulama sürecini etkileyen faktörler arasında kayıt ve raporlama süreçleri ile sonuçların objektif izlenmesi de sayılır.",
+        "Protokol danışmanlığında bu faktörler tek tek konuşulur; kliniğinizin seans akışı bu başlıklar üzerinden kurulur."
+      ],
+      "maddeler": [
+        "Endikasyonun türü ve hedef bölgenin genişliği",
+        "Cihaz kombinasyonu (mikroiğneleme, EMS, LED) ve Mezoeffect serum seçimi",
+        "İğne derinliği, geçiş sayısı ve hassasiyet seviyesi gibi teknik parametreler",
+        "Hijyen ve sarf malzemesi gereksinimleri: steril uçlar, tek kullanımlık ürünler",
+        "Seans süresi ile hazırlık ve dinlendirme dâhil toplam uygulama zamanı",
+        "Seans sayısı ve aralığı, takip randevuları ve kontrol vizitleri",
+        "Uygulayıcının deneyimi ve kişiye özel planlama gereksinimi",
+        "Kayıt ve raporlama süreçleri, sonuçların objektif izlenmesi"
+      ],
+      "gorsel": "protokol"
+    },
+
+    {
+      "tip": "adimlar",
+      "ustEtiket": "Belge ve bilgi talebi",
+      "baslik": "Kayıt ve üretim bilgisi nasıl talep edilir",
+      "giris": "Ürün bilgisi ve kayıt durumu talepleri yazılı olarak alınır; talep eden merkezin klinik kimliği doğrulandıktan sonra değerlendirilir.",
+      "adimlar": [
+        {
+          "baslik": "Talebinizi yazılı olarak iletin",
+          "aciklama": "Hangi ürün grubu için hangi bilgiye ihtiyaç duyduğunuzu e-posta veya WhatsApp üzerinden bildirin."
+        },
+        {
+          "baslik": "Klinik bilgilerinizi paylaşın",
+          "aciklama": "Tedarik ve bilgi paylaşımı yalnızca güzellik merkezleri ve kliniklerle yapıldığı için merkezinizin adı ve yetkili kişi bilgisi istenir."
+        },
+        {
+          "baslik": "Talebiniz değerlendirilir",
+          "aciklama": "İlgili ürün grubuna ait paylaşılabilir kayıt, üretim ve ambalaj bilgileri tarafınıza iletilir."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Sık sorulanlar",
+      "baslik": "Kayıt ve üretim koşulları",
+      "sorular": [
+        {
+          "s": "UTS ne anlama geliyor?",
+          "c": "UTS, Ürün Takip Sistemi'nin kısaltmasıdır. Mezoeffect serumları bu sisteme kayıtlıdır."
+        },
+        {
+          "s": "Mezoeffect serumları hangi koşullarda üretiliyor?",
+          "c": "Mezoeffect serumları UTS kayıtlıdır ve steril üretim koşullarında geliştirilmiştir; hem profesyonel klinik uygulamalarda hem de ev bakım protokollerinde kullanılacak şekilde tarif edilmiştir."
+        },
+        {
+          "s": "Mezocomplex solüsyonları hangi koşullarda üretiliyor?",
+          "c": "Mezocomplex formülleri steril üretim protokolüne sahiptir ve medikal ile estetik uygulamalara uygun şekilde geliştirilmiştir. Seri profesyonel klinik uygulamalar için tanımlanmıştır; kutuda beş flakon bulunur."
+        },
+        {
+          "s": "Cihaz uygulamalarında hijyen nasıl sağlanıyor?",
+          "c": "Gold Pen uygulaması steril uçlar ve tek kullanımlık sarf malzemeleri gerektirir. Hijyen ve sarf gereksinimleri, seans planlamasının ayrılmaz bir parçası olarak ele alınır."
+        },
+        {
+          "s": "Ürünlerin içerik ve ambalaj bilgilerini nereden görebiliriz?",
+          "c": "Her ürünün aktif içerikleri, ambalaj düzeni ve uygulama tarifi kendi ürün sayfasında yer alır. Ürün sayfalarına Ürünler bölümünden ulaşabilirsiniz."
+        },
+        {
+          "s": "Kayıt ve üretim belgelerini paylaşıyor musunuz?",
+          "c": "Belge ve bilgi talepleri iletişim kanallarımızdan yazılı olarak alınır ve merkezinizin bilgileri doğrultusunda değerlendirilir."
+        }
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu sayfadaki bilgiler MediEst Group ürün içeriklerinde doğrulanan başlıklarla sınırlıdır. UTS kaydı yalnızca kayıt durumu ürün içeriklerinde belirtilen grup için yazılmıştır; belirtilmemiş başlıklarda sayfa iddia oluşturmaz. İçerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz."
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bilgi talebi",
+      "baslik": "Kayıt ve üretim bilgilerini talep edin",
+      "giris": "Kliniğinizin ihtiyaç duyduğu ürün ve kayıt bilgilerini iletişim kanallarımızdan yazılı olarak isteyebilirsiniz.",
+      "birincilCta": { "ad": "İletişime geçin", "url": "/iletisim/" },
+      "ikincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynakDosyalar": [
+      "kaynak-icerik/metin/page--goldpen.md",
+      "kaynak-icerik/metin/page--hakkimizda.md",
+      "kaynak-icerik/metin/page--home-v2-3-col-images-contact.md",
+      "kaynak-icerik/metin/page--sik-sorulan-sorular.md",
+      "kaynak-icerik/metin/page--mezocomplex-*.md",
+      "kaynak-icerik/metin/page--mezoeffect-*.md",
+      "icerik/site.json",
+      "icerik/hub.json"
+    ],
+    "eklenenIcerik": [
+      "metaBaslik ve metaAciklama",
+      "Blok başlıkları, adım adlandırmaları ve geçiş cümleleri (iddia içermeyen düzenleme metni)",
+      "'UTS, Ürün Takip Sistemi'nin kısaltmasıdır' — kısaltmanın açılımı site.json guvenSeridi metninden alındı"
+    ],
+    "sayfayaYazilmayanlar": [
+      "UTS kayıt numarası, belge numarası veya belge görseli — kaynakta yok.",
+      "Mezocomplex serisi için UTS kaydı — kaynakta yalnızca Mezoeffect serumları için doğrulanıyor.",
+      "Cihazların kendi mevzuat kaydı (UTS/CE, tıbbi cihaz sınıfı), üretici ve menşei bilgisi — kaynakta yok.",
+      "Baby Skin Pen kapsüllerinin UTS kaydı — kaynakta yalnızca yayına alınmayan lansman kampanyası cümlesinin içinde geçiyor, tek başına doğrulanmadı.",
+      "Garanti süresi, yedek parça temini ve teknik servis koşulları — kaynak SSS sayfasında başlık var, altında içerik yok.",
+      "ISO/GMP benzeri kalite sistemi, üretim tesisi, analiz sertifikası ve parti takibi iddiaları — kaynakta yok.",
+      "Mezocomplex flakon hacmi (5 ml / 8 ml çelişkisi) — yalnızca 'kutuda beş flakon' yazıldı.",
+      "Kontrendikasyon, güvenlik uyarısı ve uygulayıcı yetkinliği tanımları — kaynakta yok."
+    ],
+    "musteriTeyidiGereken": [
+      "UTS kayıt numarası veya belge görseli: sitenin en çok tekrarlanan güven iddiası, ispatı bu sayfada yayınlanmalı.",
+      "Mezocomplex solüsyonlarının UTS kayıt durumu.",
+      "Cihazların (Gold Pen, Baby Skin Pen) mevzuat kaydı, medikal cihaz sınıfı, üretici ve menşei bilgisi.",
+      "Garanti süresi, yedek parça ve teknik servis koşulları.",
+      "Mezocomplex flakon hacmi: 5 ml x 5 flakon mı, 8 ml x 5 flakon (40 ml) mı; kaynak-gorsel/mezoeffect-firming-1.jpg etiketi 8 ml gösteriyor, üretici teyidi alınmalı.",
+      "Kalite kontrol sürecinin tanımı: hangi aşamalarda hangi kontrol yapılıyor (kaynakta yalnızca 'kalite kontrolleri' ifadesi var)."
+    ]
+  }
+}

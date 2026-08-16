@@ -1,0 +1,142 @@
+{
+  "slug": "hakkimizda",
+  "metaBaslik": "Hakkımızda: Kliniklere Cihaz ve Solüsyon Tedariki",
+  "metaAciklama": "MediEst Group; medikal estetik ve profesyonel bakımda klinik odaklı çözümler sunar. Cihaz ve ampul sistemlerini eğitim ve protokol desteğiyle tedarik eder.",
+  "kirintiAd": "Hakkımızda",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Kurumsal",
+      "baslik": "Klinik odaklı çözümler sunan bir medikal estetik tedarikçisi",
+      "giris": "MediEst Group; medikal estetik ve profesyonel bakım sektöründe klinik odaklı çözümler sunan, yenilikçi teknolojiler ve bilim destekli içeriklerle çalışan bir markadır. Cilt sağlığı, saç derisi bakımı ve estetik protokollerde kullanılan cihaz ve ampul sistemlerini uzmanların hizmetine sunar.",
+      "cta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" }
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Kim olduğumuz",
+      "baslik": "Ürün tedarikinin yanına eğitim ve protokolü koyan bir yapı",
+      "paragraflar": [
+        "MediEst Group, cilt sağlığı, saç derisi bakımı ve estetik protokollerde kullanılan ileri düzey cihaz ve ampul sistemlerini uzmanların hizmetine sunar. Hedef yalnızca ürün tedariki değil; güvenli, standardize edilebilir ve izlenebilir bakım süreçlerinin oluşturulmasına katkı sağlamaktır.",
+        "Katalog iki cihaz ve iki ürün grubundan oluşur: Gold Pen ile Baby Skin Pen cihazları, Mezoeffect ampul serisi ve Mezocomplex solüsyon serisi. Ürünler yalnızca güzellik merkezlerine ve kliniklere tedarik edilir; son kullanıcıya satış yapılmamaktadır.",
+        "Cihaz ve solüsyon gruplarımız bilimsel prensiplerle hazırlanmış, test edilmiş ve uzman görüşleri doğrultusunda sürekli olarak geliştirilen bir yapıya sahiptir."
+      ]
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Misyon ve vizyon",
+      "baslik": "Neyi hedefliyoruz",
+      "giris": "İki başlık da aynı soruya bakar: bir cihaz ya da ampul, kliniğin günlük işleyişinde nasıl tekrar edilebilir bir hizmete dönüşür?",
+      "kartlar": [
+        {
+          "baslik": "Misyonumuz",
+          "aciklama": "Kliniklerin ve uzman uygulayıcıların ihtiyaçlarına yönelik yüksek performanslı sistemler geliştirerek bakım süreçlerini daha etkili, daha kontrollü ve daha sürdürülebilir hale getirmek; klinik süreçlerde standardizasyon sağlamak ve uzmanlara güvenilir çözümler sunmak."
+        },
+        {
+          "baslik": "Vizyonumuz",
+          "aciklama": "Bilimsel içeriklerle desteklenen bir ürün ailesi kurmak. Çatımız altındaki sistemler; cilt yenilenmesi, nem dengesi, lekelenme yönetimi, elastikiyet desteği ve saç kökü aktivasyonu gibi farklı ihtiyaçlara göre sınıflandırılmıştır."
+        },
+        {
+          "baslik": "Ürün ailesi",
+          "aciklama": "Mezoeffect ampul grupları, cihaz destekli sistemler ve kombine protokol çözümleri bir arada konumlanır; uzmanlar tarafından planlanan kür uygulamalarına entegre edilebilecek şekilde formüle edilmiştir.",
+          "url": "/urunler/"
+        }
+      ]
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "İş modeli",
+      "baslik": "Eğitim ve destek odaklı çalışırız",
+      "paragraflar": [
+        "MediEst Group, yalnızca ürün tedarik eden bir yapı değil; profesyonel uygulayıcılara yönelik eğitim, protokol danışmanlığı ve içerik geliştirme desteği sunan bir iş ortağıdır.",
+        "Her klinik tipine özel geliştirilen kombine protokoller; uygulama süreçlerinde verimliliği, maliyet optimizasyonunu ve hasta memnuniyetini önceliklendirir. Cihazı satın almak sürecin kolay kısmıdır; asıl mesele o cihazın kliniğinizde düzenli çalışan bir hizmete dönüşmesidir."
+      ],
+      "maddeler": [
+        "Uygulama eğitimi online veya Bakırköy showroom'da birebir verilir",
+        "Kliniğe özel kombine seans planlaması ve protokol danışmanlığı sağlanır",
+        "Cihaz setini alan bayilere grafik ve Reels video biçiminde sosyal medya desteği verilir",
+        "Protokol güncellemeleri bayilere aktarılır"
+      ],
+      "gorsel": "bayilik"
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Kliniklere özel yaklaşım",
+      "baslik": "Her ürün klinik kullanım gereklilikleri doğrultusunda yapılandırılır",
+      "giris": "Bu süreçte gözetilen başlıklar, sürdürülebilir bakım performansını odağa alacak şekilde belirlenir:",
+      "maddeler": [
+        "Bilimsel içerik",
+        "Standardize formüller",
+        "Etkinlik analizi",
+        "Uygulayıcı eğitim desteği",
+        "Protokol bazlı çözümler"
+      ],
+      "sutun": 2
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Bakırköy showroom",
+      "baslik": "Cihazları çalışırken görebileceğiniz bir alan",
+      "paragraflar": [
+        "Showroom'umuzda Gold Pen ve Baby Skin Pen'i birebir inceleyebilir, başlık ve iğne ucu seçeneklerini görebilir, uygulama akışını takip edebilirsiniz. Görüşmeler randevuyla planlanır.",
+        "Aynı ziyarette eğitim içeriğini ve protokol planlamasını da konuşuruz. Eğitim, tercihinize göre showroom'da ya da online yapılabilir."
+      ],
+      "gorsel": "showroom"
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Uzun vadeli iş birliği",
+      "baslik": "Güvenilirlik ve sürdürülebilirlik",
+      "paragraflar": [
+        "MediEst Group, uzun vadeli iş birlikleri kurarak sektörde sürdürülebilir başarı hedefler. Eğitim destekleri, ürün protokol güncellemeleri ve uygulama verimliliğini artıran yenilikçi sistemleriyle kliniklerin gelişim yolculuğuna eşlik eder.",
+        "Bu yaklaşımın pratikteki karşılığı basittir: satış sonrasında iletişim kesilmez, protokol güncellemeleri ve uygulama önerileri bayilere aktarılmaya devam eder."
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu sitedeki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz. Satış yalnızca güzellik merkezlerine ve kliniklere yapılır."
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Kliniğiniz için uygun kurulumu birlikte planlayalım",
+      "giris": "Danışan profilinizi ve mevcut hizmet menünüzü paylaşın; hangi cihazın hangi ampul ve solüsyon grubuyla anlamlı olduğunu birlikte belirleyelim.",
+      "birincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "İletişim bilgileri", "url": "/iletisim/" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynakDosyalar": [
+      "kaynak-icerik/metin/page--hakkimizda.md",
+      "kaynak-icerik/metin/page--home-v2-3-col-images-contact.md",
+      "icerik/site.json",
+      "icerik/anasayfa.json"
+    ],
+    "eklenenIcerik": [
+      "metaBaslik ve metaAciklama (kaynak SEO alanları kısaydı, sayfanın kendi sözcükleriyle yeniden yazıldı)",
+      "Blok başlıkları ve geçiş cümleleri (iddia içermeyen düzenleme metni)"
+    ],
+    "yayinaAlinmayanKaynakIfadeleri": [
+      "'uzman kadrosu, kurumsal yapısı ve yılların deneyimiyle' (page--sik-sorulan-sorular.md) — yıl/deneyim sayısı doğrulanamıyor.",
+      "'Dermapen sistemlerinden üstün' ve 'dünyada birçok kliniğin geçiş yaptığı' — karşılaştırmalı reklam ve ispatlanamaz istatistik iması.",
+      "'İlk seanstan itibaren fark edilir canlılık', 'tek seansta bile memnuniyet' — ölçüsüz sonuç beyanı.",
+      "Fiyat, kampanya ve seans ücreti bilgileri."
+    ],
+    "musteriTeyidiGereken": [
+      "Kuruluş yılı, ekip büyüklüğü ve bayi/referans klinik sayısı: hiçbir kaynak metinde yok, sayfada kullanılmadı.",
+      "Garanti süresi, yedek parça ve teknik servis koşulları: kaynak SSS sayfasında yalnızca başlık var, altında içerik yok; sayfaya yazılmadı.",
+      "Sertifika, belge ve üretim tesisi bilgileri: kaynakta yok; kanıt katmanı Kalite & UTS sayfasında boş bırakıldı.",
+      "Showroom ziyaret koşulları (randevu zorunlu mu, ziyaret süresi) yalnızca 'randevuyla planlanır' düzeyinde yazıldı."
+    ]
+  }
+}

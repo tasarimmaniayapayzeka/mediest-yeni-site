@@ -1,0 +1,155 @@
+{
+  "slug": "iletisim",
+  "metaBaslik": "İletişim: Bakırköy Showroom, Telefon ve E-posta",
+  "metaAciklama": "MediEst Group iletişim: Zuhuratbaba Mah. İncirli Cd. No: 21/4 Bakırköy / İstanbul, 0533 637 49 09, info@mediestgroup.com.tr. Showroom görüşmeleri randevuyla.",
+  "kirintiAd": "İletişim",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "İletişim",
+      "baslik": "Bakırköy'deki ofis ve showroom",
+      "giris": "Cihaz demosu, eğitim planlaması, protokol danışmanlığı ve teklif talepleriniz için bize ulaşabilirsiniz. Görüşmeler randevuyla planlanır; showroom ziyaretinde Gold Pen ve Baby Skin Pen'i çalışırken görebilirsiniz.",
+      "cta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Cihazları inceleyin", "url": "/cihazlar/" }
+    },
+
+    {
+      "tip": "iletisim",
+      "ustEtiket": "Künye",
+      "baslik": "İletişim bilgileri",
+      "giris": "Telefon, WhatsApp ve e-posta kanallarının tamamı aynı ekibe ulaşır. Satış yalnızca güzellik merkezlerine ve kliniklere yapıldığı için ilk görüşmede merkezinizin adını ve yetkili kişiyi belirtmenizi rica ederiz."
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Hangi konuda yazıyorsunuz",
+      "baslik": "Talebinizi doğru başlıkla iletin",
+      "giris": "Görüşmenin ilk adımını hızlandırmak için mesajınızda konuyu belirtmeniz yeterli.",
+      "kartlar": [
+        {
+          "baslik": "Bayilik ve teklif",
+          "aciklama": "Kliniğinizin danışan profilini ve mevcut hizmet menüsünü paylaşın; set içeriği ve koşullar kliniğinize özel teklif olarak iletilir.",
+          "url": "/bayilik/"
+        },
+        {
+          "baslik": "Showroom randevusu",
+          "aciklama": "Cihazları satın almadan önce birebir görmek isterseniz gün ve saat belirleyelim; aynı görüşmede eğitim ve protokol planlaması da konuşulur.",
+          "url": "/cihazlar/"
+        },
+        {
+          "baslik": "Eğitim ve protokol desteği",
+          "aciklama": "Mevcut bayiler için uygulama eğitimi, kombine seans planlaması ve protokol güncellemeleri bu başlık altında yürütülür.",
+          "url": "/protokoller/"
+        }
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Ulaşım",
+      "baslik": "Showroom'a gelirken",
+      "giris": "Ofis ve showroom Bakırköy'de, Zuhuratbaba Mahallesi sınırları içinde İncirli Caddesi üzerindedir.",
+      "maddeler": [
+        "Adres: İncirli Caddesi No: 21/4, 34147 Bakırköy / İstanbul",
+        "Ziyaretler randevuyla planlanır; gelmeden önce gün ve saati telefonla veya WhatsApp'tan teyit etmenizi öneririz",
+        "Görüşmede Gold Pen ve Baby Skin Pen'i çalışırken görebilir, başlık ve iğne ucu seçeneklerini inceleyebilirsiniz",
+        "Aynı ziyarette eğitim içeriği ve kliniğinize özel protokol planlaması da ele alınır",
+        "Eğitim, tercihinize göre showroom'da ya da online yapılabilir"
+      ],
+      "sutun": 1
+    },
+
+    {
+      "tip": "adimlar",
+      "ustEtiket": "Süreç",
+      "baslik": "Görüşme nasıl ilerliyor",
+      "giris": "Görüşme fiyat listesiyle değil, kliniğinizin danışan profili ve mevcut hizmet menüsüyle başlar.",
+      "adimlar": [
+        {
+          "baslik": "Talebinizi iletin",
+          "aciklama": "Telefon, WhatsApp veya e-posta ile merkezinizi ve ilgilendiğiniz ürün grubunu bildirin."
+        },
+        {
+          "baslik": "Kliniğinizi konuşalım",
+          "aciklama": "Danışan profiliniz, mevcut hizmet menünüz ve uygulayıcı yapınız üzerinden hangi cihaz ve sarf kurgusunun anlamlı olduğunu birlikte değerlendiriyoruz."
+        },
+        {
+          "baslik": "Demo ve eğitim planı",
+          "aciklama": "Bakırköy showroom'da birebir cihaz demosu yapılır; eğitim showroom'da ya da online planlanır."
+        },
+        {
+          "baslik": "Kliniğinize özel teklif",
+          "aciklama": "Set içeriği ve çalışma koşulları kliniğinizin ihtiyacına göre teklif olarak iletilir."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Sık sorulanlar",
+      "baslik": "Ziyaret ve iletişim",
+      "sorular": [
+        {
+          "s": "Showroom ziyareti için randevu gerekiyor mu?",
+          "c": "Görüşmeler randevuyla planlanır. Telefon, WhatsApp veya e-posta üzerinden gün ve saat belirleyebiliriz."
+        },
+        {
+          "s": "Son kullanıcı olarak ürün satın alabilir miyim?",
+          "c": "Satış yalnızca güzellik merkezlerine ve kliniklere yapılır; son kullanıcıya ürün satışı yapılmamaktadır."
+        },
+        {
+          "s": "Eğitim yalnızca showroom'da mı veriliyor?",
+          "c": "Hayır. Uygulama eğitimi online veya Bakırköy showroom'da birebir verilebilir; tercihi siz belirlersiniz."
+        },
+        {
+          "s": "Fiyat listesi paylaşıyor musunuz?",
+          "c": "MediEst Group B2B çalışır. Set içeriği ve koşullar kliniğin ihtiyacına göre değiştiği için fiyat yayınlanmaz; teklif talebi bıraktığınızda kliniğinize özel koşullar iletilir."
+        }
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Satış yalnızca güzellik merkezlerine ve kliniklere yapılır. Bu sitedeki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz."
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Kliniğinize özel teklifi konuşalım",
+      "giris": "Danışan profilinizi paylaşın; hangi cihazın hangi ampul ve solüsyon grubuyla anlamlı olduğunu birlikte planlayalım.",
+      "birincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Bayilik ve iş ortaklığı", "url": "/bayilik/" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynakDosyalar": [
+      "icerik/site.json",
+      "kaynak-icerik/metin/page--iletisim.md",
+      "kaynak-icerik/metin/page--home-v2-3-col-images-contact.md",
+      "icerik/anasayfa.json"
+    ],
+    "eklenenIcerik": [
+      "metaBaslik ve metaAciklama",
+      "Blok başlıkları ve süreç adımlarının adlandırması (iddia içermeyen düzenleme metni)",
+      "Ulaşım maddeleri: yalnızca site.json adres alanından türetildi"
+    ],
+    "sayfayaYazilmayanlar": [
+      "Metro, metrobüs, otobüs veya minibüs hattı, yürüme mesafesi ve otopark bilgisi — hiçbir kaynakta yok.",
+      "Kat, daire, bina adı, kapı tarifi ve harita koordinatı — kaynakta yalnızca 'No: 21/4' var.",
+      "Dönüş süresi taahhüdü ('24 saat içinde dönüş' vb.) — kaynakta yok.",
+      "İkinci telefon numarası: kaynak sayfanın SEO başlığında geçen 0 554 986 75 28 numarası kullanılmadı; site.json'daki 0533 637 49 09 esas alındı.",
+      "Fiyat, kampanya ve seans ücreti bilgileri."
+    ],
+    "musteriTeyidiGereken": [
+      "0533 637 49 09 numarası WhatsApp'a açık mı, yoksa ayrı bir işletme numarası mı kullanılacak (notlar/04 satır 51).",
+      "Kaynak iletişim sayfasının SEO başlığındaki 0 554 986 75 28 numarasının durumu: hâlâ geçerli mi, yayından kaldırılacak mı.",
+      "Showroom ziyaretinin randevu zorunluluğu ve ziyaret süresi.",
+      "Harita gömme izni ve tam konum (adresin harita üzerindeki karşılığı doğrulanmadı).",
+      "Çalışma saatleri dışında gelen mesajların hangi kanaldan yanıtlandığı.",
+      "Bayilik başvuru formunun nereye düşeceği: e-posta mı, WhatsApp mı, ikisi de mi."
+    ]
+  }
+}

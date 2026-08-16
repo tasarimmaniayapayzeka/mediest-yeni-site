@@ -1,0 +1,214 @@
+{
+  "slug": "bayilik",
+  "metaBaslik": "Bayilik ve İş Ortaklığı: Kliniklere Cihaz Tedariki",
+  "metaAciklama": "MediEst Group yalnızca güzellik merkezi ve kliniklere satış yapar. Bayilik süreci, Bakırköy showroom demosu, birebir eğitim ve kliniğe özel teklif aşamaları.",
+  "kirintiAd": "Bayilik",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Bayilik ve iş ortaklığı",
+      "baslik": "Görüşme fiyat listesiyle değil, kliniğinizle başlar",
+      "giris": "MediEst Group; güzellik merkezleri ve kliniklere Gold Pen ile Baby Skin Pen cihazlarını, Mezoeffect ampullerini ve Mezocomplex solüsyonlarını tedarik eder. Set içeriği ve koşullar kliniğinizin danışan profiline ve mevcut hizmet menüsüne göre belirlenir; süreç tek bir mesajla başlar.",
+      "cta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" }
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Satış politikası",
+      "baslik": "Yalnızca güzellik merkezi ve kliniklere satış",
+      "paragraflar": [
+        "MediEst Group B2B çalışır. Cihaz, ampul ve solüsyon grupları yalnızca güzellik merkezlerine ve kliniklere tedarik edilir; son kullanıcıya ürün satışı yapılmamaktadır.",
+        "Bu tercih, ürünlerin profesyonel uygulama içinde konumlanmasından kaynaklanır. Gold Pen steril uçlar ve tek kullanımlık sarf malzemeleriyle uygulanır; Baby Skin Pen protokolü ise kapsül uygulaması ve ardından gelen Mezoeffect ampul masajı olmak üzere iki aşamalıdır. Her iki cihaz da uygulayıcı eğitimiyle birlikte devreye alınır.",
+        "Fiyat listesi sitede yayınlanmaz. Set içeriği ve koşullar kliniğin ihtiyacına göre değiştiği için teklif, görüşme sonrasında kliniğinize özel olarak iletilir."
+      ]
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Katalog",
+      "baslik": "Teklife girebilecek ürün grupları",
+      "giris": "Katalog iki cihaz, yedi Mezoeffect ampulü ve beş Mezocomplex solüsyonundan oluşur. Hangi başlıkların kliniğinizde bulunması gerektiğini teklif aşamasında birlikte belirliyoruz.",
+      "kartlar": [
+        {
+          "baslik": "Cihazlar",
+          "aciklama": "Gold Pen; mikroiğneleme, EMS ve LED fototerapiyi tek cihazda birleştirir, hassas cilt, yüz ve saç için ayrı iğne uçlarına sahiptir. Baby Skin Pen; yüksek frekanslı mikro titreşim, 360 derece döner başlık ve 7 renk LED ile yedi kapsül serisi üzerinden çalışır.",
+          "url": "/cihazlar/"
+        },
+        {
+          "baslik": "Mezoeffect Serum Grubu",
+          "aciklama": "UTS kayıtlı yedi ampul; nem, onarım, yaşlanma karşıtı bakım, leke ve aydınlatma, göz çevresi ile saç başlıklarını karşılar. Serinin tamamında klinik uygulamanın yanı sıra ev bakım rutini de tanımlıdır.",
+          "url": "/urunler/mezoeffect/"
+        },
+        {
+          "baslik": "Mezocomplex Solüsyonlar",
+          "aciklama": "Flakon düzeninde beş solüsyon; kutuda beş flakon bulunur. Hücresel yenilenme, leke ve aydınlatma, sıkılık, nem ve saç canlandırma başlıklarında kombine protokollere eklenir.",
+          "url": "/urunler/mezocomplex/"
+        },
+        {
+          "baslik": "Cihaz karşılaştırma",
+          "aciklama": "İki cihazın teknoloji, uygulama alanı ve seans kurgusu bakımından yan yana karşılaştırması; hangi cihazın kliniğinize uygun olduğuna karar vermeden önce inceleyebilirsiniz.",
+          "url": "/cihazlar/karsilastirma/"
+        }
+      ]
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Bayi desteği",
+      "baslik": "Cihazı teslim aldıktan sonrası",
+      "gorsel": "bayilik",
+      "paragraflar": [
+        "MediEst Group yalnızca ürün tedarik eden bir yapı değil; profesyonel uygulayıcılara eğitim, protokol danışmanlığı ve içerik geliştirme desteği sunan bir iş ortağıdır. Cihazın kliniğinizde düzenli çalışan bir hizmete dönüşmesi, satın alma kararından sonra başlayan bir süreçtir.",
+        "Bu nedenle görüşme ürün listesiyle bitmez; eğitim planı, protokol kurgusu ve yeni hizmetin nasıl duyurulacağı aynı masada konuşulur."
+      ],
+      "maddeler": [
+        "Online veya Bakırköy showroom'da birebir uygulama eğitimi",
+        "Kliniğe özel kombine seans planlaması ve protokol danışmanlığı",
+        "Uygulama protokolü ve müşteri iletişimi önerileri",
+        "Cihaz setini alan bayilere sosyal medya desteği: grafik ve Reels video",
+        "UTS kayıtlı Mezoeffect serum grubuna ve Mezocomplex solüsyon grubuna erişim",
+        "Protokol güncellemelerinin bayilere aktarılması",
+        "Uzun vadeli iş birliği yaklaşımı: satış sonrasında da iletişimde kalınır"
+      ]
+    },
+
+    {
+      "tip": "adimlar",
+      "ustEtiket": "Süreç",
+      "baslik": "Teklif nasıl ilerliyor",
+      "giris": "Aşağıdaki akış genel işleyişi tarif eder. Adımların sırası ve kapsamı, kliniğinizin ihtiyacına ve hangi cihazla ilgilendiğinize göre değişebilir.",
+      "adimlar": [
+        {
+          "baslik": "İletişim",
+          "aciklama": "WhatsApp üzerinden yazın ya da 0533 637 49 09 numarasından bize ulaşın. Sitede doldurmanız gereken ayrı bir başvuru formu bulunmuyor."
+        },
+        {
+          "baslik": "İhtiyaç analizi",
+          "aciklama": "Kliniğinizin danışan profilini, mevcut hizmet menüsünü ve hangi uygulama alanlarını büyütmek istediğinizi konuşuruz. Cihaz ve sarf tarafı bu görüşmenin çıktısına göre şekillenir."
+        },
+        {
+          "baslik": "Cihaz demosu",
+          "aciklama": "Bakırköy showroom'da randevuyla birebir cihaz demosu yapılır; başlık ve iğne ucu seçeneklerini yerinde inceleyebilirsiniz. Showroom'a gelemeyen klinikler süreci online görüşmeyle yürütebilir."
+        },
+        {
+          "baslik": "Teklif",
+          "aciklama": "Set içeriği ve koşullar kliniğinize özel olarak hazırlanır ve teklif biçiminde iletilir. Fiyat listesi yayınlanmadığı için koşullar doğrudan sizinle paylaşılır."
+        },
+        {
+          "baslik": "Eğitim",
+          "aciklama": "Uygulama eğitimi online ya da Bakırköy showroom'da birebir verilir. Başlık ve iğne ucu kullanımı ile seans akışı, ekibinize uygulatarak gösterilir."
+        },
+        {
+          "baslik": "Teslim ve devamı",
+          "aciklama": "Cihaz ve sarf grubu teslim edildikten sonra protokol danışmanlığı sürer; protokol güncellemeleri bayilere aktarılır ve iletişim devam eder."
+        }
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bayilik için sitede doldurulacak bir başvuru formu bulunmuyor. Süreç WhatsApp yazışmasıyla ya da telefon görüşmesiyle ilerler; teklif, görüşmede paylaştığınız bilgilere göre hazırlanır. Bu sayfadaki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz."
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Bakırköy showroom",
+      "baslik": "Karar vermeden önce cihazı elinize alın",
+      "gorsel": "showroom",
+      "paragraflar": [
+        "Showroom'umuzda Gold Pen ve Baby Skin Pen'i çalışırken görebilir, başlık ve iğne ucu seçeneklerini inceleyebilir, uygulama akışını birebir takip edebilirsiniz.",
+        "Görüşmeler randevuyla planlanır. Aynı ziyarette eğitim içeriğini ve protokol planlamasını da konuşuruz; eğitim, tercihinize göre showroom'da ya da online yapılabilir."
+      ],
+      "maddeler": [
+        "İki cihazın başlık, uç ve kapsül seçeneklerinin yakından incelenmesi",
+        "Uygulama akışının birebir takip edilmesi",
+        "Aynı görüşmede protokol planlamasının ve eğitim içeriğinin konuşulması"
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Sık sorulanlar",
+      "baslik": "Bayilik ve satın alma",
+      "sorular": [
+        {
+          "s": "Bayilik başvurusu nasıl ilerliyor?",
+          "c": "Sitede doldurulacak bir form bulunmuyor. WhatsApp üzerinden yazarak ya da 0533 637 49 09 numarasından arayarak süreci başlatabilirsiniz; görüşme, kliniğinizin danışan profili ve hizmet menüsü üzerinden ilerler."
+        },
+        {
+          "s": "Son kullanıcıya satış yapıyor musunuz?",
+          "c": "Hayır. Satış yalnızca güzellik merkezlerine ve kliniklere yapılır; son kullanıcıya ürün satışı yapılmamaktadır."
+        },
+        {
+          "s": "Teklif almak için hangi bilgileri hazırlamalıyız?",
+          "c": "Kliniğinizin danışan profili, mevcut hizmet menüsü ve büyütmek istediğiniz uygulama alanları yeterlidir. Bu üç başlık, hangi cihazın ve hangi sarf grubunun teklife gireceğini belirler."
+        },
+        {
+          "s": "Sitede neden fiyat bilgisi yok?",
+          "c": "MediEst Group B2B çalışır. Set içeriği ve koşullar kliniğin ihtiyacına göre değiştiği için fiyat yayınlanmaz; teklif, görüşme sonrasında kliniğinize özel olarak iletilir."
+        },
+        {
+          "s": "Showroom ziyareti için randevu gerekiyor mu?",
+          "c": "Evet. Bakırköy showroom'daki cihaz demosu ve görüşmeler randevuyla planlanır. Aynı ziyarette eğitim içeriği ve protokol planlaması da konuşulur."
+        },
+        {
+          "s": "İstanbul dışındaki klinikler süreci nasıl yürütüyor?",
+          "c": "Uygulama eğitimi online da verilebildiği için showroom ziyareti zorunlu değildir; görüşme ve eğitim online yürütülebilir. Showroom'a gelmeyi tercih eden klinikler için randevu planlanır."
+        },
+        {
+          "s": "Cihazı aldıktan sonra sarf ürünlerini nasıl temin ediyoruz?",
+          "c": "Bayiler, UTS kayıtlı Mezoeffect serum grubuna ve Mezocomplex solüsyon grubuna erişir. Kliniğinizin danışan profiline göre hangi ampul ve solüsyonların bulundurulacağını teklif aşamasında birlikte belirliyoruz."
+        }
+      ]
+    },
+
+    {
+      "tip": "iletisim",
+      "ustEtiket": "İletişim",
+      "baslik": "Görüşme için bize ulaşın",
+      "giris": "Bayilik ve teklif görüşmeleri için aşağıdaki kanalları kullanabilirsiniz. Showroom ziyaretleri randevuyla planlanır."
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Kliniğinize özel teklif için yazın",
+      "giris": "Danışan profilinizi ve büyütmek istediğiniz uygulama alanlarını paylaşın; cihaz, ampul ve solüsyon grubunu birlikte planlayalım.",
+      "birincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Cihazları karşılaştırın", "url": "/cihazlar/karsilastirma/" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynaklar": [
+      "icerik/site.json (iletişim, showroom, güven şeridi, menü)",
+      "icerik/anasayfa.json (bayilik bölümü, B2B SSS, showroom bölümü)",
+      "icerik/hub.json (cihaz ve ürün grubu tanımları)",
+      "kaynak-icerik/metin/page--hakkimizda.md (eğitim ve destek odaklı iş modeli, uzun vadeli iş birliği)",
+      "kaynak-icerik/metin/page--sik-sorulan-sorular.md (kimlere satış, eğitim ve bayi desteği)",
+      "kaynak-icerik/metin/page--goldpen.md (steril uç ve tek kullanımlık sarf, iğne ucu tipleri)",
+      "kaynak-icerik/metin/page--baby-skin-pen.md (iki aşamalı protokol, bayi destekleri)"
+    ],
+    "yazilmayanlar": [
+      "Garanti süresi, teknik servis ve yedek parça koşulları: kaynakta veri yok; bu sayfada hiç geçmiyor, yönlendirme /egitim-destek/ sayfasındaki not kutusunda yapılıyor.",
+      "Teslimat süresi, minimum sipariş tutarı, ödeme ve iade koşulları: kaynakta veri yok, yazılmadı.",
+      "Bayi sayısı, referans klinik, yıl sayısı, kapsama alanı, bölge münhasırlığı: kaynakta veri yok, yazılmadı.",
+      "Fiyat ve seans ücreti: kaynaktaki seans ücreti aralığı taşınmadı; sayfada hiçbir tutar geçmiyor.",
+      "Gold Pen cihaz seti içeriği ve ambalaj bilgisi kaynakta yok; 'set içeriği kliniğe göre belirlenir' ifadesiyle sınırlı kalındı.",
+      "Süreç adımlarına gün, hafta veya teslim süresi yazılmadı.",
+      "Lansmana özel kampanya (7 kutu kapsül / 42 seans) alınmadı; zaman bağımlı ve teyitsiz.",
+      "'Dermapen sistemlerinden üstün' ve 'dünyada birçok kliniğin geçiş yaptığı' iddiaları alınmadı.",
+      "Baby Skin Pen için iğne bulunmadığı yönündeki niteleme ve gün aralığı yazılmadı (kaynak metinde iğne konusu hiç geçmiyor, gün aralığında 15-20 / 10-15 çelişkisi var).",
+      "Mezocomplex flakon hacmi yazılmadı; yalnızca 'kutuda beş flakon' kullanıldı."
+    ],
+    "musteriTeyidiGereken": [
+      "0533 637 49 09 numarası WhatsApp'a açık mı, yoksa ayrı bir işletme numarası mı kullanılacak?",
+      "Bölge bayiliği / münhasırlık uygulanıyor mu?",
+      "Minimum sipariş, ödeme ve teslimat koşulları nedir?",
+      "Gold Pen ve Baby Skin Pen set içerikleri (kutuda ne geliyor) nedir?",
+      "Showroom dışındaki kliniklere online demo fiilen veriliyor mu, yoksa yalnızca görüşme mi yapılıyor?"
+    ]
+  }
+}

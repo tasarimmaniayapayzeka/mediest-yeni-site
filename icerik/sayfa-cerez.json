@@ -1,0 +1,130 @@
+{
+  "slug": "cerez",
+  "metaBaslik": "Çerez Politikası",
+  "metaAciklama": "MediEst Group çerez politikası: site şu an analitik, reklam veya profilleme çerezi kullanmamaktadır. Sunucu kayıtları ve dış bağlantılar hakkında bilgi.",
+  "kirintiAd": "Çerez Politikası",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Yasal bilgilendirme",
+      "baslik": "Çerez Politikası",
+      "giris": "Bu politika, mediestgroup.com.tr adresinde çerez kullanılıp kullanılmadığını açıklar. Kısa cevap: site şu an ölçümleme, reklam veya profilleme amacıyla çerez kullanmamaktadır. Ayrıntılar aşağıdadır."
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Tanım",
+      "baslik": "Çerez nedir",
+      "paragraflar": [
+        "Çerez (cookie), bir internet sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyasıdır.",
+        "Çerezler; oturumun sürdürülmesi, tercihlerin hatırlanması, ziyaretçi sayısının ölçülmesi veya reklam gösteriminin kişiselleştirilmesi gibi farklı amaçlarla kullanılabilir. Kullanım amacına göre zorunlu, işlevsel, analitik ve pazarlama çerezleri olarak sınıflandırılır."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Mevcut durum",
+      "baslik": "Bu sitede çerez kullanımı",
+      "paragraflar": [
+        "Bu site (mediestgroup.com.tr), sunucudan olduğu gibi sunulan statik sayfalardan oluşan bir tanıtım sitesidir. Üyelik, oturum açma, sepet veya ödeme gibi çerez gerektiren bir işlev bulunmamaktadır.",
+        "Bu nedenle site, ziyaretçilerin cihazına ölçümleme, reklam veya profilleme amaçlı çerez yerleştirmez. Sitede çerez tabanlı bir ziyaretçi takibi yapılmadığı için bu sayfada listelenebilecek bir çerez tablosu da bulunmamaktadır.",
+        "Bu açıklama, sitenin bu politikanın yayımlandığı tarihteki durumunu yansıtır. Durum değişirse bu sayfa güncellenir."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Kullanılmayanlar",
+      "baslik": "Sitede bulunmayan izleme araçları",
+      "giris": "Şeffaflık adına, sitede yer almayan araçları açıkça belirtiyoruz:",
+      "sutun": 2,
+      "maddeler": [
+        "Analitik ölçüm araçları (ziyaretçi istatistiği toplayan hizmetler)",
+        "Reklam ve yeniden pazarlama pikselleri",
+        "Sosyal medya izleme pikselleri",
+        "Isı haritası veya oturum kaydı araçları",
+        "Reklam ağlarına ait üçüncü taraf çerezleri",
+        "Ziyaretçi profili çıkaran otomatik değerlendirme sistemleri"
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Ayrım",
+      "baslik": "Sunucu kayıtları çerez değildir",
+      "paragraflar": [
+        "Siteyi ziyaret ettiğinizde, sitenin barındırıldığı sunucuda teknik kayıtlar oluşur. Bu kayıtlar tipik olarak IP adresi, erişim tarih ve saati, görüntülenen adres ile tarayıcı ve işletim sistemi bilgisini içerir.",
+        "Bu kayıtlar cihazınıza yerleştirilen çerezler değildir; sunucu tarafında, sistem güvenliği ve hata takibi amacıyla tutulur. Bu kayıtların işlenmesine ilişkin bilgilendirme KVKK Aydınlatma Metni ve Gizlilik Politikası sayfalarında yer alır."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Dış bağlantılar",
+      "baslik": "Başka platformlara giden bağlantılar",
+      "paragraflar": [
+        "Sitede WhatsApp, Instagram ve adres bilgisinin bağlandığı Google Haritalar gibi dış platformlara yönlendiren bağlantılar bulunur. Bu bağlantılar, siz tıklamadıkça herhangi bir veri aktarımı başlatmaz.",
+        "Bağlantıya tıkladığınızda ilgili platformun kendi sayfasına geçersiniz ve o noktadan itibaren söz konusu platformun çerez ve gizlilik uygulamaları geçerli olur. MediEst Group, bu platformların çerez politikaları üzerinde bir denetime sahip değildir.",
+        "Sitede üçüncü taraf video, harita veya sosyal medya akışı gömülü olarak yer almamaktadır."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Tarayıcı ayarları",
+      "baslik": "Çerezleri kendiniz yönetmek isterseniz",
+      "giris": "Bu sitede çerez kullanılmasa da, tüm siteler için geçerli olacak şekilde çerez tercihlerinizi tarayıcınızın ayarlarından yönetebilirsiniz. İlgili bölümler genellikle şu başlıklar altındadır:",
+      "sutun": 2,
+      "maddeler": [
+        "Google Chrome: Ayarlar > Gizlilik ve güvenlik > Üçüncü taraf çerezleri",
+        "Mozilla Firefox: Ayarlar > Gizlilik ve Güvenlik > Çerezler ve Site Verileri",
+        "Safari: Ayarlar > Gizlilik",
+        "Microsoft Edge: Ayarlar > Çerezler ve site izinleri",
+        "Mobil tarayıcılar: uygulama içi ayarlar bölümündeki gizlilik başlığı",
+        "Tarayıcınızın gizli veya özel gezinti modu, oturum sonunda çerezleri temizler"
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "İleriye dönük",
+      "baslik": "Bu durum değişirse ne olacak",
+      "paragraflar": [
+        "İleride sitede analitik ölçüm, canlı destek, iletişim formu, reklam ölçümü veya benzeri bir araç kullanılmasına karar verilirse, bu politika söz konusu araç yayına alınmadan önce güncellenir.",
+        "Böyle bir durumda; kullanılan çerezlerin adı, amacı, türü ve saklama süresini gösteren bir liste bu sayfada yayımlanır ve mevzuatın gerektirdiği hâllerde ziyaretçiden onay alan bir çerez bildirimi devreye alınır.",
+        "Zorunlu olmayan çerezler, açık onayınız olmadan cihazınıza yerleştirilmeyecektir."
+      ]
+    },
+
+    {
+      "tip": "iletisim",
+      "ustEtiket": "Sorularınız için",
+      "baslik": "Çerez uygulamamız hakkında bize ulaşın",
+      "giris": "Bu politikaya ilişkin sorularınızı aşağıdaki iletişim bilgileri üzerinden iletebilirsiniz."
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu metin bilgilendirme amaçlı olarak hazırlanmıştır; hukuki görüş niteliği taşımaz. Yayına alınmadan önce bir hukuk danışmanı tarafından gözden geçirilmesi ve sitenin yayına alınacağı teknik altyapıda gerçekten çerez oluşup oluşmadığının kontrol edilmesi gerekir."
+    }
+  ],
+
+  "dogrulama": {
+    "kaynak": "Sitenin statik olduğu ve analitik/pazarlama aracı içermediği bilgisi proje yapısına ve site.json'a dayanıyor; site.json içinde hiçbir ölçüm veya reklam kimliği alanı bulunmuyor.",
+
+    "musteriTeyidiGereken": [
+      "Yayın öncesi teknik doğrulama: site canlıya alındıktan sonra tarayıcı geliştirici araçlarıyla gerçekten çerez oluşmadığı kontrol edilmelidir. Barındırma sağlayıcısı, güvenlik duvarı veya CDN katmanı kendi çerezini yerleştiriyorsa bu sayfaya eklenmelidir.",
+      "İleride GA4, Meta Pixel veya Google Ads etiketi eklenmesi planlanıyorsa, etiket yayına alınmadan önce bu sayfa güncellenmeli ve çerez onay bildirimi devreye alınmalıdır.",
+      "Sitede ileride yazı tipi, harita, video veya sosyal medya akışı gömülmesi hâlinde \"üçüncü taraf gömülü içerik yoktur\" ifadesi geçersiz kalır; metin güncellenmelidir.",
+      "Resmi ticaret unvanı kaynakta yok; metinde yalnızca \"MediEst Group\" kullanıldı."
+    ],
+
+    "bilerekYazilmayanlar": [
+      "Sahte çerez tablosu oluşturulmadı; kullanılmayan çerezler için ad, süre veya sağlayıcı uydurulmadı.",
+      "Sitede bulunmayan bir çerez onay bandı varmış gibi anlatılmadı; onay bandı yalnızca gelecekteki koşullu senaryoda anlatıldı.",
+      "Tarayıcı ayar yolları genel başlık düzeyinde verildi; sürüme özgü menü adımları ve dış bağlantı verilmedi (sürümle birlikte değişir).",
+      "Herhangi bir çerez yönetim yazılımı veya onay platformu adı geçmiyor."
+    ]
+  }
+}

@@ -825,6 +825,53 @@ strong { font-weight: 600; color: var(--komur); }
   color: var(--mavi-500);
 }
 
+/* ==========================================================================
+   Adımlar (süreç)
+   ========================================================================== */
+.adimlar { counter-reset: adim; display: grid; gap: 1px; background: var(--platin); border: 1px solid var(--platin); border-radius: 6px; overflow: hidden; }
+@media (min-width: 900px) { .adimlar { grid-template-columns: repeat(3, 1fr); } }
+.adim { display: flex; gap: 1rem; padding: clamp(1.4rem, 2.6vw, 1.9rem); background: #fff; }
+.adim__no {
+  flex: 0 0 auto;
+  font-family: var(--f-baslik); font-size: 1.5rem; font-weight: 600;
+  color: var(--marka); line-height: 1;
+}
+.adim__baslik { font-family: var(--f-govde); font-size: 1.0313rem; font-weight: 600; margin: 0 0 0.3rem; }
+.adim p { margin: 0; font-size: 0.9375rem; color: var(--gri-koyu); }
+
+/* ==========================================================================
+   Protokol Seçici
+   ========================================================================== */
+.protokol-secim {
+  display: flex; flex-wrap: wrap; gap: 0.5rem;
+  padding-bottom: 1.75rem; margin-bottom: 2.25rem;
+  border-bottom: 1px solid var(--platin);
+}
+.protokol-chip {
+  padding: 0.6rem 1.15rem;
+  background: #fff;
+  border: 1px solid var(--platin);
+  border-radius: 40px;
+  font-size: 0.9063rem; font-weight: 500; color: var(--gri-koyu);
+  transition: border-color var(--gecis), color var(--gecis), background var(--gecis);
+}
+.protokol-chip:hover { border-color: var(--marka); color: var(--mavi-500); }
+.protokol-chip[aria-selected="true"] { background: var(--lacivert-700); border-color: var(--lacivert-700); color: #fff; }
+.protokol-chip:focus-visible { outline: 2px solid var(--marka); outline-offset: 2px; }
+
+.protokol-panel { scroll-margin-top: 7rem; }
+/* JS yoksa hepsi görünür kalır; JS varsa yalnızca seçili panel gösterilir */
+.js-var .protokol-panel[hidden] { display: none; }
+.protokol-panel + .protokol-panel { margin-top: clamp(3rem, 6vw, 4.5rem); }
+.js-var .protokol-panel + .protokol-panel { margin-top: 0; }
+.protokol-panel__baslik { font-size: clamp(1.35rem, 2.4vw, 1.85rem); margin-bottom: 0.5rem; }
+.protokol-blok { margin-top: clamp(1.75rem, 3vw, 2.5rem); }
+.protokol-blok__baslik {
+  font-family: var(--f-govde); font-size: 0.6875rem; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--gri);
+  margin-bottom: 1rem;
+}
+
 /* ---------- Yardımcılar ---------- */
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;

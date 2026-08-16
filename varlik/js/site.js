@@ -47,6 +47,47 @@
     if (menu && menu.classList.contains('menu--acik') && dugme) dugme.click();
   });
 
+  // --- Protokol Seçici ---
+  // JS yoksa tüm paneller açık kalır (içerik erişilebilir); JS varsa sekmeye dönüşür
+  var secim = document.querySelector('[data-protokol-secim]');
+  var paneller = secim ? Array.prototype.slice.call(document.querySelectorAll('.protokol-panel')) : [];
+  if (secim && paneller.length) {
+    document.documentElement.classList.add('js-var');
+    var chipler = Array.prototype.slice.call(secim.querySelectorAll('.protokol-chip'));
+
+    var goster = function (id, odakla) {
+      paneller.forEach(function (p) { p.hidden = p.id !== 'panel-' + id; });
+      chipler.forEach(function (c) {
+        var secili = c.id === 'chip-' + id;
+        c.setAttribute('aria-selected', String(secili));
+        c.tabIndex = secili ? 0 : -1;
+      });
+      if (odakla) {
+        var c = document.getElementById('chip-' + id);
+        if (c) c.focus();
+      }
+    };
+
+    chipler.forEach(function (c, i) {
+      c.tabIndex = i === 0 ? 0 : -1;
+      c.addEventListener('click', function () { goster(c.id.replace('chip-', '')); });
+      c.addEventListener('keydown', function (e) {
+        var yon = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!yon) return;
+        e.preventDefault();
+        var yeni = chipler[(i + yon + chipler.length) % chipler.length];
+        goster(yeni.id.replace('chip-', ''), true);
+      });
+    });
+
+    // Adres satırında #panel-xxx varsa onu aç
+    var hedef = (location.hash || '').replace('#panel-', '');
+    var baslangic = hedef && document.getElementById('panel-' + hedef)
+      ? hedef
+      : chipler[0].id.replace('chip-', '');
+    goster(baslangic);
+  }
+
   // --- SSS akordeonu ---
   Array.prototype.forEach.call(document.querySelectorAll('[data-sss] .sss__dugme'), function (btn) {
     btn.addEventListener('click', function () {

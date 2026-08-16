@@ -1,0 +1,203 @@
+{
+  "slug": "kvkk",
+  "metaBaslik": "KVKK Aydınlatma Metni",
+  "metaAciklama": "MediEst Group KVKK aydınlatma metni: 6698 sayılı Kanun kapsamında işlenen kişisel veriler, işleme amaçları, hukuki sebepler, saklama süresi ve başvuru yolu.",
+  "kirintiAd": "KVKK Aydınlatma Metni",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Yasal bilgilendirme",
+      "baslik": "KVKK Aydınlatma Metni",
+      "giris": "Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 10. maddesi kapsamındaki aydınlatma yükümlülüğünü yerine getirmek üzere hazırlanmıştır. MediEst Group ile iletişime geçtiğinizde kişisel verilerinizin hangi kapsamda, hangi amaçla ve hangi hukuki sebeple işlendiğini açıklar."
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 1",
+      "baslik": "Veri sorumlusunun kimliği",
+      "paragraflar": [
+        "6698 sayılı Kişisel Verilerin Korunması Kanunu (bundan sonra \"Kanun\" veya \"KVKK\") uyarınca kişisel verileriniz, veri sorumlusu sıfatıyla MediEst Group tarafından aşağıda açıklanan çerçevede işlenmektedir.",
+        "Adres: Zuhuratbaba Mah. İncirli Cd. No: 21/4, 34147 Bakırköy / İstanbul",
+        "Telefon: 0533 637 49 09",
+        "E-posta: info@mediestgroup.com.tr",
+        "Çalışma saatleri: Pazartesi – Cumartesi · 09:00 – 18:00"
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 2",
+      "baslik": "Bu metnin kapsamı",
+      "paragraflar": [
+        "Bu site (mediestgroup.com.tr), tanıtım amaçlı bir kurumsal internet sitesidir. Site üzerinde üyelik, sipariş, bülten aboneliği veya çevrim içi iletişim formu bulunmamaktadır; ziyaretçilerden site üzerinden doğrudan kişisel veri toplanmamaktadır.",
+        "Kişisel veri işleme faaliyeti, yalnızca sitede yayımlanan telefon numarası, WhatsApp bağlantısı veya e-posta adresi üzerinden bizimle iletişime geçmeniz hâlinde ve bu iletişimin gerektirdiği ölçüde gerçekleşir.",
+        "MediEst Group yalnızca güzellik merkezleri ve kliniklere satış yapar. Bu nedenle tarafımıza ulaşan veriler ağırlıklı olarak ticari faaliyet kapsamındaki kurumsal iletişim ve talep verileridir."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Madde 3",
+      "baslik": "İşlenen kişisel veri kategorileri",
+      "giris": "Bizimle iletişime geçme biçiminize göre aşağıdaki veri kategorileri işlenebilir:",
+      "sutun": 1,
+      "maddeler": [
+        "Kimlik verisi: ad ve soyad — yalnızca sizin ilettiğiniz ölçüde.",
+        "İletişim verisi: telefon numarası, WhatsApp hesabınıza bağlı numara, e-posta adresi, varsa klinik veya işletme adresi.",
+        "Müşteri işlem ve talep verisi: kliniğinize ilişkin ilettiğiniz bilgiler, teklif veya bilgi talebinizin içeriği, görüşme yazışmalarının kendisi.",
+        "İşlem güvenliği verisi: siteyi ziyaretiniz sırasında barındırma altyapısında oluşan teknik kayıtlar; IP adresi, erişim tarih ve saati, talep edilen adres, tarayıcı ve işletim sistemi bilgisi gibi."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 4",
+      "baslik": "Özel nitelikli kişisel veriler",
+      "paragraflar": [
+        "MediEst Group, bu site ve sitede yayımlanan iletişim kanalları aracılığıyla özel nitelikli kişisel veri toplamayı amaçlamaz.",
+        "Profesyonel uygulayıcılardan, bize ilettikleri mesajlarda danışanlarına ait sağlık verisi, fotoğraf veya kimlik bilgisi paylaşmamalarını rica ederiz. Tarafımıza istem dışı ulaşan bu nitelikteki veriler, işleme amacı bulunmadığından silinir."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Madde 5",
+      "baslik": "Kişisel verilerin işlenme amaçları",
+      "giris": "Kişisel verileriniz aşağıdaki amaçlarla sınırlı olarak işlenir:",
+      "sutun": 2,
+      "maddeler": [
+        "Soru, bilgi ve teklif taleplerinizin karşılanması ve yanıtlanması",
+        "Cihaz, ampul ve solüsyon gruplarına ilişkin bilgilendirme yapılması",
+        "Showroom randevularının planlanması ve yürütülmesi",
+        "Eğitim ve protokol desteği süreçlerinin planlanması",
+        "Ticari ilişki kurulması hâlinde sözleşme ve tedarik süreçlerinin yürütülmesi",
+        "Satış sonrası iletişimin ve bayi iletişiminin sürdürülmesi",
+        "Mevzuattan doğan yükümlülüklerin yerine getirilmesi ve yetkili kurumlara bilgi verilmesi",
+        "Bilgi güvenliğinin sağlanması ve sunucu erişim kayıtlarının tutulması"
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Madde 6",
+      "baslik": "Toplama yöntemi ve hukuki sebep",
+      "giris": "Kişisel verileriniz; telefon görüşmesi, WhatsApp mesajlaşması ve e-posta yazışması yoluyla, otomatik olmayan ya da kısmen otomatik yollarla toplanır. İşleme faaliyeti, Kanun'un 5. maddesinde sayılan aşağıdaki şartlara dayanır:",
+      "sutun": 1,
+      "maddeler": [
+        "Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması (m. 5/2-c): teklif, tedarik ve satış sonrası süreçlerde.",
+        "Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması (m. 5/2-ç): ticari ve mali kayıt yükümlülüklerinde.",
+        "İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması (m. 5/2-f): iletişim taleplerinin karşılanması ve bilgi güvenliği kayıtlarında.",
+        "Yukarıdaki şartların bulunmadığı hâllerde açık rızanızın alınması (m. 5/1)."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 7",
+      "baslik": "Kişisel verilerin aktarılması",
+      "paragraflar": [
+        "Kişisel verileriniz, yalnızca yukarıda sayılan amaçlarla sınırlı olarak ve Kanun'un 8. ve 9. maddelerinde öngörülen şartlara uygun biçimde aktarılabilir.",
+        "Aktarım yapılabilecek taraflar: sitenin barındırıldığı altyapı ve hizmet sağlayıcıları, kullanılan elektronik haberleşme platformları, muhasebe ve hukuk danışmanlığı hizmeti alınan kişiler ile kanunen yetkili kamu kurum ve kuruluşları.",
+        "Bizimle WhatsApp üzerinden iletişime geçmeniz hâlinde mesajlaşma trafiği, WhatsApp hizmetini sunan Meta grup şirketlerinin altyapısı üzerinden gerçekleşir ve bu kapsamda WhatsApp'ın kendi gizlilik politikasına tabi olur. Söz konusu altyapı yurt dışında konumlanabilir. Bu kanalı kullanmak istemiyorsanız telefon veya e-posta yoluyla iletişim kurmayı tercih edebilirsiniz.",
+        "Kişisel verileriniz, pazarlama amacıyla üçüncü kişilere satılmaz, kiralanmaz veya devredilmez."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 8",
+      "baslik": "Saklama süresi",
+      "paragraflar": [
+        "Kişisel verileriniz, işlendikleri amacın gerektirdiği süre boyunca ve ilgili mevzuatta öngörülen zamanaşımı ile saklama süreleri boyunca muhafaza edilir.",
+        "İşleme amacı ortadan kalktığında ve mevzuattan doğan bir saklama yükümlülüğü kalmadığında kişisel verileriniz silinir, yok edilir veya anonim hâle getirilir."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Madde 9",
+      "baslik": "İlgili kişi olarak haklarınız (Kanun madde 11)",
+      "giris": "Veri sorumlusuna başvurarak aşağıdaki haklarınızı kullanabilirsiniz:",
+      "sutun": 1,
+      "maddeler": [
+        "Kişisel verinizin işlenip işlenmediğini öğrenme.",
+        "Kişisel veriniz işlenmişse buna ilişkin bilgi talep etme.",
+        "Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme.",
+        "Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme.",
+        "Kişisel verilerinizin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme.",
+        "Kanun'un 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerinizin silinmesini veya yok edilmesini isteme.",
+        "Düzeltme, silme ve yok etme işlemlerinin, kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme.",
+        "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme.",
+        "Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme."
+      ]
+    },
+
+    {
+      "tip": "adimlar",
+      "ustEtiket": "Madde 10",
+      "baslik": "Başvuru yolu",
+      "giris": "Haklarınıza ilişkin taleplerinizi, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ'e uygun biçimde iletebilirsiniz.",
+      "adimlar": [
+        {
+          "baslik": "Talebinizi yazılı olarak hazırlayın",
+          "aciklama": "Başvurunuzda ad ve soyadınız, yazılı başvurularda imzanız, Türkiye Cumhuriyeti vatandaşı iseniz T.C. kimlik numaranız, tebligata esas yerleşim yeri veya iş yeri adresiniz, varsa bildirime esas e-posta adresiniz ile telefon numaranız ve talebinizin konusu yer almalıdır."
+        },
+        {
+          "baslik": "Başvurunuzu bize ulaştırın",
+          "aciklama": "Islak imzalı başvurunuzu Zuhuratbaba Mah. İncirli Cd. No: 21/4, 34147 Bakırköy / İstanbul adresine şahsen veya noter aracılığıyla iletebilir; daha önce bize bildirdiğiniz ve sistemimizde kayıtlı bulunan elektronik posta adresinizi kullanarak info@mediestgroup.com.tr adresine gönderebilirsiniz."
+        },
+        {
+          "baslik": "Yanıtı bekleyin",
+          "aciklama": "Talebiniz, niteliğine göre en kısa sürede ve her hâlde en geç otuz gün içinde ücretsiz olarak sonuçlandırılır. İşlemin ayrıca bir maliyet gerektirmesi hâlinde, Kişisel Verileri Koruma Kurulu tarafından belirlenen tarifedeki ücret talep edilebilir."
+        },
+        {
+          "baslik": "Gerekirse Kurul'a başvurun",
+          "aciklama": "Başvurunuzun reddedilmesi, verilen yanıtı yetersiz bulmanız veya süresinde yanıt verilmemesi hâlinde; yanıtı öğrendiğiniz tarihten itibaren otuz ve her hâlde başvuru tarihinden itibaren altmış gün içinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunma hakkınız bulunmaktadır."
+        }
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Madde 11",
+      "baslik": "Metnin güncellenmesi",
+      "paragraflar": [
+        "MediEst Group, bu aydınlatma metnini mevzuattaki değişiklikler veya iş süreçlerindeki gelişmeler doğrultusunda güncelleyebilir.",
+        "Güncel metin her zaman bu adreste yayımlanır. Sitede iletişim formu, analitik araçlar veya benzeri yeni bir veri toplama yöntemi devreye alınırsa, bu metin yayına alınmadan önce güncellenir."
+      ]
+    },
+
+    {
+      "tip": "iletisim",
+      "ustEtiket": "Veri sorumlusuna ulaşın",
+      "baslik": "Başvuru ve sorularınız için",
+      "giris": "Kişisel verilerinizin işlenmesine ilişkin sorularınızı ve Kanun'un 11. maddesi kapsamındaki taleplerinizi aşağıdaki iletişim bilgileri üzerinden bize iletebilirsiniz."
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu metin bilgilendirme amaçlı olarak hazırlanmıştır; hukuki görüş niteliği taşımaz. Yayına alınmadan önce bir hukuk danışmanı tarafından gözden geçirilmesi ve MediEst Group'un resmi ticaret unvanı, vergi dairesi ile varsa VERBİS kayıt bilgisiyle tamamlanması gerekir."
+    }
+  ],
+
+  "dogrulama": {
+    "kaynak": "Veri sorumlusu kimlik bilgileri (ad, adres, telefon, e-posta, çalışma saatleri) icerik/site.json > marka ve iletisim alanlarından alındı. Sitenin form içermediği ve teklif akışının WhatsApp'a gittiği bilgisi notlar/04-musteriye-sorulacaklar.md ve site.json > teklifWhatsAppa alanına dayanıyor.",
+
+    "musteriTeyidiGereken": [
+      "Resmi ticaret unvanı: veri sorumlusu olarak yalnızca \"MediEst Group\" markası kullanıldı. Ticaret sicil unvanı, vergi dairesi ve numarası ile MERSİS numarası kaynakta bulunmadığından hiçbirine yer verilmedi; yayın öncesi eklenmelidir.",
+      "VERBİS (Veri Sorumluları Sicili) kayıt yükümlülüğünün bulunup bulunmadığı ve varsa kayıt bilgisi teyit edilmelidir; metinde VERBİS kaydı olduğu iddia edilmemiştir.",
+      "KEP (kayıtlı elektronik posta) adresi kaynakta yok; başvuru yollarına eklenmedi. Varsa Madde 10'a eklenmelidir.",
+      "Başvuru yanıtlarını hangi birimin veya kişinin yürüteceği (KVKK irtibat kişisi) belirlenmemiştir.",
+      "0533 637 49 09 numarasının WhatsApp'a açık olup olmadığı hâlâ teyit bekliyor (bkz. notlar/04-musteriye-sorulacaklar.md); metin, WhatsApp kanalının kullanılması hâlini koşullu biçimde anlatacak şekilde yazıldı.",
+      "Barındırma ve altyapı sağlayıcısının kimliği ile sunucu kayıtlarının fiilen ne kadar süre tutulduğu bilinmiyor; saklama süresi somut bir gün/ay sayısı verilmeden yazıldı."
+    ],
+
+    "bilerekYazilmayanlar": [
+      "Somut saklama süresi (ör. \"2 yıl\", \"10 yıl\") yazılmadı; kaynakta yok.",
+      "Çerez, analitik veya reklam izleme aracı kullanıldığı iddia edilmedi; site statiktir.",
+      "Herhangi bir sertifika, denetim veya standart (ISO, ISAE vb.) iddiası yer almıyor.",
+      "Yurt dışına aktarım için standart sözleşme, taahhütname veya Kurul izni bulunduğu iddia edilmedi; yalnızca WhatsApp altyapısının yurt dışında konumlanabileceği belirtildi."
+    ]
+  }
+}

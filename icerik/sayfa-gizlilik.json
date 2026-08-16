@@ -1,0 +1,181 @@
+{
+  "slug": "gizlilik",
+  "metaBaslik": "Gizlilik Politikası",
+  "metaAciklama": "MediEst Group gizlilik politikası: sitede hangi bilgiler işleniyor, sunucu kayıtları, WhatsApp üzerinden iletişim, üçüncü taraflar ve güvenlik tedbirleri.",
+  "kirintiAd": "Gizlilik Politikası",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Yasal bilgilendirme",
+      "baslik": "Gizlilik Politikası",
+      "giris": "Bu politika, mediestgroup.com.tr adresini ziyaret ettiğinizde veya sitede yayımlanan iletişim kanalları üzerinden MediEst Group ile iletişime geçtiğinizde hangi bilgilerin işlendiğini, bu bilgilerin ne için kullanıldığını ve kimlerle paylaşılabileceğini açıklar."
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Kapsam",
+      "baslik": "Bu politika neyi kapsar",
+      "paragraflar": [
+        "Politika, MediEst Group tarafından işletilen mediestgroup.com.tr internet sitesini ve bu site üzerinden başlayan iletişimi kapsar.",
+        "Site, tanıtım amaçlı statik bir kurumsal sitedir. Üyelik sistemi, çevrim içi sipariş, ödeme altyapısı veya bülten aboneliği bulunmamaktadır.",
+        "Kişisel verilerin işlenmesine ilişkin ayrıntılı hukuki bilgilendirme, 6698 sayılı Kanun kapsamında hazırlanan KVKK Aydınlatma Metni'nde yer alır. Bu politika, aydınlatma metnini tamamlayıcı niteliktedir."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Toplanan bilgiler",
+      "baslik": "Hangi bilgiler işleniyor",
+      "giris": "Sitede doğrudan veri toplayan bir form bulunmadığı için işlenen bilgiler iki başlıkla sınırlıdır:",
+      "sutun": 1,
+      "maddeler": [
+        "Sunucu kayıtları: Siteyi ziyaret ettiğinizde, sitenin barındırıldığı sunucuda otomatik olarak teknik kayıtlar oluşur. Bu kayıtlar tipik olarak IP adresi, erişim tarih ve saati, görüntülenen adres ile tarayıcı ve işletim sistemi bilgisini içerir; sistem güvenliği ve hata takibi için tutulur.",
+        "İletişim verileri: Telefon, WhatsApp veya e-posta yoluyla bize ulaştığınızda paylaştığınız ad ve soyad, telefon numarası, e-posta adresi, klinik veya işletme bilgisi ile talebinizin içeriği işlenir. Bu verileri yalnızca siz ilettiğiniz için ve ilettiğiniz kadarıyla ediniriz."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Toplanmayanlar",
+      "baslik": "Bu sitede yapılmayanlar",
+      "giris": "Şeffaflık adına, sitenin yapmadığı şeyleri de açıkça belirtiyoruz:",
+      "sutun": 2,
+      "maddeler": [
+        "Site üzerinden üyelik veya hesap oluşturulmaz.",
+        "Site üzerinden ödeme alınmaz; kart veya banka bilgisi istenmez.",
+        "Çevrim içi iletişim veya başvuru formu bulunmaz.",
+        "Ziyaretçi davranışını izleyen analitik veya reklam aracı kullanılmaz.",
+        "Ziyaretçi profili çıkarılmaz, otomatik değerlendirme yapılmaz.",
+        "Toplanan hiçbir bilgi pazarlama amacıyla satılmaz veya kiralanmaz."
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Kullanım",
+      "baslik": "Bilgiler ne için kullanılıyor",
+      "giris": "İşlenen bilgiler yalnızca aşağıdaki amaçlarla kullanılır:",
+      "sutun": 2,
+      "maddeler": [
+        "Soru, bilgi ve teklif taleplerinizin yanıtlanması",
+        "Showroom randevularının planlanması",
+        "Eğitim ve protokol desteği süreçlerinin yürütülmesi",
+        "Ticari ilişki kurulması hâlinde tedarik ve satış sonrası iletişimin sürdürülmesi",
+        "Sitenin teknik olarak çalışır durumda tutulması ve güvenliğinin sağlanması",
+        "Mevzuattan doğan yükümlülüklerin yerine getirilmesi"
+      ]
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Üçüncü taraflar",
+      "baslik": "Bilgilerin paylaşılabileceği taraflar",
+      "giris": "Bilgileriniz aşağıdaki durumlar dışında üçüncü kişilerle paylaşılmaz:",
+      "kartlar": [
+        {
+          "baslik": "WhatsApp ve Meta",
+          "aciklama": "Sitedeki \"Teklif Al\" ve WhatsApp bağlantılarını kullandığınızda görüşme, WhatsApp uygulaması üzerinden başlar. Mesajlaşma trafiği ve buna ilişkin veriler, hizmeti sunan Meta grup şirketlerinin altyapısında işlenir ve WhatsApp'ın kendi gizlilik politikasına tabidir; bu altyapı yurt dışında konumlanabilir. Bu kanalı kullanmak istemezseniz telefon veya e-posta ile iletişim kurabilirsiniz."
+        },
+        {
+          "baslik": "Barındırma ve altyapı sağlayıcıları",
+          "aciklama": "Sitenin yayında tutulabilmesi için barındırma ve alan adı hizmeti alınır. Sunucu kayıtları bu sağlayıcının altyapısında oluşur ve saklanır. Sağlayıcılar, verilere yalnızca hizmetin sunulması için gereken ölçüde erişir."
+        },
+        {
+          "baslik": "Danışmanlar ve yetkili kurumlar",
+          "aciklama": "Muhasebe ve hukuk danışmanlığı hizmeti alınan kişiler ile kanunen yetkili kamu kurum ve kuruluşlarına, yalnızca mevzuatın gerektirdiği hâllerde ve gerektirdiği ölçüde bilgi aktarılabilir."
+        },
+        {
+          "baslik": "Dış bağlantılar",
+          "aciklama": "Sitede Instagram, WhatsApp ve adres bilgisinin bağlandığı Google Haritalar gibi dış platformlara bağlantılar bulunur. Bu bağlantılara tıkladığınızda ilgili platformun kendi gizlilik ve çerez uygulamaları geçerli olur; MediEst Group bu platformların içerik ve uygulamalarından sorumlu değildir."
+        }
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "Güvenlik",
+      "baslik": "Bilgilerin korunması",
+      "giris": "Kişisel verilerin hukuka aykırı olarak işlenmesini ve verilere hukuka aykırı olarak erişilmesini önlemek amacıyla teknik ve idari tedbirler uygulanır:",
+      "sutun": 1,
+      "maddeler": [
+        "Site trafiğinin şifreli bağlantı (HTTPS) üzerinden sunulması esas alınır.",
+        "İletişim kayıtlarına erişim, işin gereği ile sınırlı çalışanlarla sınırlandırılır.",
+        "Barındırma ve e-posta hesaplarında güçlü parola kullanımı esas alınır.",
+        "İşleme amacı ortadan kalkan kayıtlar silinir, yok edilir veya anonim hâle getirilir.",
+        "Hizmet alınan sağlayıcılarla gizlilik yükümlülüğü çerçevesinde çalışılır."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Çerezler",
+      "baslik": "Çerez kullanımı",
+      "paragraflar": [
+        "Bu sitede ölçümleme, reklam veya profilleme amacıyla çerez kullanılmamaktadır.",
+        "Çerezlere ilişkin ayrıntılı açıklama Çerez Politikası sayfasında yer alır."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Hedef kitle",
+      "baslik": "Site kime yöneliktir",
+      "paragraflar": [
+        "MediEst Group, yalnızca güzellik merkezleri ve kliniklere satış yapan bir tedarikçidir. Bu site, profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır.",
+        "Site, on sekiz yaşından küçük kişilere yönelik değildir ve bu yaş grubundan bilinçli olarak veri toplanmaz."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Haklarınız",
+      "baslik": "Kişisel verilerinize ilişkin haklarınız",
+      "paragraflar": [
+        "6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi kapsamında; verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini, silinmesini veya yok edilmesini isteme ve kanuna aykırı işleme sebebiyle doğan zararın giderilmesini talep etme haklarına sahipsiniz.",
+        "Haklarınızın tam listesi ve başvuru usulü KVKK Aydınlatma Metni sayfasında ayrıntılı biçimde açıklanmıştır. Taleplerinizi info@mediestgroup.com.tr adresine veya Zuhuratbaba Mah. İncirli Cd. No: 21/4, 34147 Bakırköy / İstanbul adresine iletebilirsiniz."
+      ]
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Değişiklikler",
+      "baslik": "Politikanın güncellenmesi",
+      "paragraflar": [
+        "Bu politika, mevzuattaki değişiklikler veya sitede yapılacak teknik güncellemeler doğrultusunda değiştirilebilir.",
+        "Güncel metin her zaman bu adreste yayımlanır. Sitede iletişim formu, analitik araç, canlı destek veya benzeri yeni bir veri toplama yöntemi devreye alınırsa, bu politika söz konusu değişiklik yayına alınmadan önce güncellenir."
+      ]
+    },
+
+    {
+      "tip": "iletisim",
+      "ustEtiket": "Sorularınız için",
+      "baslik": "Gizlilik konusunda bize ulaşın",
+      "giris": "Bu politikaya veya verilerinizin işlenmesine ilişkin sorularınızı aşağıdaki iletişim bilgileri üzerinden iletebilirsiniz."
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu metin bilgilendirme amaçlı olarak hazırlanmıştır; hukuki görüş niteliği taşımaz. Yayına alınmadan önce bir hukuk danışmanı tarafından gözden geçirilmesi ve MediEst Group'un resmi ticaret unvanı ile tamamlanması gerekir."
+    }
+  ],
+
+  "dogrulama": {
+    "kaynak": "İletişim bilgileri ve B2B satış politikası icerik/site.json dosyasından alındı. Sitenin statik olduğu, form içermediği ve teklif akışının WhatsApp'a gittiği bilgisi notlar/04-musteriye-sorulacaklar.md (15 Ağustos kararı) ve site.json > teklifWhatsAppa alanına dayanıyor.",
+
+    "musteriTeyidiGereken": [
+      "Resmi ticaret unvanı, vergi dairesi ve MERSİS numarası kaynakta yok; metinde yalnızca \"MediEst Group\" kullanıldı.",
+      "Barındırma sağlayıcısının kimliği ve sunucu kayıtlarının saklama süresi bilinmiyor; sağlayıcı adı yazılmadı, süre için sayı verilmedi.",
+      "HTTPS ifadesi site.json > seo.baseUrl değerinin https olmasına dayanıyor; yayın öncesi SSL sertifikasının fiilen kurulu olduğu doğrulanmalıdır. Kurulu değilse bu madde çıkarılmalıdır.",
+      "Kurumsal e-posta hesaplarının hangi sağlayıcıda tutulduğu bilinmiyor; sağlayıcı adı verilmedi.",
+      "0533 637 49 09 numarasının WhatsApp'a açık olup olmadığı teyit bekliyor."
+    ],
+
+    "bilerekYazilmayanlar": [
+      "Veri saklama süresi için somut gün/ay/yıl sayısı yazılmadı.",
+      "Şifreleme standardı, sertifika, denetim veya güvenlik standardı (ISO vb.) iddiası yer almıyor.",
+      "\"Verileriniz tamamen güvendedir\" türü mutlak güvenlik taahhüdü verilmedi; yalnızca alınan tedbirler sayıldı.",
+      "Kullanılan analitik veya pazarlama aracı olmadığı için hiçbir üçüncü taraf ölçüm hizmeti adı yazılmadı."
+    ]
+  }
+}

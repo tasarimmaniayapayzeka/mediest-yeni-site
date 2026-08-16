@@ -1,0 +1,205 @@
+{
+  "slug": "egitim-destek",
+  "metaBaslik": "Eğitim ve Destek: Birebir Eğitim, Protokol, İçerik",
+  "metaAciklama": "Uygulama eğitimi online veya Bakırköy showroom'da birebir verilir. Cihaz setini alan bayilere grafik ve Reels desteği, kliniğe özel protokol danışmanlığı.",
+  "kirintiAd": "Eğitim & Destek",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Eğitim ve destek",
+      "baslik": "Cihaz kliniğe girdikten sonra süreç devam eder",
+      "giris": "MediEst Group, yalnızca ürün tedarik eden bir yapı değil; profesyonel uygulayıcılara eğitim, protokol danışmanlığı ve içerik geliştirme desteği sunan bir iş ortağıdır. Uygulama eğitimi online ya da Bakırköy showroom'da birebir verilir.",
+      "cta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Showroom randevusu alın", "url": "/iletisim/" }
+    },
+
+    {
+      "tip": "kartlar",
+      "ustEtiket": "Destek başlıkları",
+      "baslik": "Destek üç başlıkta toplanır",
+      "giris": "Üç başlık birbirinden bağımsız değildir: eğitimde öğrenilen seans akışı protokol planlamasına, protokol planlaması da hizmetin danışana nasıl anlatılacağına bağlanır.",
+      "kartlar": [
+        {
+          "baslik": "Birebir eğitim",
+          "aciklama": "Uygulama eğitimi online görüşmeyle ya da Bakırköy showroom'da yüz yüze verilir. Ekibiniz cihazı ve seans akışını uygulayarak öğrenir.",
+          "url": "/iletisim/"
+        },
+        {
+          "baslik": "Protokol danışmanlığı",
+          "aciklama": "Hangi uygulama alanında hangi cihazın hangi ampul veya solüsyonla çalıştığı, kliniğinizin danışan profiline göre birlikte planlanır.",
+          "url": "/protokoller/"
+        },
+        {
+          "baslik": "Sosyal medya ve içerik desteği",
+          "aciklama": "Cihaz setini alan bayilere grafik ve Reels video desteği sağlanır; uygulama protokolü ve müşteri iletişimi önerileri paylaşılır.",
+          "url": "/bayilik/"
+        }
+      ]
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Eğitim",
+      "baslik": "Online ya da Bakırköy showroom'da, birebir",
+      "gorsel": "showroom",
+      "paragraflar": [
+        "Eğitim iki biçimde verilir: online görüşmeyle ya da Bakırköy showroom'da yüz yüze. İki durumda da eğitim birebir yürütülür; anlatımla yetinilmez, seans akışı uygulanarak gösterilir.",
+        "Showroom'a gelmeyi tercih eden klinikler aynı ziyarette cihaz demosunu da tamamlar. İstanbul dışındaki klinikler ise süreci online yürütebilir."
+      ],
+      "maddeler": [
+        "Gold Pen'de hassas cilt, yüz ve saç için ayrı iğne uçlarının kullanımı",
+        "Baby Skin Pen'de kapsül başlığı ve masaj başlığıyla ilerleyen iki aşamalı protokolün akışı",
+        "LED fototerapi seçeneklerinin uygulama içinde nasıl konumlandığı",
+        "Steril uç ve tek kullanımlık sarf malzemesi gereksinimleri"
+      ]
+    },
+
+    {
+      "tip": "adimlar",
+      "ustEtiket": "Eğitim akışı",
+      "baslik": "Eğitim görüşmesinde ne yapılır",
+      "giris": "Akış, kliniğinizin aldığı cihaza ve ekibinizin deneyimine göre değişir; aşağıdaki başlıklar genel çerçeveyi tarif eder.",
+      "adimlar": [
+        {
+          "baslik": "Planlama",
+          "aciklama": "Eğitimin online mı yoksa showroom'da mı yapılacağı ve katılacak uygulayıcılar belirlenir."
+        },
+        {
+          "baslik": "Cihaz tanıtımı",
+          "aciklama": "Cihazın çalışma prensibi, ekran kullanımı, başlık ve uç seçenekleri ile değişim adımları gösterilir."
+        },
+        {
+          "baslik": "Uygulama",
+          "aciklama": "Seans akışı birebir uygulanarak takip edilir; iğne derinliği, geçiş sayısı ve hassasiyet gibi teknik parametrelerle hijyen gereksinimleri üzerinde durulur."
+        },
+        {
+          "baslik": "Protokol planlaması",
+          "aciklama": "Kliniğinizin danışan profiline göre hangi uygulama alanında hangi cihaz ve ürün kombinasyonunun kurulacağı konuşulur."
+        }
+      ]
+    },
+
+    {
+      "tip": "gorselli",
+      "ustEtiket": "Protokol danışmanlığı",
+      "baslik": "Her seansı sıfırdan kurgulamak zorunda kalmazsınız",
+      "gorsel": "protokol",
+      "paragraflar": [
+        "Protokol danışmanlığı, cihaz ve ürün eşleşmesinin kliniğinizin danışan profiline göre planlanmasıdır. Hangi uygulama alanında hangi cihazın hangi ampul veya solüsyonla çalıştığı birlikte belirlenir.",
+        "Nihai protokol; endikasyonun türü, hedef bölgenin genişliği ve uygulayıcının planlamasına göre şekillenir. Protokol güncellemeleri bayilere aktarılır."
+      ],
+      "maddeler": [
+        "Kliniğe özel kombine seans planlaması",
+        "Gold Pen protokolleri: 4-6 seans, 20-25 gün aralıkla",
+        "Baby Skin Pen protokolleri: 4-6 seans, dört mevsim uygulanabilir",
+        "Mezoeffect ampullerinin ve Mezocomplex solüsyonlarının protokol içindeki yeri",
+        "Seans arası ev bakımının Mezoeffect serisi üzerinden kurulması"
+      ]
+    },
+
+    {
+      "tip": "maddeler",
+      "ustEtiket": "İçerik desteği",
+      "baslik": "Sosyal medya görsel ve Reels desteği",
+      "giris": "Cihaz setini alan bayilere, yeni hizmetin duyurulması için içerik desteği sağlanır. Böylece anlatım dili uygulamanın kendisiyle tutarlı olur ve içerik üretimiyle ayrıca uğraşmazsınız.",
+      "maddeler": [
+        "Sosyal medya için hazır görsel desteği",
+        "Reels video desteği",
+        "Uygulama protokolü ve müşteri iletişimi önerileri"
+      ],
+      "sutun": 1
+    },
+
+    {
+      "tip": "metin",
+      "ustEtiket": "Bilgi talebi",
+      "baslik": "Ürün bilgisi ve tanıtım materyali talebi",
+      "paragraflar": [
+        "Cihaz ve ürün gruplarına ilişkin ayrıntılı bilgi ve tanıtım materyali talebinizi WhatsApp üzerinden iletebilirsiniz. Talebinizi iletirken kliniğinizin ilgilendiği başlıkları belirtmeniz, size gönderilecek içeriğin daraltılmasını sağlar.",
+        "Ürünlerin aktif içerikleri, uygulama alanları ve ambalaj düzenleri site üzerindeki ürün sayfalarından da incelenebilir; bilgi talebi bu sayfaların yerine değil, yanında ilerler."
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu sayfa eğitim, protokol danışmanlığı ve içerik desteğinin kapsamını anlatır. Sitede yer almayan ticari ve teknik başlıklar için WhatsApp üzerinden yazabilir ya da 0533 637 49 09 numarasından bize ulaşabilirsiniz. Bu sayfadaki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz."
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Sık sorulanlar",
+      "baslik": "Eğitim ve destek süreçleri",
+      "sorular": [
+        {
+          "s": "Eğitim nerede ve nasıl veriliyor?",
+          "c": "Uygulama eğitimi online görüşmeyle ya da Bakırköy showroom'da birebir verilir. İki durumda da cihaz kullanımı ve seans akışı uygulayarak gösterilir."
+        },
+        {
+          "s": "Eğitim hangi cihazlar için veriliyor?",
+          "c": "Gold Pen ve Baby Skin Pen için uygulama eğitimi verilir. Gold Pen tarafında iğne uçları, EMS ve LED kullanımı; Baby Skin Pen tarafında kapsül uygulaması ve ardından gelen Mezoeffect ampul masajı ele alınır."
+        },
+        {
+          "s": "İstanbul dışındaki klinikler eğitimi nasıl alıyor?",
+          "c": "Eğitim online da verilebildiği için showroom ziyareti zorunlu değildir. Showroom'a gelmeyi tercih eden klinikler için randevu planlanır."
+        },
+        {
+          "s": "Sosyal medya desteği neleri kapsıyor?",
+          "c": "Cihaz setini alan bayilere sosyal medya için hazır görsel ve Reels video desteği verilir; ayrıca uygulama protokolü ve müşteri iletişimi önerileri paylaşılır."
+        },
+        {
+          "s": "Protokol güncellemeleri bize nasıl ulaşıyor?",
+          "c": "Protokol güncellemeleri bayilere aktarılır. Kliniğe özel kombine seans planlaması protokol danışmanlığı kapsamında yürütülür; nihai protokol uygulayıcının planlamasına göre belirlenir."
+        },
+        {
+          "s": "Ürün bilgisi ve tanıtım materyallerini nasıl temin edebiliriz?",
+          "c": "Talebinizi WhatsApp üzerinden iletebilirsiniz. İlgilendiğiniz cihaz ve ürün gruplarını belirtmeniz süreci hızlandırır."
+        },
+        {
+          "s": "Satın alma sonrasında iletişim devam ediyor mu?",
+          "c": "MediEst Group uzun vadeli iş birliği yaklaşımıyla çalışır; satış sonrasında da iletişimde kalınır. Eğitim, protokol danışmanlığı ve güncelleme paylaşımı süreç boyunca sürer."
+        }
+      ]
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Eğitim ve protokol planlamasını birlikte kuralım",
+      "giris": "Kliniğinizin danışan profilini paylaşın; hangi cihazın hangi ampul ve solüsyon grubuyla çalışacağını, eğitimin nasıl planlanacağını konuşalım.",
+      "birincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Bayilik sürecini inceleyin", "url": "/bayilik/" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynaklar": [
+      "icerik/site.json (showroom, iletişim, güven şeridi)",
+      "icerik/anasayfa.json (nedenBiz kartları, bayilik destek listesi, protokol notu)",
+      "icerik/hub.json (cihaz ve ürün grubu tanımları, ev bakım ayrımı)",
+      "kaynak-icerik/metin/page--hakkimizda.md (eğitim ve destek odaklı iş modeli, protokol güncellemeleri, uzun vadeli iş birliği)",
+      "kaynak-icerik/metin/page--sik-sorulan-sorular.md (eğitim online veya Bakırköy showroom, bayilere grafik ve Reels desteği)",
+      "kaynak-icerik/metin/page--goldpen.md (iğne uçları, LED, teknik parametreler, steril uç ve tek kullanımlık sarf)",
+      "kaynak-icerik/metin/page--baby-skin-pen.md (iki aşamalı protokol, bayi destekleri)"
+    ],
+    "yazilmayanlar": [
+      "Garanti süresi, teknik servis kapsamı, yedek parça temin süresi: kaynakta veri yok. Denetimde bu başlıkların sayfadaki tüm izleri kaldırıldı — konuyu adıyla anan SSS maddesi silindi, not kutusu 'sitede yer almayan ticari ve teknik başlıklar' biçiminde genelleştirildi. Böyle bir hizmetin var olduğu ima edilmiyor.",
+      "Sertifika verildiği iddiası yazılmadı; kaynak SSS'te yalnızca 'sertifika süreçleri' başlığı var, içerik yok. 'Sertifikasyon' kelimesi de not kutusundan çıkarıldı.",
+      "Eğitim süresi, saat, gün sayısı, katılımcı üst sınırı ve eğitim ücreti yazılmadı; kaynakta veri yok.",
+      "Katalog PDF bağlantısı verilmedi ve basılı/dijital katalogun var olduğu iddia edilmedi; metin 'ürün bilgisi ve tanıtım materyali talebi' olarak yazılıp WhatsApp yönlendirmesiyle sınırlandı.",
+      "Eğitim sonrası belge, akreditasyon veya kurum onayı iddiası yazılmadı.",
+      "Baby Skin Pen için gün aralığı ve iğne bulunmadığı yönündeki niteleme yazılmadı; yalnızca '4-6 seans, dört mevsim' kullanıldı.",
+      "Mezocomplex flakon hacmi yazılmadı.",
+      "'İlk seanstan itibaren fark edilir canlılık', 'tek seansta bile memnuniyet' türü sonuç beyanları alınmadı.",
+      "Fiyat ve seans ücreti yazılmadı."
+    ],
+    "musteriTeyidiGereken": [
+      "Garanti süresi ve teknik servis koşulları (yedek parça, arıza süreci) nedir?",
+      "Eğitim sonunda katılım belgesi veya sertifika veriliyor mu?",
+      "Eğitim kaç kişiye ve ne kadar süreyle veriliyor; tekrar eğitim talebi mümkün mü?",
+      "Katalog PDF'i hazırlanacak mı, hazırlanacaksa hangi ürün grupları için?",
+      "Sosyal medya desteğinin kapsamı (kaç görsel, kaç Reels, hangi sıklıkta) tanımlı mı?",
+      "0533 637 49 09 numarası WhatsApp'a açık mı?"
+    ]
+  }
+}
