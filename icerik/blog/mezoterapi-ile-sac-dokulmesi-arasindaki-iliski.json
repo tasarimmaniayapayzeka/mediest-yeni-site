@@ -9,7 +9,7 @@
   "metaBaslik": "Mezoterapi ile Saç Dökülmesi Arasındaki İlişki",
   "metaAciklama": "Mezoterapinin saç dökülmesi süreçlerindeki destekleyici rolü, seans aralığı planlaması, aday değerlendirmesi ve sonucu etkileyen faktörler uygulayıcı gözüyle.",
   "ozet": "Mezoterapinin saç dökülmesi süreçlerindeki destekleyici rolünü, seans planlamasını ve aday değerlendirmesini uygulayıcı bakışıyla ele alır. Yöntemin sınırlarını ve sonucu etkileyen kişisel faktörleri ölçülü bir dille özetler.",
-  "okumaSuresi": "4 dakika",
+  "okumaSuresi": "3 dakika",
   "gorsel": "blog-sac",
   "bloklar": [
     {
@@ -89,7 +89,7 @@
   "dogrulama": {
     "kaynakDosya": "post--mezoterapi-ile-sac-dokulmesi-arasindaki-iliski.md",
     "tespitEdilenHatalar": [
-      "Kaynak metinde içeriği olmayan 14 adet boş başlık satırı (yalnızca '##' veya '###' karakterleri) bulunuyor; bunlar kopya-yapıştır artığı olarak değerlendirilip temizlendi.",
+      "Kaynak metinde içeriği olmayan 20 adet boş başlık satırı (yalnızca '##' karakterleri) bulunuyor; bunlar kopya-yapıştır artığı olarak değerlendirilip temizlendi.",
       "Başlık hiyerarşisi tutarsız: kaynakta ilk iki bölüm H2 (##), sonraki yedi bölümün tamamı H3 (###) düzeyinde açılmış; aralarında düzey farkını gerektiren bir mantık yok. Tüm ana bölümler H2 (baslik) düzeyine eşitlendi.",
       "Kaynaktaki madde listesinde her maddenin işaretinden sonra satır sonu bırakılmış ('- ' ardından boş satır, metin bir alt satırda); liste yapısı bozuktu, dört madde tek satıra toplandı.",
       "'Mezoterapinin Olası Başarı Oranı' ifadesi ölçülemeyen bir başarı yüzdesi çağrışımı yarattığı için bölüm başlığı 'Sonuçları Etkileyen Faktörler ve Aday Değerlendirmesi' olarak değiştirildi; bölümün içeriği korundu.",

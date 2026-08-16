@@ -156,6 +156,36 @@ if (fs.existsSync(protokolYolu) && urunler.length) {
   uretilen.push({ yol: '/protokoller/', ad: `Protokol Seçici (${kategoriSayisi} başlık)`, bayt: Buffer.byteLength(html) });
 }
 
+// ---------- Blog: yazılar, liste ve kategoriler ----------
+const blogDizin = path.join(ICERIK, 'blog');
+const kategoriYolu = path.join(ICERIK, 'kategoriler.json');
+if (fs.existsSync(blogDizin) && fs.existsSync(kategoriYolu)) {
+  const { blogYazisi, blogListesi } = require('./sablon/blog');
+  const kategoriler = oku(kategoriYolu);
+  const giris = kategoriler.blogGiris || {};
+  const yazilar = fs.readdirSync(blogDizin).filter(f => f.endsWith('.json'))
+    .map(f => oku(path.join(blogDizin, f)))
+    .sort((a, b) => String(b.tarih || '').localeCompare(String(a.tarih || '')));
+
+  for (const y of yazilar) {
+    const html = blogYazisi({ site, yazi: y, tumYazilar: yazilar, urunler, gorselVarMi });
+    yaz(path.join(y.slug, 'index.html'), tabanUygula(html));
+    uretilen.push({ yol: `/${y.slug}/`, ad: `Blog: ${y.baslik}`, bayt: Buffer.byteLength(html) });
+  }
+
+  const l = blogListesi({ site, giris, yazilar, kategoriler, gorselVarMi });
+  yaz(path.join('blog', 'index.html'), tabanUygula(l.html));
+  uretilen.push({ yol: l.yol, ad: `Blog listesi (${l.adet} yazı)`, bayt: Buffer.byteLength(l.html) });
+
+  // blogGiris ve _dogrulama gibi kayıt amaçlı anahtarlar kategori değil
+  for (const [slug, k] of Object.entries(kategoriler)) {
+    if (!k || typeof k.ad !== 'string' || !k.metaBaslik) continue;
+    const kl = blogListesi({ site, giris, yazilar, kategoriler, gorselVarMi, kategori: { ...k, slug } });
+    yaz(path.join(slug, 'index.html'), tabanUygula(kl.html));
+    uretilen.push({ yol: kl.yol, ad: `Kategori: ${k.ad} (${kl.adet} yazı)`, bayt: Buffer.byteLength(kl.html) });
+  }
+}
+
 // ---------- Cihaz karşılaştırma ----------
 const kiyasYolu = path.join(ICERIK, 'karsilastirma.json');
 if (fs.existsSync(kiyasYolu) && urunler.length) {

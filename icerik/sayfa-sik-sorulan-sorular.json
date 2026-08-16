@@ -1,0 +1,248 @@
+{
+  "slug": "sik-sorulan-sorular",
+  "metaBaslik": "Sık Sorulan Sorular: Bayilik, Eğitim ve Uygulama",
+  "metaAciklama": "MediEst Group SSS: satış politikası, bayilik ve teklif süreci, Bakırköy showroom demosu, birebir eğitim, cihaz seçimi ve protokol planlamasına dair yanıtlar.",
+  "kirintiAd": "Sık Sorulan Sorular",
+
+  "bloklar": [
+    {
+      "tip": "hero",
+      "ustEtiket": "Sık sorulan sorular",
+      "baslik": "Kliniklerin en sık sorduğu başlıklar",
+      "giris": "Bu sayfa; satın alma ve bayilik süreci, eğitim ve destek kapsamı, cihaz seçimi ile uygulama ve protokol planlaması hakkındaki genel soruları toplar. Ampul ve solüsyonların aktif içerikleri, uygulama rutinleri ve ambalaj düzenleri ilgili ürün sayfalarında ayrıca yanıtlanır.",
+      "cta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Cihazları karşılaştırın", "url": "/cihazlar/karsilastirma/" }
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Satın alma ve bayilik",
+      "baslik": "Kimlere satış yapılıyor, süreç nasıl ilerliyor",
+      "sorular": [
+        {
+          "s": "Kimlere satış yapıyorsunuz?",
+          "c": "Satış yalnızca güzellik merkezlerine ve kliniklere yapılır; son kullanıcıya ürün satışı yapılmamaktadır. Cihazlar uygulayıcı eğitimiyle birlikte devreye alındığı için bu tercih ürünlerin profesyonel uygulama içinde konumlanmasından kaynaklanır."
+        },
+        {
+          "s": "Bayilik ve teklif süreci nasıl başlıyor?",
+          "c": "Sitede doldurulması gereken ayrı bir başvuru formu bulunmuyor. WhatsApp üzerinden yazarak ya da 0533 637 49 09 numarasından arayarak süreci başlatabilirsiniz; görüşme kliniğinizin danışan profili ve mevcut hizmet menüsü üzerinden ilerler."
+        },
+        {
+          "s": "Teklif almak için hangi bilgileri hazırlamalıyız?",
+          "c": "Kliniğinizin danışan profili, mevcut hizmet menüsü ve büyütmek istediğiniz uygulama alanları yeterlidir. Bu üç başlık, hangi cihazın ve hangi sarf grubunun teklife gireceğini belirler."
+        },
+        {
+          "s": "Cihazı satın almadan önce görebilir miyiz?",
+          "c": "Evet. Bakırköy showroom'da randevuyla birebir cihaz demosu yapılır; başlık ve iğne ucu seçeneklerini yerinde inceleyebilir, uygulama akışını takip edebilirsiniz. Aynı görüşmede eğitim içeriği ve protokol planlaması da konuşulur."
+        },
+        {
+          "s": "İstanbul dışındaki klinikler süreci nasıl yürütüyor?",
+          "c": "Uygulama eğitimi online da verilebildiği için showroom ziyareti zorunlu değildir; görüşme ve eğitim online yürütülebilir. Showroom'a gelmeyi tercih eden klinikler için randevu planlanır."
+        },
+        {
+          "s": "Cihazı aldıktan sonra sarf ürünlerini nasıl temin ediyoruz?",
+          "c": "Bayiler, UTS kayıtlı Mezoeffect serum grubuna ve Mezocomplex solüsyon grubuna erişir. Kliniğinizin danışan profiline göre hangi ampul ve solüsyonların bulundurulacağı teklif aşamasında birlikte belirlenir."
+        },
+        {
+          "s": "Teklif ve set içeriği neye göre belirleniyor?",
+          "c": "Set içeriği ve koşullar kliniğin ihtiyacına göre değişir; bu nedenle teklif, görüşme sonrasında kliniğinize özel olarak hazırlanıp iletilir."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Cihaz seçimi",
+      "baslik": "Gold Pen ve Baby Skin Pen arasındaki fark",
+      "sorular": [
+        {
+          "s": "Gold Pen nedir?",
+          "c": "Gerçek altın yalıtımlı iğne uçlarıyla Mezoeffect serumlarının doku altına indirilmesini sağlayan; EMS (elektriksel kas uyarımı), dijital ekran ve LED fototerapi özellikleri bulunan bir cilt bakım teknolojisidir."
+        },
+        {
+          "s": "Baby Skin Pen nedir?",
+          "c": "Yüksek frekanslı mikro titreşim, 360 derece dönen başlık ve 7 renk LED fototerapiyi yedi kapsül serisiyle birleştiren kapsül temelli bir cilt bakım sistemidir. Kapsül serileri cilde uygulanır, ardından masaj başlığıyla uygun Mezoeffect ampulü cilde yedirilir."
+        },
+        {
+          "s": "Hangi cihaz kliniğimize uygun?",
+          "c": "Seçim; kliniğinizin uygulayıcı yapısına, hedeflediği uygulama alanlarına ve seans kurgusuna göre yapılır. İki cihazın teknoloji, uygulama alanı ve seans kurgusu bakımından yan yana karşılaştırmasını cihaz karşılaştırma sayfasında inceleyebilirsiniz."
+        },
+        {
+          "s": "İki cihaz aynı klinikte birlikte kullanılabilir mi?",
+          "c": "Evet. Gold Pen ve Baby Skin Pen aynı klinikte birbirini tamamlayacak şekilde de konumlanabilir; hangi uygulama alanında hangisinin devreye gireceği protokol danışmanlığı kapsamında planlanır."
+        },
+        {
+          "s": "Gold Pen hangi uygulama alanlarında kullanılıyor?",
+          "c": "Akne skarları, anti-aging, gözenek sıkılaştırma, cilt tonu eşitleme ve saç uygulamaları için kullanılır."
+        },
+        {
+          "s": "Baby Skin Pen hangi başlıklarda tercih ediliyor?",
+          "c": "Leke görünümü, akne ve akne izi, geniş gözenek görünümü, anti-aging hedefleri ile yağlı ciltlere yönelik protokoller bulunur."
+        },
+        {
+          "s": "Gold Pen'de hangi iğne uçları bulunuyor?",
+          "c": "Hassas cilt, yüz ve saç uygulamaları için ayrı iğne uçları bulunur. Cihaz steril uçlar ve tek kullanımlık sarf malzemeleriyle uygulanır."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Uygulama ve protokol",
+      "baslik": "Seans kurgusu, teknoloji ve kombinasyonlar",
+      "sorular": [
+        {
+          "s": "Gold Pen protokolü kaç seans sürüyor?",
+          "c": "Genellikle 4-6 seanslık bir protokoldür ve 20-25 gün aralıklarla uygulanır. Nihai plan; endikasyonun türü, hedef bölgenin genişliği ve uygulayıcının değerlendirmesine göre belirlenir."
+        },
+        {
+          "s": "Baby Skin Pen protokolü nasıl planlanıyor?",
+          "c": "Genellikle 4-6 seans olarak kurgulanır ve dört mevsim uygulanabilir. Seans aralığı ile toplam seans sayısı uygulayıcının planlamasına göre netleşir."
+        },
+        {
+          "s": "Baby Skin Pen uygulaması kaç aşamalı?",
+          "c": "İki aşamalıdır. Önce cilde uygun kapsül başlığıyla uygulama yapılır; ardından masaj başlığı takılarak uygun Mezoeffect ampulü cilde yedirilir."
+        },
+        {
+          "s": "Baby Skin Pen'in kapsül serileri hangileri?",
+          "c": "Yedi seri bulunur: Retouch (gözenek ve yenilenme), Balance (yağ ve akne), Detox (bariyer onarımı), Glam (bariyer gücü ve kolajen), Hydrate (nem ve bariyer), Illuminate (aydınlatma ve ton), Revive (anti-aging ve elastikiyet)."
+        },
+        {
+          "s": "Bir kapsül kutusu kaç seansa karşılık geliyor?",
+          "c": "Her kutuda 6 kapsül ve 6 primer gel bulunur; 6 seanslık kullanıma karşılık gelir."
+        },
+        {
+          "s": "Gold Pen'in EMS özelliği ne işe yarar?",
+          "c": "Yüze düşük seviyeli elektrik akımları göndererek kasları uyarır; kolajen üretimini destekler, kan dolaşımını artırır ve yüz hatlarının daha sıkı bir görünüme taşınmasını hedefler."
+        },
+        {
+          "s": "Gold Pen'de LED fototerapi ne sağlıyor?",
+          "c": "Kırmızı LED (620-650 nm) fibroblastları uyararak ince çizgiler üzerinde etki hedefler; mavi LED ise özellikle saç derisinde arındırmaya yardımcı olur."
+        },
+        {
+          "s": "Baby Skin Pen'in LED renkleri hangi başlıklara yönelik?",
+          "c": "Kırmızı anti-aging, mor akne ve iz onarımı, mavi bakteri azaltımı, beyaz sarkma karşıtı destek, yeşil-mavi hücre yenilenmesi, yeşil melanin azaltımı, sarı ise hücre enerjisi başlığına yöneliktir."
+        },
+        {
+          "s": "Cihazlar hangi ürünlerle birlikte uygulanıyor?",
+          "c": "Gold Pen, UTS kayıtlı Mezoeffect serumlarıyla uygulanır. Baby Skin Pen protokolünde ise kapsül uygulamasının ardından uygun Mezoeffect ampulü masaj başlığıyla cilde yedirilir. Mezocomplex solüsyonları kombine protokollere kür planlamasına göre eklenir."
+        },
+        {
+          "s": "Protokolü kim belirliyor?",
+          "c": "Sitedeki eşleştirmeler protokol kurgusuna başlangıç noktasıdır. Nihai protokol; endikasyonun türü, hedef bölgenin genişliği ve uygulayıcının planlamasına göre belirlenir. Kliniğe özel kombine seans planlaması protokol danışmanlığı kapsamında birlikte yürütülür."
+        },
+        {
+          "s": "Uygulamalar yıl boyunca yapılabiliyor mu?",
+          "c": "Baby Skin Pen uygulamaları dört mevsim yapılabilir. Kür planlaması, kliniğin seans kurgusuna ve uygulayıcının değerlendirmesine göre yürütülür."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Eğitim ve destek",
+      "baslik": "Cihaz kliniğe girdikten sonrası",
+      "sorular": [
+        {
+          "s": "Eğitim nerede ve nasıl veriliyor?",
+          "c": "Uygulama eğitimi online görüşmeyle ya da Bakırköy showroom'da birebir verilir. İki durumda da anlatımla yetinilmez; cihaz kullanımı ve seans akışı uygulayarak gösterilir."
+        },
+        {
+          "s": "Cihaz setini alan bayiler hangi içerik desteğini alıyor?",
+          "c": "Cihaz setini alan bayilere sosyal medya için grafik ve Reels video desteği sağlanır; ayrıca uygulama protokolü ve müşteri iletişimi önerileri paylaşılır."
+        },
+        {
+          "s": "Protokol danışmanlığı neleri kapsıyor?",
+          "c": "Hangi uygulama alanında hangi cihazın hangi ampul veya solüsyonla çalıştığı, kliniğinizin danışan profiline göre birlikte planlanır. Protokol güncellemeleri bayilere aktarılır."
+        },
+        {
+          "s": "Satın alma sonrasında iletişim devam ediyor mu?",
+          "c": "MediEst Group uzun vadeli iş birliği yaklaşımıyla çalışır; satış sonrasında da iletişimde kalınır. Eğitim, protokol danışmanlığı ve güncelleme paylaşımı süreç boyunca sürer."
+        },
+        {
+          "s": "Ürün bilgisi ve tanıtım materyallerini nasıl temin edebiliriz?",
+          "c": "Talebinizi WhatsApp üzerinden iletebilirsiniz. İlgilendiğiniz cihaz ve ürün gruplarını belirtmeniz, size gönderilecek içeriğin daraltılmasını sağlar."
+        }
+      ]
+    },
+
+    {
+      "tip": "sss",
+      "ustEtiket": "Ürün grupları ve kalite",
+      "baslik": "Mezoeffect, Mezocomplex ve UTS",
+      "sorular": [
+        {
+          "s": "Mezoeffect ile Mezocomplex arasındaki fark nedir?",
+          "c": "Mezoeffect, tek tek uygulama hedeflerine göre formüle edilmiş ampul serisidir; nem, onarım, yaşlanma karşıtı bakım, leke ve aydınlatma, göz çevresi ile saç başlıklarını kapsar. Mezocomplex ise flakon düzenindeki solüsyon serisidir ve kür planlamasına göre kombine protokollere eklenir. İki seri birbirinin yerine değil, protokol içinde birlikte konumlanır."
+        },
+        {
+          "s": "Ürünler UTS kayıtlı mı?",
+          "c": "Mezoeffect serumları Ürün Takip Sistemi'ne (UTS) kayıtlıdır ve steril üretim koşullarında geliştirilmiştir."
+        },
+        {
+          "s": "Ambalaj ve içerik bilgilerini nereden görebiliriz?",
+          "c": "Her ürünün aktif içerikleri, uygulama alanları ve ambalaj düzeni kendi ürün sayfasında belirtilmiştir. Mezocomplex solüsyonları flakon düzenindedir ve kutuda beş flakon bulunur."
+        },
+        {
+          "s": "Ampullerin ev bakımında da kullanımı tanımlı mı?",
+          "c": "Mezoeffect serisinde klinik uygulamanın yanı sıra ev bakım rutini de tanımlıdır. Seans arası ev bakımının nasıl kurulacağı protokol danışmanlığı kapsamında planlanır; ürün satışı yalnızca güzellik merkezleri ve kliniklere yapılır."
+        },
+        {
+          "s": "Cihazlar hangi hijyen gereksinimleriyle uygulanıyor?",
+          "c": "Gold Pen steril uçlar ve tek kullanımlık sarf malzemeleriyle uygulanır. Steril uç ve sarf gereksinimleri uygulama eğitiminde ayrıca ele alınır."
+        }
+      ]
+    },
+
+    {
+      "tip": "notKutu",
+      "metin": "Bu sayfadaki içerikler yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz. Uygulama kararı ve seans planlaması, hekim ya da yetkili uygulayıcının kendi değerlendirmesiyle verilir. Burada yanıtlanmayan ticari ve teknik başlıklar için WhatsApp üzerinden yazabilir ya da 0533 637 49 09 numarasından bize ulaşabilirsiniz."
+    },
+
+    {
+      "tip": "ctaSerit",
+      "ustEtiket": "Bir sonraki adım",
+      "baslik": "Sorunuz listede yoksa doğrudan yazın",
+      "giris": "Kliniğinizin danışan profilini ve büyütmek istediğiniz uygulama alanlarını paylaşın; cihaz, ampul ve solüsyon grubunu birlikte planlayalım.",
+      "birincilCta": { "ad": "Teklif Al", "url": "TEKLIF_URL" },
+      "ikincilCta": { "ad": "Cihazları karşılaştır", "url": "/cihazlar/karsilastirma/" }
+    }
+  ],
+
+  "dogrulama": {
+    "kaynaklar": [
+      "kaynak-icerik/metin/page--sik-sorulan-sorular.md (kimlere satış, eğitim ve bayi desteği, Gold Pen tanımı ve uygulama alanları, seans planı 4-6 / 20-25 gün, EMS, LED dalga boyu, iğne uçları, Baby Skin Pen tanımı ve kapsül serileri, iki aşamalı protokol, kapsül kutusu 6 kapsül + 6 primer gel)",
+      "icerik/site.json (iletişim, showroom, güven şeridi, menü, telif notu)",
+      "icerik/anasayfa.json (B2B SSS, cihaz kartları, ürün grubu tanımları, protokol çekincesi)",
+      "icerik/sayfa-bayilik.json (satış politikası, teklif akışı, showroom randevusu, sarf erişimi)",
+      "icerik/sayfa-egitim-destek.json (eğitim biçimi, protokol danışmanlığı, içerik desteği, satış sonrası iletişim)",
+      "icerik/urun/goldpen.json ve icerik/urun/baby-skin-pen.json (teknoloji, uygulama alanları, kapsül serileri, ambalaj notları)",
+      "icerik/urun/mezocomplex-*.json ve icerik/urun/mezoeffect-*.json (grup ayrımı, flakon/ampul düzeni)"
+    ],
+    "yazilmayanlar": [
+      "Fiyat ve seans ücreti: kaynaktaki 2.000-2.500 ₺ aralığı taşınmadı; sayfada hiçbir tutar geçmiyor, 'fiyat neden yok' sorusu da açılmadı.",
+      "Garanti süresi, teknik servis ve yedek parça koşulları: kaynakta veri yok; başlık sayfada hiç anılmadı, böyle bir hizmetin varlığı ima edilmedi.",
+      "Baby Skin Pen seans aralığı (gün): kaynakta gövde 15-20 gün, SSS 10-15 gün diyor; çelişki nedeniyle yayınlanmadı, yalnızca '4-6 seans' ve 'dört mevsim' kullanıldı.",
+      "Mezocomplex flakon hacmi: 5 ml × 5 flakon / 8 ml × 5 flakon (40 ml) çelişkisi nedeniyle hacim ve '20 seans karşılığı' bilgisi yazılmadı; yalnızca 'kutuda beş flakon' kullanıldı.",
+      "'DermaPen sistemlerine göre daha gelişmiş' karşılaştırmalı iddiası alınmadı.",
+      "'Tek seansta bile memnuniyet' ve benzeri sonuç beyanları alınmadı.",
+      "Lansmana özel kampanya (7 kutu kapsül hediye / 42 seans) alınmadı; zaman bağımlı ve teyitsiz.",
+      "Sertifika verildiği iddiası yazılmadı; kaynakta yalnızca 'sertifika süreçleri' başlığı var, içerik yok.",
+      "Ürün formülasyonu soruları (aktif içerikler, Somon DNA, Argireline®, Regu®-age, Pentavitin® vb.) bu sayfaya alınmadı; ilgili ürün sayfalarının SSS bölümlerinde duruyor.",
+      "Baby Skin Pen için 'iğnesiz' nitelemesi kullanılmadı.",
+      "Teslimat süresi, minimum sipariş, ödeme ve iade koşulları, bölge münhasırlığı, bayi sayısı ve referans klinik yazılmadı; kaynakta veri yok."
+    ],
+    "notlar": [
+      "sablon/sayfa.js FAQPage şemasını yalnızca ilk 'sss' bloğundan üretiyor (find, filter değil). Bu nedenle ticari değeri en yüksek blok olan 'Satın alma ve bayilik' başa alındı. Beş bloğun tamamının şemaya girmesi isteniyorsa sayfa.js'te find yerine filter kullanılmalı.",
+      "Sayfadaki sorular ürün sayfalarındaki SSS'lerle bilinçli olarak çakıştırılmadı; ortak başlıklarda (satış politikası, eğitim) cevaplar anasayfa ve bayilik sayfasıyla birebir aynı bilgiyi taşır ancak metin tekrarı azaltılarak yazıldı."
+    ],
+    "musteriTeyidiGereken": [
+      "Baby Skin Pen seans aralığı: 15-20 gün mü, 10-15 gün mü?",
+      "Mezocomplex flakon hacmi: 5 ml mi, 8 ml mi?",
+      "Garanti süresi ve teknik servis koşulları nedir? (Teyit gelmeden bu sayfaya SSS maddesi eklenmeyecek.)",
+      "0533 637 49 09 numarası WhatsApp'a açık mı?",
+      "Eğitim sonunda katılım belgesi veya sertifika veriliyor mu?",
+      "Minimum sipariş, ödeme ve teslimat koşulları nedir?"
+    ]
+  }
+}

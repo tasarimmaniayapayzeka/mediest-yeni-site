@@ -1,0 +1,123 @@
+{
+  "slug": "cilt-tipleri-ve-dogru-bakim-saglikli-bir-cilt-icin-temel-rehber",
+  "baslik": "Cilt Tipleri ve Doğru Bakım: Sağlıklı Bir Cilt İçin Temel Rehber",
+  "kategori": "Cilt Bakımı",
+  "kategoriSlug": "cilt-bakimi",
+  "tarih": "2025-04-19",
+  "sonGuncelleme": "2026-08-16",
+  "editorNotu": "Bu yazı profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı ya da tedavi önerisi niteliği taşımaz. Danışanın cilt tipinin belirlenmesi ve hangi bakım yaklaşımının uygulanacağı, hekim veya yetkili uygulayıcının kendi değerlendirmesiyle karara bağlanır.",
+  "metaBaslik": "Cilt Tipleri ve Doğru Bakım: Temel Rehber",
+  "metaAciklama": "Kuru, yağlı, karma, hassas ve normal cilt tiplerinin ayırt edici özellikleri ile her tipe uygun içerik seçimi ve bakım rutini kurgusuna yönelik temel rehber.",
+  "ozet": "Bakım rutininin ilk adımı, cildin hangi tipe yakın olduğunu doğru tanımlamaktır; uygun olmayan ürün seçimi cilt bariyerini zorlayabilir. Bu yazıda kuru, yağlı, karma, hassas ve normal ciltlerin ayırt edici özellikleri ile her tipe uygun bakım öncelikleri ele alınıyor.",
+  "okumaSuresi": "3 dakika",
+  "gorsel": "blog-cilt",
+  "bloklar": [
+    {
+      "tip": "paragraf",
+      "metin": "Cilt sağlığı, bireyin hem fiziksel görünümünü hem de genel iyi oluş halini etkileyen önemli bir faktördür. Doğru bakım rutini oluşturmanın ilk adımı ise cilt tipini doğru tanımlamaktır. Her cilt tipi farklı ihtiyaçlara sahiptir ve uygun olmayan ürün kullanımı, cilt bariyerine zarar vererek çeşitli sorunlara yol açabilir. Bu nedenle cilt tipinin belirlenmesi ve buna uygun bakım seçimi, bilinçli cilt yönetiminin temelini oluşturur."
+    },
+    {
+      "tip": "baslik",
+      "metin": "Kuru Cilt Tipi ve Bakım Önerileri"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Kuru cilt, nem eksikliği ve gerginlik hissi ile karakterizedir. Pul pul dökülme, mat görünüm ve ince çizgilere yatkınlık sıkça görülen belirtilerdir. Kuru ciltlerde bakımda nem bariyerini koruyan ve su tutulumunu destekleyen içeriklere öncelik verilmelidir. Hyaluronik asit, seramid ve gliserin gibi nem bağlayıcı bileşenler tercih edilmelidir. Sert ve alkollü temizleyicilerden kaçınılmalı, nazik temizleme jelleri kullanılmalıdır. Gündüz bakımında nemlendirici sonrasında güneş koruyucu kullanımına dikkat edilmelidir."
+    },
+    {
+      "tip": "baslik",
+      "metin": "Yağlı Cilt Tipi ve Doğru Rutin"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Yağlı cilt, sebum üretiminin fazla olması nedeniyle parlama ve geniş gözenek görünümüyle öne çıkar. Akneye yatkın yapı düzenli bakım ister. Bu cilt tipi için su bazlı, hafif ve gözenek tıkamayan (non-comedogenic) ürünler tercih edilmelidir. Salisilik asit, niasinamid ve çinko gibi içerikler yağ dengesi üzerinde destekleyici etki gösterebilir. Ancak cildi aşırı kurutacak agresif ürünlerden kaçınılmalı, denge sağlayan bir rutin uygulanmalıdır. Güneş koruması bu cilt tipi için de önemini korur."
+    },
+    {
+      "tip": "baslik",
+      "metin": "Karma, Hassas ve Normal Ciltte Yaklaşım Farkları"
+    },
+    {
+      "tip": "altBaslik",
+      "metin": "Karma Cilt Tipi İçin Bölgesel Bakım"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Karma cilt tipi, T bölgesinde (alın, burun, çene) yağlanma, yanaklarda ise kuruluk ile kendini gösterir. Bu nedenle bakım yaklaşımı bölgesel farklılıklar gözetilerek planlanmalıdır. T bölgesinde dengeleyici ve gözenek sıkılaştırıcı ürünler kullanılırken, yanaklarda nemlendirici yoğunluğu artırılabilir. Hafif formüllü temizleyiciler ve çok aşamalı olmayan dengeli bir bakım rutini, karma cilt yapısına uygun olur."
+    },
+    {
+      "tip": "altBaslik",
+      "metin": "Hassas Cilt Tipi ve Koruyucu Yaklaşım"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Hassas cilt; kızarıklık, kaşıntı, yanma hissi ve dış etkenlere karşı yüksek duyarlılık ile tanımlanır. Bu tip ciltlerde parfümlü, alkollü ve sert kimyasal içerikli ürünlerden uzak durulmalıdır. Panthenol, aloe vera ve centella asiatica gibi yatıştırıcı bileşenler tercih edilmelidir. Cilt bariyerini destekleyen ürünler düzenli olarak kullanılmalı ve bakım rutini minimal tutulmalıdır. Her yeni ürün mutlaka küçük bir alanda test edilmelidir."
+    },
+    {
+      "tip": "altBaslik",
+      "metin": "Normal Cilt Tipi ve Koruyucu Bakım Rutinleri"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Normal cilt, nem ve yağ dengesini koruyan, gözenek görünümü dengeli olan bir yapıya sahiptir. Bu tip ciltler belirgin bir sorun göstermese de bakım rutinini sürdürmek önemlidir. Nazik temizleyiciler, hafif nemlendiriciler ve düzenli güneş koruması normal cilt yapısını destekler. Koruyucu ve sürdürülebilir bir rutin ile cilt sağlığı uzun süre korunabilir."
+    },
+    {
+      "tip": "baslik",
+      "metin": "Ürün Seçimi ve Cilt Tipine Göre Rutin Kurgusu"
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Her cilt tipinin ihtiyaçlarına göre seçilen ürünler, bakımın başarısını doğrudan etkiler. İçerik etiketlerini okumak, ürünlerin cilt yapısına uygun olup olmadığını anlamak açısından önemlidir. Dermatolojik olarak test edilmiş, formül dengesi gözetilmiş ürünler tercih edilmelidir. Ayrıca mevsimsel değişiklikler de dikkate alınmalı ve bakım rutini dönemsel olarak gözden geçirilmelidir."
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Cilt bakımının temel adımları genellikle temizleme, tonlama, nemlendirme ve koruma şeklinde sıralanır. Ancak bu adımlar cilt tipine uygun içeriklerle desteklenmelidir. Örneğin yağlı ciltlerde tonik kullanımı gözenek görünümünü kontrol etmeye yardımcı olurken, kuru ciltlerde yoğun nemlendirme rutinin merkezinde yer alabilir. Cilt tipine özel bir rutin oluşturmak, uzun vadeli sonuçların daha sağlıklı olmasına katkı sağlar."
+    },
+    {
+      "tip": "paragraf",
+      "metin": "Cildin yapısını anlamak ve buna uygun bir bakım sistemi kurmak, sağlıklı bir görünümün korunmasında en doğru yoldur. Düzenli ve kişiselleştirilmiş bir bakım rutini, cilt bariyerinin güçlenmesini destekler ve zaman içinde oluşabilecek sorunların en aza indirilmesine katkı sağlar."
+    },
+    {
+      "tip": "urunKarti",
+      "sluglar": [
+        "mezoeffect-hyaluronic-acid-serum",
+        "mezocomplex-hyaluronic-acid",
+        "mezoeffect-vitamin-c-amino-acid-serum"
+      ]
+    }
+  ],
+  "ilgiliUrunler": [
+    "mezoeffect-hyaluronic-acid-serum",
+    "mezocomplex-hyaluronic-acid",
+    "mezoeffect-vitamin-c-amino-acid-serum"
+  ],
+  "ilgiliBlog": [
+    "cilt-elastikiyeti-ve-kolajen-dinamikleri",
+    "mezoeffect-hyaluronic-acid-ile-cilt-nemi-ve-elastikiyet-destegi",
+    "cilt-leke-cozumleri-ve-baby-skin-pen-destekli-profesyonel-yaklasimlar"
+  ],
+  "dogrulama": {
+    "kaynakDosya": "post--cilt-tipleri-ve-dogru-bakim-saglikli-bir-cilt-icin-temel-rehber.md",
+    "tespitEdilenHatalar": [
+      "Başlık hiyerarşisi tutarsız: 'Kuru Cilt Tipi ve Bakım Önerileri' ile 'Yağlı Cilt Tipi ve Doğru Rutin' H2 iken, aynı düzeydeki 'Karma', 'Hassas' ve 'Normal' cilt bölümleri ile devamındaki üç bölüm H3 olarak yazılmış. Ana bölümler tek düzeye (baslik) çekildi; üç cilt tipinin kendi başlıkları ise kaynaktaki H3 düzeyi korunarak altBaslik olarak yeniden eklendi (denetim düzeltmesi).",
+      "Gövde başlığı ('Cilt Tipleri ve Doğru Bakım') SEO başlığından farklı ve kısaltılmış; kayıtta blog.json ile kaynak dosyanın SEO başlığında ortak olan tam başlık kullanıldı.",
+      "Giriş paragrafında anahtar kelime tırnak içinde yerleştirilmiş ('“cilt tipleri ve doğru bakım” konusu'); doğal cümleye çevrildi, anlam korundu.",
+      "Kapanış bölümündeki kesin sonuç bildiren ifadeler sağlık içeriği dil kuralı gereği destekleyici dile çevrildi: 'cilt bariyerini güçlendirir' → 'cilt bariyerinin güçlenmesini destekler', 'sorunları minimum seviyeye indirir' → 'sorunların en aza indirilmesine katkı sağlar'. Aynı gerekçeyle 'uzun vadeli sonuçların daha sağlıklı olmasını sağlar' → '...olmasına katkı sağlar'.",
+      "Kaynak metinde hiçbir MediEst Group ürünü, cihazı, seans sayısı veya protokol bilgisi geçmiyor. Gövdeye ürün iddiası eklenmedi; ürün bağlantıları yalnızca urunKarti bloğu ve ilgiliUrunler alanı üzerinden, yazıda adı geçen içerik gruplarıyla (nem bağlayıcılar, niasinamid, panthenol) örtüşen kayıtlara verildi.",
+      "Kaynak yazı son kullanıcı diliyle yazılmış (kişisel bakım rutini anlatımı). B2B kuralı gereği bölüm çerçeveleri ve giriş uygulayıcıya hitap edecek şekilde yeniden kurgulandı; kaynakta olmayan hiçbir bilgi veya etki iddiası eklenmedi.",
+      "Kaynakta 'karma cilt yapısına uygun olacaktır' gibi gelecek zamanlı anlatım ile geniş zaman karışık kullanılmış; metin genelinde geniş zamana sabitlendi."
+    ],
+    "eklenenIcerik": [
+      "metaBaslik (kaynaktaki SEO başlığı 63 karakterdi; 55 karakter sınırına göre kısaltıldı)",
+      "metaAciklama",
+      "ozet",
+      "editorNotu",
+      "sonGuncelleme",
+      "okumaSuresi",
+      "kategoriSlug",
+      "gorsel",
+      "Bölüm başlığı birleştirmeleri: 'Karma, Hassas ve Normal Ciltte Yaklaşım Farkları' ve 'Ürün Seçimi ve Cilt Tipine Göre Rutin Kurgusu' (yalnızca yapı amaçlı; kaynağın dört ayrı bölümünün gövdesi eksiksiz taşındı)",
+      "urunKarti / ilgiliUrunler bağlantıları (kaynakta ürün atfı yok; icerik/urun altındaki üç kayıt slug düzeyinde doğrulanarak bağlandı)",
+      "ilgiliBlog bağlantıları (blog.json içindeki mevcut kayıtlardan seçildi)"
+    ]
+  }
+}

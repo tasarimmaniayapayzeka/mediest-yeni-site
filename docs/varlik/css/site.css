@@ -874,6 +874,59 @@ strong { font-weight: 600; color: var(--komur); }
   margin-bottom: 1rem;
 }
 
+/* ==========================================================================
+   Blog yazısı
+   ========================================================================== */
+.yazi-hero { padding-block: clamp(3rem, 6vw, 5rem) clamp(2.5rem, 5vw, 4rem); }
+.yazi-hero__ic { max-width: 780px; }
+.yazi-hero h1 { font-size: clamp(2rem, 4vw, 3rem); }
+.yazi-kunye {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+  margin-top: 1.75rem; padding-top: 1.25rem;
+  border-top: 1px solid rgba(185, 211, 236, 0.18);
+  font-size: 0.8438rem; color: #9fb6cc;
+}
+.yazi-kapak {
+  margin-top: calc(clamp(2.5rem, 5vw, 4rem) * -1);
+  position: relative; z-index: 1;
+  border-radius: 8px; overflow: hidden;
+  aspect-ratio: 3 / 2; max-height: 460px;
+  box-shadow: var(--golge-yukselt);
+}
+.yazi-kapak img { width: 100%; height: 100%; object-fit: cover; }
+
+.yazi-govde { max-width: 68ch; margin-inline: auto; }
+.yazi-govde > * + * { margin-top: 1.15rem; }
+.yazi-govde h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); margin-top: 2.75rem; margin-bottom: 0.2rem; }
+.yazi-govde h3 { font-size: clamp(1.1rem, 2vw, 1.3rem); margin-top: 2rem; margin-bottom: 0.2rem; }
+.yazi-govde p { font-size: 1.0625rem; line-height: 1.78; color: var(--gri-koyu); margin: 0; }
+.yazi-govde .isaretli { margin-block: 1.25rem; }
+.yazi-govde .not-kutu { margin-block: 1.75rem; }
+
+.yazi-urun { margin-block: 2.5rem; padding-top: 1.75rem; border-top: 1px solid var(--platin-acik); }
+.yazi-urun__etiket {
+  font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--gri); margin-bottom: 1rem;
+}
+.yazi-urun .urun-kart__gorsel { aspect-ratio: 16 / 10; }
+
+.yazi-editor {
+  margin-top: 3rem; padding: 1.35rem 1.5rem;
+  background: var(--beyaz-klinik);
+  border: 1px solid var(--platin-acik);
+  border-radius: 6px;
+}
+.yazi-editor strong {
+  display: block; font-size: 0.6875rem; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--mavi-500);
+  margin-bottom: 0.4rem;
+}
+.yazi-editor p { font-size: 0.9063rem; line-height: 1.65; color: var(--gri); margin: 0; }
+
+/* Blog listesindeki kategori bağlantıları chip görünümünde */
+a.protokol-chip { text-decoration: none; }
+a.protokol-chip[aria-selected="true"] { background: var(--lacivert-700); border-color: var(--lacivert-700); color: #fff; }
+
 /* ---------- Yardımcılar ---------- */
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;

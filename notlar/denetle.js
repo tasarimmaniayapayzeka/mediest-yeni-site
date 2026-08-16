@@ -58,8 +58,15 @@ for (const p of htmlDosyalari) {
   const emoji = EMOJILER.filter(e => metin.includes(e));
   if (emoji.length) sorunlar.push(`${ad}  emoji/işaret kaldı: ${emoji.join(' ')}`);
   if (/\d[\d.]*\s*(₺|TL)\b/i.test(metin)) sorunlar.push(`${ad}  FİYAT ifadesi var`);
-  ['Uygulamala', 'Mezoeffec ', 'İnfo@', 'Contur '].forEach(y => {
-    if (metin.includes(y)) sorunlar.push(`${ad}  yazım hatası: "${y}"`);
+  // "Uygulamalar" doğru bir kelime; aranan hata "Uygulamala Alanları" biçimi.
+  // Aynı şekilde "Mezoeffec" yalnızca sonuna t gelmiyorsa hata.
+  [
+    [/Uygulamala(?!r)/, 'Uygulamala'],
+    [/Mezoeffec(?![tk])/, 'Mezoeffec'],
+    [/İnfo@/, 'İnfo@'],
+    [/\bContur\b/, 'Contur']
+  ].forEach(([kalip, ad2]) => {
+    if (kalip.test(metin)) sorunlar.push(`${ad}  yazım hatası: "${ad2}"`);
   });
 
   // 5) erişilebilirlik temel

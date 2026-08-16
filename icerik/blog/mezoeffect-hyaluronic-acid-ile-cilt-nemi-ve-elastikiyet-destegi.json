@@ -7,7 +7,7 @@
   "sonGuncelleme": "2026-08-16",
   "editorNotu": "Bu yazı yalnızca profesyonel uygulayıcıların bilgilendirilmesi amacıyla hazırlanmıştır; tanı veya tedavi önerisi niteliği taşımaz. Ürün ve protokol seçimi, danışanın cilt değerlendirmesi sonrasında hekim veya uygulayıcının kendi klinik kararıyla belirlenir.",
   "metaBaslik": "Mezoeffect Hyaluronic Acid ile Nem ve Elastikiyet",
-  "metaAciklama": "Hyaluronik asit temelli profesyonel sistemlerin cilt nemi, elastikiyet ve parlaklık görünümündeki rolünü; kür planlaması ve kombine protokoller üzerinden ele alıyoruz.",
+  "metaAciklama": "Hyaluronik asit temelli sistemlerin cilt nemi, elastikiyet ve parlaklık görünümündeki rolünü kür planlaması ve kombine protokoller üzerinden ele alıyoruz.",
   "ozet": "Nem kaybı ve elastikiyet azalması görülen ciltlerde hyaluronik asit temelli profesyonel sistemlerin protokol içindeki yerini ele alıyoruz. Mezoeffect Hyaluronic Acid'in kür planlaması, sezon geçişleri ve kombine uygulamalardaki rolünü uygulayıcı gözünden inceliyoruz.",
   "okumaSuresi": "4 dakika",
   "gorsel": "mezoeffect",
@@ -68,8 +68,8 @@
     {
       "tip": "urunKarti",
       "sluglar": [
-        "mezoeffect-hyaluronic-acid-serum",
-        "mezocomplex-hyaluronic-acid"
+        "mezocomplex-hyaluronic-acid",
+        "mezoeffect-hyaluronic-acid-serum"
       ]
     },
     {
@@ -78,8 +78,8 @@
     }
   ],
   "ilgiliUrunler": [
-    "mezoeffect-hyaluronic-acid-serum",
-    "mezocomplex-hyaluronic-acid"
+    "mezocomplex-hyaluronic-acid",
+    "mezoeffect-hyaluronic-acid-serum"
   ],
   "ilgiliBlog": [
     "cilt-elastikiyeti-ve-kolajen-dinamikleri",
@@ -93,7 +93,9 @@
       "Kaynakta 'elastisite' ve 'elastikiyet' aynı kavram için karışık kullanılmış (bir yerde 'elastisite kaybı', diğer yerlerde 'elastikiyet kaybı'). Metin genelinde 'elastikiyet' terimine sabitlendi.",
       "Kaynağın kapanış bölümünde geçen 'parlaklık görünümünün iyileştirilmesi' ifadesi, sağlık içeriği dil kuralı gereği 'parlaklık görünümünün geliştirilmesi' olarak yazıldı; anlam korundu, sonuç iddiası eklenmedi.",
       "Kaynakta ürünün ambalaj biçimi (ampul mü flakon mu), hacim, seans sayısı ve seans aralığı bilgisi yok; yazıya sayısal protokol verisi taşınmadı. Katalogdaki Mezocomplex flakon hacmi de çelişkili olduğu için (5 ml / 8 ml) bu veriler blog gövdesine alınmadı.",
-      "Kaynak yazı yer yer son kullanıcı diline kayıyor ('daha taze bir görünüm', 'canlılık etkisi'); B2B kuralı gereği bölüm çerçeveleri uygulayıcı diline çevrildi (kür planlaması, protokol içi konumlandırma). Kaynakta olmayan hiçbir etki iddiası eklenmedi."
+      "Kaynak yazı yer yer son kullanıcı diline kayıyor ('daha taze bir görünüm', 'canlılık etkisi'); B2B kuralı gereği bölüm çerçeveleri uygulayıcı diline çevrildi (kür planlaması, protokol içi konumlandırma). Kaynakta olmayan hiçbir etki iddiası eklenmedi.",
+      "Denetim (16.08.2026): Ürün eşleşmesi için ek kanıt bulundu. page--mezoeffect-serum-grubu.md dosyasında site, 'Mezoeffect Hyaluronic Acid' adını /mezocomplex-hyaluronic-acid/ adresine bağlıyor; yani yazının konusu olan solüsyon katalogdaki Mezocomplex Hyaluronic Acid kaydına karşılık geliyor. Bu nedenle urunKarti ve ilgiliUrunler sıralaması değiştirilerek mezocomplex-hyaluronic-acid birinci sıraya alındı; ayrı bir SKU olan Mezoeffect Hyaluronic Acid Serum ikincil ilgili ürün olarak bırakıldı. Adlandırmanın müşteri tarafından teyidi hâlâ bekleniyor.",
+      "Denetim (16.08.2026): Gövdede fiyat, seans sayısı, garanti/kesinlik ifadesi ve tanı-tedavi vaadi bulunmadığı; kaynakta geçmeyen hiçbir etki iddiasının yer almadığı; sonGuncelleme ve editorNotu alanlarının dolu olduğu doğrulandı. Kaynak metinde ™ veya ® işareti geçmediği için gövdeye işaret eklenmedi."
     ],
     "eklenenIcerik": [
       "metaBaslik (kaynaktaki SEO başlığı 63 karakterdi; 55 karakter sınırına göre kısaltıldı)",

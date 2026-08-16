@@ -1,0 +1,39 @@
+{
+  "cilt-bakimi": {
+    "ad": "Cilt Bakımı",
+    "metaBaslik": "Cilt Bakımı Yazıları: Protokol ve Uygulama Notları",
+    "metaAciklama": "Cilt tipi ayrımı, nem ve bariyer desteği, leke yönetimi ile Gold Pen ve Baby Skin Pen destekli uygulamaların teknik arka planı; uygulayıcılara yönelik yazılar.",
+    "giris": "Cilt bakımı başlığı altındaki yazılar; cilt tipi ayrımı, nem ve bariyer desteği, leke yönetimi ile elastikiyet konularını uygulayıcı gözünden ele alır. Gold Pen ve Baby Skin Pen protokollerinin hangi uygulama alanında nasıl konumlandığı, Mezoeffect ampullerinin ve Mezocomplex solüsyonlarının protokol içindeki yeri bu bölümde inceleniyor. İçerikler bilgilendirme amaçlıdır; tanı veya tedavi önerisi niteliği taşımaz."
+  },
+
+  "sac-bakimi": {
+    "ad": "Saç Bakımı",
+    "metaBaslik": "Saç Bakımı Yazıları: Mezoterapi ve Saç Protokolleri",
+    "metaAciklama": "Saç derisi uygulamaları, mezoterapi temelli canlandırma yaklaşımları ve Mezoeffect saç ampulünün protokol içindeki yeri üzerine uygulayıcılara yönelik yazılar.",
+    "giris": "Saç bakımı bölümü; saç derisi uygulamaları, mezoterapi temelli canlandırma yaklaşımları ve incelme ile dökülme görünümünde izlenen protokol kurgularını konu alır. Gold Pen'in saç iğne ucu ve mavi LED seçeneğiyle Mezoeffect saç ampulünün ve Mezocomplex Hair Revit solüsyonunun kür içindeki yeri bu yazılarda ele alınıyor. İçerikler bilgilendirme amaçlıdır; tanı veya tedavi önerisi niteliği taşımaz."
+  },
+
+  "anti-aging": {
+    "ad": "Anti-Aging",
+    "metaBaslik": "Anti-Aging Yazıları: Kolajen ve Yenilenme Süreçleri",
+    "metaAciklama": "İnce çizgi, elastikiyet ve kolajen dinamikleri ile yaşlanma karşıtı bakım protokollerinin cihaz ve ampul eşleşmesi üzerine uygulayıcılara yönelik yazılar.",
+    "giris": "Anti-aging bölümü; ince çizgi, elastikiyet kaybı ve kolajen dinamikleri üzerinden yaşlanma karşıtı bakım protokollerini ele alır. Mikroiğneleme, EMS ve kırmızı LED gibi teknolojilerin yaşlanma karşıtı kurguda nasıl konumlandığı ile bu protokollere eşlik eden Mezoeffect ve Mezocomplex ürünleri inceleniyor. İçerikler bilgilendirme amaçlıdır; tanı veya tedavi önerisi niteliği taşımaz."
+  },
+
+  "blogGiris": {
+    "metaBaslik": "Blog: Klinik Protokoller ve Cihaz Uygulamaları",
+    "metaAciklama": "MediEst Group blogu; Gold Pen ve Baby Skin Pen protokolleri, Mezoeffect ampulleri ve Mezocomplex solüsyonları üzerine uygulayıcılara yönelik teknik içerikler.",
+    "ustEtiket": "Blog",
+    "baslik": "Uygulayıcı için teknik arka plan",
+    "giris": "Blog yazıları, kliniklerde en sık karşılaşılan uygulama alanlarının teknik arka planını uygulayıcıya anlatmak için hazırlanır. Cihaz teknolojileri, protokol kurgusu ve ürün eşleşmeleri; cilt bakımı, saç bakımı ve anti-aging başlıkları altında toplanır. Yazılardaki bilgiler tanı veya tedavi önerisi niteliği taşımaz; uygulama kararı hekim ya da yetkili uygulayıcının değerlendirmesiyle verilir."
+  },
+
+  "_dogrulama": {
+    "not": "Kategori anahtarları icerik/blog/*.json dosyalarındaki kategoriSlug değerleriyle birebir eşleşir: cilt-bakimi (6 yazı), sac-bakimi (2 yazı), anti-aging (1 yazı). Eski site kategorileri SEO sürekliliği için korundu. 'blogGiris' ve '_dogrulama' kategori değildir; şablon kategori döngüsü kurarken bu iki anahtarı atlamalıdır.",
+    "yazilmayanlar": [
+      "Kategori metinlerinde ürün iddiası, sonuç beyanı, fiyat ve seans ücreti yer almıyor; metinler yalnızca kategorinin kapsamını tarif ediyor.",
+      "Yazı sayısı, güncelleme sıklığı ve yayın takvimi yazılmadı; şablon bu sayıyı blog.json'dan hesaplamalı.",
+      "Baby Skin Pen seans aralığı ve Mezocomplex flakon hacmi gibi çelişkili veriler bu dosyada da kullanılmadı."
+    ]
+  }
+}
