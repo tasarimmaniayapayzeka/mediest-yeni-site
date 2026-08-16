@@ -110,9 +110,10 @@
     "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
   ],
   "gorsel": {
-    "ana": "urun/mezoeffect-eye-contour-ampoule.webp",
+    "ana": "mezoeffect.webp",
     "kaynakFoto": "Mezoeffec-Eye-Contur-Ampoule.jpg",
-    "altMetin": "Mezoeffect Eye Contour Ampoule göz çevresi bakım serumu"
+    "altMetin": "Mezoeffect Eye Contour Ampoule göz çevresi bakım serumu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezoeffec-eye-contur-ampoule.md",

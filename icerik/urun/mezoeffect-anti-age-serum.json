@@ -105,9 +105,10 @@
     "cilt-elastikiyeti-ve-kolajen-dinamikleri"
   ],
   "gorsel": {
-    "ana": "urun/mezoeffect-anti-age-serum.webp",
+    "ana": "mezoeffect.webp",
     "kaynakFoto": "Mezoeffect-Anti-Age-Serum.jpg",
-    "altMetin": "Mezoeffect Anti-Age Serum ampul kutusu ve 2 ml'lik ampulü"
+    "altMetin": "Mezoeffect Anti-Age Serum ampul kutusu ve 2 ml'lik ampulü",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezoeffect-anti-age-serum.md",

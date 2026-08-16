@@ -252,7 +252,7 @@ function bolumIlgili(u, tumUrunler) {
     </div>
     <div class="izgara izgara--3">
       ${ilgili.map(r => `<a class="kart kart--tiklanir urun-kart" href="/${r.slug}/">
-        <div class="urun-kart__gorsel">Görsel hazırlanıyor</div>
+        <div class="urun-kart__gorsel">${r.gorsel?.ana ? `<img src="/varlik/gorsel/${r.gorsel.ana}" alt="${kacis(r.gorsel.altMetin || r.ad)}" loading="lazy" decoding="async">` : 'Görsel hazırlanıyor'}</div>
         <div class="urun-kart__govde">
           <div class="urun-kart__etiket">${kacis(r.etiket || GRUP_AD[r.grup])}</div>
           <div class="urun-kart__ad">${kacis(r.ad)}</div>
@@ -274,7 +274,7 @@ function ctaSerit(site) {
       <p style="color:#a9bed3;margin:0">Satış yalnızca güzellik merkezi ve kliniklere yapılır. Ürün ve cihazlarımızı Bakırköy showroom'da birebir deneyebilirsiniz.</p>
     </div>
     <div class="cta-serit__eylem">
-      <a class="dugme dugme--acik" href="/bayilik/#teklif">Teklif Al</a>
+      <a class="dugme dugme--acik" href="${site.teklifUrl}">Teklif Al</a>
       <a class="dugme dugme--hayalet" href="tel:${site.iletisim.telefonHam}">${kacis(site.iletisim.telefon)}</a>
     </div>
   </div>
@@ -295,7 +295,7 @@ function urunSayfasi({ site, urun: u, tumUrunler, gorselVarMi = () => false }) {
         <h1>${kacis(u.ad)}</h1>
         <p class="giris">${kacis(u.ozet)}</p>
         <div class="urun-hero__eylem">
-          <a class="dugme dugme--acik" href="/bayilik/#teklif">Teklif Al</a>
+          <a class="dugme dugme--acik" href="${site.teklifUrl}">Teklif Al</a>
           <a class="dugme dugme--hayalet" href="#sss">Sık sorulan sorular</a>
         </div>
         ${kunyeSerit(u)}

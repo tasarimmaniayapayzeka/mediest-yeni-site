@@ -1,0 +1,19 @@
+{
+  "name": "27-mediestgroup",
+  "version": "1.0.0",
+  "description": "27. ayrı proje. [Baby Skin Pen](../08-BabySkinPen) ve [Gold Pen](../09-GoldPen) projelerinin **çatı markası**; üçü ayrı klasör/port/repo — karıştırılmaz.",
+  "main": "build.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

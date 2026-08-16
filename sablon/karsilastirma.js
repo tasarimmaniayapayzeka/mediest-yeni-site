@@ -89,7 +89,7 @@ function karsilastirmaSayfasi({ site, veri, urunler }) {
       <p style="color:#a9bed3;margin:0">${kacis(site.iletisim.showroom)}. Satış yalnızca güzellik merkezi ve kliniklere yapılır.</p>
     </div>
     <div class="cta-serit__eylem">
-      <a class="dugme dugme--acik" href="/bayilik/#teklif">Teklif Al</a>
+      <a class="dugme dugme--acik" href="${site.teklifUrl}">Teklif Al</a>
       <a class="dugme dugme--hayalet" href="tel:${site.iletisim.telefonHam}">${kacis(site.iletisim.telefon)}</a>
     </div>
   </div>

@@ -111,9 +111,10 @@
     "cilt-elastikiyeti-ve-kolajen-dinamikleri"
   ],
   "gorsel": {
-    "ana": "urun/mezoeffect-somon-dna-serum.webp",
+    "ana": "mezoeffect.webp",
     "kaynakFoto": "Mezoeffect-Somon-DNA-Serum.jpg",
-    "altMetin": "Mezoeffect Somon DNA Serum 2 ml ampul kutusu"
+    "altMetin": "Mezoeffect Somon DNA Serum 2 ml ampul kutusu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezoeffect-somon-dna-serum.md",

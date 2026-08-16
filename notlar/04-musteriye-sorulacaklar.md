@@ -28,3 +28,24 @@ Aşağıdakiler ise kendi başımıza karar veremeyeceğimiz, **müşteri teyidi
 ## Mezoeffect Vitamin C Amino Acid Serum
 - Yazım/tutarsızlık: SSS’te aktif madde “Lubragel” olarak yazılmış, gövde metninde ise “Lubrajel” geçiyor. Gövde metni esas alınarak “Lubrajel” olarak düzeltildi.
 
+
+---
+
+## 15 Ağustos akşamı eklenenler
+
+### Ambalaj çelişkisi — güçlü kanıt bulundu
+`kaynak-gorsel/mezoeffect-firming-1.jpg` görselinde flakonun **kendi etiketinde `8ml / 0.27 fl. oz`** yazıyor ve
+görselin üzerinde **"BİR KUTUDA 5 FLAKON, HER FLAKONDA 8 ML, TOPLAM 40 ML VARDIR"** ifadesi geçiyor.
+Bu, ürün sayfalarının gövde metnindeki "5 ml" bilgisinin yanlış, SSS'teki "8 ml × 5 = 40 ml" bilgisinin doğru
+olduğunu gösteriyor. Ambalaj fotoğrafı birincil kanıt olduğu için **8 ml** kabul edilmesi önerilir —
+yine de üretici teyidi alınmalı. (5 üründe birden geçerli.)
+
+### Baby Skin Pen iğne kullanımı — hâlâ açık
+Baby Skin Pen kaynak sayfasında **"iğne" kelimesi hiç geçmiyor**; SSS ise "kapsül serilerini cilt altına ileten"
+diyor. "İğnesiz" ifadesi hiçbir kaynakta yok, bu nedenle siteden kaldırıldı.
+**Cihaz iğneli mi, iğnesiz mi?** Medikal cihaz tanıtımı açısından netleştirilmesi gereken en kritik madde.
+
+### Karar: teklif formu WhatsApp'a
+15 Ağustos'ta karar verildi — tüm "Teklif Al" butonları **wa.me/905336374909** adresine, hazır mesajla gidiyor.
+Bayilik sayfası (Faz 4) yapıldığında form da aynı numaraya düşecek.
+**Teyit gereken:** 0533 637 49 09 numarası WhatsApp'a açık mı, yoksa ayrı bir işletme numarası mı kullanılacak?

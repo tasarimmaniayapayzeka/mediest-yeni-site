@@ -110,9 +110,10 @@
     "cilt-leke-cozumleri-ve-baby-skin-pen-destekli-profesyonel-yaklasimlar"
   ],
   "gorsel": {
-    "ana": "urun/mezocomplex-brightening.webp",
+    "ana": "mezocomplex.webp",
     "kaynakFoto": "Mezoeffect-Brightening.jpg",
-    "altMetin": "Mezocomplex Brightening aydınlatıcı ve leke karşıtı solüsyon flakonu"
+    "altMetin": "Mezocomplex Brightening aydınlatıcı ve leke karşıtı solüsyon flakonu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezocomplex-brightening.md",

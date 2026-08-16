@@ -110,9 +110,10 @@
     "mezoeffect-brightening-ile-leke-yonetiminde-aydinlatici-destek"
   ],
   "gorsel": {
-    "ana": "urun/mezoeffect-vitamin-c-amino-acid-serum.webp",
+    "ana": "mezoeffect.webp",
     "kaynakFoto": "Mezoeffect-Vitamin-C-Amino-Acid-Serum.jpg",
-    "altMetin": "Mezoeffect Vitamin C Amino Acid Serum 2 ml ampul kutusu"
+    "altMetin": "Mezoeffect Vitamin C Amino Acid Serum 2 ml ampul kutusu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezoeffect-vitamin-c-amino-acid-serum.md",

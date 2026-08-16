@@ -92,9 +92,10 @@
     "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
   ],
   "gorsel": {
-    "ana": "urun/mezocomplex-antiaging.webp",
+    "ana": "mezocomplex.webp",
     "kaynakFoto": "mezoeffect-antiaging.jpg",
-    "altMetin": "Mezocomplex Antiaging profesyonel anti-aging solüsyonu"
+    "altMetin": "Mezocomplex Antiaging profesyonel anti-aging solüsyonu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezocomplex-antiaging.md",

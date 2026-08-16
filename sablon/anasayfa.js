@@ -4,11 +4,29 @@ const { GRUP_AD, GRUP_URL } = require('./urun');
 
 const GRUP_ETIKET = { mezoeffect: 'Mezoeffect', mezocomplex: 'Mezocomplex' };
 
+// Görsel yardımcıları — dosya yoksa yer tutucuya düşer
+const G = '/varlik/gorsel/';
+function resim(ad, alt, { gorselVarMi, sinif = '', w, h, oncelik = false } = {}) {
+  if (!gorselVarMi || !gorselVarMi(ad + '.webp')) return null;
+  const iki = gorselVarMi(ad + '@2x.webp');
+  return `<img src="${G}${ad}.webp"${iki ? ` srcset="${G}${ad}.webp 1x, ${G}${ad}@2x.webp 2x"` : ''}` +
+    ` alt="${alt.replace(/"/g, '&quot;')}"${sinif ? ` class="${sinif}"` : ''}` +
+    `${w ? ` width="${w}"` : ''}${h ? ` height="${h}"` : ''}` +
+    ` loading="${oncelik ? 'eager' : 'lazy'}" decoding="async">`;
+}
+function gorselKutu(ad, alt, ctx) {
+  const im = resim(ad, alt, ctx);
+  return im ? `<div class="bolum-gorsel">${im}</div>` : '';
+}
+
 // --- bölüm işleyicileri -----------------------------------------------------
 
 const bolumler = {
 
-  hero: (b) => `<section class="ana-hero koyu">
+  hero: (b, ctx) => {
+    const zemin = resim('hero', 'Modern medikal estetik uygulama odası', { ...ctx, oncelik: true, w: 1600, h: 900 });
+    return `<section class="ana-hero koyu${zemin ? ' ana-hero--gorselli' : ''}">
+  ${zemin ? `<div class="ana-hero__zemin">${zemin}</div>` : ''}
   <div class="kapsayici">
     <div class="ana-hero__ic">
       ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
@@ -26,7 +44,8 @@ const bolumler = {
       </div>` : ''}
     </div>
   </div>
-</section>`,
+</section>`;
+  },
 
   guvenSerit: (b) => `<section class="serit-guven">
   <div class="kapsayici" style="padding-inline:0">
@@ -39,7 +58,7 @@ const bolumler = {
   </div>
 </section>`,
 
-  ikiliSecim: (b, { gorselVarMi }) => `<section class="bolum">
+  ikiliSecim: (b, ctx) => `<section class="bolum">
   <div class="kapsayici">
     <div class="bolum-basi">
       ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
@@ -48,7 +67,7 @@ const bolumler = {
     </div>
     <div class="secim">
       ${b.kartlar.map(k => `<article class="secim-kart">
-        <div class="secim-kart__gorsel">Görsel hazırlanıyor</div>
+        <div class="secim-kart__gorsel">${resim(k.slug, k.ad + ' cihazı', ctx) || 'Görsel hazırlanıyor'}</div>
         <div class="secim-kart__govde">
           ${k.vurgu ? `<span class="secim-kart__vurgu">${kacis(k.vurgu)}</span>` : ''}
           <h3>${kacis(k.ad)}</h3>
@@ -64,7 +83,7 @@ const bolumler = {
   </div>
 </section>`,
 
-  urunGrubu: (b, { urunler }) => `<section class="bolum bolum--alt">
+  urunGrubu: (b, { urunler, gorselVarMi }) => `<section class="bolum bolum--alt">
   <div class="kapsayici">
     <div class="bolum-basi">
       ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
@@ -74,7 +93,9 @@ const bolumler = {
     <div class="izgara izgara--2">
       ${b.gruplar.map(g => {
         const liste = urunler.filter(u => u.grup === g.grup).sort((x, y) => x.sira - y.sira);
+        const gorsel = resim(g.grup, (g.ad || GRUP_AD[g.grup]) + ' ürün grubu', { gorselVarMi });
         return `<article class="grup-kart">
+        ${gorsel ? `<div class="grup-kart__gorsel">${gorsel}</div>` : ''}
         <div class="grup-kart__sayi">${liste.length}<span>ürün</span></div>
         <h3>${kacis(g.ad || GRUP_AD[g.grup])}</h3>
         <p>${kacis(g.aciklama)}</p>
@@ -88,7 +109,7 @@ const bolumler = {
   </div>
 </section>`,
 
-  protokolSecici: (b) => `<section class="bolum">
+  protokolSecici: (b, ctx) => `<section class="bolum">
   <div class="kapsayici">
     <div class="bolum-basi">
       ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
@@ -136,26 +157,30 @@ const bolumler = {
   </div>
 </section>`,
 
-  bayilik: (b) => `<section class="bolum koyu">
+  bayilik: (b, ctx) => `<section class="bolum koyu">
   <div class="kapsayici">
     <div class="izgara izgara--2" style="gap:clamp(2rem,5vw,4rem);align-items:center">
       <div>
         ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
         <h2>${kacis(b.baslik)}</h2>
         ${b.giris ? `<p class="giris">${kacis(b.giris)}</p>` : ''}
+        <ul class="isaretli" style="margin-top:1.5rem">
+          ${b.maddeler.map(m => `<li>${kacis(m)}</li>`).join('\n          ')}
+        </ul>
         ${b.cta ? `<a class="dugme dugme--acik" href="${b.cta.url}" style="margin-top:1.75rem">${kacis(b.cta.ad)}</a>` : ''}
       </div>
-      <ul class="isaretli">
-        ${b.maddeler.map(m => `<li>${kacis(m)}</li>`).join('\n        ')}
-      </ul>
+      ${gorselKutu('bayilik', 'Uygulayıcı eğitimi sırasında cihaz kullanımı', ctx) || `<ul class="isaretli">${b.maddeler.map(m => `<li>${kacis(m)}</li>`).join('')}</ul>`}
     </div>
   </div>
 </section>`,
 
-  showroom: (b, { site }) => {
+  showroom: (b, ctx) => {
+    const { site } = ctx;
     const i = site.iletisim;
+    const gorsel = gorselKutu('showroom', 'Bakırköy showroom — cihaz teşhir alanı', ctx);
     return `<section class="bolum koyu">
   <div class="kapsayici">
+    ${gorsel ? `<div style="margin-bottom:clamp(2rem,4vw,3rem)">${gorsel}</div>` : ''}
     <div class="showroom">
       <div>
         ${b.ustEtiket ? `<span class="ust-etiket">${kacis(b.ustEtiket)}</span>` : ''}
@@ -189,7 +214,8 @@ const bolumler = {
 </section>`;
   },
 
-  blogTeaser: (b, { blog }) => {
+  blogTeaser: (b, ctx) => {
+    const { blog } = ctx;
     // Bölüm kendi listesini taşımıyorsa blog.json'dan al (özetler kaynaktan gelsin)
     const havuz = blog?.yazilar || [];
     const yazilar = (b.yazilar?.length ? b.yazilar : havuz.slice(0, 3)).map(y => {
@@ -197,6 +223,12 @@ const bolumler = {
       return { slug: y.slug, baslik: y.baslik || k.baslik, kategori: y.kategori || k.kategori, ozet: y.ozet || k.ozet };
     }).filter(y => y.slug && y.baslik);
     if (!yazilar.length) return '';
+    // Blog görselleri konuya göre eşleşiyor; eşleşmeyene seri makro görseli düşüyor
+    const gorselEsleme = { 'sac': 'blog-sac', 'mezoterapi': 'blog-sac', 'hair': 'blog-sac' };
+    const blogGorsel = (slug, n) => {
+      const anahtar = Object.keys(gorselEsleme).find(k => slug.includes(k));
+      return anahtar ? gorselEsleme[anahtar] : (n === 0 ? 'blog-cilt' : 'protokol');
+    };
     return `<section class="bolum bolum--alt">
   <div class="kapsayici">
     <div class="bolum-basi">
@@ -204,8 +236,8 @@ const bolumler = {
       <h2>${kacis(b.baslik)}</h2>
     </div>
     <div class="izgara izgara--3">
-      ${yazilar.map(y => `<a class="kart kart--tiklanir urun-kart" href="/${y.slug}/">
-        <div class="urun-kart__gorsel">Görsel hazırlanıyor</div>
+      ${yazilar.map((y, n) => `<a class="kart kart--tiklanir urun-kart" href="/${y.slug}/">
+        <div class="urun-kart__gorsel">${resim(blogGorsel(y.slug, n), y.baslik, ctx) || 'Görsel hazırlanıyor'}</div>
         <div class="urun-kart__govde">
           ${y.kategori ? `<div class="urun-kart__etiket">${kacis(y.kategori)}</div>` : ''}
           <div class="urun-kart__ad">${kacis(y.baslik)}</div>

@@ -49,6 +49,12 @@ function kopyala(kaynak, hedef) {
 // ---------- Veri ----------
 const site = oku(path.join(ICERIK, 'site.json'));
 
+// Teklif adresi: bayilik sayfası hazır olana kadar WhatsApp
+site.teklifUrl = site.teklifWhatsAppa
+  ? `https://wa.me/${site.iletisim.whatsapp}?text=${encodeURIComponent(site.iletisim.whatsappMetin)}`
+  : site.cta.url;
+site.cta.url = site.teklifUrl;
+
 // CSS/JS için içerik damgası — sadece dosya değişince yenilenir (tarayıcı önbelleği kırılır)
 site.damga = require('crypto')
   .createHash('sha1')
@@ -119,7 +125,7 @@ if (fs.existsSync(hubYolu) && urunler.length) {
   for (const anahtar of Object.keys(hublar)) {
     const hub = hublar[anahtar];
     if (!hub || typeof hub.slug !== 'string') continue;
-    const { html, yol, toplamUrun, bulunmayan } = hubSayfasi({ site, hub, urunler });
+    const { html, yol, toplamUrun, bulunmayan } = hubSayfasi({ site, hub, urunler, gorselVarMi });
     if (bulunmayan.length) console.warn(`  ! ${yol} — bulunamayan slug: ${bulunmayan.join(', ')}`);
     yaz(path.join(hub.slug, 'index.html'), tabanUygula(html));
     uretilen.push({ yol, ad: `Hub: ${hub.baslik} (${toplamUrun} ürün)`, bayt: Buffer.byteLength(html) });

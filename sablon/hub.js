@@ -14,9 +14,17 @@ function kirinti(hub) {
     </nav>`;
 }
 
-function urunKarti(u) {
+const G = '/varlik/gorsel/';
+function resim(ad, alt, gorselVarMi) {
+  if (!ad || !gorselVarMi || !gorselVarMi(ad)) return null;
+  const iki = ad.replace(/\.webp$/, '@2x.webp');
+  return `<img src="${G}${ad}"${gorselVarMi(iki) ? ` srcset="${G}${ad} 1x, ${G}${iki} 2x"` : ''}` +
+    ` alt="${String(alt).replace(/"/g, '&quot;')}" loading="lazy" decoding="async">`;
+}
+
+function urunKarti(u, gorselVarMi) {
   return `<a class="kart kart--tiklanir urun-kart" href="/${u.slug}/">
-        <div class="urun-kart__gorsel">Görsel hazırlanıyor</div>
+        <div class="urun-kart__gorsel">${resim(u.gorsel?.ana, u.gorsel?.altMetin || u.ad, gorselVarMi) || 'Görsel hazırlanıyor'}</div>
         <div class="urun-kart__govde">
           <div class="urun-kart__etiket">${kacis(u.etiket || GRUP_AD[u.grup])}</div>
           <div class="urun-kart__ad">${kacis(u.ad)}</div>
@@ -26,9 +34,9 @@ function urunKarti(u) {
       </a>`;
 }
 
-function cihazKarti(u) {
+function cihazKarti(u, gorselVarMi) {
   return `<article class="secim-kart">
-        <div class="secim-kart__gorsel">Görsel hazırlanıyor</div>
+        <div class="secim-kart__gorsel">${resim(u.gorsel?.ana, u.gorsel?.altMetin || u.ad, gorselVarMi) || 'Görsel hazırlanıyor'}</div>
         <div class="secim-kart__govde">
           ${u.etiket ? `<span class="secim-kart__vurgu">${kacis(u.etiket)}</span>` : ''}
           <h3>${kacis(u.ad)}</h3>
@@ -43,7 +51,7 @@ function cihazKarti(u) {
       </article>`;
 }
 
-function hubSayfasi({ site, hub, urunler }) {
+function hubSayfasi({ site, hub, urunler, gorselVarMi = () => false }) {
   const yol = '/' + hub.slug + '/';
   const cihazHub = hub.slug === 'cihazlar';
 
@@ -68,7 +76,7 @@ function hubSayfasi({ site, hub, urunler }) {
       <p class="giris">${kacis(hub.giris)}</p>
       ${cihazHub ? `<div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem">
         <a class="dugme dugme--acik" href="/cihazlar/karsilastirma/">İki cihazı karşılaştır</a>
-        <a class="dugme dugme--hayalet" href="/bayilik/#teklif">Teklif Al</a>
+        <a class="dugme dugme--hayalet" href="${site.teklifUrl}">Teklif Al</a>
       </div>` : ''}
       ${hub.konumlandirma?.length ? `<div class="hub-konum">
         ${hub.konumlandirma.map(k => `<div class="hub-konum__hucre">${kacis(k)}</div>`).join('\n        ')}
@@ -86,7 +94,7 @@ function hubSayfasi({ site, hub, urunler }) {
         <span class="hub-grup__sayi">${g.liste.length} ürün</span>
       </div>
       <div class="${cihazHub ? 'secim' : 'izgara izgara--3'}">
-        ${g.liste.map(u => cihazHub ? cihazKarti(u) : urunKarti(u)).join('\n        ')}
+        ${g.liste.map(u => cihazHub ? cihazKarti(u, gorselVarMi) : urunKarti(u, gorselVarMi)).join('\n        ')}
       </div>
     </div>`).join('\n\n    ')}
   </div>
@@ -106,7 +114,7 @@ ${hub.kapanisNotu ? `<section class="bolum--sik bolum--alt">
       <p style="color:#a9bed3;margin:0">Satış yalnızca güzellik merkezi ve kliniklere yapılır.</p>
     </div>
     <div class="cta-serit__eylem">
-      <a class="dugme dugme--acik" href="/bayilik/#teklif">Teklif Al</a>
+      <a class="dugme dugme--acik" href="${site.teklifUrl}">Teklif Al</a>
       <a class="dugme dugme--hayalet" href="tel:${site.iletisim.telefonHam}">${kacis(site.iletisim.telefon)}</a>
     </div>
   </div>

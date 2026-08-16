@@ -10,6 +10,8 @@
   "iletisim": {
     "telefon": "0533 637 49 09",
     "telefonHam": "+905336374909",
+    "whatsapp": "905336374909",
+    "whatsappMetin": "Merhaba, MediEst Group ürünleri için teklif almak istiyorum.",
     "eposta": "info@mediestgroup.com.tr",
     "adres": {
       "sokak": "Zuhuratbaba Mah. İncirli Cd. No: 21/4",
@@ -51,6 +53,9 @@
   ],
 
   "cta": { "ad": "Teklif Al", "url": "/bayilik/#teklif" },
+
+  "_not_teklifUrl": "Bayilik sayfası (Faz 4) hazır olana kadar tüm 'Teklif Al' butonları doğrudan WhatsApp'a gider. build.js bu adresi site.iletisim.whatsapp'tan üretir.",
+  "teklifWhatsAppa": true,
 
   "footer": {
     "tanim": "MediEst Group, medikal estetik ve profesyonel bakım sektöründe klinik odaklı çözümler sunan, yenilikçi teknolojiler ve bilim destekli içeriklerle çalışan bir markadır.",

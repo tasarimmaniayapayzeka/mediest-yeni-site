@@ -101,9 +101,10 @@
     "mezoterapi-ile-sac-dokulmesi-arasindaki-iliski"
   ],
   "gorsel": {
-    "ana": "urun/mezocomplex-hair-revit.webp",
+    "ana": "mezocomplex.webp",
     "kaynakFoto": "Mezoeffect-Hair-Revit.jpg",
-    "altMetin": "Mezocomplex Hair Revit saç canlandırıcı revitalizasyon solüsyonu flakonu"
+    "altMetin": "Mezocomplex Hair Revit saç canlandırıcı revitalizasyon solüsyonu flakonu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezocomplex-hair-revit.md",

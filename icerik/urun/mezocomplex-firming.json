@@ -93,9 +93,10 @@
     "mezoeffect-anti-aging-ile-yaslanma-karsiti-bakim-surecleri"
   ],
   "gorsel": {
-    "ana": "urun/mezocomplex-firming.webp",
+    "ana": "mezocomplex.webp",
     "kaynakFoto": "mezoeffect-firming-1.jpg",
-    "altMetin": "Mezocomplex Firming sıkılaştırıcı ve yenileyici solüsyon flakonu"
+    "altMetin": "Mezocomplex Firming sıkılaştırıcı ve yenileyici solüsyon flakonu",
+    "not": "Grup görseli — tekil ürün çekimi bekliyor"
   },
   "dogrulama": {
     "kaynakDosya": "page--mezocomplex-firming.md",
