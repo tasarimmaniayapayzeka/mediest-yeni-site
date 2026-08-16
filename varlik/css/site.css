@@ -355,10 +355,11 @@ strong { font-weight: 600; color: var(--komur); }
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  background: linear-gradient(155deg, rgba(111, 163, 214, 0.14), rgba(22, 50, 76, 0.45));
-  aspect-ratio: 4 / 5;
+  background: #fff;
+  aspect-ratio: 4 / 3;
 }
-.urun-hero__gorsel img { width: 100%; height: 100%; object-fit: cover; }
+/* Ürün çekimleri beyaz zeminde tam görünsün, kırpılmasın */
+.urun-hero__gorsel img { width: 100%; height: 100%; object-fit: contain; padding: 4%; }
 .urun-hero__gorsel--yer-tutucu {
   display: grid; place-items: center; text-align: center;
   color: rgba(185, 211, 236, 0.75);
@@ -475,7 +476,7 @@ strong { font-weight: 600; color: var(--komur); }
 .urun-kart { display: flex; flex-direction: column; height: 100%; overflow: hidden; padding: 0; }
 .urun-kart__gorsel {
   aspect-ratio: 3 / 2;
-  background: linear-gradient(155deg, var(--buz), #dbe6f1);
+  background: #fff;
   display: grid; place-items: center;
   color: var(--gri); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
 }
@@ -610,9 +611,10 @@ strong { font-weight: 600; color: var(--komur); }
 .secim-kart:hover { border-color: var(--marka); box-shadow: var(--golge-yukselt); transform: translateY(-3px); }
 .secim-kart__gorsel {
   aspect-ratio: 16 / 10;
-  background: linear-gradient(150deg, var(--lacivert-700), var(--mavi-600));
+  /* Ürün fotoğrafları beyaz stüdyo zeminli — kart zemini de beyaz olmalı */
+  background: #fff;
   display: grid; place-items: center;
-  color: rgba(185, 211, 236, 0.7);
+  color: var(--gri);
   font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase;
 }
 .secim-kart__gorsel img { width: 100%; height: 100%; object-fit: cover; }
@@ -646,7 +648,7 @@ strong { font-weight: 600; color: var(--komur); }
 .grup-kart > *:not(.grup-kart__gorsel) { margin-inline: clamp(1.6rem, 3vw, 2.25rem); }
 .grup-kart > .grup-kart__sayi { margin-top: clamp(1.4rem, 2.5vw, 1.85rem); }
 .grup-kart > div:last-child { margin-bottom: clamp(1.6rem, 3vw, 2.25rem); }
-.grup-kart__gorsel { aspect-ratio: 16 / 9; background: var(--buz); }
+.grup-kart__gorsel { aspect-ratio: 16 / 9; background: #fff; }
 .grup-kart__gorsel img { width: 100%; height: 100%; object-fit: cover; }
 .grup-kart__sayi {
   font-family: var(--f-baslik);
